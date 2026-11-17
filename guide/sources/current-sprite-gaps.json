@@ -1,0 +1,2160 @@
+{
+  "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+  "items": 3146,
+  "typedCandidates": 2747,
+  "matched": 2725,
+  "newlyMatched": 1272,
+  "downloadedSheets": 77,
+  "downloadErrors": [],
+  "gaps": [
+    {
+      "id": "sheet-4-r3",
+      "type": "/datum/reagent/medicine/healthpot",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r4",
+      "type": "/datum/reagent/medicine/stronghealth",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r5",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r6",
+      "type": "/datum/reagent/medicine/strongmana",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r7",
+      "type": "/datum/reagent/medicine/stampot",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r8",
+      "type": "/datum/reagent/medicine/strongstam",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r9",
+      "type": "/datum/reagent/medicine/antidote",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r10",
+      "type": "/datum/reagent/medicine/strong_antidote",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r11",
+      "type": "/datum/reagent/buff/strength",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r12",
+      "type": "/datum/reagent/buff/speed",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r13",
+      "type": "/datum/reagent/buff/constitution",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r14",
+      "type": "/datum/reagent/buff/endurance",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r15",
+      "type": "/datum/reagent/buff/intelligence",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r16",
+      "type": "/datum/reagent/buff/perception",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r17",
+      "type": "/datum/reagent/buff/fortune",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r18",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r19",
+      "type": "/datum/reagent/strongpoison",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r20",
+      "type": "/datum/reagent/stampoison",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r21",
+      "type": "/datum/reagent/strongstampoison",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r22",
+      "type": "/datum/reagent/fire_resist",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r23",
+      "type": "/datum/reagent/consumable/ethanol/beer/emberwine",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r24",
+      "type": "/datum/reagent/buff/temperature_normalize",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-4-r25",
+      "type": "/datum/reagent/deaditerot",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r2",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r3",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r5",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r6",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r7",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r8",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r9",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r10",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r11",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r12",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r13",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r14",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r15",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r17",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r18",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r19",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r20",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r21",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r22",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r25",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r27",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r28",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r29",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r30",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r32",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r33",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r34",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r35",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r36",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-5-r37",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-7-r187",
+      "type": "/datum/reagent/consumable/soup/porridge",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-7-r188",
+      "type": "/datum/reagent/consumable/soup/porridge/oatmeal",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-7-r189",
+      "type": "/datum/reagent/consumable/soup/porridge/congee",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-7-r190",
+      "type": "/datum/reagent/consumable/soup/veggie/potato",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-7-r191",
+      "type": "/datum/reagent/consumable/soup/veggie/onion",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-7-r192",
+      "type": "/datum/reagent/consumable/soup/veggie/cabbage",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-7-r193",
+      "type": "/datum/reagent/consumable/soup/veggie/turnip",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-7-r194",
+      "type": "/datum/reagent/consumable/soup/stew/fish",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-7-r195",
+      "type": "/datum/reagent/consumable/soup/stew/rabbit",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-7-r196",
+      "type": "/datum/reagent/consumable/soup/stew/yucky",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-7-r197",
+      "type": "/datum/reagent/consumable/soup/stew/chicken",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-7-r198",
+      "type": "/datum/reagent/consumable/soup/stew/bisque",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-7-r199",
+      "type": "/datum/reagent/consumable/soup/stew/meat",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-7-r200",
+      "type": "/datum/reagent/consumable/soup/stew/berry",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-7-r201",
+      "type": "/datum/reagent/consumable/soup/stew/berry_poisoned",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-7-r202",
+      "type": "/datum/reagent/consumable/soup/stew/cheese",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-7-r203",
+      "type": "/datum/reagent/consumable/soup/stew/egg",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r2",
+      "type": "/datum/reagent/consumable/ethanol/cider/strawberry",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r3",
+      "type": "/datum/reagent/consumable/ethanol/cider",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r4",
+      "type": "/datum/reagent/consumable/ethanol/cider/pear",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r5",
+      "type": "/datum/reagent/consumable/ethanol/raspberry",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r6",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r7",
+      "type": "/datum/reagent/consumable/ethanol/tangerine",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r8",
+      "type": "/datum/reagent/consumable/ethanol/blackberry",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r9",
+      "type": "/datum/reagent/consumable/ethanol/plum_wine",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r10",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r11",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r12",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r13",
+      "type": "/datum/reagent/consumable/ethanol/fireleaf",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r14",
+      "type": "/datum/reagent/consumable/ethanol/mead",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r15",
+      "type": "/datum/reagent/consumable/ethanol/mead/spider",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r16",
+      "type": "/datum/reagent/consumable/sugar/molasses",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r17",
+      "type": "/datum/reagent/consumable/ethanol/onion",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r18",
+      "type": "/datum/reagent/consumable/ethanol/voddena",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r19",
+      "type": "/datum/reagent/consumable/golden_calendula_tea",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r20",
+      "type": "/datum/reagent/consumable/soothing_valerian_tea",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r22",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r23",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r24",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r25",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r26",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r27",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r28",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r29",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r30",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r31",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r32",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r33",
+      "type": "/datum/reagent/consumable/ethanol/limoncello",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r34",
+      "type": "/datum/reagent/consumable/ethanol/gin",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r35",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r37",
+      "type": "/datum/reagent/water/rosewater",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r38",
+      "type": "/datum/reagent/consumable/caffeine/tea",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-8-r39",
+      "type": "/datum/reagent/consumable/caffeine/coffee",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r3",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r6",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r14",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r18",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r21",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r23",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r25",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r29",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r30",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r31",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r32",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r33",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r34",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r42",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r47",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r52",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r53",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r57",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r59",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r60",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r63",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r72",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r79",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r84",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r86",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r97",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r98",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r100",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r105",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r107",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r113",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r121",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r131",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r132",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r134",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r141",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r149",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r151",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r155",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "sheet-9-r157",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-water",
+      "type": "/datum/reagent/water",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-dirt-clod",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-iron",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-gold",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-saphirra",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-diamonds",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-westleach",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-dirty-water",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-stampoison",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-westleech",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-berry-poison",
+      "type": "/datum/reagent/berrypoison",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-a-devotee",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-herb-seed",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-alchemical-bottle",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-fyritius",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-spider-venom",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-auril",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-wheat",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-oat",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-tea-leaf",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-table",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-knife",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-spoon",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-whole-fish",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-raw-pigflesh",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-non-crab-shellfish",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-astrata-cross",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-cross",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-truffle",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-ambrosia-slice",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-milk",
+      "type": "/datum/reagent/consumable/milk/salted",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-bread-slice",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-roasted-carrot",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-roast-carrot",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-bird-roast",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-wheat-beer",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-roknut",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-grain",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-barrel",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-good-jacksberries",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-oat-grains",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-sliced",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-distillery",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-apple-cider",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-strawberry-cider",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-pear-cider",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-tangerine-wine",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-plum-wine",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-rice-wine",
+      "type": "/datum/reagent/consumable/ethanol/ricewine",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-leather",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-dobo-robe",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-carapace",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-ancient-alloy-bar",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-blacksteel-bars",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-steel",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-leather-padded-hood",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-84725c348f36",
+      "type": "/datum/reagent/consumable/ethanol/beer",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-fd9e643b44df",
+      "type": "/datum/reagent/consumable/blackpepper",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-1cab69d75d49",
+      "type": "/datum/reagent/consumable/ethanol/redwine",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-11cd2e5aff7f",
+      "type": "/datum/reagent/consumable/soup/porridge/thick",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-97e700f614d4",
+      "type": "/datum/reagent/allspice",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-a6d737487120",
+      "type": "/datum/reagent/consumable/soup/porridge/pudding",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-760b4a7bc6cd",
+      "type": "/datum/reagent/consumable/soup/porridge/thickpudding",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-6352b1ac0f5b",
+      "type": "/datum/reagent/consumable/soup/porridge/frostedpudding",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-ef5fe449ad04",
+      "type": "/datum/reagent/consumable/soup/porridge/thickfrostedpudding",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-59290295a02e",
+      "type": "/datum/reagent/consumable/soup/porridge/fudgepudding",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-3c6fe3222393",
+      "type": "/datum/reagent/consumable/soup/porridge/thickfudgepudding",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-6c3b329c8477",
+      "type": "/datum/reagent/consumable/soup/stew/hardtack",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-77740cc05cad",
+      "type": "/datum/reagent/consumable/soup/stew/thickhardtacksalo",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-7398dec313cc",
+      "type": "/datum/reagent/consumable/soup/stew/hardtacksalo",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-82c0f4f2ac90",
+      "type": "/datum/reagent/consumable/soup/porridge/frycongee",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-280918271cd2",
+      "type": "/datum/reagent/consumable/soup/purebutter",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-57499684a69d",
+      "type": "/datum/reagent/consumable/soup/veggie/thickpotato",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-6a39b2bdb3a1",
+      "type": "/datum/reagent/consumable/soup/veggie/thickfrypotato",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-62789e9d5aa3",
+      "type": "/datum/reagent/consumable/soup/veggie/thickonion",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-61787bff528a",
+      "type": "/datum/reagent/consumable/soup/veggie/thickfryonion",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-ef4e5baea444",
+      "type": "/datum/reagent/consumable/soup/veggie/thickcabbage",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-de73a6dd1e7d",
+      "type": "/datum/reagent/consumable/soup/veggie/thickturnip",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-e7979792975d",
+      "type": "/datum/reagent/consumable/soup/stew/veggiefryfish",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-81c17c2c65b7",
+      "type": "/datum/reagent/consumable/soup/stew/evilfryfish",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-f163b2f2eefb",
+      "type": "/datum/reagent/consumable/soup/stew/pepperfryfish",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-97ceb051544f",
+      "type": "/datum/reagent/consumable/soup/stew/lavishfryfish",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-66c00f11aabe",
+      "type": "/datum/reagent/consumable/soup/stew/fryfish",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-f5bf8a687d9f",
+      "type": "/datum/reagent/consumable/soup/stew/veggiefryrabbit",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-8d1151068dba",
+      "type": "/datum/reagent/consumable/soup/stew/fryrabbit",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-ebbb492ad3cb",
+      "type": "/datum/reagent/consumable/soup/stew/kingvolf",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-583431bb1887",
+      "type": "/datum/reagent/consumable/soup/stew/veggiefryvolf",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-e8b0bd5f2c47",
+      "type": "/datum/reagent/consumable/soup/stew/fryvolf",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-0e02fc1d1405",
+      "type": "/datum/reagent/consumable/soup/stew/volf",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-c64dd08a33a7",
+      "type": "/datum/reagent/consumable/soup/stew/fryyucky",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-ce257e2ad822",
+      "type": "/datum/reagent/consumable/soup/stew/slop",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-95ddf23a95c4",
+      "type": "/datum/reagent/consumable/soup/stew/veggiethickchicken",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-8809aefe464e",
+      "type": "/datum/reagent/consumable/soup/stew/lavishchicken",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-184b2ce018f6",
+      "type": "/datum/reagent/consumable/soup/stew/pepperchicken",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-f756c97c6cc6",
+      "type": "/datum/reagent/consumable/soup/stew/bakedthickchicken",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-a15add7e6691",
+      "type": "/datum/reagent/consumable/soup/stew/bakedchicken",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-d384bef1fd95",
+      "type": "/datum/reagent/consumable/soup/stew/frymeat",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-b3212aec2b52",
+      "type": "/datum/reagent/consumable/soup/stew/veggiefrymeat",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-b66f386ea0ce",
+      "type": "/datum/reagent/consumable/soup/stew/pepperfrymeat",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-1c2bccb60cfa",
+      "type": "/datum/reagent/consumable/soup/stew/thickpork",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-65c4a0a95c76",
+      "type": "/datum/reagent/consumable/soup/stew/frypork",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-5fbf4a42d767",
+      "type": "/datum/reagent/consumable/soup/stew/pork",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-c466e14828d8",
+      "type": "/datum/reagent/consumable/soup/stew/thickfrypork",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-9bfaa97f4262",
+      "type": "/datum/reagent/consumable/soup/stew/frybisque",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-2428649e5102",
+      "type": "/datum/reagent/consumable/soup/stew/lavishfrybisque",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-dd932cef4dee",
+      "type": "/datum/reagent/consumable/soup/stew/seafoodbroil",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-626c20b54c73",
+      "type": "/datum/reagent/consumable/soup/stew/fryseafoodbroil",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-ceccd80e60af",
+      "type": "/datum/reagent/consumable/soup/stew/lavishfryseafoodbroil",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-7cf3ca113eae",
+      "type": "/datum/reagent/consumable/soup/stew/meatrice",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-77a1b2b99e93",
+      "type": "/datum/reagent/consumable/soup/stew/eggrice",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-3dfa0cc3c7b2",
+      "type": "/datum/reagent/consumable/soup/stew/shrimprice",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-ccdfefdd9f88",
+      "type": "/datum/reagent/consumable/soup/stew/cheeserice",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-04b3a1f24c54",
+      "type": "/datum/reagent/consumable/soup/stew/lavishfryrice",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-353e0c4d5b8b",
+      "type": "/datum/reagent/consumable/soup/bone_broth",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-5c9bacc170a4",
+      "type": "/datum/reagent/consumable/soup/stew/viscera_broth",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-8dbeac64dde7",
+      "type": "/datum/reagent/consumable/soup/stew/survival_broth",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-862795cb19da",
+      "type": "/datum/reagent/consumable/soup/stew/thicksurvival_broth",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-984973715ef8",
+      "type": "/datum/reagent/consumable/soup/stew/saltmeat_stew",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-70dede39fdc1",
+      "type": "/datum/reagent/consumable/soup/lemon",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-416133260457",
+      "type": "/datum/reagent/consumable/soup/lime",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-dec3e5862252",
+      "type": "/datum/reagent/consumable/soup/pear",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-176a471e34ba",
+      "type": "/datum/reagent/consumable/soup/apple",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-15136c3ab765",
+      "type": "/datum/reagent/consumable/soup/stew/parmesan",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-dd766332fb29",
+      "type": "/datum/reagent/consumable/soup/stew/thickparmesan",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-b392cf00ace6",
+      "type": "/datum/reagent/consumable/soup/stew/thickcheese",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-6b03de740e07",
+      "type": "/datum/reagent/consumable/soup/stew/lavishfryegg",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-9ed32bdef7bb",
+      "type": "/datum/reagent/consumable/soup/stew/thickfryegg",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-c17ab54316d1",
+      "type": "/datum/reagent/consumable/soup/stew/fryegg",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-719a25cb4277",
+      "type": "/datum/reagent/consumable/soup/stew/garlick_soup",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-f8ab66b8db4c",
+      "type": "/datum/reagent/consumable/soup/stew/cucumber_soup",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-f67c7a2e49b0",
+      "type": "/datum/reagent/consumable/soup/stew/thickcucumber_soup",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-7bd79fd459c4",
+      "type": "/datum/reagent/consumable/soup/stew/eggplant_soup",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-7ba0af6429b3",
+      "type": "/datum/reagent/consumable/soup/stew/aubergine_soup",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-9a7d770c6304",
+      "type": "/datum/reagent/consumable/soup/stew/lavishaubergine_soup",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-ab3bf73dca7e",
+      "type": "/datum/reagent/consumable/soup/stew/carrot_stew",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-9df3e915fc77",
+      "type": "/datum/reagent/consumable/soup/stew/thickcarrot_stew",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-3720c9f82cd0",
+      "type": "/datum/reagent/consumable/soup/stew/nutty_stew",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-5e5ea581dd32",
+      "type": "/datum/reagent/consumable/soup/stew/tomato_soup",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-62fb48a295b4",
+      "type": "/datum/reagent/consumable/soup/stew/plum_soup",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-72faeccd897b",
+      "type": "/datum/reagent/consumable/soup/tangerine_marmalade",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-03f80e5e2846",
+      "type": "/datum/reagent/consumable/soup/stew/squash_soup",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-9609171de25f",
+      "type": "/datum/reagent/consumable/soup/stew/frysquash_soup",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-bc985456280d",
+      "type": "/datum/reagent/water/rosewater_spiced",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-04b6b81bf8c9",
+      "type": "/datum/reagent/consumable/caffeine/coffee_spiced",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-5bbfb93e4d0d",
+      "type": "/datum/reagent/consumable/caffeine/tea_spiced",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-894018e6711c",
+      "type": "/datum/reagent/consumable/spiced_chocolate",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-5a762bdce4d5",
+      "type": "/datum/reagent/consumable/chocolate",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "r2-food-5e3abf14b761",
+      "type": "/datum/reagent/consumable/poppy_milk",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-67d9b3262203",
+      "type": "/datum/reagent/consumable/ethanol/ale",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-644d044c004d",
+      "type": "/datum/reagent/consumable/ethanol/butterhairs",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-416e3db1bef3",
+      "type": "/datum/reagent/consumable/ethanol/jackberrywine",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-3f3587cd3665",
+      "type": "/datum/reagent/consumable/ethanol/luxwine",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-08f82a8ee68c",
+      "type": "/datum/reagent/consumable/ethanol/stonebeards",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-1aabb737b42b",
+      "type": "/datum/reagent/consumable/ethanol/whipwine",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-266ef76f3dc3",
+      "type": "/obj/item/clothing/head/roguetown/turban",
+      "reason": "Excluded artwork license directory."
+    },
+    {
+      "id": "prep-6867fb88341d",
+      "type": "/obj/item/clothing/head/roguetown/turban/fancypurple",
+      "reason": "Excluded artwork license directory."
+    },
+    {
+      "id": "prep-82b5a402b59a",
+      "type": "/obj/item/clothing/mask/rogue/exoticsilkmask/green",
+      "reason": "Excluded artwork license directory."
+    },
+    {
+      "id": "prep-b49918abd40b",
+      "type": "/obj/item/clothing/mask/rogue/exoticsilkmask/red",
+      "reason": "Excluded artwork license directory."
+    },
+    {
+      "id": "prep-b79b5016dee0",
+      "type": "/obj/item/clothing/suit/roguetown/shirt/dress/thawb/beige",
+      "reason": "Excluded artwork license directory."
+    },
+    {
+      "id": "prep-cef282e7aadc",
+      "type": "/obj/item/clothing/suit/roguetown/shirt/exoticsilkbra/green",
+      "reason": "Excluded artwork license directory."
+    },
+    {
+      "id": "prep-4903ffa53156",
+      "type": "/obj/item/clothing/suit/roguetown/shirt/exoticsilkbra/red",
+      "reason": "Excluded artwork license directory."
+    },
+    {
+      "id": "prep-5c94b8398785",
+      "type": "/obj/item/clothing/suit/roguetown/shirt/robe/bisht/beige",
+      "reason": "Excluded artwork license directory."
+    },
+    {
+      "id": "prep-dbf31aa23888",
+      "type": "/obj/item/clothing/suit/roguetown/shirt/robe/bisht/bluegrey",
+      "reason": "Excluded artwork license directory."
+    },
+    {
+      "id": "prep-50a85a31dc1a",
+      "type": "/obj/item/clothing/under/roguetown/sirwal",
+      "reason": "Excluded artwork license directory."
+    },
+    {
+      "id": "prep-c4daf83bf3d1",
+      "type": "/obj/item/clothing/under/roguetown/thong",
+      "reason": "Excluded artwork license directory."
+    },
+    {
+      "id": "prep-14abbb75ccca",
+      "type": "/obj/item/paper/scroll",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-8abc04f0789d",
+      "type": "/obj/item/rotation_contraption/cog",
+      "reason": "No inherited static icon and state; runtime artwork is not guessed."
+    },
+    {
+      "id": "prep-70f232e93e69",
+      "type": "/obj/item/rotation_contraption/horizontal",
+      "reason": "No inherited static icon and state; runtime artwork is not guessed."
+    },
+    {
+      "id": "prep-b9a4eabd1f60",
+      "type": "/obj/item/rotation_contraption/large_cog",
+      "reason": "No inherited static icon and state; runtime artwork is not guessed."
+    },
+    {
+      "id": "prep-2b8d13aec63b",
+      "type": "/obj/item/rotation_contraption/minecart_rail",
+      "reason": "No inherited static icon and state; runtime artwork is not guessed."
+    },
+    {
+      "id": "prep-9741ade703b9",
+      "type": "/obj/item/rotation_contraption/minecart_rail/railbreak",
+      "reason": "No inherited static icon and state; runtime artwork is not guessed."
+    },
+    {
+      "id": "prep-e1976e9553ee",
+      "type": "/obj/item/rotation_contraption/shaft",
+      "reason": "No inherited static icon and state; runtime artwork is not guessed."
+    },
+    {
+      "id": "prep-2fc050a79bf3",
+      "type": "/obj/item/rotation_contraption/vertical",
+      "reason": "No inherited static icon and state; runtime artwork is not guessed."
+    },
+    {
+      "id": "prep-f6b514a54888",
+      "type": "/obj/item/rotation_contraption/waterwheel",
+      "reason": "No inherited static icon and state; runtime artwork is not guessed."
+    },
+    {
+      "id": "prep-509a107ad0fe",
+      "type": "/obj/item/storage/belt/rogue/leather/cloth/sash",
+      "reason": "Excluded artwork license directory."
+    },
+    {
+      "id": "prep-2452f2a727aa",
+      "type": "/obj/item/storage/belt/rogue/leather/exoticsilkbelt/skirtgreen",
+      "reason": "Excluded artwork license directory."
+    },
+    {
+      "id": "prep-81c5ae387ec7",
+      "type": "/obj/item/storage/belt/rogue/leather/exoticsilkbelt/skirtred",
+      "reason": "Excluded artwork license directory."
+    },
+    {
+      "id": "prep-24400ea698fe",
+      "type": "/obj/item/storage/belt/rogue/leather/noblesash",
+      "reason": "Excluded artwork license directory."
+    },
+    {
+      "id": "prep-6e5cf267cb41",
+      "type": "/obj/item/storage/belt/rogue/surgery_bag/full",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-7c99813ad0b5",
+      "type": "/turf/closed/wall/mineral/rogue/brick",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-30a613a1f0ff",
+      "type": "/turf/closed/wall/mineral/rogue/brick/window",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-85f475e6f6af",
+      "type": "/turf/closed/wall/mineral/rogue/craftstone",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-d3dc17cf698c",
+      "type": "/turf/closed/wall/mineral/rogue/decostone",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-6311bd3c3eab",
+      "type": "/turf/closed/wall/mineral/rogue/decowood",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-36f395320d2a",
+      "type": "/turf/closed/wall/mineral/rogue/sandbrick",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-efe980bd72af",
+      "type": "/turf/closed/wall/mineral/rogue/sandstone",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-6523648c0988",
+      "type": "/turf/closed/wall/mineral/rogue/stone",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-9bc15ee35d57",
+      "type": "/turf/closed/wall/mineral/rogue/stone/window",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-310db218903f",
+      "type": "/turf/closed/wall/mineral/rogue/stonebrick",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-f43572a5a2f2",
+      "type": "/turf/closed/wall/mineral/rogue/stonebrick/stonebricklight",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-de50bc6e0ee5",
+      "type": "/turf/closed/wall/mineral/rogue/tent",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-040397a021bf",
+      "type": "/turf/closed/wall/mineral/rogue/tent/leather",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-4227ac3ade6a",
+      "type": "/turf/closed/wall/mineral/rogue/wood",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-ca5fa1899b67",
+      "type": "/turf/closed/wall/mineral/rogue/wood/window",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-07b9c4ec6b63",
+      "type": "/turf/closed/wall/mineral/rogue/wooddark",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-7d1c665b3236",
+      "type": "/turf/closed/wall/mineral/rogue/wooddark/horizontal",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-2d9e509f17d3",
+      "type": "/turf/closed/wall/mineral/rogue/wooddark/vertical",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-75aa4f887efb",
+      "type": "/turf/closed/wall/mineral/rogue/wooddark/window",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-e69a32a37d37",
+      "type": "/turf/open/floor/carpet/inn",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-f3df7d95e548",
+      "type": "/turf/open/floor/carpet/purple",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-8e80d1649bab",
+      "type": "/turf/open/floor/carpet/red",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-3a967b38ee70",
+      "type": "/turf/open/floor/carpet/royalblack",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-176b1c04992d",
+      "type": "/turf/open/floor/carpet/stellar",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-b193dcef0174",
+      "type": "/turf/open/floor/rogue/blocks",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-f0682b22dacc",
+      "type": "/turf/open/floor/rogue/blocks/bluestone",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-ce35ad409ade",
+      "type": "/turf/open/floor/rogue/blocks/newstone/alt",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-c8f4f2c1db84",
+      "type": "/turf/open/floor/rogue/blocks/platform",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-373adde2391b",
+      "type": "/turf/open/floor/rogue/blocks/stonered",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-d4907cf71474",
+      "type": "/turf/open/floor/rogue/blocks/stonered/tiny",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-b87c2a75ff96",
+      "type": "/turf/open/floor/rogue/churchbrick",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-59419a268f9b",
+      "type": "/turf/open/floor/rogue/churchmarble",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-2dd36523e59d",
+      "type": "/turf/open/floor/rogue/cobble",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-4cab6d7aa2f0",
+      "type": "/turf/open/floor/rogue/cobblerock",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-7d1e349ae426",
+      "type": "/turf/open/floor/rogue/concrete",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-695aa06cf79a",
+      "type": "/turf/open/floor/rogue/darkpath",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-eb18812c9a26",
+      "type": "/turf/open/floor/rogue/desert_grass",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-4f5249801398",
+      "type": "/turf/open/floor/rogue/grass",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-cc4c5af20d0f",
+      "type": "/turf/open/floor/rogue/grasscold",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-8ab5f1553dd0",
+      "type": "/turf/open/floor/rogue/grasspurple",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-99bcbce73cf5",
+      "type": "/turf/open/floor/rogue/grassred",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-bb4c7f75a28e",
+      "type": "/turf/open/floor/rogue/grassyel",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-6fdb07c6407a",
+      "type": "/turf/open/floor/rogue/hay",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-27e945a90d4f",
+      "type": "/turf/open/floor/rogue/herringbone",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-ce3c0e54be29",
+      "type": "/turf/open/floor/rogue/hexstone",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-ce784cad00dc",
+      "type": "/turf/open/floor/rogue/ruinedwood",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-c38fcb6369ab",
+      "type": "/turf/open/floor/rogue/ruinedwood/chevron",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-6bd9074f47e9",
+      "type": "/turf/open/floor/rogue/ruinedwood/herringbone",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-e367b3ba931c",
+      "type": "/turf/open/floor/rogue/ruinedwood/platform",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-98638a90dbb3",
+      "type": "/turf/open/floor/rogue/ruinedwood/spiral",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-050120bf07b6",
+      "type": "/turf/open/floor/rogue/sandbrick",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-106db69ac0aa",
+      "type": "/turf/open/floor/rogue/tile/bfloorz",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-08f0cbe36f49",
+      "type": "/turf/open/floor/rogue/tile/brick",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-f29b9ac9578a",
+      "type": "/turf/open/floor/rogue/tile/harem",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-88ab5fbdd145",
+      "type": "/turf/open/floor/rogue/tile/harem1",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-68fd2d700a65",
+      "type": "/turf/open/floor/rogue/tile/harem2",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-a14021c193a6",
+      "type": "/turf/open/floor/rogue/tile/masonic",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-27e0b3f755c0",
+      "type": "/turf/open/floor/rogue/tile/masonic/inverted",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-2e075abd43bc",
+      "type": "/turf/open/floor/rogue/tile/masonic/spiral",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-3b69c5d0d167",
+      "type": "/turf/open/floor/rogue/twig",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-1f6f84fcf7b1",
+      "type": "/turf/open/floor/rogue/twig/platform",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-f1b179e994dd",
+      "type": "/turf/open/floor/rogue/wood",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-6faeeac50a94",
+      "type": "/datum/reagent/consumable/milk",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-4e3cedcc0b34",
+      "type": "/datum/reagent/water/blessed",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-1d73eaa4e810",
+      "type": "/obj/item/ingot/silverblessed",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-1eb0771ec6fc",
+      "type": "/obj/item/ingot/steelholy",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-8fbed6914ba3",
+      "type": "/obj/item/paper",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-bb7c3b7932be",
+      "type": "/datum/reagent/medicine/manapot",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-7856ec631128",
+      "type": "/datum/reagent/water/salty",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-21b471d53d66",
+      "type": "/datum/reagent/consumable/oil/tallow",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-cf57f4bc82c2",
+      "type": "/datum/reagent/water/gross",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "prep-47d931e3a9aa",
+      "type": "/datum/reagent/water/cursed",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "current-365ee1f26b0045",
+      "type": "/obj/item/natural/head/dragon",
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "cookbook-8b8466046483",
+      "type": null,
+      "reason": "No exact object definition in the current snapshot."
+    },
+    {
+      "id": "item-meat",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/meat",
+      "sheet": "modular/Neu_Food/icons/raw/raw_meat.dmi",
+      "state": "meatslab",
+      "reason": "The referenced state is absent from its sheet."
+    },
+    {
+      "id": "item-salo-slice",
+      "type": "/obj/item/reagent_containers/food/snacks/fat/salo/slice",
+      "sheet": "modular/Neu_Food/icons/others/preserved_meat.dmi",
+      "state": "saloslice",
+      "reason": "The referenced state is absent from its sheet."
+    },
+    {
+      "id": "r2-food-c06d741650ce",
+      "type": "/obj/item/organ/ears",
+      "sheet": "icons/roguetown/items/surgery.dmi",
+      "state": "ear",
+      "reason": "The referenced state is absent from its sheet."
+    },
+    {
+      "id": "r2-food-8ace7ab551d1",
+      "type": "/obj/item/reagent_containers/food/snacks/grown/fruit/tomato_sliced",
+      "sheet": "icons/roguetown/items/produce.dmi",
+      "state": "tomato_split",
+      "reason": "The referenced state is absent from its sheet."
+    },
+    {
+      "id": "prep-e354affc89f6",
+      "type": "/obj/item/carvedgem/rose/bust",
+      "sheet": "icons/roguetown/gems/gem_amber.dmi",
+      "state": "bust_rose",
+      "reason": "The referenced state is absent from its sheet."
+    },
+    {
+      "id": "prep-74c7b0c5950d",
+      "type": "/obj/item/carvedgem/rose/cameo",
+      "sheet": "icons/roguetown/gems/gem_amber.dmi",
+      "state": "cameo_rose",
+      "reason": "The referenced state is absent from its sheet."
+    },
+    {
+      "id": "prep-62c6e8a3d2be",
+      "type": "/obj/item/carvedgem/rose/carp",
+      "sheet": "icons/roguetown/gems/gem_amber.dmi",
+      "state": "carp_rose",
+      "reason": "The referenced state is absent from its sheet."
+    },
+    {
+      "id": "prep-8eb3098e5757",
+      "type": "/obj/item/carvedgem/rose/comb",
+      "sheet": "icons/roguetown/gems/gem_amber.dmi",
+      "state": "comb_rose",
+      "reason": "The referenced state is absent from its sheet."
+    },
+    {
+      "id": "prep-aec9d741c356",
+      "type": "/obj/item/carvedgem/rose/duck",
+      "sheet": "icons/roguetown/gems/gem_amber.dmi",
+      "state": "duck_rose",
+      "reason": "The referenced state is absent from its sheet."
+    },
+    {
+      "id": "prep-ee3c3855b7c0",
+      "type": "/obj/item/carvedgem/rose/fancyvase",
+      "sheet": "icons/roguetown/gems/gem_amber.dmi",
+      "state": "fancyvase_rose",
+      "reason": "The referenced state is absent from its sheet."
+    },
+    {
+      "id": "prep-cf974dda08c0",
+      "type": "/obj/item/carvedgem/rose/figurine",
+      "sheet": "icons/roguetown/gems/gem_amber.dmi",
+      "state": "figurine_rose",
+      "reason": "The referenced state is absent from its sheet."
+    },
+    {
+      "id": "prep-c818d223c601",
+      "type": "/obj/item/carvedgem/rose/fish",
+      "sheet": "icons/roguetown/gems/gem_amber.dmi",
+      "state": "fish_rose",
+      "reason": "The referenced state is absent from its sheet."
+    },
+    {
+      "id": "prep-f67fa3f98b72",
+      "type": "/obj/item/carvedgem/rose/flower",
+      "sheet": "icons/roguetown/gems/gem_amber.dmi",
+      "state": "flower_rose",
+      "reason": "The referenced state is absent from its sheet."
+    },
+    {
+      "id": "prep-ca22489ce1af",
+      "type": "/obj/item/carvedgem/rose/obelisk",
+      "sheet": "icons/roguetown/gems/gem_amber.dmi",
+      "state": "obelisk_rose",
+      "reason": "The referenced state is absent from its sheet."
+    },
+    {
+      "id": "prep-a733da46beeb",
+      "type": "/obj/item/carvedgem/rose/statue",
+      "sheet": "icons/roguetown/gems/gem_amber.dmi",
+      "state": "statue_rose",
+      "reason": "The referenced state is absent from its sheet."
+    },
+    {
+      "id": "prep-47b0fd5ecf6b",
+      "type": "/obj/item/carvedgem/rose/tablet",
+      "sheet": "icons/roguetown/gems/gem_amber.dmi",
+      "state": "tablet_rose",
+      "reason": "The referenced state is absent from its sheet."
+    },
+    {
+      "id": "prep-a63f45dc559a",
+      "type": "/obj/item/carvedgem/rose/urn",
+      "sheet": "icons/roguetown/gems/gem_amber.dmi",
+      "state": "urn_rose",
+      "reason": "The referenced state is absent from its sheet."
+    },
+    {
+      "id": "prep-3271fbbe77a0",
+      "type": "/obj/item/carvedgem/rose/vase",
+      "sheet": "icons/roguetown/gems/gem_amber.dmi",
+      "state": "vase_rose",
+      "reason": "The referenced state is absent from its sheet."
+    },
+    {
+      "id": "prep-cf3aa709a050",
+      "type": "/obj/item/clothing/mask/cigarette/rollie/zigar/cheroot",
+      "sheet": "icons/roguetown/items/lighting.dmi",
+      "state": "stogieoff",
+      "reason": "The referenced state is absent from its sheet."
+    },
+    {
+      "id": "prep-61d9bb07aad4",
+      "type": "/obj/item/undies/loinclothunder",
+      "sheet": "icons/roguetown/items/misc.dmi",
+      "state": "loinclothunder",
+      "reason": "The referenced state is absent from its sheet."
+    },
+    {
+      "id": "prep-aac5dc4fb02a",
+      "type": "/obj/structure/roguewindow/openclose/reinforced/brick",
+      "sheet": "icons/roguetown/misc/roguewindow.dmi",
+      "state": "brickwindowdir",
+      "reason": "The referenced state is absent from its sheet."
+    },
+    {
+      "id": "prep-8d1f761bbd3d",
+      "type": "/obj/item/carvedgem/rose/rawrose",
+      "sheet": "icons/roguetown/gems/gem_amber.dmi",
+      "state": "raw_rose",
+      "reason": "The referenced state is absent from its sheet."
+    }
+  ]
+}

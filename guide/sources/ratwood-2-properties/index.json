@@ -1,0 +1,32 @@
+{
+  "revision": "80907df21ed15bde91106da41ce82e6ac6c40069",
+  "reviewed": "2026-11-15",
+  "headChecked": "6a3ff7fc1d5c9a8b06691af2a705b76a820157a3",
+  "note": "Only inspected properties, not a full live-server mechanics verification. The intervening snacks.dm change adds gluttony counting, not decay, fare or price changes.",
+  "files": [
+    {
+      "path": "code/__DEFINES/food.dm",
+      "sha": "e00063202ae4b2c8bcbf1163ee3ade0a1ac34437"
+    },
+    {
+      "path": "code/__DEFINES/nutrition.dm",
+      "sha": "7fb8e0483afbab6c5dfb24d46f5382da46c3d708"
+    },
+    {
+      "path": "code/controllers/subsystem/processing/obj.dm",
+      "sha": "070183fb79c03cd0ffd914c92a379dfb2db0afad"
+    },
+    {
+      "path": "code/modules/cargo/exports.dm",
+      "sha": "222d7034a8e9e545dd7e43ab922d28274dcd7f87"
+    },
+    {
+      "path": "code/modules/food_and_drinks/food.dm",
+      "sha": "7dcaa61f86e9d932f4f2c58c9e6b602035ca9570"
+    },
+    {
+      "path": "code/modules/roguetown/roguestock/pricing_engine.dm",
+      "sha": "a8dd5046b01bc04edbaba0d5da3f64b9c50aa827"
+    }
+  ]
+}

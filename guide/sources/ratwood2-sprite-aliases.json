@@ -1,0 +1,86 @@
+[
+  {
+    "id": "sheet-7-r55",
+    "title": "Pie(Crab)",
+    "type": "/obj/item/reagent_containers/food/snacks/rogue/pie/cooked/crab",
+    "reason": "Cooked crab pie; inherits the base pie state."
+  },
+  {
+    "id": "sheet-7-r92",
+    "title": "Breadcrumbs",
+    "type": "/obj/item/reagent_containers/food/snacks/rogue/toastcrumbs",
+    "reason": "Toast mill_result is toastcrumbs."
+  },
+  {
+    "id": "sheet-7-r138",
+    "title": "Aubergine(cheese)",
+    "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/eggplantstuffedcheese",
+    "reason": "Cooked stuffed aubergine topped with cheese."
+  },
+  {
+    "id": "sheet-7-r156",
+    "title": "Tomatoplate (Cheese)",
+    "type": "/obj/item/reagent_containers/food/snacks/rogue/tomatoplate",
+    "reason": "Cheese tomatoplate uses the base cooked type."
+  },
+  {
+    "id": "sheet-7-r157",
+    "title": "Tomatoplate (Sausage)",
+    "type": "/obj/item/reagent_containers/food/snacks/rogue/meattomatoplate",
+    "reason": "Cooked sausage topping."
+  },
+  {
+    "id": "sheet-7-r158",
+    "title": "Tomatoplate (Truffles)",
+    "type": "/obj/item/reagent_containers/food/snacks/rogue/truffletomatoplate",
+    "reason": "Use the actual definition, including its shared onion_pizza state."
+  },
+  {
+    "id": "sheet-7-r159",
+    "title": "Tomatoplate (Poison Truffles)",
+    "type": "/obj/item/reagent_containers/food/snacks/rogue/poisontruffletomatoplate",
+    "reason": "Intended cooked result artwork; does not resolve the retained recipe conflict."
+  },
+  {
+    "id": "sheet-7-r160",
+    "title": "Tomatoplate (Fish)",
+    "type": "/obj/item/reagent_containers/food/snacks/rogue/fishtomatoplate",
+    "reason": "Cooked fish topping."
+  },
+  {
+    "id": "sheet-7-r161",
+    "title": "Tomatoplate (Pear)",
+    "type": "/obj/item/reagent_containers/food/snacks/rogue/peartomatoplate",
+    "reason": "Cooked pear topping."
+  },
+  {
+    "id": "sheet-7-r162",
+    "title": "Tomatoplate (Onion)",
+    "type": "/obj/item/reagent_containers/food/snacks/rogue/oniontomatoplate",
+    "reason": "Cooked onion topping."
+  },
+  {
+    "id": "item-volf-meat",
+    "title": "Volf Meat",
+    "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/wolf",
+    "reason": "Raw volf meat, not the cooked steak."
+  },
+  {
+    "id": "item-cheese-wedge",
+    "title": "Cheese Wedge",
+    "type": "/obj/item/reagent_containers/food/snacks/rogue/cheddarwedge",
+    "reason": "Ordinary cheese wedge; aged variants are separate types."
+  },
+  {
+    "id": "item-cheese-slice",
+    "title": "Cheese Slice",
+    "type": "/obj/item/reagent_containers/food/snacks/rogue/cheddarslice",
+    "reason": "Ordinary cheese slice; aged variants are separate types."
+  },
+  {
+    "id": "item-bacon",
+    "title": "Bacon",
+    "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/bacon",
+    "reason": "Raw bacon; fried bacon has its own entry."
+  }
+]

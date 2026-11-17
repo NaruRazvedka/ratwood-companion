@@ -1,0 +1,586 @@
+[
+  {
+    "path": "code/controllers/subsystem/rogue/cooking/cooking_recipes.dm",
+    "file": "code/controllers/subsystem/rogue/cooking/cooking_recipes.dm"
+  },
+  {
+    "path": "code/controllers/subsystem/rogue/cooking_subsystem.dm",
+    "file": "code/controllers/subsystem/rogue/cooking_subsystem.dm"
+  },
+  {
+    "path": "code/datums/brewing_recipes/_brewing_recipe_base.dm",
+    "file": "code/datums/brewing_recipes/_brewing_recipe_base.dm"
+  },
+  {
+    "path": "code/datums/brewing_recipes/aqua_vitae.dm",
+    "file": "code/datums/brewing_recipes/aqua_vitae.dm"
+  },
+  {
+    "path": "code/datums/brewing_recipes/brandy.dm",
+    "file": "code/datums/brewing_recipes/brandy.dm"
+  },
+  {
+    "path": "code/datums/brewing_recipes/cabbage.dm",
+    "file": "code/datums/brewing_recipes/cabbage.dm"
+  },
+  {
+    "path": "code/datums/brewing_recipes/cider.dm",
+    "file": "code/datums/brewing_recipes/cider.dm"
+  },
+  {
+    "path": "code/datums/brewing_recipes/dwarf_brews.dm",
+    "file": "code/datums/brewing_recipes/dwarf_brews.dm"
+  },
+  {
+    "path": "code/datums/brewing_recipes/grain.dm",
+    "file": "code/datums/brewing_recipes/grain.dm"
+  },
+  {
+    "path": "code/datums/brewing_recipes/limoncello.dm",
+    "file": "code/datums/brewing_recipes/limoncello.dm"
+  },
+  {
+    "path": "code/datums/brewing_recipes/liquor.dm",
+    "file": "code/datums/brewing_recipes/liquor.dm"
+  },
+  {
+    "path": "code/datums/brewing_recipes/mead.dm",
+    "file": "code/datums/brewing_recipes/mead.dm"
+  },
+  {
+    "path": "code/datums/brewing_recipes/onion_beer.dm",
+    "file": "code/datums/brewing_recipes/onion_beer.dm"
+  },
+  {
+    "path": "code/datums/brewing_recipes/sugar.dm",
+    "file": "code/datums/brewing_recipes/sugar.dm"
+  },
+  {
+    "path": "code/datums/brewing_recipes/tea.dm",
+    "file": "code/datums/brewing_recipes/tea.dm"
+  },
+  {
+    "path": "code/datums/brewing_recipes/vodden.dm",
+    "file": "code/datums/brewing_recipes/vodden.dm"
+  },
+  {
+    "path": "code/datums/brewing_recipes/wine.dm",
+    "file": "code/datums/brewing_recipes/wine.dm"
+  },
+  {
+    "path": "code/modules/farming/big_liquid_containers.dm",
+    "file": "code/modules/farming/big_liquid_containers.dm"
+  },
+  {
+    "path": "code/modules/farming/bin.dm",
+    "file": "code/modules/farming/bin.dm"
+  },
+  {
+    "path": "code/modules/farming/bottle_kit.dm",
+    "file": "code/modules/farming/bottle_kit.dm"
+  },
+  {
+    "path": "code/modules/farming/chaff.dm",
+    "file": "code/modules/farming/chaff.dm"
+  },
+  {
+    "path": "code/modules/farming/composter.dm",
+    "file": "code/modules/farming/composter.dm"
+  },
+  {
+    "path": "code/modules/farming/crafting_recipes.dm",
+    "file": "code/modules/farming/crafting_recipes.dm"
+  },
+  {
+    "path": "code/modules/farming/fermentation_keg.dm",
+    "file": "code/modules/farming/fermentation_keg.dm"
+  },
+  {
+    "path": "code/modules/farming/helpers.dm",
+    "file": "code/modules/farming/helpers.dm"
+  },
+  {
+    "path": "code/modules/farming/plant_def.dm",
+    "file": "code/modules/farming/plant_def.dm"
+  },
+  {
+    "path": "code/modules/farming/plough.dm",
+    "file": "code/modules/farming/plough.dm"
+  },
+  {
+    "path": "code/modules/farming/produce.dm",
+    "file": "code/modules/farming/produce.dm"
+  },
+  {
+    "path": "code/modules/farming/seeds.dm",
+    "file": "code/modules/farming/seeds.dm"
+  },
+  {
+    "path": "code/modules/farming/shellplant.dm",
+    "file": "code/modules/farming/shellplant.dm"
+  },
+  {
+    "path": "code/modules/farming/soil.dm",
+    "file": "code/modules/farming/soil.dm"
+  },
+  {
+    "path": "code/modules/farming/tools.dm",
+    "file": "code/modules/farming/tools.dm"
+  },
+  {
+    "path": "code/modules/farming/trash.dm",
+    "file": "code/modules/farming/trash.dm"
+  },
+  {
+    "path": "code/modules/farming/wild_plant.dm",
+    "file": "code/modules/farming/wild_plant.dm"
+  },
+  {
+    "path": "code/modules/roguetown/roguecrafting/alchemy/alch_cauldron_recipe_base.dm",
+    "file": "code/modules/roguetown/roguecrafting/alchemy/alch_cauldron_recipe_base.dm"
+  },
+  {
+    "path": "code/modules/roguetown/roguecrafting/alchemy/alch_cauldron_recipes.dm",
+    "file": "code/modules/roguetown/roguecrafting/alchemy/alch_cauldron_recipes.dm"
+  },
+  {
+    "path": "code/modules/roguetown/roguecrafting/alchemy/alch_grind_recipe_base.dm",
+    "file": "code/modules/roguetown/roguecrafting/alchemy/alch_grind_recipe_base.dm"
+  },
+  {
+    "path": "code/modules/roguetown/roguecrafting/alchemy/alch_grind_recipes.dm",
+    "file": "code/modules/roguetown/roguecrafting/alchemy/alch_grind_recipes.dm"
+  },
+  {
+    "path": "code/modules/roguetown/roguecrafting/alchemy/alch_items.dm",
+    "file": "code/modules/roguetown/roguecrafting/alchemy/alch_items.dm"
+  },
+  {
+    "path": "code/modules/roguetown/roguecrafting/alchemy/cauldron.dm",
+    "file": "code/modules/roguetown/roguecrafting/alchemy/cauldron.dm"
+  },
+  {
+    "path": "code/modules/roguetown/roguecrafting/alchemy/ingredients.dm",
+    "file": "code/modules/roguetown/roguecrafting/alchemy/ingredients.dm"
+  },
+  {
+    "path": "code/modules/roguetown/roguecrafting/alchemy/mortarpestle.dm",
+    "file": "code/modules/roguetown/roguecrafting/alchemy/mortarpestle.dm"
+  },
+  {
+    "path": "code/modules/roguetown/roguecrafting/alchemy/potionbuffs.dm",
+    "file": "code/modules/roguetown/roguecrafting/alchemy/potionbuffs.dm"
+  },
+  {
+    "path": "code/modules/roguetown/roguecrafting/alchemy/reagents.dm",
+    "file": "code/modules/roguetown/roguecrafting/alchemy/reagents.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/NeuFood.dm",
+    "file": "modular/Neu_Food/code/NeuFood.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_baked.dm",
+    "file": "modular/Neu_Food/code/cooked/cooked_baked.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_cakes.dm",
+    "file": "modular/Neu_Food/code/cooked/cooked_cakes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_deep_fried.dm",
+    "file": "modular/Neu_Food/code/cooked/cooked_deep_fried.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_egg.dm",
+    "file": "modular/Neu_Food/code/cooked/cooked_egg.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_fruits.dm",
+    "file": "modular/Neu_Food/code/cooked/cooked_fruits.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_meat.dm",
+    "file": "modular/Neu_Food/code/cooked/cooked_meat.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_meat_meal.dm",
+    "file": "modular/Neu_Food/code/cooked/cooked_meat_meal.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_meat_saiga.dm",
+    "file": "modular/Neu_Food/code/cooked/cooked_meat_saiga.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_pastry.dm",
+    "file": "modular/Neu_Food/code/cooked/cooked_pastry.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_pies.dm",
+    "file": "modular/Neu_Food/code/cooked/cooked_pies.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_rice.dm",
+    "file": "modular/Neu_Food/code/cooked/cooked_rice.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_seafood.dm",
+    "file": "modular/Neu_Food/code/cooked/cooked_seafood.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_seafood_meal.dm",
+    "file": "modular/Neu_Food/code/cooked/cooked_seafood_meal.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_stag_buffs.dm",
+    "file": "modular/Neu_Food/code/cooked/cooked_stag_buffs.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_veggies.dm",
+    "file": "modular/Neu_Food/code/cooked/cooked_veggies.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cookware/bowl.dm",
+    "file": "modular/Neu_Food/code/cookware/bowl.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cookware/cup.dm",
+    "file": "modular/Neu_Food/code/cookware/cup.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cookware/fork.dm",
+    "file": "modular/Neu_Food/code/cookware/fork.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cookware/misc_cookware.dm",
+    "file": "modular/Neu_Food/code/cookware/misc_cookware.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cookware/pan.dm",
+    "file": "modular/Neu_Food/code/cookware/pan.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cookware/peppermill.dm",
+    "file": "modular/Neu_Food/code/cookware/peppermill.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cookware/platter.dm",
+    "file": "modular/Neu_Food/code/cookware/platter.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cookware/pot.dm",
+    "file": "modular/Neu_Food/code/cookware/pot.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cookware/ration.dm",
+    "file": "modular/Neu_Food/code/cookware/ration.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cookware/spoon.dm",
+    "file": "modular/Neu_Food/code/cookware/spoon.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/drinks/drinks_reagents.dm",
+    "file": "modular/Neu_Food/code/drinks/drinks_reagents.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/drinks/stew.dm",
+    "file": "modular/Neu_Food/code/drinks/stew.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/drinks/tea_coffee_drinks.dm",
+    "file": "modular/Neu_Food/code/drinks/tea_coffee_drinks.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/others/dairy.dm",
+    "file": "modular/Neu_Food/code/others/dairy.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/others/dried_fruits.dm",
+    "file": "modular/Neu_Food/code/others/dried_fruits.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/others/fat.dm",
+    "file": "modular/Neu_Food/code/others/fat.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/others/honey.dm",
+    "file": "modular/Neu_Food/code/others/honey.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/others/preserved_meat.dm",
+    "file": "modular/Neu_Food/code/others/preserved_meat.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/others/sweet.dm",
+    "file": "modular/Neu_Food/code/others/sweet.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/raw/raw_deep_fried.dm",
+    "file": "modular/Neu_Food/code/raw/raw_deep_fried.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/raw/raw_dough.dm",
+    "file": "modular/Neu_Food/code/raw/raw_dough.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/raw/raw_fish.dm",
+    "file": "modular/Neu_Food/code/raw/raw_fish.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/raw/raw_fruit.dm",
+    "file": "modular/Neu_Food/code/raw/raw_fruit.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/raw/raw_meat.dm",
+    "file": "modular/Neu_Food/code/raw/raw_meat.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/raw/raw_meat_saiga.dm",
+    "file": "modular/Neu_Food/code/raw/raw_meat_saiga.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/raw/raw_pies.dm",
+    "file": "modular/Neu_Food/code/raw/raw_pies.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/raw/raw_shellfish.dm",
+    "file": "modular/Neu_Food/code/raw/raw_shellfish.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/raw/raw_veggies.dm",
+    "file": "modular/Neu_Food/code/raw/raw_veggies.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/baked_recipes.dm",
+    "file": "modular/Neu_Food/code/recipes/baked_recipes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/cakes_recipes.dm",
+    "file": "modular/Neu_Food/code/recipes/cakes_recipes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/cooking_recipes_base.dm",
+    "file": "modular/Neu_Food/code/recipes/cooking_recipes_base.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/drying_recipes.dm",
+    "file": "modular/Neu_Food/code/recipes/drying_recipes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/egg_recipes.dm",
+    "file": "modular/Neu_Food/code/recipes/egg_recipes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/fish_recipes.dm",
+    "file": "modular/Neu_Food/code/recipes/fish_recipes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/meat_meal_recipes.dm",
+    "file": "modular/Neu_Food/code/recipes/meat_meal_recipes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/meat_recipes.dm",
+    "file": "modular/Neu_Food/code/recipes/meat_recipes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/pastry_recipes.dm",
+    "file": "modular/Neu_Food/code/recipes/pastry_recipes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/rice_recipes.dm",
+    "file": "modular/Neu_Food/code/recipes/rice_recipes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/stew_recipes.dm",
+    "file": "modular/Neu_Food/code/recipes/stew_recipes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/veggies_recipes.dm",
+    "file": "modular/Neu_Food/code/recipes/veggies_recipes.dm"
+  },
+  {
+    "path": "code/game/objects/items/rogueitems/natural.dm",
+    "file": "code/game/objects/items/rogueitems/natural.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/headwear/hats.dm",
+    "file": "code/modules/clothing/rogueclothes/headwear/hats.dm"
+  },
+  {
+    "path": "code/modules/reagents/chemistry/reagents/alcohol_reagents.dm",
+    "file": "code/modules/reagents/chemistry/reagents/alcohol_reagents.dm"
+  },
+  {
+    "path": "code/modules/reagents/chemistry/reagents/food_reagents.dm",
+    "file": "code/modules/reagents/chemistry/reagents/food_reagents.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/armor/_armor.dm",
+    "file": "code/modules/clothing/rogueclothes/armor/_armor.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/armor/armordress.dm",
+    "file": "code/modules/clothing/rogueclothes/armor/armordress.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/armor/baotha.dm",
+    "file": "code/modules/clothing/rogueclothes/armor/baotha.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/armor/blacksteel.dm",
+    "file": "code/modules/clothing/rogueclothes/armor/blacksteel.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/armor/brigandine.dm",
+    "file": "code/modules/clothing/rogueclothes/armor/brigandine.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/armor/chainmail.dm",
+    "file": "code/modules/clothing/rogueclothes/armor/chainmail.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/armor/gambeson.dm",
+    "file": "code/modules/clothing/rogueclothes/armor/gambeson.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/armor/gronn.dm",
+    "file": "code/modules/clothing/rogueclothes/armor/gronn.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/armor/leather.dm",
+    "file": "code/modules/clothing/rogueclothes/armor/leather.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/armor/misc.dm",
+    "file": "code/modules/clothing/rogueclothes/armor/misc.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/armor/plate.dm",
+    "file": "code/modules/clothing/rogueclothes/armor/plate.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/armor/regenerating.dm",
+    "file": "code/modules/clothing/rogueclothes/armor/regenerating.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/armor/unique.dm",
+    "file": "code/modules/clothing/rogueclothes/armor/unique.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/feet.dm",
+    "file": "code/modules/clothing/rogueclothes/feet.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/gloves/_gloves.dm",
+    "file": "code/modules/clothing/rogueclothes/gloves/_gloves.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/gloves/angle.dm",
+    "file": "code/modules/clothing/rogueclothes/gloves/angle.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/gloves/blacksteel.dm",
+    "file": "code/modules/clothing/rogueclothes/gloves/blacksteel.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/gloves/chain.dm",
+    "file": "code/modules/clothing/rogueclothes/gloves/chain.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/gloves/contraption.dm",
+    "file": "code/modules/clothing/rogueclothes/gloves/contraption.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/gloves/leather.dm",
+    "file": "code/modules/clothing/rogueclothes/gloves/leather.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/gloves/plate.dm",
+    "file": "code/modules/clothing/rogueclothes/gloves/plate.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/gloves/unique.dm",
+    "file": "code/modules/clothing/rogueclothes/gloves/unique.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/headwear/_head.dm",
+    "file": "code/modules/clothing/rogueclothes/headwear/_head.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/headwear/adjusthoods.dm",
+    "file": "code/modules/clothing/rogueclothes/headwear/adjusthoods.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/headwear/crowns.dm",
+    "file": "code/modules/clothing/rogueclothes/headwear/crowns.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/headwear/helmet/blacksteel.dm",
+    "file": "code/modules/clothing/rogueclothes/headwear/helmet/blacksteel.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/headwear/helmet/heavy_helmet.dm",
+    "file": "code/modules/clothing/rogueclothes/headwear/helmet/heavy_helmet.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/headwear/helmet/light_helmet.dm",
+    "file": "code/modules/clothing/rogueclothes/headwear/helmet/light_helmet.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/headwear/helmet/medium_helmet.dm",
+    "file": "code/modules/clothing/rogueclothes/headwear/helmet/medium_helmet.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/headwear/helmet/special.dm",
+    "file": "code/modules/clothing/rogueclothes/headwear/helmet/special.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/headwear/masks.dm",
+    "file": "code/modules/clothing/rogueclothes/headwear/masks.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/headwear/otherhoods.dm",
+    "file": "code/modules/clothing/rogueclothes/headwear/otherhoods.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/neck.dm",
+    "file": "code/modules/clothing/rogueclothes/neck.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/pants/_pants.dm",
+    "file": "code/modules/clothing/rogueclothes/pants/_pants.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/pants/blacksteel.dm",
+    "file": "code/modules/clothing/rogueclothes/pants/blacksteel.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/pants/chain.dm",
+    "file": "code/modules/clothing/rogueclothes/pants/chain.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/pants/cloth.dm",
+    "file": "code/modules/clothing/rogueclothes/pants/cloth.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/pants/heavy_leather.dm",
+    "file": "code/modules/clothing/rogueclothes/pants/heavy_leather.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/pants/leather.dm",
+    "file": "code/modules/clothing/rogueclothes/pants/leather.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/pants/plate.dm",
+    "file": "code/modules/clothing/rogueclothes/pants/plate.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/pants/skirt.dm",
+    "file": "code/modules/clothing/rogueclothes/pants/skirt.dm"
+  },
+  {
+    "path": "code/modules/clothing/rogueclothes/wrists.dm",
+    "file": "code/modules/clothing/rogueclothes/wrists.dm"
+  }
+]

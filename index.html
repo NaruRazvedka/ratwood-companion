@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Ratwood · Flavor Text Workshop</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="parser.js"></script>
+  <script defer src="gradient.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#editor">Skip to editor</a>
+  <main>
+    <header class="masthead">
+      <div class="brand-mark" aria-hidden="true">R<span>✦</span></div>
+      <div><p class="eyebrow">RATWOOD KEEP / CHARACTER TOOLS</p><h1>Flavor Text Workshop</h1><p class="subtitle">Give your character a little color.</p></div>
+      <nav class="project-nav" aria-label="Companion websites"><a href="guide/index.html">Player guide</a><span class="local-badge">Drafts stay in this browser</span></nav>
+    </header>
+
+    <div class="workspace-heading">
+      <div role="tablist" aria-label="Character text" class="tabs">
+        <button id="tab-sfw" role="tab" aria-selected="true" aria-controls="draft-panel" data-tab="sfw">SFW <span>Appearance</span></button>
+        <button id="tab-nsfw" role="tab" aria-selected="false" aria-controls="draft-panel" tabindex="-1" data-tab="nsfw">NSFW <span>Unclothed</span></button>
+        <button id="tab-ooc" role="tab" aria-selected="false" aria-controls="draft-panel" tabindex="-1" data-tab="ooc">SFW OOC <span>Notes</span></button>
+        <button id="tab-nsfw_ooc" role="tab" aria-selected="false" aria-controls="draft-panel" tabindex="-1" data-tab="nsfw_ooc">NSFW OOC <span>Notes</span></button>
+      </div>
+      <span id="save-status" role="status">Drafts saved on this browser</span>
+    </div>
+
+    <section id="draft-panel" role="tabpanel" aria-labelledby="tab-sfw">
+      <div class="workspace">
+        <section class="editor-pane" aria-labelledby="editor-heading">
+          <div class="pane-heading"><h2 id="editor-heading"><span class="step">01</span> Write & format</h2><span class="small-label">GAME MARKUP</span></div>
+          <div class="toolbar" role="group" aria-label="Text formatting">
+            <button data-format="bold" title="Bold" aria-label="Bold"><b>B</b></button>
+            <button data-format="italic" title="Italic" aria-label="Italic"><i>I</i></button>
+            <span class="toolbar-divider"></span>
+            <button data-format="heading" title="Heading" aria-label="Heading">H</button>
+            <button data-format="center" title="Center text" aria-label="Center text">≡</button>
+            <button data-format="large" title="Larger text" aria-label="Larger text">A+</button>
+            <button data-format="small" title="Smaller text" aria-label="Smaller text">A−</button>
+            <span class="toolbar-divider"></span>
+            <button data-format="list" title="List" aria-label="List">• ≡</button>
+            <button data-format="rule" title="Horizontal rule" aria-label="Horizontal rule">―</button>
+          </div>
+          <div class="color-toolbar">
+            <label class="small-label" for="color-picker">TEXT / START COLOR</label>
+            <input id="color-picker" type="color" value="#d7a85d" aria-label="Choose text color">
+            <label class="hex-label" for="hex-color">#</label><input id="hex-color" value="D7A85D" maxlength="6" pattern="[0-9a-fA-F]{6}" spellcheck="false" aria-label="Six-digit hex color" aria-describedby="color-error">
+            <button id="apply-color">Apply color <span aria-hidden="true">↗</span></button>
+            <span id="color-error" role="status"></span>
+          </div>
+          <div class="color-toolbar gradient-toolbar">
+            <label class="small-label" for="gradient-picker">GRADIENT END</label>
+            <input id="gradient-picker" type="color" value="#b76ed4" aria-label="Choose gradient end color">
+            <label class="hex-label" for="gradient-hex">#</label><input id="gradient-hex" value="B76ED4" maxlength="6" pattern="[0-9a-fA-F]{6}" spellcheck="false" aria-label="Six-digit gradient end color" aria-describedby="gradient-status">
+            <button id="apply-gradient">Apply gradient <span aria-hidden="true">↗</span></button>
+            <span id="gradient-swatch" aria-hidden="true"></span>
+            <span id="gradient-status" role="status">Select text. Gradient runs from the start color above to this end color.</span>
+          </div>
+          <label class="sr-only" for="editor">Flavor text source</label>
+          <textarea id="editor" autocomplete="off" spellcheck="false" placeholder="Describe your character here…&#10;&#10;Select a word or phrase, then apply a color." aria-describedby="preview-status"></textarea>
+          <div class="editor-footer"><span>Source size, including markup.</span><span id="count">0 bytes</span></div>
+        </section>
+
+        <section class="preview-pane" aria-labelledby="preview-heading">
+          <div class="pane-heading"><h2 id="preview-heading"><span class="step">02</span> In-game preview</h2><span class="live-badge">● LIVE</span></div>
+          <div class="game-window">
+            <div class="game-title"><span>Flavor Text</span><span id="preview-tab">SFW</span></div>
+            <div id="preview" class="game-content"></div>
+            <p id="empty-preview">Your story takes shape here.<span>Start writing to preview your flavor text.</span></p>
+          </div>
+          <p class="preview-caption">Ratwood Keep formatting · Full text preview</p>
+        </section>
+      </div>
+      <div class="export-bar">
+        <div><p id="preview-status">Full text preview · No editor size limit.</p><p id="copy-status" role="status">Copies the original markup, ready to paste into character preferences.</p></div>
+        <button id="copy" class="primary-button"><span aria-hidden="true">⧉</span> Copy for game</button>
+      </div>
+    </section>
+
+    <details class="draft-backups" id="draft-backups">
+      <summary>Back up, import & recover drafts</summary>
+      <div class="backup-body">
+        <p>Export your drafts before moving from the downloaded workshop to the website, changing browsers, or clearing browser data. Local files and the hosted website have separate browser storage. Your backup can contain private character text; share it only deliberately.</p>
+        <div class="backup-controls"><button id="export-drafts">Export all four drafts</button><label>Open a backup file <input id="import-file" type="file" accept=".json,application/json"></label></div>
+        <label for="import-text">Backup JSON (you can also paste it here)</label>
+        <textarea id="import-text" rows="4" spellcheck="false" autocomplete="off" aria-describedby="backup-status"></textarea>
+        <button id="preview-import">Preview backup</button>
+        <div class="backup-controls"><label for="snapshot-list">Earlier snapshots</label><select id="snapshot-list"><option value="">Choose a snapshot</option></select><button id="preview-snapshot">Preview snapshot</button></div>
+        <div id="import-preview" hidden>
+          <p>Select the fields to replace. Unselected fields stay unchanged. A safety snapshot is kept before replacement; imported changes can also be undone in each tab.</p>
+          <div class="backup-preview-grid">
+            <div><label><input id="import-sfw" type="checkbox"> Replace SFW Appearance</label><textarea id="preview-sfw" readonly rows="4" aria-label="Incoming SFW Appearance"></textarea></div>
+            <div><label><input id="import-nsfw" type="checkbox"> Replace NSFW Unclothed</label><textarea id="preview-nsfw" readonly rows="4" aria-label="Incoming NSFW Unclothed"></textarea></div>
+            <div><label><input id="import-ooc" type="checkbox"> Replace SFW OOC Notes</label><textarea id="preview-ooc" readonly rows="4" aria-label="Incoming SFW OOC Notes"></textarea></div>
+            <div><label><input id="import-nsfw_ooc" type="checkbox"> Replace NSFW OOC Notes</label><textarea id="preview-nsfw_ooc" readonly rows="4" aria-label="Incoming NSFW OOC Notes"></textarea></div>
+          </div>
+          <button id="apply-import">Replace selected drafts</button>
+        </div>
+        <p id="backup-status" role="status" aria-live="polite">Previewing a backup never changes your drafts. Earlier snapshots are stored in this browser only.</p>
+      </div>
+    </details>
+
+    <details class="syntax"><summary><span>Formatting field guide</span><span class="small-label">SYNTAX & SHORTCUTS</span></summary>
+      <div class="syntax-grid">
+        <div><code>-=FFAA00text=-</code><span>Color · six hex digits, no #</span></div>
+        <div><code>**bold** / *italic*</code><span>Emphasis · _italic_ also works</span></div>
+        <div><code>|centered text|</code><span>Center a passage</span></div>
+        <div><code>^large^ / ((small))</code><span>Change text size</span></div>
+        <div><code># Heading</code><span>Headings · # through ####</span></div>
+        <div><code>* item / ---</code><span>List item / horizontal rule</span></div>
+        <div><code>1. item</code><span>Numbered list · keep a space after the period</span></div>
+      </div>
+      <p>For a gradient, select text and choose the start and end colors, then click <strong>Apply gradient</strong>. Each visible character receives a color. Existing formatting is preserved. Select complete formatting/color spans when recoloring.</p>
+      <p>Use a backslash to escape supported formatting characters, for example <code>\*literal asterisks\*</code>. Use Ctrl+Z to undo edits. Each tab is copied separately.</p>
+    </details>
+    <footer class="page-footer"><span>Made for the details that make a character.</span><a href="README.md">Source, compatibility & license ↗</a></footer>
+  </main>
+</body>
+</html>

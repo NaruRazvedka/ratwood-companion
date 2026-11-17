@@ -1,0 +1,2002 @@
+[
+  {
+    "type": "/datum/stew_recipe/porridge",
+    "output": "/datum/reagent/consumable/soup/porridge",
+    "name": "porridge",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/wheat",
+        "name": "wheat grain"
+      },
+      {
+        "type": "/obj/item/reagent_containers/powder/flour",
+        "name": "flour"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/toastcrumbs",
+        "name": "toast crumbs"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/hardtack_raw",
+        "name": "crackerdough"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/breadslice",
+        "name": "sliced bread"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/bun",
+        "name": "bun"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/breadslice/toast",
+        "name": "toast"
+      }
+    ],
+    "seconds": 30.0,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L36"
+  },
+  {
+    "type": "/datum/stew_recipe/thickporridge",
+    "output": "/datum/reagent/consumable/soup/porridge/thick",
+    "name": "thick porridge",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/bread",
+        "name": "bread loaf"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/bookbread",
+        "name": "bookbread loaf"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/bookbread_slice",
+        "name": "sliced bookbread"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L41"
+  },
+  {
+    "type": "/datum/stew_recipe/allspice",
+    "output": "/datum/reagent/allspice",
+    "name": "allspice",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/allspice",
+        "name": "allspice"
+      }
+    ],
+    "seconds": 180,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L46"
+  },
+  {
+    "type": "/datum/stew_recipe/breadpudding",
+    "output": "/datum/reagent/consumable/soup/porridge/pudding",
+    "name": "berried porridge-pudding",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/rbread_half",
+        "name": "half-done raisin dough"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/abread_half",
+        "name": "half-done apple dough"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/applebreadslice",
+        "name": "apple loaf slice"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/raisinbreadslice",
+        "name": "raisin loaf slice"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/pumpkinloaf_raw",
+        "name": "raw pumpkin loaf"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/pumpkinloafslice",
+        "name": "pumpkin loaf slice"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/pumpkinball",
+        "name": "pumpkin balls"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/pumpkinball_raw",
+        "name": "uncooked pumpkin ball"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L51"
+  },
+  {
+    "type": "/datum/stew_recipe/thickbreadpudding",
+    "output": "/datum/reagent/consumable/soup/porridge/thickpudding",
+    "name": "thick berried porridge-pudding",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/rbreaduncooked",
+        "name": "raw raisin loaf"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/raisinbread",
+        "name": "raisin loaf"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/abreaduncooked",
+        "name": "raw apple loaf"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/applebread",
+        "name": "apple loaf"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/pumpkinloaf",
+        "name": "pumpkin loaf"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L56"
+  },
+  {
+    "type": "/datum/stew_recipe/frostedpudding",
+    "output": "/datum/reagent/consumable/soup/porridge/frostedpudding",
+    "name": "frosted porridge-pudding",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/pearbread_uncooked",
+        "name": "pear-stuffed butterdough"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/plumbread_uncooked",
+        "name": "plum-stuffed butterdough"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/lemonbread_uncooked",
+        "name": "lemon-stuffed butterdough"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/tangerinebread_uncooked",
+        "name": "tangerine-stuffed butterdough"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/blackberrybread_uncooked",
+        "name": "blackberry-stuffed butterdough"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/raspberrybread_uncooked",
+        "name": "raspberry-stuffed butterdough"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/jackberrybread_uncooked",
+        "name": "jackberry-stuffed butterdough"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/pearbookbread_slice",
+        "name": "sliced pear bookbread"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/plumbookbread_slice",
+        "name": "sliced plum bookbread"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/lemonbookbread_slice",
+        "name": "sliced lemon bookbread"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/tangerinebookbread_slice",
+        "name": "sliced tangerine bookbread"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/blackberrybookbread_slice",
+        "name": "sliced blackberry bookbread"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/raspberrybookbread_slice",
+        "name": "sliced raspberry bookbread"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/jackberrybookbread_slice",
+        "name": "sliced jacksberried bookbread"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L61"
+  },
+  {
+    "type": "/datum/stew_recipe/thickfrostedpudding",
+    "output": "/datum/reagent/consumable/soup/porridge/thickfrostedpudding",
+    "name": "thick frosted porridge-pudding",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/pearbookbread",
+        "name": "pear bookbread"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/plumbookbread",
+        "name": "plum bookbread"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/lemonbookbread",
+        "name": "lemon bookbread"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/tangerinebookbread",
+        "name": "tangerine bookbread"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/blackberrybookbread",
+        "name": "blackberry bookbread"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/raspberrybookbread",
+        "name": "raspberry bookbread"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/jackberrybookbread",
+        "name": "jacksberried bookbread"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L66"
+  },
+  {
+    "type": "/datum/stew_recipe/chocolatepudding",
+    "output": "/datum/reagent/consumable/soup/porridge/fudgepudding",
+    "name": "chocolate porridge-pudding",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/chocolatebookbread_slice",
+        "name": "sliced chocolate bookbread"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/chocolatebread_uncooked",
+        "name": "chocolate-stuffed butterdough"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/halfcookie_raw",
+        "name": "slab of half-done cookiedough"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/cookie_raw",
+        "name": "slab of cookiedough"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/cookieslice",
+        "name": "cookie"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L71"
+  },
+  {
+    "type": "/datum/stew_recipe/thickchocolatepudding",
+    "output": "/datum/reagent/consumable/soup/porridge/thickfudgepudding",
+    "name": "thick chocolate porridge-pudding",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/cookie",
+        "name": "baked slab of cookiedough"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/chocolatebookbread",
+        "name": "chocolate bookbread"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L76"
+  },
+  {
+    "type": "/datum/stew_recipe/oatmeal",
+    "output": "/datum/reagent/consumable/soup/porridge/oatmeal",
+    "name": "oatmeal",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/oat",
+        "name": "oat grain"
+      }
+    ],
+    "seconds": 30.0,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L81"
+  },
+  {
+    "type": "/datum/stew_recipe/hardtackstew",
+    "output": "/datum/reagent/consumable/soup/stew/hardtack",
+    "name": "hardtack stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/crackerscooked",
+        "name": "hardtack"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L86"
+  },
+  {
+    "type": "/datum/stew_recipe/thickbalefirestew",
+    "output": "/datum/reagent/consumable/soup/stew/thickhardtacksalo",
+    "name": "thick balefire stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/balefire",
+        "name": "salotack"
+      }
+    ],
+    "seconds": 180,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L91"
+  },
+  {
+    "type": "/datum/stew_recipe/balefirestew",
+    "output": "/datum/reagent/consumable/soup/stew/hardtacksalo",
+    "name": "balefire stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/balefire/slice",
+        "name": "piece of salotack"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L96"
+  },
+  {
+    "type": "/datum/stew_recipe/congee",
+    "output": "/datum/reagent/consumable/soup/porridge/congee",
+    "name": "congee",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/rice",
+        "name": "rice grain"
+      }
+    ],
+    "seconds": 30.0,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L101"
+  },
+  {
+    "type": "/datum/stew_recipe/frycongee",
+    "output": "/datum/reagent/consumable/soup/porridge/frycongee",
+    "name": "fried congee",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/rice_cooked",
+        "name": "cooked rice"
+      }
+    ],
+    "seconds": 30.0,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L106"
+  },
+  {
+    "type": "/datum/stew_recipe/purebutter",
+    "output": "/datum/reagent/consumable/soup/purebutter",
+    "name": "pure butter",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/squiresdelight",
+        "name": "squire's delight"
+      }
+    ],
+    "seconds": 20.0,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L111"
+  },
+  {
+    "type": "/datum/stew_recipe/potato",
+    "output": "/datum/reagent/consumable/soup/veggie/potato",
+    "name": "potato soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/veg/potato_sliced",
+        "name": "potato cuts"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L116"
+  },
+  {
+    "type": "/datum/stew_recipe/thickpotato",
+    "output": "/datum/reagent/consumable/soup/veggie/thickpotato",
+    "name": "thick potato soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/potato/rogue",
+        "name": "potato"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L120"
+  },
+  {
+    "type": "/datum/stew_recipe/thickfrypotato",
+    "output": "/datum/reagent/consumable/soup/veggie/thickfrypotato",
+    "name": "roasted potato soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/potato_baked",
+        "name": "baked potatoes"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/potato_fried",
+        "name": "fried potato"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L125"
+  },
+  {
+    "type": "/datum/stew_recipe/onion",
+    "output": "/datum/reagent/consumable/soup/veggie/onion",
+    "name": "onion soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/veg/onion_sliced",
+        "name": "sliced onion"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L130"
+  },
+  {
+    "type": "/datum/stew_recipe/thickonion",
+    "output": "/datum/reagent/consumable/soup/veggie/thickonion",
+    "name": "thick onion soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/onion/rogue",
+        "name": "onion"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L134"
+  },
+  {
+    "type": "/datum/stew_recipe/thickfryonion",
+    "output": "/datum/reagent/consumable/soup/veggie/thickfryonion",
+    "name": "roasted onion soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/onion_fried",
+        "name": "fried onion"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L139"
+  },
+  {
+    "type": "/datum/stew_recipe/cabbage",
+    "output": "/datum/reagent/consumable/soup/veggie/cabbage",
+    "name": "cabbage soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/veg/cabbage_sliced",
+        "name": "shredded cabbage"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L144"
+  },
+  {
+    "type": "/datum/stew_recipe/thickcabbage",
+    "output": "/datum/reagent/consumable/soup/veggie/thickcabbage",
+    "name": "thick cabbage soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/cabbage/rogue",
+        "name": "cabbage"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L148"
+  },
+  {
+    "type": "/datum/stew_recipe/thickfrycabbage",
+    "output": "/datum/reagent/consumable/soup/veggie/thickcabbage",
+    "name": "thick cabbage soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/cabbage_fried",
+        "name": "cooked cabbage"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L153"
+  },
+  {
+    "type": "/datum/stew_recipe/thickturnip",
+    "output": "/datum/reagent/consumable/soup/veggie/thickturnip",
+    "name": "thick turnip soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/vegetable/turnip",
+        "name": "turnip"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L158"
+  },
+  {
+    "type": "/datum/stew_recipe/turnip",
+    "output": "/datum/reagent/consumable/soup/veggie/turnip",
+    "name": "turnip soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/veg/turnip_sliced",
+        "name": "cleaned turnip"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L163"
+  },
+  {
+    "type": "/datum/stew_recipe/veggiefryfish",
+    "output": "/datum/reagent/consumable/soup/stew/veggiefryfish",
+    "name": "roasted fish stew with vegetables",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/garlickbass",
+        "name": "garlicked seabass"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/onionplaice",
+        "name": "plaice with onion"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L167"
+  },
+  {
+    "type": "/datum/stew_recipe/evilfryfish",
+    "output": "/datum/reagent/consumable/soup/stew/evilfryfish",
+    "name": "evil fish stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/zizo_abberation",
+        "name": "zizo abberation"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L171"
+  },
+  {
+    "type": "/datum/stew_recipe/pepperfryfish",
+    "output": "/datum/reagent/consumable/soup/stew/pepperfryfish",
+    "name": "pepper-spiced fish stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/pepperfish",
+        "name": "pepperfilet"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L175"
+  },
+  {
+    "type": "/datum/stew_recipe/lavishfryfish",
+    "output": "/datum/reagent/consumable/soup/stew/lavishfryfish",
+    "name": "lavish fish stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/buttersole",
+        "name": "buttered sole"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/jelliedeel",
+        "name": "jellied eel"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/berrysalmon",
+        "name": "berrymash salmon"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/dendorsalmon",
+        "name": "saint dendor's salmon"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/alecod",
+        "name": "alecod"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L179"
+  },
+  {
+    "type": "/datum/stew_recipe/fryfish",
+    "output": "/datum/reagent/consumable/soup/stew/fryfish",
+    "name": "roasted fish stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/fryfish",
+        "name": "cooked fish"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/fish/fried",
+        "name": "fryfilet"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L183"
+  },
+  {
+    "type": "/datum/stew_recipe/fish",
+    "output": "/datum/reagent/consumable/soup/stew/fish",
+    "name": "fish stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/mince/fish",
+        "name": "minced fish"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/fish",
+        "name": "fish filet"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L187"
+  },
+  {
+    "type": "/datum/stew_recipe/veggiefryrabbit",
+    "output": "/datum/reagent/consumable/soup/stew/veggiefryrabbit",
+    "name": "roasted cabbit stew with vegetables",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/rabbit/fried/garlick/cucumber",
+        "name": "elven cabbit roast"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/rabbit/fried/garlick",
+        "name": "garlick cabbit"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L191"
+  },
+  {
+    "type": "/datum/stew_recipe/fryrabbit",
+    "output": "/datum/reagent/consumable/soup/stew/fryrabbit",
+    "name": "roasted cabbit stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/rabbit/fried",
+        "name": "fried cabbit"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L195"
+  },
+  {
+    "type": "/datum/stew_recipe/rabbit",
+    "output": "/datum/reagent/consumable/soup/stew/rabbit",
+    "name": "cabbit stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/rabbit",
+        "name": "raw cabbit meat"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/mince/rabbit",
+        "name": "minced cabbit"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L199"
+  },
+  {
+    "type": "/datum/stew_recipe/kingvolf",
+    "output": "/datum/reagent/consumable/soup/stew/kingvolf",
+    "name": "king's stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/wolf/fried/garlick/cucumber",
+        "name": "hunter's feast"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L203"
+  },
+  {
+    "type": "/datum/stew_recipe/veggiefryvolf",
+    "output": "/datum/reagent/consumable/soup/stew/veggiefryvolf",
+    "name": "vriskette stew with vegetables",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/wolf/fried/garlick",
+        "name": "garlick volf"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L207"
+  },
+  {
+    "type": "/datum/stew_recipe/fryvolf",
+    "output": "/datum/reagent/consumable/soup/stew/fryvolf",
+    "name": "vriskette stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/wolf/fried",
+        "name": "fried volf"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L211"
+  },
+  {
+    "type": "/datum/stew_recipe/volf",
+    "output": "/datum/reagent/consumable/soup/stew/volf",
+    "name": "volf stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/wolf",
+        "name": "raw volf meat"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L215"
+  },
+  {
+    "type": "/datum/stew_recipe/fryspider",
+    "output": "/datum/reagent/consumable/soup/stew/fryyucky",
+    "name": "strange brisket stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/spider/fried",
+        "name": "fried spidermeat"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L219"
+  },
+  {
+    "type": "/datum/stew_recipe/spider",
+    "output": "/datum/reagent/consumable/soup/stew/yucky",
+    "name": "strange stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/spider",
+        "name": "spidermeat"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L223"
+  },
+  {
+    "type": "/datum/stew_recipe/slop",
+    "output": "/datum/reagent/consumable/soup/stew/slop",
+    "name": "slop",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/badrecipe",
+        "name": "burned mess"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L227"
+  },
+  {
+    "type": "/datum/stew_recipe/veggiefrybird",
+    "output": "/datum/reagent/consumable/soup/stew/veggiethickchicken",
+    "name": "frybird stew with vegetables",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/frybirdtato",
+        "name": "frybird with a tato"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L231"
+  },
+  {
+    "type": "/datum/stew_recipe/lavishfrybird",
+    "output": "/datum/reagent/consumable/soup/stew/lavishchicken",
+    "name": "lavish frybird stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/baked/spiced/ducal",
+        "name": "ducal bird-roast"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/baked/doublestacked",
+        "name": "bird filled bird-roast"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/baked/butter",
+        "name": "butter bird-roast"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L236"
+  },
+  {
+    "type": "/datum/stew_recipe/pepperfrybird",
+    "output": "/datum/reagent/consumable/soup/stew/pepperchicken",
+    "name": "pepper-spiced frybird stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/baked/spiced",
+        "name": "spiced bird-roast"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L241"
+  },
+  {
+    "type": "/datum/stew_recipe/thickfrybird",
+    "output": "/datum/reagent/consumable/soup/stew/bakedthickchicken",
+    "name": "thick frybird stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/baked",
+        "name": "roast bird"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/chickentender",
+        "name": "tender frybird"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L246"
+  },
+  {
+    "type": "/datum/stew_recipe/frybird",
+    "output": "/datum/reagent/consumable/soup/stew/bakedchicken",
+    "name": "frybird stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/cutlet/fried",
+        "name": "frybird"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L251"
+  },
+  {
+    "type": "/datum/stew_recipe/chicken",
+    "output": "/datum/reagent/consumable/soup/stew/chicken",
+    "name": "chicken stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/cutlet",
+        "name": "bird meat"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/mince/poultry",
+        "name": "minced poultry"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L255"
+  },
+  {
+    "type": "/datum/stew_recipe/frymeat",
+    "output": "/datum/reagent/consumable/soup/stew/frymeat",
+    "name": "brisket stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/fried",
+        "name": "frysteak"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L260"
+  },
+  {
+    "type": "/datum/stew_recipe/veggiefrymeat",
+    "output": "/datum/reagent/consumable/soup/stew/veggiefrymeat",
+    "name": "brisket stew with vegetables",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/onionsteak",
+        "name": "onion steak"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/carrotsteak",
+        "name": "carrot steak"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/wienercabbage",
+        "name": "wiener on cabbage"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/wienerpotato",
+        "name": "wiener on tato"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/wieneronions",
+        "name": "wiener and onions"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/wienerpotatonions",
+        "name": "wiener meal"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L264"
+  },
+  {
+    "type": "/datum/stew_recipe/pepperfrymeat",
+    "output": "/datum/reagent/consumable/soup/stew/pepperfrymeat",
+    "name": "pepper-spiced brisket stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/peppersteak",
+        "name": "peppersteak"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L268"
+  },
+  {
+    "type": "/datum/stew_recipe/thickpork",
+    "output": "/datum/reagent/consumable/soup/stew/thickpork",
+    "name": "fatty brisket stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/fatty",
+        "name": "raw pork"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L272"
+  },
+  {
+    "type": "/datum/stew_recipe/frypork",
+    "output": "/datum/reagent/consumable/soup/stew/frypork",
+    "name": "crispy and fatty meaty stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/bacon/fried",
+        "name": "fried bacon"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/fat/salo",
+        "name": "salo"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L277"
+  },
+  {
+    "type": "/datum/stew_recipe/pork",
+    "output": "/datum/reagent/consumable/soup/stew/pork",
+    "name": "fatty meat stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/bacon",
+        "name": "raw bacon"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/fat/salo/slice",
+        "name": "salo"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L281"
+  },
+  {
+    "type": "/datum/stew_recipe/thickfrypork",
+    "output": "/datum/reagent/consumable/soup/stew/thickfrypork",
+    "name": "crispy and fatty brisket stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/fatty/roast",
+        "name": "roast pork"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/nitzel",
+        "name": "nitzel"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/nitzel/schnitzel",
+        "name": "schnitzel"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/nitzel/wiener",
+        "name": "wiener nitzel"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L285"
+  },
+  {
+    "type": "/datum/stew_recipe/frybisque",
+    "output": "/datum/reagent/consumable/soup/stew/frybisque",
+    "name": "roasted bisque",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/shellfish/fried",
+        "name": "fried shellfish"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/crab/fried",
+        "name": "fried crabmeat"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/crab",
+        "name": "cooked crab"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/lobster",
+        "name": "cooked lobster"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/crabcake",
+        "name": "crab cake"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L290"
+  },
+  {
+    "type": "/datum/stew_recipe/lavishfrybisque",
+    "output": "/datum/reagent/consumable/soup/stew/lavishfrybisque",
+    "name": "lavish bisque",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/lobster/meal",
+        "name": "buttered lobster"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/pepperlobsta",
+        "name": "peppertail"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/crabcake",
+        "name": "crab cake"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L294"
+  },
+  {
+    "type": "/datum/stew_recipe/seafoodbroil",
+    "output": "/datum/reagent/consumable/soup/stew/seafoodbroil",
+    "name": "seabroil chowder",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/fish/oyster",
+        "name": "oyster"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/fish/clam",
+        "name": "clam"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/fish/shrimp",
+        "name": "shrimp"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L298"
+  },
+  {
+    "type": "/datum/stew_recipe/fryseafoodbroil",
+    "output": "/datum/reagent/consumable/soup/stew/fryseafoodbroil",
+    "name": "roasted seabroil chowder",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/shrimp",
+        "name": "cooked shrimp"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/clam",
+        "name": "cooked clam"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L302"
+  },
+  {
+    "type": "/datum/stew_recipe/lavishfryseafoodbroil",
+    "output": "/datum/reagent/consumable/soup/stew/lavishfryseafoodbroil",
+    "name": "lavish seabroil chowder",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/milkclam",
+        "name": "milkclams"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L306"
+  },
+  {
+    "type": "/datum/stew_recipe/bisque",
+    "output": "/datum/reagent/consumable/soup/stew/bisque",
+    "name": "bisque",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/crab",
+        "name": "crab meat"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/fish/lobster",
+        "name": "lobster"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/fish/crab",
+        "name": "crab"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/crabcakeraw",
+        "name": "raw crab cake"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L310"
+  },
+  {
+    "type": "/datum/stew_recipe/meatrice",
+    "output": "/datum/reagent/consumable/soup/stew/meatrice",
+    "name": "fried congee with roasted meat",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/ricebird",
+        "name": "rice and frybird"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/ricebeef",
+        "name": "rice and beef"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/ricepork",
+        "name": "rice and pork"
+      }
+    ],
+    "seconds": 30.0,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L314"
+  },
+  {
+    "type": "/datum/stew_recipe/eggrice",
+    "output": "/datum/reagent/consumable/soup/stew/eggrice",
+    "name": "fried congee with cackleberries",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/riceegg",
+        "name": "rice and egg"
+      }
+    ],
+    "seconds": 30.0,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L319"
+  },
+  {
+    "type": "/datum/stew_recipe/shrimprice",
+    "output": "/datum/reagent/consumable/soup/stew/shrimprice",
+    "name": "fried congee with roasted shrimp",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/riceshrimp",
+        "name": "rice and shrimp"
+      }
+    ],
+    "seconds": 30.0,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L324"
+  },
+  {
+    "type": "/datum/stew_recipe/cheeserice",
+    "output": "/datum/reagent/consumable/soup/stew/cheeserice",
+    "name": "fried congee with melted cheese",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/ricecheese",
+        "name": "rice and cheese"
+      }
+    ],
+    "seconds": 30.0,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L329"
+  },
+  {
+    "type": "/datum/stew_recipe/lavishfryrice",
+    "output": "/datum/reagent/consumable/soup/stew/lavishfryrice",
+    "name": "lavish brisket-congee",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/riceeggcheese",
+        "name": "rice with egg and cheese"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/ricebirdcar",
+        "name": "rice and frybird meal"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/ricebeefcar",
+        "name": "rice and beef meal"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/riceporkcuc",
+        "name": "rice and pork meal"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/riceshrimpcar",
+        "name": "rice and shrimp meal"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L334"
+  },
+  {
+    "type": "/datum/stew_recipe/bone",
+    "output": "/datum/reagent/consumable/soup/bone_broth",
+    "name": "bone broth",
+    "inputs": [
+      {
+        "type": "/obj/item/natural/bone",
+        "name": "bone"
+      },
+      {
+        "type": "/obj/item/alch/bone",
+        "name": "tail bone"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L339"
+  },
+  {
+    "type": "/datum/stew_recipe/viscera",
+    "output": "/datum/reagent/consumable/soup/stew/viscera_broth",
+    "name": "offal stew",
+    "inputs": [
+      {
+        "type": "/obj/item/organ/appendix",
+        "name": "appendix"
+      },
+      {
+        "type": "/obj/item/organ/lungs",
+        "name": "lungs"
+      },
+      {
+        "type": "/obj/item/organ/liver",
+        "name": "liver"
+      },
+      {
+        "type": "/obj/item/organ/stomach",
+        "name": "stomach"
+      },
+      {
+        "type": "/obj/item/organ/ears",
+        "name": "ears"
+      },
+      {
+        "type": "/obj/item/organ/eyes",
+        "name": "eyes"
+      },
+      {
+        "type": "/obj/item/alch/viscera",
+        "name": "viscera"
+      },
+      {
+        "type": "/obj/item/alch/sinew",
+        "name": "sinew"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L344"
+  },
+  {
+    "type": "/datum/stew_recipe/brothbrique",
+    "output": "/datum/reagent/consumable/soup/stew/survival_broth",
+    "name": "briquebroth",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/brothbrique/slice",
+        "name": "slice of brothbrique"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L349"
+  },
+  {
+    "type": "/datum/stew_recipe/thickbrothbrique",
+    "output": "/datum/reagent/consumable/soup/stew/thicksurvival_broth",
+    "name": "thick briquebroth",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/brothbrique",
+        "name": "brothbrique"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L353"
+  },
+  {
+    "type": "/datum/stew_recipe/saltmeat",
+    "output": "/datum/reagent/consumable/soup/stew/saltmeat_stew",
+    "name": "salted meat stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/salami",
+        "name": "salumoi"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/salami/slice",
+        "name": "salumoi"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/coppiette",
+        "name": "coppiette"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/driedfishfilet",
+        "name": "dried fish filet"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L357"
+  },
+  {
+    "type": "/datum/stew_recipe/meat",
+    "output": "/datum/reagent/consumable/soup/stew/meat",
+    "name": "meat stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/meat",
+        "name": "meat"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L362"
+  },
+  {
+    "type": "/datum/stew_recipe/berry_poisoned",
+    "output": "/datum/reagent/consumable/soup/stew/berry_poisoned",
+    "name": "berry stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/berries/rogue/poison",
+        "name": "jacksberries"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L367"
+  },
+  {
+    "type": "/datum/stew_recipe/berry",
+    "output": "/datum/reagent/consumable/soup/stew/berry",
+    "name": "berry stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/berries/rogue",
+        "name": "jacksberries"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/fruit/strawberry",
+        "name": "strawberry"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/fruit/blackberry",
+        "name": "blackberry"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/fruit/raspberry",
+        "name": "raspberry"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L371"
+  },
+  {
+    "type": "/datum/stew_recipe/lemon",
+    "output": "/datum/reagent/consumable/soup/lemon",
+    "name": "juice of lemon",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/fruit/lemon",
+        "name": "lemon"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/lemoncoppiette",
+        "name": "lemony stickets"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L375"
+  },
+  {
+    "type": "/datum/stew_recipe/lime",
+    "output": "/datum/reagent/consumable/soup/lime",
+    "name": "juice of lime",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/fruit/lime",
+        "name": "lime"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L379"
+  },
+  {
+    "type": "/datum/stew_recipe/pear",
+    "output": "/datum/reagent/consumable/soup/pear",
+    "name": "juice of pear",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/fruit/pear",
+        "name": "pear"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L383"
+  },
+  {
+    "type": "/datum/stew_recipe/apple",
+    "output": "/datum/reagent/consumable/soup/apple",
+    "name": "juice of apple",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/apple",
+        "name": "apple"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/fruit/apple_sliced",
+        "name": "apple slice"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L387"
+  },
+  {
+    "type": "/datum/stew_recipe/parmesan",
+    "output": "/datum/reagent/consumable/soup/stew/parmesan",
+    "name": "aged cheese soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/cheddarwedge/aged",
+        "name": "wedge of aged cheese"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/cheddarslice/aged",
+        "name": "slice of aged cheese"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L391"
+  },
+  {
+    "type": "/datum/stew_recipe/thickparmesan",
+    "output": "/datum/reagent/consumable/soup/stew/thickparmesan",
+    "name": "aged fondue",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/cheddar/aged",
+        "name": "wheel of aged cheese"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L395"
+  },
+  {
+    "type": "/datum/stew_recipe/cheese",
+    "output": "/datum/reagent/consumable/soup/stew/cheese",
+    "name": "cheese soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/cheddarwedge",
+        "name": "wedge of cheese"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/cheddarslice",
+        "name": "slice of cheese"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L400"
+  },
+  {
+    "type": "/datum/stew_recipe/thickcheese",
+    "output": "/datum/reagent/consumable/soup/stew/thickcheese",
+    "name": "fondue",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/cheese",
+        "name": "fresh cheese"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L404"
+  },
+  {
+    "type": "/datum/stew_recipe/lavishfryegg",
+    "output": "/datum/reagent/consumable/soup/stew/lavishfryegg",
+    "name": "lavish cacklehash stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/tiberian",
+        "name": "valerian omelette"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/hammerhold",
+        "name": "Hammerholdian breakfast"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L409"
+  },
+  {
+    "type": "/datum/stew_recipe/thickfryegg",
+    "output": "/datum/reagent/consumable/soup/stew/thickfryegg",
+    "name": "scrambled cacklehash stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/sausage",
+        "name": "wiener egg"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/sausagebacon",
+        "name": "wiener egg with bacon"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/bacon",
+        "name": "bacon and egg"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L413"
+  },
+  {
+    "type": "/datum/stew_recipe/fryegg",
+    "output": "/datum/reagent/consumable/soup/stew/fryegg",
+    "name": "custardy egg drop soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/fried",
+        "name": "fried egg"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/two",
+        "name": "twin fried egg"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/stuffedegg/cooked",
+        "name": "stuffed egg"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L418"
+  },
+  {
+    "type": "/datum/stew_recipe/egg",
+    "output": "/datum/reagent/consumable/soup/stew/egg",
+    "name": "egg drop soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/egg",
+        "name": "egg"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/stuffedegg",
+        "name": "raw stuffed egg"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L422"
+  },
+  {
+    "type": "/datum/stew_recipe/garlick_soup",
+    "output": "/datum/reagent/consumable/soup/stew/garlick_soup",
+    "name": "garlick soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/garlick/rogue",
+        "name": "garlick bulb"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/veg/garlick_clove",
+        "name": "garlick clove"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L426"
+  },
+  {
+    "type": "/datum/stew_recipe/cucumber_soup",
+    "output": "/datum/reagent/consumable/soup/stew/cucumber_soup",
+    "name": "cucumber soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/veg/cucumber_sliced",
+        "name": "cucumber slice"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L430"
+  },
+  {
+    "type": "/datum/stew_recipe/thickcucumber_soup",
+    "output": "/datum/reagent/consumable/soup/stew/thickcucumber_soup",
+    "name": "thick cucumber soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/cucumber",
+        "name": "cucumber"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L434"
+  },
+  {
+    "type": "/datum/stew_recipe/eggplant_soup",
+    "output": "/datum/reagent/consumable/soup/stew/eggplant_soup",
+    "name": "eggplant soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/eggplant",
+        "name": "eggplant"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/eggplantcarved",
+        "name": "carved aubergine"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L439"
+  },
+  {
+    "type": "/datum/stew_recipe/aubergine_soup",
+    "output": "/datum/reagent/consumable/soup/stew/aubergine_soup",
+    "name": "aubergine stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/eggplantmeat",
+        "name": "unfinished stuffed aubergine"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/eggplantstuffedraw",
+        "name": "raw stuffed aubergine"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/eggplantstuffed",
+        "name": "stuffed aubergine"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L443"
+  },
+  {
+    "type": "/datum/stew_recipe/lavishaubergine_soup",
+    "output": "/datum/reagent/consumable/soup/stew/lavishaubergine_soup",
+    "name": "lavish aubergine stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/eggplantstuffedcheese",
+        "name": "stuffed aubergine with cheese"
+      }
+    ],
+    "seconds": 120,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L448"
+  },
+  {
+    "type": "/datum/stew_recipe/carrot_stew",
+    "output": "/datum/reagent/consumable/soup/stew/carrot_stew",
+    "name": "carrot stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/carrot",
+        "name": "carrot"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L453"
+  },
+  {
+    "type": "/datum/stew_recipe/roastcarrot_stew",
+    "output": "/datum/reagent/consumable/soup/stew/thickcarrot_stew",
+    "name": "roasted carrot stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/carrot_baked",
+        "name": "baked carrot"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L457"
+  },
+  {
+    "type": "/datum/stew_recipe/nutty_stew",
+    "output": "/datum/reagent/consumable/soup/stew/nutty_stew",
+    "name": "nutty stew",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/nut",
+        "name": "rocknut"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L461"
+  },
+  {
+    "type": "/datum/stew_recipe/tomato_soup",
+    "output": "/datum/reagent/consumable/soup/stew/tomato_soup",
+    "name": "tomato soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/fruit/tomato",
+        "name": "tomato"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/fruit/tomato_sliced",
+        "name": "split tomato"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L465"
+  },
+  {
+    "type": "/datum/stew_recipe/plum_soup",
+    "output": "/datum/reagent/consumable/soup/stew/plum_soup",
+    "name": "plum soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/fruit/plum",
+        "name": "plum"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L469"
+  },
+  {
+    "type": "/datum/stew_recipe/tangerine_marmalade",
+    "output": "/datum/reagent/consumable/soup/tangerine_marmalade",
+    "name": "juice of tangerine",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/fruit/tangerine",
+        "name": "tangerine"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L473"
+  },
+  {
+    "type": "/datum/stew_recipe/squash_soup",
+    "output": "/datum/reagent/consumable/soup/stew/squash_soup",
+    "name": "squash soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/fruit/pumpkin_sliced",
+        "name": "pumpkin slice"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L477"
+  },
+  {
+    "type": "/datum/stew_recipe/frysquash_soup",
+    "output": "/datum/reagent/consumable/soup/stew/frysquash_soup",
+    "name": "roasted squash soup",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/pumpkin_mashed",
+        "name": "cooked pumpkin mash"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L481"
+  },
+  {
+    "type": "/datum/stew_recipe/rose_tea",
+    "output": "/datum/reagent/water/rosewater",
+    "name": "rosa tea",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/rogue/rosa_petals_dried",
+        "name": "dried rosa petals"
+      }
+    ],
+    "seconds": 15.0,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L486"
+  },
+  {
+    "type": "/datum/stew_recipe/rose_tea_spiced",
+    "output": "/datum/reagent/water/rosewater_spiced",
+    "name": "spiced rosa tea",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/rogue/rosa_petals_spiced",
+        "name": "spiced rosa petals"
+      }
+    ],
+    "seconds": 20.0,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L491"
+  },
+  {
+    "type": "/datum/stew_recipe/coffee",
+    "output": "/datum/reagent/consumable/caffeine/coffee",
+    "name": "coffee",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/coffeebeansroasted",
+        "name": "roasted coffee beans"
+      }
+    ],
+    "seconds": 15.0,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L496"
+  },
+  {
+    "type": "/datum/stew_recipe/coffee_spiced",
+    "output": "/datum/reagent/consumable/caffeine/coffee_spiced",
+    "name": "spiced coffee",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/coffeebeans_spiced",
+        "name": "spiced coffee beans"
+      }
+    ],
+    "seconds": 20.0,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L501"
+  },
+  {
+    "type": "/datum/stew_recipe/tea",
+    "output": "/datum/reagent/consumable/caffeine/tea",
+    "name": "tea",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/rogue/tealeaves_ground",
+        "name": "ground tea leaves"
+      }
+    ],
+    "seconds": 15.0,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L506"
+  },
+  {
+    "type": "/datum/stew_recipe/tea_spiced",
+    "output": "/datum/reagent/consumable/caffeine/tea_spiced",
+    "name": "spiced tea",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/rogue/tealeaves_spiced",
+        "name": "spiced tea leaves"
+      }
+    ],
+    "seconds": 20.0,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L511"
+  },
+  {
+    "type": "/datum/stew_recipe/chocolate_spiced",
+    "output": "/datum/reagent/consumable/spiced_chocolate",
+    "name": "spiced chocolate",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/rogue/chocolate_spiced",
+        "name": "spiced chocolate"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L516"
+  },
+  {
+    "type": "/datum/stew_recipe/chocolate",
+    "output": "/datum/reagent/consumable/chocolate",
+    "name": "hot chocolate",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/chocolate/slice",
+        "name": "halved chocolate ingot"
+      },
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/chocolate",
+        "name": "chocolate ingot"
+      }
+    ],
+    "seconds": 30.0,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L521"
+  },
+  {
+    "type": "/datum/stew_recipe/poppy_milk",
+    "output": "/datum/reagent/consumable/poppy_milk",
+    "name": "poppy milk",
+    "inputs": [
+      {
+        "type": "/obj/item/reagent_containers/food/snacks/grown/rogue/poppy",
+        "name": "poppy"
+      }
+    ],
+    "seconds": 60,
+    "unresolved": [],
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L526"
+  }
+]

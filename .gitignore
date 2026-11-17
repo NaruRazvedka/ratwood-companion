@@ -1,0 +1,7 @@
+.validation/
+lab/Ratwood-2.0/
+.cache/
+dist/
+share/
+**/__pycache__/
+*.log

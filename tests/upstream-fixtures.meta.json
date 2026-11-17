@@ -1,0 +1,10 @@
+{
+  "repository": "Rotwood-Vale/Ratwood-2.0",
+  "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+  "source": "code/__HELPERS/text.dm",
+  "sourceSha256": "041771c6dc2e31713ed47365440326e7397b6e6ad724a9f325c0e9ab23b6159c",
+  "engine": "516.1688",
+  "cases": 354,
+  "recorded": "2026-11-17",
+  "scope": "Standalone upstream basic parser; html_encode before parse; newlines replaced with <BR>; hyperlink disabled."
+}

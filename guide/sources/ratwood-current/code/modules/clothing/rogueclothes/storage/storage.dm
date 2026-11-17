@@ -1,0 +1,706 @@
+/obj/item/storage/belt/rogue
+	name = ""
+	desc = ""
+	icon = 'icons/roguetown/clothing/belts.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/onmob/belts.dmi'
+	icon_state = ""
+	item_state = ""
+	slot_flags = ITEM_SLOT_BELT
+	w_class = WEIGHT_CLASS_NORMAL
+	attack_verb = list("whips", "lashes")
+	max_integrity = 300
+	equip_sound = 'sound/blank.ogg'
+	content_overlays = FALSE
+	bloody_icon_state = "bodyblood"
+	experimental_inhand = FALSE
+	component_type = /datum/component/storage/concrete/roguetown/belt
+	grid_width = 64
+	grid_height = 64
+
+/obj/item/storage/belt/rogue/attack_right(mob/user)
+	var/datum/component/storage/CP = GetComponent(/datum/component/storage)
+	if(CP)
+		CP.rmb_show(user)
+		return TRUE
+	..()
+
+/obj/item/storage/belt/rogue/attackby(obj/item/W, mob/user, params)
+	if(istype(W, /obj/item/rogueweapon/huntingknife))
+		var/obj/item/rogueweapon/huntingknife/K = W
+		if(K.sheathe_icon)
+			for(var/obj/item/rogueweapon/scabbard/sheath/sheath in contents)
+				if(!sheath.sheathed) // if no weapon in there
+					if(sheath.eat_sword(user, K, TRUE))
+						user.visible_message(
+							span_notice("[user] slips [W] into [src]'s sheath."),
+							span_notice("I slip [W] into [src]'s sheath.")
+						)
+						return
+	..()	
+
+/obj/item/storage/belt/rogue/leather
+	name = "belt"
+	desc = "A fine leather strap notched with holes for a buckle to secure itself."
+	icon_state = "leather"
+	item_state = "leather"
+	equip_sound = 'sound/blank.ogg'
+	sewrepair = TRUE
+	sellprice = 10
+	resistance_flags = FIRE_PROOF
+	dropshrink = 0.8
+	force = 10
+	associated_skill = /datum/skill/combat/whipsflails
+	sewrepair = TRUE
+	wbalance = WBALANCE_SWIFT
+	wdefense = 0
+	swingsound = WHIPWOOSH
+	possible_item_intents = list(
+		/datum/intent/whip/belt/tip,
+		/datum/intent/whip/belt/buckle,
+	)
+
+/datum/intent/whip/belt/tip
+	name = "belt lash"
+	blade_class = BCLASS_BLUNT
+	attack_verb = list("lashes", "cracks")
+	hitsound = list('sound/combat/hits/blunt/flailhit.ogg')
+	chargetime = 0
+	recovery = 5
+	damfactor = 0.5
+	penfactor = PEN_NONE
+	reach = 1
+	icon_state = "inlash"
+	item_d_type = "slash"
+
+/datum/intent/whip/belt/buckle
+	name = "buckle strike"
+	blade_class = BCLASS_BLUNT
+	attack_verb = list("lashes", "cracks")
+	hitsound = list('sound/combat/hits/blunt/flailhit.ogg')
+	chargetime = 0
+	recovery = 5
+	damfactor = 1
+	penfactor = PEN_NONE		
+	reach = 1								
+	icon_state = "instrike"
+	item_d_type = "slash"
+
+/obj/item/storage/belt/rogue/leather/plaquegold
+	is_gold = TRUE
+	name = "plaque belt"
+	icon_state = "goldplaque"
+	sellprice = 50
+	sewrepair = FALSE
+	anvilrepair = /datum/skill/craft/armorsmithing
+
+/obj/item/storage/belt/rogue/leather/shalal
+	name = "shalal belt"
+	icon_state = "shalal"
+	sellprice = 5
+
+/obj/item/storage/belt/rogue/leather/shalal/purple
+	name = "purple shalal belt"
+	icon_state = "shalal"
+	color = CLOTHING_PURPLE
+	sellprice = 5
+
+/obj/item/storage/belt/rogue/leather/black
+	name = "black belt"
+	icon_state = "blackbelt"
+	item_state = "blackbelt"
+	sellprice = 10
+
+/obj/item/storage/belt/rogue/leather/double
+	name = "pair of belts"
+	desc = "A pair of slim black belts worn around the waist."
+	icon_state = "belt_double"
+	item_state = "belt_double"
+
+/obj/item/storage/belt/rogue/leather/plaquesilver
+	name = "plaque belt"
+	icon_state = "silverplaque"
+	sellprice = 30
+	sewrepair = FALSE
+	anvilrepair = /datum/skill/craft/armorsmithing
+	is_silver = TRUE
+
+/obj/item/storage/belt/rogue/leather/battleskirt
+	name = "cloth military skirt"
+	icon_state = "battleskirt"
+	sewrepair = FALSE
+	detail_tag = "_belt"
+
+/obj/item/storage/belt/rogue/leather/battleskirt/update_icon()
+	cut_overlays()
+	if(get_detail_tag())
+		var/mutable_appearance/pic = mutable_appearance(icon(icon, "[icon_state][detail_tag]"))
+		pic.appearance_flags = RESET_COLOR
+		if(get_detail_color())
+			pic.color = get_detail_color()
+		add_overlay(pic)
+
+/obj/item/storage/belt/rogue/leather/battleskirt/black
+	color = CLOTHING_BLACK
+
+/obj/item/storage/belt/rogue/leather/battleskirt/breechcloth
+	name = "belt with breechcloth"
+	desc = "A fine leather strap notched with holes for a buckle to secure itself, and nestled above a halved tabard's coverings."
+	icon_state = "breechcloth"
+	flags_inv = HIDECROTCH
+	sewrepair = FALSE
+	detail_tag = "_belt"
+
+/obj/item/storage/belt/rogue/leather/battleskirt/breechcloth/blackbelt
+	name = "black belt with breechcloth"
+	desc = "A fine black-leather strap notched with holes for a buckle to secure itself, and nestled above a halved tabard's coverings."
+	icon_state = "breechclothalt"
+	flags_inv = HIDECROTCH
+	sewrepair = FALSE
+	detail_tag = "_belt"
+
+/obj/item/storage/belt/rogue/leather/battleskirt/breechcloth/red
+	color = CLOTHING_RED
+
+/obj/item/storage/belt/rogue/leather/battleskirt/barbarian
+	color = "#48443b"
+
+/obj/item/storage/belt/rogue/leather/battleskirt/faulds
+	name = "belt with faulds"
+	icon_state = "faulds"
+	sewrepair = FALSE
+	detail_tag = "_belt"
+
+/obj/item/storage/belt/rogue/leather/steel
+	name = "steel belt"
+	icon_state = "steelplaque"
+	sellprice = 30
+	sewrepair = FALSE
+	anvilrepair = /datum/skill/craft/armorsmithing
+
+/obj/item/storage/belt/rogue/leather/steel/tasset
+	name = "tasseted belt"
+	icon_state = "steeltasset"
+	sellprice = 35
+
+/obj/item/storage/belt/rogue/leather/rope
+	name = "rope belt"
+	desc = "A length of strong rope repurposed into a belt. Better than nothing."
+	icon_state = "rope"
+	item_state = "rope"
+	color = "#b9a286"
+	component_type = /datum/component/storage/concrete/roguetown/belt/cloth
+
+/obj/item/storage/belt/rogue/leather/rope/upgraded
+	name = "pouch-fitted rope belt"
+	desc = "A length of strong rope repurposed into a belt, fitted with a pouch for the same space as a leather belt."
+	component_type = /datum/component/storage/concrete/roguetown/belt
+
+/obj/item/storage/belt/rogue/leather/rope/upgraded/dark
+	color = "#505050"
+
+/obj/item/storage/belt/rogue/leather/cloth
+	name = "cloth sash"
+	desc = "A strip of cloth tied together at the ends into a makeshift belt. It's better than nothing."
+	icon_state = "cloth"
+	component_type = /datum/component/storage/concrete/roguetown/belt/cloth
+
+/obj/item/storage/belt/rogue/leather/cloth/upgraded
+	name = "pouch-fitted cloth sash"
+	desc = "A strip of cloth tied together at the ends into a makeshift belt, fitted with a pouch for the same space as a leather belt."
+	component_type = /datum/component/storage/concrete/roguetown/belt
+
+/obj/item/storage/belt/rogue/leather/cloth/lady
+	color = "#575160"
+
+/obj/item/storage/belt/rogue/leather/cloth/bandit
+	color = "#ff0000"
+	component_type = /datum/component/storage/concrete/roguetown/belt
+
+/obj/item/storage/belt/rogue/leather/sash
+	name = "fine sash"		//Like the cloth sash but with better storage. More expensive.
+	desc = "A pliable sash made of wool meant to wrap tightly around the waist, especially popular with travellers who wear loose shirts."
+	icon_state = "clothsash"
+	item_state = "clothsash"
+
+/obj/item/storage/belt/rogue/leather/suspenders/butler
+	name = "suspenders"
+	desc = "A pair of suspenders which go over the shoulders. Used for keeping one's pants in place in an admittably fashionable style."
+	icon = 'icons/roguetown/clothing/belts.dmi'
+	icon_state = "butlersuspenders"
+	item_state = "butlersuspenders"
+	mob_overlay_icon = 'icons/roguetown/clothing/onmob/belts.dmi'
+	slot_flags = ITEM_SLOT_BELT
+
+/obj/item/storage/belt/rogue/leather/suspenders/butler/colored
+	name = "suspenders"
+	desc = "A pair of suspenders which go over the shoulders. Used for keeping one's pants in place in an admittably fashionable style."
+	icon = 'icons/roguetown/clothing/belts.dmi'
+	icon_state = "butlersuspenderscolorable"
+	item_state = "butlersuspenderscolorable"
+	mob_overlay_icon = 'icons/roguetown/clothing/onmob/belts.dmi'
+	slot_flags = ITEM_SLOT_BELT
+
+/obj/item/storage/backpack/rogue/satchel
+	sewrepair = TRUE
+
+/obj/item/storage/backpack/rogue/satchel
+	name = "satchel"
+	desc = "Modest, easy on the shoulders, and holds a respectable amount."
+	icon_state = "satchel"
+	item_state = "satchel"
+	icon = 'icons/roguetown/clothing/storage.dmi'
+	w_class = WEIGHT_CLASS_BULKY
+	slot_flags = ITEM_SLOT_BACK
+	resistance_flags = FIRE_PROOF
+	max_integrity = 300
+	sellprice = 10
+	equip_sound = 'sound/blank.ogg'
+	bloody_icon_state = "bodyblood"
+	alternate_worn_layer = UNDER_CLOAK_LAYER
+	component_type = /datum/component/storage/concrete/roguetown/satchel
+
+/obj/item/storage/backpack/rogue/satchel/heartfelt
+	populate_contents = list(
+		/obj/item/natural/feather,
+		/obj/item/paper,
+	)
+
+/obj/item/storage/backpack/rogue/satchel/otavan
+	name = "otavan leather satchel"
+	desc = "A made to last leather bag from the Psydonian heart of Otava. It's Otava's finest."
+	icon_state = "osatchel"
+	item_state = "osatchel"
+
+/obj/item/storage/backpack/rogue/satchel/mule/PopulateContents()
+	for(var/i in 1 to 3)
+		switch(rand(1,4))
+			if(1)
+				new /obj/item/reagent_containers/powder/moondust_purest(src)
+			if(2)
+				new /obj/item/reagent_containers/powder/moondust_purest(src)
+			if(3)
+				new /obj/item/reagent_containers/powder/ozium(src)
+			if(4)
+				new /obj/item/reagent_containers/powder/spice(src)
+
+/obj/item/storage/backpack/rogue/satchel/black
+	color = CLOTHING_BLACK
+
+/obj/item/storage/backpack/rogue/attack_right(mob/user)
+	var/datum/component/storage/CP = GetComponent(/datum/component/storage)
+	if(CP)
+		CP.rmb_show(user)
+		return TRUE
+
+/obj/item/storage/backpack/rogue/satchel/short
+	name = "short satchel"
+	desc = "A leather satchel that's meant to clip to a belt or to a pair of pants, freeing the shoulders from any weight."
+	icon_state = "satchelshort"
+	item_state = "satchelshort"
+	slot_flags = ITEM_SLOT_BACK|ITEM_SLOT_HIP //Implement a check in the future that prevents more than one being worn at once.
+	component_type = /datum/component/storage/concrete/roguetown/satchelshort
+
+/obj/item/storage/backpack/rogue/satchel/beltpack
+	name = "beltpack" //Satchel that fits on the cloak or belt slot. Should be exceptionally rare for on-spawn loadouts, unless a flag's added to make it incompatable with regular satchels.
+	desc = "A lighter satchel that rests against the rump, freeing the shoulders from any weight. It's traditionally worn in place of a belt or cloak."
+	icon_state = "gamesatchel" //Later down the line, take the unused belt-satchel onmob and rename it to 'gamesatchel'.
+	item_state = "satchel"
+	icon = 'icons/roguetown/clothing/storage.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/onmob/belts.dmi'
+	slot_flags = ITEM_SLOT_CLOAK|ITEM_SLOT_BELT //Implement a check that prevents one from being worn on both slots at once. Another coder's duty, I think.
+	edelay_type = 1
+	equip_delay_self = 10
+	max_integrity = 300
+	component_type = /datum/component/storage/concrete/roguetown/satchel
+
+/obj/item/storage/backpack/rogue/backpack
+	name = "backpack"
+	desc = "One of the best ways to carry many things while keeping your hands free."
+	icon_state = "backpack"
+	item_state = "backpack"
+	icon = 'icons/roguetown/clothing/storage.dmi'
+	w_class = WEIGHT_CLASS_BULKY
+	slot_flags = ITEM_SLOT_BACK_L
+	resistance_flags = FIRE_PROOF
+	max_integrity = 300
+	sellprice = 15
+	equip_sound = 'sound/blank.ogg'
+	bloody_icon_state = "bodyblood"
+	component_type = /datum/component/storage/concrete/roguetown/backpack
+
+/obj/item/storage/backpack/rogue/artibackpack
+	name = "cooling backpack"
+	desc = "A leather backpack with complex pipework coursing through it. It hums and vibrates constantly."
+	icon_state = "artibackpack"
+	item_state = "artibackpack" 
+	icon = 'icons/roguetown/clothing/storage.dmi'
+	w_class = WEIGHT_CLASS_BULKY
+	slot_flags = ITEM_SLOT_BACK_L
+	resistance_flags = FIRE_PROOF
+	max_integrity = 300
+	equip_sound = 'sound/blank.ogg'
+	bloody_icon_state = "bodyblood"
+	component_type = /datum/component/storage/concrete/roguetown/backpack/arti
+
+/obj/item/storage/backpack/rogue/artibackpack/engineer
+	name = "engineer's backpack"
+
+/obj/item/storage/backpack/rogue/backpack/bagpack
+	name = "rucksack"
+	desc = "A sack tied with some rope. Can be flung over your shoulders, if it's tied shut."
+	icon_state = "rucksack_untied"
+	item_state = "rucksack"
+	component_type = /datum/component/storage/concrete/roguetown/sack/bag
+	max_integrity = 100
+	var/tied = FALSE
+
+/obj/item/storage/backpack/rogue/backpack/bagpack/attack_right(mob/user)
+	tied = !tied
+	to_chat(user, span_info("I [tied ? "tighten" : "loosen"] the rucksack."))
+	playsound(src, 'sound/foley/equip/rummaging-01.ogg', 100)
+	update_icon()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	if(tied)
+		STR.click_gather = FALSE
+		STR.allow_quick_gather = FALSE
+		STR.allow_quick_empty = FALSE
+	else
+		STR.click_gather = TRUE
+		STR.allow_quick_gather = TRUE
+		STR.allow_quick_empty = TRUE
+
+/obj/item/storage/backpack/rogue/backpack/bagpack/equipped(mob/living/carbon/human/user, slot)
+	. = ..()
+	if(!tied && (slot == SLOT_BACK_L || slot == SLOT_BACK_R))
+		var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+		var/list/things = STR.contents()
+		if(length(things))
+			visible_message(span_warning("The loose bag empties as it is swung around [user]'s shoulder!"))
+			STR.quick_empty(user)
+
+/obj/item/storage/backpack/rogue/backpack/bagpack/update_icon()
+	. = ..()
+	if(tied)
+		icon_state = "rucksack_tied_sling"
+	else
+		icon_state = "rucksack_untied"
+
+/obj/item/storage/belt/rogue/leather/plaquegold/steward
+	name = "fancy gold belt"
+	desc = "A dark belt with real gold making up the buckle and highlights. How bougie."
+	icon_state = "stewardbelt"
+	item_state = "stewardbelt"
+
+//Holster belt
+/obj/item/storage/belt/rogue/leather/twilight_holsterbelt
+	name = "holster belt"
+	desc = "A belt with an attached holster. Had to sacrifice belt space for the convenience of carrying a pistol."
+	icon_state = "holsterbelt"
+	item_state = "holsterbelt"
+	strip_delay = 20
+	var/max_storage = 1
+	var/list/pistol = list()
+	sewrepair = TRUE
+	component_type = /datum/component/storage/concrete/roguetown/belt/holster_belt
+	grid_width = 96
+	grid_height = 96
+
+/obj/item/storage/belt/rogue/leather/twilight_holsterbelt/update_icon()
+	if(pistol.len)
+		icon_state = "holsterbelt_full"
+	else
+		icon_state = "holsterbelt"
+
+/obj/item/storage/belt/rogue/leather/twilight_holsterbelt/proc/eatpistol(obj/A)
+	if((A.type in typesof(/obj/item/gun/ballistic/revolver/rune/twilight_runelock)) || (A.type in typesof(/obj/item/gun/ballistic/firearm/arquebus_pistol)))
+		var/obj/item/gun/ballistic/P = A
+		if(!P.gripped_intents)
+			if(pistol.len < max_storage)
+				P.forceMove(src)
+				pistol += P
+				update_icon()
+				return TRUE
+			else
+				return FALSE
+
+/obj/item/storage/belt/rogue/leather/twilight_holsterbelt/attackby(obj/A, loc, params)
+	if((A.type in typesof(/obj/item/gun/ballistic/revolver/rune/twilight_runelock)) || (A.type in typesof(/obj/item/gun/ballistic/firearm/arquebus_pistol)))
+		var/obj/item/gun/ballistic/P = A
+		if(!P.gripped_intents)
+			if(pistol.len < max_storage)
+				if(ismob(loc))
+					var/mob/M = loc
+					M.doUnEquip(P, TRUE, src, TRUE, silent = TRUE)
+				else
+					P.forceMove(src)
+				pistol += P
+				update_icon()
+				to_chat(usr, span_notice("I holster the [P.name] into [src.name]."))
+			else
+				to_chat(loc, span_warning("Something is already holstered."))
+			return
+	..()
+
+/obj/item/storage/belt/rogue/leather/twilight_holsterbelt/attack_right(mob/user)
+	if(pistol.len)
+		var/obj/O = pistol[pistol.len]
+		pistol -= O
+		O.forceMove(user.loc)
+		user.put_in_hands(O)
+		update_icon()
+		return TRUE
+
+/obj/item/storage/belt/rogue/leather/twilight_holsterbelt/examine(mob/user)
+	. = ..()
+	if(pistol.len == 1)
+		. += span_notice("There is a weapon in the holster.")
+	else
+		. += span_notice("The holster is empty.")
+
+//Knifeblade belts, act as quivers mixed with belts. Lower storage size of a belt, but holds knives without taking space.
+/obj/item/storage/belt/rogue/leather/knifebelt
+	name = "tossblade belt"
+	desc = "A five-slotted belt meant for tossblades. Little room left over."
+	icon_state = "knife"
+	item_state = "knife"
+	strip_delay = 20
+	var/max_storage = 5			//Javelin bag is 4 and they can't hold items. So, more fair having it like this since these are pretty decent weapons.
+	var/list/knives = list()
+	component_type = /datum/component/storage/concrete/roguetown/belt/knife_belt
+
+/obj/item/storage/belt/rogue/leather/knifebelt/attack_turf(turf/T, mob/living/user)
+	if(knives.len >= max_storage)
+		to_chat(user, span_warning("Your [src.name] is full!"))
+		return
+	to_chat(user, span_notice("You begin to gather the ammunition..."))
+	for(var/obj/item/rogueweapon/huntingknife/throwingknife/K in T.contents)
+		if(do_after(user, 5))
+			if(!eatknife(K))
+				break
+
+/obj/item/storage/belt/rogue/leather/knifebelt/proc/eatknife(obj/A)
+	if(A.type in typesof(/obj/item/rogueweapon/huntingknife/throwingknife))
+		if(knives.len < max_storage)
+			A.forceMove(src)
+			knives += A
+			update_icon()
+			return TRUE
+		else
+			return FALSE
+
+/obj/item/storage/belt/rogue/leather/knifebelt/attackby(obj/A, loc, params)
+	if(A.type in typesof(/obj/item/rogueweapon/huntingknife/throwingknife))
+		if(knives.len < max_storage)
+			if(ismob(loc))
+				var/mob/M = loc
+				M.doUnEquip(A, TRUE, src, TRUE, silent = TRUE)
+			else
+				A.forceMove(src)
+			knives += A
+			update_icon()
+			to_chat(usr, span_notice("I discreetly slip [A] into [src]."))
+		else
+			to_chat(loc, span_warning("Full!"))
+		return
+	..()
+
+/obj/item/storage/belt/rogue/leather/knifebelt/attack_right(mob/user)
+	if(knives.len)
+		var/obj/O = knives[knives.len]
+		knives -= O
+		O.forceMove(user.loc)
+		user.put_in_hands(O)
+		update_icon()
+		return TRUE
+
+/obj/item/storage/belt/rogue/leather/knifebelt/examine(mob/user)
+	. = ..()
+	if(knives.len)
+		. += span_notice("[knives.len] inside.")
+
+/obj/item/storage/belt/rogue/leather/knifebelt/iron/Initialize(mapload)
+	. = ..()
+	for(var/i in 1 to max_storage)
+		var/obj/item/rogueweapon/huntingknife/throwingknife/K = new()
+		knives += K
+	update_icon()
+
+/obj/item/storage/belt/rogue/leather/knifebelt/black
+	icon_state = "blackknife"
+	item_state = "blackknife"
+
+/obj/item/storage/belt/rogue/leather/knifebelt/black/iron/Initialize(mapload)
+	. = ..()
+	for(var/i in 1 to max_storage)
+		var/obj/item/rogueweapon/huntingknife/throwingknife/K = new()
+		knives += K
+	update_icon()
+
+/obj/item/storage/belt/rogue/leather/knifebelt/black/steel/Initialize(mapload)
+	. = ..()
+	for(var/i in 1 to max_storage)
+		var/obj/item/rogueweapon/huntingknife/throwingknife/steel/K = new()
+		knives += K
+	update_icon()
+
+/obj/item/storage/belt/rogue/leather/knifebelt/black/silver/Initialize(mapload)
+	. = ..()
+	for(var/i in 1 to max_storage)
+		var/obj/item/rogueweapon/huntingknife/throwingknife/silver/K = new()
+		knives += K
+	update_icon()
+
+/obj/item/storage/belt/rogue/leather/knifebelt/black/psydon/Initialize(mapload)
+	. = ..()
+	for(var/i in 1 to max_storage)
+		var/obj/item/rogueweapon/huntingknife/throwingknife/psydon/K = new()
+		knives += K
+	update_icon()
+
+/obj/item/storage/belt/rogue/leather/knifebelt/black/kazengun/Initialize(mapload)
+	. = ..()
+	for(var/i in 1 to max_storage)
+		var/obj/item/rogueweapon/huntingknife/throwingknife/kazengun/K = new()
+		knives += K
+	update_icon()
+
+/obj/item/storage/belt/rogue/leather/exoticsilkbelt
+	name = "exotic silk belt"
+	desc = "A gold adorned belt with the softest of silks barely concealing one's bits."
+	icon_state = "exoticsilkbelt"
+	var/max_storage = 5
+
+///////////////////////////////////////////////
+
+/obj/item/storage/hip/headhook
+	name = "head hook"
+	desc = "an iron hook for storing 6 heads"
+	icon = 'icons/roguetown/clothing/belts.dmi'
+	//mob_overlay_icon = 'icons/roguetown/clothing/onmob/belts.dmi' //N/A uncomment when a mob_overlay icon is made and added
+	icon_state = "ironheadhook"
+	item_state = "ironheadhook"
+	slot_flags = ITEM_SLOT_HIP
+	w_class = WEIGHT_CLASS_NORMAL
+	max_integrity = 300
+	equip_sound = 'sound/blank.ogg'
+	dropshrink = 0.8
+	//content_overlays = FALSE
+	bloody_icon_state = "bodyblood"
+	anvilrepair = /datum/skill/craft/blacksmithing
+	smeltresult = /obj/item/ingot/iron
+	component_type = /datum/component/storage/concrete/grid/headhook
+
+/obj/item/storage/hip/headhook/bronze
+	name = "bronze head hook"
+	desc = "a bronze hook for storing 12 heads"
+	icon = 'icons/roguetown/clothing/belts.dmi'
+	//mob_overlay_icon = 'icons/roguetown/clothing/onmob/belts.dmi'
+	icon_state = "bronzeheadhook"
+	item_state = "bronzeheadhook"
+	slot_flags = ITEM_SLOT_HIP
+	w_class = WEIGHT_CLASS_NORMAL
+	max_integrity = 400
+	equip_sound = 'sound/blank.ogg'
+	//content_overlays = FALSE
+	bloody_icon_state = "bodyblood"
+	anvilrepair = /datum/skill/craft/blacksmithing
+	smeltresult = /obj/item/ingot/bronze
+	component_type = /datum/component/storage/concrete/grid/headhook/bronze
+
+/obj/item/clothing/climbing_gear
+	name = "climbing gear"
+	desc = "Lets you do the impossible."
+	color = null
+	icon = 'icons/roguetown/clothing/storage.dmi'
+	item_state = "climbing_gear" // sprites from lfwb kitbashed with grappler for inventory sprite
+	icon_state = "climbing_gear" // sprites from lfwb kitbashed among each other for onmob sprite
+	alternate_worn_layer = UNDER_CLOAK_LAYER
+	inhand_mod = FALSE
+	slot_flags = ITEM_SLOT_BACK
+
+/obj/item/clothing/climbing_gear/equipped(mob/living/carbon/human/user, slot)
+	. = ..()
+	playsound(loc, 'sound/items/garrotegrab.ogg', 100, TRUE)
+
+/obj/item/storage/hip/orestore/bronze
+	name = "mechanized ore bag"
+	desc = "a ticking Ore bag for sorting and compressing ore, ingots, and gems"
+	icon = 'icons/roguetown/items/misc.dmi'
+	//mob_overlay_icon = 'icons/roguetown/clothing/onmob/belts.dmi'
+	icon_state = "rucksack"
+	item_state = "rucksack"
+	slot_flags = ITEM_SLOT_HIP
+	w_class = WEIGHT_CLASS_NORMAL
+	max_integrity = 400
+	equip_sound = 'sound/blank.ogg'
+	//content_overlays = FALSE
+	anvilrepair = /datum/skill/craft/blacksmithing
+	smeltresult = /obj/item/ingot/bronze
+	component_type = /datum/component/storage/concrete/grid/orestore/bronze
+
+/obj/item/storage/backpack/rogue/backpack/trader
+	name = "trader's pack"
+	desc = "A travelling trader's pack, hung about with chests and bundles."
+	icon = 'modular_twilight_axis/icons/roguetown/clothing/back.dmi'
+	mob_overlay_icon = 'modular_twilight_axis/icons/roguetown/clothing/onmob/back.dmi'
+	icon_state = "backpack_trader"
+	item_state = "backpack_trader"
+
+/obj/item/storage/belt/rogue/leather/battleskirt/loincloth
+	name = "cloth loincloth"
+	desc = "A fine leather strap with a crude cloth covering, notched above the loincloth."
+	icon_state = "loincloth"
+	detail_tag = "_detail"
+	detail_color = CLOTHING_WHITE
+	icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/belts.dmi'
+	mob_overlay_icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/onmob/belts.dmi'
+
+/obj/item/storage/belt/rogue/leather/battleskirt/loincloth/update_icon()
+	cut_overlays()
+	if(get_detail_tag())
+		var/mutable_appearance/pic = mutable_appearance(icon(icon, "[icon_state][detail_tag]"))
+		pic.appearance_flags = RESET_COLOR
+		if(get_detail_color())
+			pic.color = get_detail_color()
+		add_overlay(pic)
+
+/obj/item/storage/belt/rogue/leather/belthooks
+	name = "belt hooks"
+	desc = "Etruscan-designed leather-wrapped hooks with an actuating hinge. To clip things to other things."
+	icon_state = "belthooks"
+	worn_sprite_sex = FEMALE
+
+	icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/belts.dmi'
+	mob_overlay_icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/onmob/belts.dmi'
+
+/obj/item/storage/belt/rogue/leather/beltshawl
+	name = "belt shawl"
+	desc = "A fancy shawl worn around the waist."
+	icon_state = "beltshawl"
+	item_state = "beltshawl"
+	icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/belts.dmi'
+	mob_overlay_icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/onmob/belts.dmi'
+
+/obj/item/storage/belt/rogue/leather/hammerhold_sash
+	name = "hammerhold sash"
+	icon = 'modular_twilight_axis/icons/roguetown/clothing/belts.dmi'
+	mob_overlay_icon = 'modular_twilight_axis/icons/roguetown/clothing/onmob/belts.dmi'
+	icon_state = "hammerhold_sash"
+	detail_tag = "_belt"
+
+/obj/item/storage/belt/rogue/leather/iron
+	name = "iron belt"
+	desc = "A fine leather belt that's been sleeved within many segments of iron, protecting its delicate innards from prying hands-and-blades."
+	icon_state = "ironplaque"
+	sewrepair = FALSE
+	anvilrepair = /datum/skill/craft/armorsmithing
+	icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/belts.dmi'
+	mob_overlay_icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/onmob/belts.dmi'
+
+/obj/item/storage/belt/rogue/leather/sash/maid
+	name = "cloth sash"
+	desc = "A pliable sash made of wool meant to wrap tightly around the waist."
+	item_state = "maidsash"
+	icon_state = "maidsash"
+	icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/special/maids.dmi'
+	mob_overlay_icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/special/onmob/maids.dmi'

@@ -1,0 +1,189 @@
+{
+  "reviewed": "2026-11-15",
+  "head": "6a3ff7fc1d5c9a8b06691af2a705b76a820157a3",
+  "snapshot": "80907df21ed15bde91106da41ce82e6ac6c40069",
+  "comparison": "https://github.com/Rotwood-Vale/Ratwood-2.0/compare/80907df21ed15bde91106da41ce82e6ac6c40069...6a3ff7fc1d5c9a8b06691af2a705b76a820157a3",
+  "note": "No Neu_Food files changed in this comparison. All Neu_Food sheet hashes checked against the full, non-truncated latest Git tree; retained snapshot and extraction provenance remain pinned.",
+  "sheets": [
+    {
+      "path": "modular/Neu_Food/icons/cooked/cooked_baked.dmi",
+      "sha": "b522ea4ab2b867a848b4f94fbd6f6faa494e899d"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cooked/cooked_cakes.dmi",
+      "sha": "3661313c7e4edece5624587cb38951b844fb557a"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cooked/cooked_deep_fried.dmi",
+      "sha": "261ab61c2bdc31d1503c5883d4a24b12f25f8e84"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cooked/cooked_egg.dmi",
+      "sha": "d76a627c3192448132d7fdd3e16536447ca04a60"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cooked/cooked_fruits.dmi",
+      "sha": "0ade7f629c30d85393fa7cc407337c134039cac4"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cooked/cooked_meat.dmi",
+      "sha": "0a084eed94b6708cb46fac94998c61e73fc49c37"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cooked/cooked_meat_meal.dmi",
+      "sha": "73383fabf43b7c1c495a7e09190d4f0aae406f0d"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cooked/cooked_meat_saiga.dmi",
+      "sha": "44db887068ba7644d612779ddbbb676e04523714"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cooked/cooked_pastry.dmi",
+      "sha": "827e4a08725a7a39639a5c16c1b6a670fc2bdfa1"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cooked/cooked_pies.dmi",
+      "sha": "3ba21505e06dfc54fada83201bc81fc4f9ae72cc"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cooked/cooked_rice.dmi",
+      "sha": "87716a6519be2840ad816bdae4df36454ac44fa3"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cooked/cooked_seafood.dmi",
+      "sha": "a5dc55bbec711e08cfcb340aa9bd8872b91e9d3f"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cooked/cooked_seafood_meal.dmi",
+      "sha": "c2a57df4029208f76211873fd9ddfc9046a50c3f"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cooked/cooked_veggies.dmi",
+      "sha": "b9111934c00fcda5781177cc3b21c353e0ed96ae"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cooked/extras.dmi",
+      "sha": "1be6c2763297111f504df882846c75158c4c07b0"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cookware/bowl.dmi",
+      "sha": "1becb38bf2f3f87d4dec1e815e214664b6303083"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cookware/cup.dmi",
+      "sha": "c0fd831b6c8465492beac86bdca3b9e38dde9f58"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cookware/fork.dmi",
+      "sha": "e558a3ebf1755d8eeb5dc3789e600d901b5e7d71"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cookware/misc.dmi",
+      "sha": "33423c543995470a89a61509e62ac1ed3c89de5e"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cookware/pan.dmi",
+      "sha": "cc41a26460f6f4719ceb1526c9863f58e4ee3b05"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cookware/peppermill.dmi",
+      "sha": "c6742ae3cd81525dc02be90a4e31314d7ae5bb36"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cookware/platter.dmi",
+      "sha": "93d4b80403b06c8a53debf3dd9b273a29127f0bf"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cookware/pot.dmi",
+      "sha": "7bb0b3ae9bb4cefcafd784d2eca7e4415c2681a3"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cookware/ration.dmi",
+      "sha": "fb911988f08da9b9b3e2ac921531a4223e3b5ec8"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cookware/spoon.dmi",
+      "sha": "a0342e018e80515125cca6f2368763123ba1be33"
+    },
+    {
+      "path": "modular/Neu_Food/icons/cookware/unused.dmi",
+      "sha": "b5bcec8ece2101c77115629c3523652ab7a4e2a8"
+    },
+    {
+      "path": "modular/Neu_Food/icons/drinks.dmi",
+      "sha": "a6dd3b1a8d1cbf438b2f7dab3d6953e7ed24bec0"
+    },
+    {
+      "path": "modular/Neu_Food/icons/food_lefthand.dmi",
+      "sha": "d8c863c4e55a7b30e0bc5bcd5e3396ff45f5c085"
+    },
+    {
+      "path": "modular/Neu_Food/icons/food_righthand.dmi",
+      "sha": "14f945d9fb47e2399d45511640362e7772836ded"
+    },
+    {
+      "path": "modular/Neu_Food/icons/others/dairy.dmi",
+      "sha": "6a6348ddf46096cf7106877c4881908e692fd03e"
+    },
+    {
+      "path": "modular/Neu_Food/icons/others/fat.dmi",
+      "sha": "77c87404d75192858862854da938f0460cff3943"
+    },
+    {
+      "path": "modular/Neu_Food/icons/others/honey.dmi",
+      "sha": "d8efa87f4196918e4384d1f2f2179526281c2f0f"
+    },
+    {
+      "path": "modular/Neu_Food/icons/others/preserved_meat.dmi",
+      "sha": "824580b2682aa94139cd0922f4878d904171f675"
+    },
+    {
+      "path": "modular/Neu_Food/icons/others/sweet.dmi",
+      "sha": "0b996b96c809acd0dfe1a0ea20dff15b77dfacfb"
+    },
+    {
+      "path": "modular/Neu_Food/icons/raw/oldfish.dmi",
+      "sha": "a87144334bbc4355b4b3d2353b2f9caee471a40d"
+    },
+    {
+      "path": "modular/Neu_Food/icons/raw/raw_cakes.dmi",
+      "sha": "fe6fbaa69b3baa6a612e2871d70551be300f662a"
+    },
+    {
+      "path": "modular/Neu_Food/icons/raw/raw_deep_fried.dmi",
+      "sha": "c321c465f478ee381c15ebb27a15d9be88ea3cdd"
+    },
+    {
+      "path": "modular/Neu_Food/icons/raw/raw_dough.dmi",
+      "sha": "b4acc91253d4bf7a0c4703a72b6ce065bfecec0b"
+    },
+    {
+      "path": "modular/Neu_Food/icons/raw/raw_fish.dmi",
+      "sha": "85b230e175a67e0a6768ea7df682084086fefe2e"
+    },
+    {
+      "path": "modular/Neu_Food/icons/raw/raw_fruit.dmi",
+      "sha": "21510f033db7fa026f0e515538d3160111ae7a1b"
+    },
+    {
+      "path": "modular/Neu_Food/icons/raw/raw_meat.dmi",
+      "sha": "20a3f3e9e5bac6a040f7c7c37eb9c0a5e6654e19"
+    },
+    {
+      "path": "modular/Neu_Food/icons/raw/raw_meat_saiga.dmi",
+      "sha": "230cf8cf52f1ad5978789a59488495c7d5bdad65"
+    },
+    {
+      "path": "modular/Neu_Food/icons/raw/raw_pies.dmi",
+      "sha": "1dfae57cd0fc74e739a75a21d7145990a0110e10"
+    },
+    {
+      "path": "modular/Neu_Food/icons/raw/raw_veggies.dmi",
+      "sha": "8711aab374ff5efacd189ef0d2d24e2e6eaa914b"
+    },
+    {
+      "path": "modular/Neu_Food/icons/unused.dmi",
+      "sha": "9bea450d40e29a20f226c615dfdd9f33f57529c5"
+    }
+  ]
+}

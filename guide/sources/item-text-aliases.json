@@ -1,0 +1,15 @@
+{
+  "Healing (Red)": "/datum/reagent/medicine/healthpot",
+  "Strong Healing": "/datum/reagent/medicine/stronghealth",
+  "Mana (Blue)": "/datum/reagent/medicine/manapot",
+  "Strong Mana": "/datum/reagent/medicine/strongmana",
+  "Stamina (Green)": "/datum/reagent/medicine/stampot",
+  "Strong Stamina": "/datum/reagent/medicine/strongstam",
+  "Alchemy Cauldron": "/obj/machinery/light/rogue/cauldron",
+  "Stone Pestle": "/obj/item/pestle",
+  "Dirty Water": "/datum/reagent/water/gross",
+  "Water": "/datum/reagent/water",
+  "Aqua Vitae": "/datum/brewing_recipe/aqua_vitae",
+  "Aqua Vitae-Pear": "/datum/brewing_recipe/aqua_vitae/pear",
+  "Rice Spirits": "/datum/brewing_recipe/liquor/ricespirit"
+}

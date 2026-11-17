@@ -1,0 +1,1079 @@
+// Hats not meant to have armor
+/obj/item/clothing/head/roguetown/strawhat
+	name = "straw hat"
+	desc = "It's scratchy and rustic, but at least it keeps the sun off your head while you toil in the fields."
+	icon_state = "strawhat"
+	nudist_approved = TRUE
+	salvage_result = /obj/item/natural/fibers
+	salvage_amount = 2 // Minor materials loss
+	heat_protection = HEAD
+	max_heat_protection_temperature = BODYTEMP_HEAT_LEVEL_ONE_MAX
+
+/obj/item/clothing/head/roguetown/puritan
+	name = "buckled hat"
+	icon_state = "puritan_hat"
+	nudist_approved = TRUE
+
+/obj/item/clothing/head/roguetown/puritan/armored
+	name = "puritan's hat" //Puritan hat subtype, meant for the Exorcist's heaviest classes. Steel skullcap-tier protection.
+	desc = "A buckled capotain, woven atop a steel skull cap. Discrete enough to wear for a diplomatic affair, but durable enough to thwart a heathen's blade."
+	icon_state = "puritan_hat"
+	sewrepair = FALSE
+	armor = ARMOR_PLATE
+	blocksound = PLATEHIT
+	body_parts_covered = HEAD|HAIR
+	max_integrity = ARMOR_INT_HELMET_STEEL
+	anvilrepair = /datum/skill/craft/armorsmithing
+	smeltresult = /obj/item/ingot/steel
+	nudist_approved = FALSE // armored
+	heat_protection = HEAD
+	max_heat_protection_temperature = BODYTEMP_HEAT_LEVEL_ONE_MAX
+
+/obj/item/clothing/head/roguetown/nightman
+	name = "teller's hat"
+	icon_state = "tophat"
+	color = CLOTHING_BLACK
+	nudist_approved = TRUE
+	dropshrink = null
+
+/obj/item/clothing/head/roguetown/bardhat
+	name = "bard's hat"
+	icon_state = "bardhat"
+	nudist_approved = TRUE
+	heat_protection = HEAD
+	max_heat_protection_temperature = BODYTEMP_HEAT_LEVEL_ONE_MAX
+
+/obj/item/clothing/head/roguetown/smokingcap
+	name = "smoking cap"
+	icon_state = "smokingc"
+	nudist_approved = TRUE
+
+/obj/item/clothing/head/roguetown/fancyhat
+	name = "fancy hat"
+	desc = "A fancy looking hat with colorful feathers sticking out of it."
+	icon_state = "fancy_hat"
+	item_state = "fancyhat"
+	nudist_approved = TRUE
+
+/obj/item/clothing/head/roguetown/fedora
+	name = "archeologist's hat"
+	desc = "A strangely-shaped hat with dust caked onto its aged leather."
+	icon_state = "curator"
+	item_state = "curator"
+	nudist_approved = TRUE
+	salvage_result = /obj/item/natural/hide/cured
+
+/obj/item/clothing/head/roguetown/hatfur
+	name = "fur hat"
+	desc = "A comfortable warm hat lined with fur."
+	icon_state = "hatfur"
+	nudist_approved = TRUE
+	cold_protection = HEAD
+	min_cold_protection_temperature = 50
+
+/obj/item/clothing/head/roguetown/papakha
+	name = "papakha"
+	icon_state = "papakha"
+	item_state = "papakha"
+	armor = ARMOR_CLOTHING
+	blocksound = SOFTHIT
+	nudist_approved = TRUE
+	salvage_result = /obj/item/natural/fur
+	salvage_amount = 1
+	cold_protection = HEAD
+	min_cold_protection_temperature = 50
+
+/obj/item/clothing/head/roguetown/loadoutpapakha
+	name = "Soft-sided papakha"
+	icon_state = "papakha"
+	item_state = "papakha"
+	resistance_flags = FIRE_PROOF //doesnt spawn, only a cosmetic loadout item. Keep the swag.
+	nudist_approved = TRUE
+	salvage_result = /obj/item/natural/fur
+	salvage_amount = 1
+	cold_protection = HEAD
+	min_cold_protection_temperature = 50
+
+/obj/item/clothing/head/roguetown/hatblu
+	name = "fur hat"
+	desc = "A blue hat lined with fur."
+	icon_state = "hatblu"
+	nudist_approved = TRUE
+	cold_protection = HEAD
+	min_cold_protection_temperature = 50
+
+/obj/item/clothing/head/roguetown/fisherhat
+	name = "straw hat"
+	desc = "A hat worn by fishermen to protect from the sun."
+	icon_state = "fisherhat"
+	item_state = "fisherhat"
+	nudist_approved = TRUE
+//	color = "#fbc588"
+	//dropshrink = 0.75
+	heat_protection = HEAD
+	max_heat_protection_temperature = BODYTEMP_HEAT_LEVEL_ONE_MAX
+
+/obj/item/clothing/head/roguetown/flathat
+	name = "flat hat"
+	icon_state = "flathat"
+	item_state = "flathat"
+	nudist_approved = TRUE
+	heat_protection = HEAD
+	max_heat_protection_temperature = BODYTEMP_HEAT_LEVEL_ONE_MAX
+	dropshrink = null
+
+/obj/item/clothing/head/roguetown/chaperon
+	name = "chaperon hat"
+	desc = "A utilitarian yet fashionable hat traditionally made from a hood. Usually worn as a status symbol."
+	icon_state = "chaperon"
+	item_state = "chaperon"
+	nudist_approved = TRUE
+	//dropshrink = 0.75
+
+/obj/item/clothing/head/roguetown/chaperon/brown
+	color = CLOTHING_BROWN
+
+/obj/item/clothing/head/roguetown/cookhat
+	name = "cook hat"
+	desc = "A hat which designates one as well-versed in the arts of cooking."
+	icon_state = "chef"
+	item_state = "chef"
+	nudist_approved = TRUE
+
+/obj/item/clothing/head/roguetown/chaperon/greyscale
+	name = "chaperon hat"
+	desc = "A utilitarian yet fashionable hat traditionally made from a hood. This one has been treated to take dyes more easily."
+	icon_state = "chap_alt"
+	item_state = "chap_alt"
+	color = "#dbcde0"
+	nudist_approved = TRUE
+
+/obj/item/clothing/head/roguetown/chaperon/noble
+	name = "noble's chaperon"
+	desc = "A decorated chaperon worn by the more influential members of society."
+	icon_state = "noblechaperon"
+	item_state = "noblechaperon"
+	detail_tag = "_detail"
+	nudist_approved = TRUE
+	color = CLOTHING_WHITE
+	detail_color = COLOR_ASSEMBLY_GOLD
+
+/obj/item/clothing/head/roguetown/chaperon/noble/update_icon()
+	cut_overlays()
+	if(get_detail_tag())
+		var/mutable_appearance/pic = mutable_appearance(icon(icon, "[get_detail_state(icon_state)][detail_tag]"))
+		pic.appearance_flags = RESET_COLOR
+		if(get_detail_color())
+			pic.color = get_detail_color()
+		add_overlay(pic)
+
+/obj/item/clothing/head/roguetown/chaperon/noble/bailiff
+	name = "Marshal's chaperon"
+	desc = "A noble's chaperon made for the local Marshal. \"How terribly unfortunate you are!\""
+	color = "#641E16"
+	detail_color = "#b68e37ff"
+	armor = ARMOR_LEATHER // spellsinger hat stats. Drip or drown.
+	nudist_approved = FALSE // armored
+
+/obj/item/clothing/head/roguetown/chaperon/noble/guildmaster
+	name = "Guildmaster's chapereon"
+	desc = "A noble's chaperon made for the guildmaster."
+	color = "#1b1717ff"
+	detail_color = "#b68e37ff"
+
+/obj/item/clothing/head/roguetown/chaperon/noble/hand
+	name = "hand's chaperon"
+	desc = "A noble's chaperon made for the right hand man. \"Heavy is the head that bears the crown.\""
+	color = CLOTHING_AZURE
+	detail_color = CLOTHING_WHITE
+
+/obj/item/clothing/head/roguetown/chaperon/councillor
+	name = "chaperon hat"
+	desc = "A fancy hat worn by nobles."
+	icon_state = "chap_alt"
+	item_state = "chap_alt"
+	color = "#7dcea0"
+	
+/obj/item/clothing/head/roguetown/chaperon/greyscale/elder
+	name = "elder's chaperon hat"
+	color = "#007fff"
+
+/obj/item/clothing/head/roguetown/chaperon/greyscale/shepherd
+	name = "mountaineer's chaperon"
+	desc = "A fashionable citygoer's chaperon worn around an insconspicuous iron skullcap. It has a cute little Mamük brooch on the tip of the hood. Szöréndnížine shepherds spend plenty of time in the city and have taken a liking to the chaperon's exaggerated swagger."
+	armor = ARMOR_LEATHER
+	max_integrity = ARMOR_INT_HELMET_IRON - 25
+
+/obj/item/clothing/head/roguetown/chef
+	name = "chef's hat"
+	desc = "A hat which designates one as well-versed in the arts of cooking."
+	icon_state = "chef"
+	nudist_approved = TRUE
+	//dropshrink = 0.75
+
+/obj/item/clothing/head/roguetown/armingcap
+	name = "cap"
+	desc = "A light cap made of leather, usually worn under a helmet."
+	icon_state = "armingcap"
+	item_state = "armingcap"
+	flags_inv = HIDEEARS
+	nudist_approved = TRUE
+	salvage_result = /obj/item/natural/cloth
+	fiber_salvage = FALSE
+	//dropshrink = 0.75
+	cold_protection = HEAD
+	min_cold_protection_temperature = BODYTEMP_COLD_LEVEL_ONE_MAX
+	dropshrink = null
+
+/obj/item/clothing/head/roguetown/knitcap
+	name = "knit cap"
+	desc = "A simple knitted cap."
+	icon_state = "knitcap"
+	nudist_approved = TRUE
+	//dropshrink = 0.75
+	cold_protection = HEAD
+	min_cold_protection_temperature = BODYTEMP_COLD_LEVEL_ONE_MAX
+
+/obj/item/clothing/head/roguetown/armingcap/dwarf
+	color = "#cb3434"
+
+/obj/item/clothing/head/roguetown/headband
+	name = "headband"
+	desc = "A simple headband to keep sweat out of your eyes."
+	icon_state = "headband"
+	item_state = "headband"
+	//dropshrink = 0.75
+	dynamic_hair_suffix = null
+	nudist_approved = TRUE
+	fiber_salvage = FALSE
+
+/obj/item/clothing/head/roguetown/headband/bloodied
+	name = "bloodied headband"
+	desc = "A headband that's been soaked in the blood of a terrible nitebeast. The coagulative properties of cursed blood has stiffened the cloth, gifting it a texture not unlike spongy leather. Wearing it emboldens you with determination."
+	icon_state = "headband"
+	item_state = "headband"
+	color = "#851a16"
+	armor = ARMOR_LEATHER
+	max_integrity = ARMOR_INT_HELMET_LEATHER
+	body_parts_covered = HEAD|HAIR|EARS
+	//dropshrink = 0.75
+	dynamic_hair_suffix = null
+
+	///Reen's work. Should make it so that you obtain special traits when taking it on-and-off, without outright removing inherent traits.
+	var/traited = FALSE
+
+/obj/item/clothing/head/roguetown/headband/bloodied/equipped(mob/living/user, slot)
+	. = ..()
+	if(slot == SLOT_HEAD)
+		ADD_TRAIT(user, TRAIT_SILVER_BLESSED, TRAIT_GENERIC)
+		ADD_TRAIT(user, TRAIT_ZOMBIE_IMMUNE, TRAIT_GENERIC)
+
+/obj/item/clothing/head/roguetown/headband/bloodied/dropped(mob/living/carbon/human/user)
+	. = ..()
+	if(istype(user) && user?.head == src)
+		REMOVE_TRAIT(user, TRAIT_SILVER_BLESSED, TRAIT_GENERIC)
+		REMOVE_TRAIT(user, TRAIT_ZOMBIE_IMMUNE, TRAIT_GENERIC)
+
+/obj/item/clothing/head/roguetown/headband/monk
+	name = "monk's headband"
+	desc = "A winding length of cloth, meticulously lined with heavy leather strips. Errant impacts are thwarted, yet not a degree of vision is impaired; valuable traits, for the Monk who must enlighten their villains with a white-knuckled sermon. </br>'..I kick ass for the Lord!'"
+	icon_state = "headband"
+	color = "#bfb8a9"
+	resistance_flags = FIRE_PROOF
+	fiber_salvage = TRUE
+	armor = ARMOR_LEATHER //Highest preset protection value for head armor, without leaving people unable to sleep with the headband on. Should be appropriate for the Monk's role.
+	body_parts_covered = HEAD|HAIR|EARS
+	max_integrity = ARMOR_INT_SIDE_STEEL //High leather-tier protection and critical resistances, steel-tier integrity.
+	blocksound = SOFTHIT
+	nudist_approved = FALSE // armored
+	//dropshrink = 0.75
+	dynamic_hair_suffix = null
+
+/obj/item/clothing/head/roguetown/headband/monk/barbarian
+	name = "hunter's headband"
+	desc = "A winding length of cloth, meticulously lined with heavy leather strips. Errant impacts are thwarted, yet not a degree of vision is impaired; valuable traits, for those who have taken the mantle of confronting monsters with overwhelming strength. </br>'..All it takes for evil to triumph is for good men to do nothing.'"
+	max_integrity = ARMOR_INT_HELMET_LEATHER //Far less durable than the Monk's variant. Remember that the Barbarian retrieves solid weapon skills and armor, even as a pugilist.
+
+/obj/item/clothing/head/roguetown/inqhat
+	name = "inquisitorial hat"
+	desc = "A fine leather slouch, beplumed with a crimson feather and fitted with a hidden steel skull cap. It serves as a reminder that the Holy Otavan Inquisition triumphs in one avenue above all else - fashion. </br>'To keep ones vision away from the heavens, and focused on the sin beneath the soil.'"
+	icon_state = "inqhat"
+	item_state = "inqhat"
+	max_integrity = ARMOR_INT_HELMET_HARDLEATHER
+	armor = ARMOR_LEATHER
+	body_parts_covered = HEAD|EARS|HAIR|NOSE|EYES
+	cold_protection = HEAD
+	min_cold_protection_temperature = BODYTEMP_COLD_LEVEL_ONE_MAX
+	heat_protection = HEAD
+	max_heat_protection_temperature = BODYTEMP_HEAT_LEVEL_ONE_MAX
+	resistance_flags = FIRE_PROOF // drip is eternal
+
+/obj/item/clothing/head/roguetown/headband/red
+	color = CLOTHING_RED
+
+/obj/item/clothing/head/roguetown/maidband
+	name = "maid headband"
+	desc = "A pleated cloth headband. It has gained widespread popularity from nobles travelling with their servants."
+	icon = 'icons/roguetown/clothing/head.dmi'
+	icon_state = "maidband"
+	item_state = "maidband"
+	mob_overlay_icon = 'icons/roguetown/clothing/onmob/head.dmi'
+	slot_flags = ITEM_SLOT_HEAD
+	body_parts_covered = NONE
+	nudist_approved = TRUE
+
+/obj/item/clothing/head/roguetown/priesthat
+	name = "priest's hat"
+	desc = ""
+	icon_state = "priest"
+	//dropshrink = 0
+	mob_overlay_icon = 'icons/roguetown/clothing/onmob/64x64/head.dmi'
+	bloody_icon = 'icons/effects/blood64.dmi'
+	dynamic_hair_suffix = "+generic"
+	sellprice = 77
+	worn_x_dimension = 64
+	worn_y_dimension = 64
+	nudist_approved = TRUE
+
+/obj/item/clothing/head/roguetown/reqhat
+	name = "serpent crown"
+	desc = ""
+	icon_state = "reqhat"
+	sellprice = 100
+	anvilrepair = /datum/skill/craft/armorsmithing
+
+/obj/item/clothing/head/roguetown/headdress
+	name = "nemes"
+	desc = "A foreign silk headdress."
+	icon_state = "headdress"
+	sellprice = 10
+	nudist_approved = TRUE
+
+/obj/item/clothing/head/roguetown/headdress/alt
+	icon_state = "headdressalt"
+
+/obj/item/clothing/head/roguetown/nun
+	name = "nun's veil"
+	desc = "A humble hat for the faithful."
+	icon_state = "nun"
+	sellprice = 5
+	nudist_approved = TRUE
+	dropshrink = null
+	fiber_salvage = FALSE
+
+/obj/item/clothing/head/roguetown/hennin
+	name = "hennin"
+	desc = "A hat typically worn by women in nobility."
+	icon_state = "hennin"
+	sellprice = 19
+	dynamic_hair_suffix = "+generic"
+	nudist_approved = TRUE
+
+/obj/item/clothing/head/roguetown/bucklehat //lifeweb sprite
+	name = "folded hat"
+	desc = "A plain leather hat with decorative buckle. Made popular by the ne'er-do-wells of Etrusca."
+	icon_state = "bucklehat"
+	nudist_approved = TRUE
+
+/obj/item/clothing/head/roguetown/duelhat //lifeweb sprite
+	name = "duelist's hat"
+	desc = "A feathered leather hat, to show them all your superiority."
+	icon_state = "duelhat"
+	color = COLOR_ALMOST_BLACK
+	detail_tag = "_detail"
+	detail_color = COLOR_SILVER
+	nudist_approved = TRUE
+
+/obj/item/clothing/head/roguetown/duelisthat
+	name = "duelist's hat"
+	desc = "A feathered leather hat, to show them all your superiority."
+	icon_state = "duelisthat"
+	detail_tag = "_detail"
+	detail_color = COLOR_SILVER
+	nudist_approved = TRUE
+
+/obj/item/clothing/head/roguetown/wizhat
+	name = "wizard hat"
+	desc = "Used to distinguish dangerous wizards from senile old men."
+	icon_state = "wizardhat"
+	mob_overlay_icon = 'icons/roguetown/clothing/onmob/64x64/head.dmi'
+	bloody_icon = 'icons/effects/blood64.dmi'
+	dynamic_hair_suffix = "+generic"
+	worn_x_dimension = 64
+	worn_y_dimension = 64
+	nudist_approved = TRUE
+
+/obj/item/clothing/head/roguetown/wizhat/red
+	icon_state = "wizardhatred"
+
+/obj/item/clothing/head/roguetown/wizhat/yellow
+	icon_state = "wizardhatyellow"
+
+/obj/item/clothing/head/roguetown/wizhat/green
+	icon_state = "wizardhatgreen"
+
+/obj/item/clothing/head/roguetown/wizhat/black
+	icon_state = "wizardhatblack"
+
+/obj/item/clothing/head/roguetown/wizhat/gen
+	icon_state = "wizardhatgen"
+
+/obj/item/clothing/head/roguetown/wizhat/gen/wise
+	name = "wise hat"
+	sellprice = 100
+	desc = "Only the wisest of nimrods wear this."
+
+/obj/item/clothing/head/roguetown/wizhat/gen/wise/equipped(mob/user, slot)
+	. = ..()
+	if(!ishuman(user))
+		return
+	var/mob/living/carbon/wise = user
+	if(slot == SLOT_HEAD)
+		wise.change_stat(STATKEY_INT, 2, "wisehat")
+		to_chat(wise, span_green("I gain wisdom."))
+
+/obj/item/clothing/head/roguetown/wizhat/gen/wise/dropped(mob/user)
+	. = ..()
+	if(!ishuman(user))
+		return
+	var/mob/living/carbon/human/wise = user
+	if(wise.get_item_by_slot(SLOT_HEAD) == src)
+		wise.change_stat(STATKEY_INT, -2, "wisehat")
+		to_chat(wise, span_red("I lose wisdom."))
+
+/obj/item/clothing/head/roguetown/shawl
+	name = "shawl"
+	desc = "Keeps the hair in check, and looks proper."
+	icon_state = "shawl"
+	nudist_approved = TRUE
+	fiber_salvage = FALSE
+
+/obj/item/clothing/head/roguetown/articap
+	name = "artificer's cap"
+	desc = "A sporting cap with a small gear adornment. Popular fashion amongst engineers."
+	icon_state = "articap"
+	nudist_approved = TRUE
+
+/obj/item/clothing/head/roguetown/brimmed
+	desc = "A simple brimmed hat that provides some relief from the sun."
+	icon_state = "brimmed"
+	nudist_approved = TRUE
+	heat_protection = HEAD
+	max_heat_protection_temperature = BODYTEMP_HEAT_LEVEL_ONE_MAX
+// azure addition - random wizard hats
+
+/obj/item/clothing/head/roguetown/wizhat/random/Initialize(mapload)
+	icon_state = pick("wizardhatred", "wizardhatyellow", "wizardhatgreen", "wizardhat")
+	return ..()
+
+/obj/item/clothing/head/roguetown/witchhat
+	name = "witch hat"
+	desc = ""
+	icon_state = "witch"
+	item_state = "witch"
+	detail_tag = "_detail"
+	icon = 'icons/roguetown/clothing/head.dmi'
+	nudist_approved = TRUE
+	color = CLOTHING_BLACK
+	detail_color = CLOTHING_BROWN
+
+/obj/item/clothing/head/roguetown/witchhat/old
+	name = "decrepit witch hat"
+	desc = "When shall we three meet again; in thunder lightning or in rain."
+	icon_state = "witchold"
+	item_state = "witchold"
+	color = CLOTHING_WHITE
+
+/obj/item/clothing/head/roguetown/archercap
+	name = "archer's cap"
+	desc = "For the merry men."
+	icon_state = "archercap"
+	nudist_approved = TRUE
+
+/obj/item/clothing/head/roguetown/physician
+	name = "doctor's hat"
+	desc = "My cure is most effective."
+	icon_state = "physhat"
+	nudist_approved = TRUE
+
+
+/obj/item/clothing/head/roguetown/helmet/tricorn
+	slot_flags = ITEM_SLOT_HEAD
+	name = "tricorn"
+	desc = ""
+	body_parts_covered = HEAD|HAIR|EARS|NOSE
+	icon_state = "tricorn"
+	armor = ARMOR_CLOTHING
+	max_integrity = 100
+	anvilrepair = null
+	smeltresult = null
+	blocksound = SOFTHIT
+	nudist_approved = TRUE // this gets an exception for being ARMOR_CLOTHING but why does it prevent crits???
+	salvage_result = /obj/item/natural/hide/cured
+	salvage_amount = 1
+	sewrepair = TRUE
+
+/obj/item/clothing/head/roguetown/helmet/tricorn/ComponentInitialize()
+	AddComponent(/datum/component/armour_filtering/positive, TRAIT_FENCERDEXTERITY)
+	AddComponent(/datum/component/armour_filtering/positive, TRAIT_MAGEDEXTERITY)
+
+/obj/item/clothing/head/roguetown/helmet/tricorn/skull
+	icon_state = "tricorn_skull"
+	desc = "It has a skull sewn onto it. A clear sign of piracy"
+
+/obj/item/clothing/head/roguetown/helmet/tricorn/lucky
+	name = "lucky tricorn"
+	desc = "A weathered tricorn that has seen many skirmishes. You'd feel lucky with this on your head."
+	armor = ARMOR_LEATHER
+
+/obj/item/clothing/head/roguetown/helmet/bandana
+	slot_flags = ITEM_SLOT_HEAD
+	name = "bandana"
+	desc = ""
+	body_parts_covered = HEAD|HAIR|EARS|NOSE
+	icon_state = "bandana"
+	armor = ARMOR_CLOTHING
+	anvilrepair = null
+	smeltresult = null
+	blocksound = SOFTHIT
+	nudist_approved = TRUE
+	salvage_result = /obj/item/natural/hide/cured
+	salvage_amount = 1
+
+/obj/item/clothing/head/roguetown/veiled
+	name = "nurse's veil"
+	desc = "A chirurgeon's bonnet, veiled with petal-stuffed linen. The stitchwork is often donned by the likes of wandering plague doctors and clerics; especially, those who're beholden to Pestra and Psydon."
+	icon_state = "veil"
+	item_state = "veil"
+	detail_tag = "_detail"
+	color = CLOTHING_WHITE
+	detail_color = CLOTHING_WHITE
+	flags_inv = HIDEHAIR|HIDEFACIALHAIR|HIDEFACE|HIDESNOUT|HIDEEARS
+	flags_cover = HEADCOVERSEYES
+	body_parts_covered = HEAD|HAIR|EARS|NECK|MOUTH|NOSE|EYES
+	slot_flags = ITEM_SLOT_HEAD|ITEM_SLOT_MASK
+	adjustable = CAN_CADJUST
+	toggle_icon_state = TRUE
+	blocksound = SOFTHIT
+	max_integrity = 100
+	nudist_approved = TRUE
+
+/obj/item/clothing/head/roguetown/veiled/update_icon()
+	cut_overlays()
+	if(get_detail_tag())
+		var/mutable_appearance/pic = mutable_appearance(icon(icon, "[get_detail_state(icon_state)][detail_tag]"))
+		pic.appearance_flags = RESET_COLOR
+		if(get_detail_color())
+			pic.color = get_detail_color()
+		add_overlay(pic)
+
+/obj/item/clothing/head/roguetown/veiled/ComponentInitialize()
+	..()
+	AddComponent(/datum/component/adjustable_clothing, (NECK|HEAD|EARS|HAIR), (HIDEEARS|HIDEHAIR), null, 'sound/foley/equip/cloak (3).ogg', null, (UPD_HEAD|UPD_MASK))
+
+/obj/item/clothing/head/roguetown/veiled/loudmouth
+	name = "loudmouth's headcover"
+	desc = "Said to be worn by only the loudest and proudest. The mask is adjustable."
+	icon_state = "loudmouth"
+	item_state = "loudmouth"
+	color = CLOTHING_RED
+	nudist_approved = TRUE
+	mob_overlay_icon = 'icons/roguetown/clothing/onmob/head.dmi'
+
+/obj/item/clothing/head/roguetown/scarf
+	name = "scarf"
+	desc = "A simple scarf, designed to be worn upon the shoulders."
+	item_state = "hijab_t"
+	icon_state = "deserthood_t"
+	color = "#b8252c"
+	flags_inv = null
+	sleevetype = null
+	sleeved = null
+	icon = 'icons/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/onmob/head.dmi' //Overrides slot icon behavior
+	alternate_worn_layer  = 8.9 //On top of helmet
+	slot_flags = ITEM_SLOT_HEAD|ITEM_SLOT_MASK|ITEM_SLOT_MOUTH|ITEM_SLOT_NECK
+	armor = list("blunt" = 0, "slash" = 0, "stab" = 0, "piercing" = 0, "fire" = 0, "acid" = 0)
+	dynamic_hair_suffix = ""
+	edelay_type = 1
+	blocksound = SOFTHIT
+	max_integrity = 100
+	muteinmouth = FALSE
+	spitoutmouth = FALSE
+	nudist_approved = TRUE
+	cold_protection = HEAD
+	min_cold_protection_temperature = BODYTEMP_COLD_LEVEL_ONE_MAX
+	heat_protection = HEAD
+	max_heat_protection_temperature = BODYTEMP_HEAT_LEVEL_ONE_MAX
+
+/obj/item/clothing/head/roguetown/scarf/AltRightClick(mob/user)
+	. = ..()
+	if(. || loc != user)
+		return
+	overarmor = !overarmor
+	to_chat(user, span_info("I [overarmor ? "wear \the [src] under my hair" : "wear \the [src] over my hair"]."))
+	if(overarmor)
+		alternate_worn_layer = HOOD_LAYER //Below Hair Layer
+	else
+		alternate_worn_layer = BACK_LAYER //Above Hair Layer
+	user.update_inv_wear_mask()
+	user.update_inv_head()
+
+// The exact same as the Grenzelhoft hat w/ the cap, but capless; no armor stats. Allows for drip with the helmet aesthetic PR
+/obj/item/clothing/head/roguetown/caplessgrenzelhofthat
+	name = "capless grenzelhoft plume hat"
+	desc = "Whether it's monsters or fair maidens, a true Grenzelhoftian slays both. This one lacks any protection beneath."
+	icon_state = "grenzelhat"
+	item_state = "grenzelhat"
+	icon = 'icons/roguetown/clothing/head.dmi'
+	sleeved = 'icons/roguetown/clothing/onmob/helpers/stonekeep_merc.dmi'
+	slot_flags = ITEM_SLOT_HEAD
+	detail_tag = "_detail"
+	altdetail_tag = "_detailalt"
+	dynamic_hair_suffix = ""
+	resistance_flags = FIRE_PROOF //doesnt spawn, only a cosmetic loadout item. Keep the swag.
+	color = "#262927"
+	detail_color = "#FFFFFF"
+	altdetail_color = "#9c2525"
+
+/obj/item/clothing/head/roguetown/antlers
+	name = "old antlers"
+	desc = "Old antlers which you can wear on helmet, hood....or straight on your head!"
+	icon_state = "antlers"
+	icon = 'modular_twilight_axis/icons/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_twilight_axis/icons/roguetown/clothing/onmob/head_48.dmi'
+	alternate_worn_layer  = 8.9
+	slot_flags = ITEM_SLOT_HEAD|ITEM_SLOT_MASK|ITEM_SLOT_NECK
+	resistance_flags = FIRE_PROOF
+	var/picked = FALSE
+	var/antler_styles = list("halo", "knighty")
+	var/antlers_final_icon = null
+
+/obj/item/clothing/head/roguetown/antlers/attack_right(mob/user)
+	..()
+	if(!picked)
+		var/chooseA = input(user, "What will you choose?", "Where you got it?") as anything in antler_styles
+		if(chooseA == "halo")
+			icon_state = "antlers"
+			antlers_final_icon = "antlers"
+		if(chooseA == "knighty")
+			icon_state = "antlers_knighty"
+			antlers_final_icon = "antlers_knighty"
+		update_icon()
+		if(loc == user && ishuman(user))
+			var/mob/living/carbon/H = user
+			H.update_inv_head()
+		if(alert("Are you pleased with your antlers?", "Antlers", "Yes", "No") != "Yes")
+			icon_state = "antlers"
+			antlers_final_icon = "antlers"
+			update_icon()
+			if(loc == user && ishuman(user))
+				var/mob/living/carbon/H = user
+				H.update_inv_head()
+			return
+		picked = TRUE
+
+/obj/item/clothing/head/roguetown/antlers/equipped(mob/user, slot)
+	. = ..()
+	if(antlers_final_icon)
+		icon_state = antlers_final_icon
+		item_state = antlers_final_icon
+		update_icon()
+
+/obj/item/clothing/head/roguetown/antlers/dropped(mob/user, slot)
+	. = ..()
+	if(antlers_final_icon)
+		icon_state = antlers_final_icon
+		item_state = antlers_final_icon
+		update_icon()
+
+/obj/item/clothing/head/roguetown/circlet/carvedgem/porcelain
+	name = "porcelain circlet"
+	desc = "An ornate circlet made out of porcelain."
+	icon_state = "circlet_porcelain"
+	toggle_icon_state = FALSE
+	icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/onmob/head.dmi'
+
+/obj/item/clothing/head/roguetown/courtphysician
+	name = "sanguine hat"
+	desc = "A hat for keeping the splattered blood out of your face, for when your trade is required."
+	icon_state = "dochat1"
+	item_state = "dochat1"
+	detail_tag = "_detail"
+	detail_color = CLOTHING_RED
+	icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/special/courtphys.dmi'
+	mob_overlay_icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/special/onmob/courtphys.dmi'
+	salvage_result = /obj/item/natural/silk
+	sewrepair = TRUE
+
+/obj/item/clothing/head/roguetown/courtphysician/Initialize(mapload)
+	. = ..()
+	update_icon()
+
+/obj/item/clothing/head/roguetown/courtphysician/update_icon()
+	cut_overlays()
+	if(get_detail_tag())
+		var/mutable_appearance/pic = mutable_appearance(icon(icon, "[get_detail_state(icon_state)][detail_tag]"))
+		pic.appearance_flags = RESET_COLOR
+		if(get_detail_color())
+			pic.color = get_detail_color()
+		add_overlay(pic)
+
+/obj/item/clothing/head/roguetown/courtphysician/female
+	name = "sanguine cap"
+	desc = "A cap for keeping the splattered blood out of your hair, for when your trade is required."
+	icon_state = "dochat2"
+	item_state = "dochat2"
+	detail_tag = "_detail"
+	detail_color = CLOTHING_RED
+
+/obj/item/clothing/head/roguetown/courtphysician/female/Initialize(mapload)
+	. = ..()
+	update_icon()
+
+/obj/item/clothing/head/roguetown/courtphysician/female/update_icon()
+	cut_overlays()
+	if(get_detail_tag())
+		var/mutable_appearance/pic = mutable_appearance(icon(icon, "[get_detail_state(icon_state)][detail_tag]"))
+		pic.appearance_flags = RESET_COLOR
+		if(get_detail_color())
+			pic.color = get_detail_color()
+		add_overlay(pic)
+
+/obj/item/clothing/head/roguetown/deserthood
+	name = "desert hood"
+	desc = "If only it was this warm."
+	icon_state = "desert_hood"
+	item_state = "desert_hood"
+	sewrepair = TRUE
+	icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/onmob/head.dmi'
+
+/obj/item/clothing/head/roguetown/doublehennin
+	name = "dual hennin"
+	desc = "A fancy hennin framed by two cones that sit atop ones head. Worn most commonly by the old-fashioned and elderly."
+	icon_state = "hennin_double"
+	sewrepair = TRUE
+	detail_tag = "_detail"
+	color = CLOTHING_WHITE
+	detail_color = CLOTHING_WHITE
+	icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/onmob/head.dmi'
+
+/obj/item/clothing/head/roguetown/duelhat/etrhat
+	name = "wanderer's hat"
+	desc = "A comfortable hat that will make you look elegant and protect you from the weather."
+	icon = 'modular_twilight_axis/icons/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_twilight_axis/icons/roguetown/clothing/onmob/head.dmi'
+	icon_state = "etrhat"
+	item_state = "etrhat"
+	color = null
+
+/obj/item/clothing/head/roguetown/duelhat/etrusca
+	name = "etruscan duelist hat"
+	desc = "A dainty looking feathered hat that is actually quite heavy and thick, Duelists from Etrusca are known to value winning fights without dirtying the white feather on top"
+	icon = 'modular_twilight_axis/icons/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_twilight_axis/icons/roguetown/clothing/onmob/head.dmi'
+	icon_state = "duelisthat"
+	item_state = "duelisthat"
+	color = null
+
+/obj/item/clothing/head/roguetown/durag
+	name = "durag"
+	desc = "A fashionable garment worn to protect one's hair."
+	icon_state = "durag"
+	sewrepair = TRUE
+	icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/onmob/head.dmi'
+
+/obj/item/clothing/head/roguetown/eaststrawhat
+	name = "worn rice hat"
+	desc = "A wicker rice hat."
+	icon = 'modular_twilight_axis/icons/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_twilight_axis/icons/roguetown/clothing/onmob/head.dmi'
+	icon_state = "eaststrawhat"
+	flags_inv = HIDEEARS
+	sewrepair = TRUE
+	var/hides_ears = TRUE
+
+/obj/item/clothing/head/roguetown/eaststrawhat/MiddleClick(mob/user, params)
+	. = ..()
+	hides_ears = !hides_ears
+	flags_inv = hides_ears ? HIDEEARS : null
+
+/obj/item/clothing/head/roguetown/explorerhat
+	name = "explorer's hat"
+	desc = "How many secrets can I uncover this week?"
+	icon_state = "explorerhat"
+	item_state = "explorerhat"
+	sewrepair = TRUE
+	icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/onmob/head.dmi'
+
+/obj/item/clothing/head/roguetown/flamboyant
+	name = "flamboyant hat"
+	desc = "A luxurious purple feathered hat with wide brim."
+	icon_state = "flamboyant"
+	item_state = "flamboyant"
+	sewrepair = TRUE
+	icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/onmob/head.dmi'
+
+/obj/item/clothing/head/roguetown/flotsam
+	name = "flotsam bonnet"
+	desc = "A flexible cloth bonnet of elven fashion that holds a strong resemblance to a leaf. Worn oft by those who dwell in forests and swamps."
+	icon_state = "flotsam"
+	sewrepair = TRUE
+	icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/onmob/head.dmi'
+
+/obj/item/clothing/head/roguetown/gasa
+	name = "gasa"
+	flags_inv = HIDEEARS
+	icon_state = "gasa"
+	item_state = "gasa"
+	icon = 'modular_twilight_axis/icons/clothing/kazengun_n_burger.dmi'
+	mob_overlay_icon = 'modular_twilight_axis/icons/roguetown/clothing/onmob/64x64/head.dmi'
+	worn_x_dimension = 64
+	worn_y_dimension = 64
+
+/obj/item/clothing/head/roguetown/headband/fur
+	name = "fur headband"
+	desc = "A rough thick fur headband, worn by the more rugged folk."
+	icon_state = "fur_headband"
+	item_state = "fur_headband"
+	body_parts_covered = HEAD|HAIR|EARS
+	salvage_result = /obj/item/natural/hide/cured
+	icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/onmob/head.dmi'
+
+/obj/item/clothing/head/roguetown/hscarf
+	desc = "A silk headscarf, most often found on the head of a sailor or a pirate!"
+	name = "head scarf"
+	icon_state = "headscarf"
+	item_state = "headscarf"
+	icon = 'modular_twilight_axis/icons/clothing/kazengun_n_burger.dmi'
+	mob_overlay_icon = 'modular_twilight_axis/icons/clothing/onmob/kazengun_n_burger.dmi'
+	salvage_result = /obj/item/natural/silk
+
+/obj/item/clothing/head/roguetown/longveil
+	name = "long veil"
+	desc = "A long, trailing veil made of cloth meant to conceal ones hair. Often worn by soilbrides and the devout."
+	icon_state = "headveil"
+	detail_tag = "_detail"
+	detail_color = CLOTHING_CHALK_WHITE
+	sewrepair = TRUE
+	icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/onmob/head.dmi'
+
+/obj/item/clothing/head/roguetown/maidhead
+	name = "maid headdress"
+	desc = "A decorative cloth headband clearly indicating the wearer as a maid."
+	icon_state = "maidhead"
+	item_state = "maidhead"
+	icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/special/maids.dmi'
+	mob_overlay_icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/special/onmob/maids.dmi'
+	sleeved = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/special/onmob/maids.dmi'
+
+/obj/item/clothing/head/roguetown/menacing/executioner
+	name = "executioners hood"
+	icon_state = "dungeoneer"
+	color = null
+	icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/onmob/head.dmi'
+
+/obj/item/clothing/head/roguetown/nightcap
+	name = "nitecap"
+	desc = "A simple nightcap, used to keep the baldest of heads warm during the nite."
+	icon_state = "link"
+	sewrepair = TRUE
+	icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/onmob/head.dmi'
+
+/obj/item/clothing/head/roguetown/nun_hood
+	name = "nun hood"
+	desc = ""
+	icon_state = "nun_hood"
+	item_state = "nun_hood"
+	icon = 'modular_twilight_axis/icons/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_twilight_axis/icons/roguetown/clothing/onmob/head.dmi'
+	slot_flags = ITEM_SLOT_HEAD
+	flags_inv = HIDEEARS
+
+/obj/item/clothing/head/roguetown/nun_hood/MiddleClick(mob/user)
+	if(!ishuman(user))
+		return
+	if(flags_inv & HIDE_HEADTOP)
+		flags_inv &= ~HIDE_HEADTOP
+	else
+		flags_inv |= HIDE_HEADTOP
+	user.update_inv_head()
+
+/obj/item/clothing/head/roguetown/onhelm
+	slot_flags = ITEM_SLOT_HEAD|ITEM_SLOT_HIP|ITEM_SLOT_MASK
+	flags_inv = HIDEEARS
+	icon = 'modular_twilight_axis/icons/clothing_port/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_twilight_axis/icons/clothing_port/roguetown/clothing/onmob/head.dmi'
+
+/obj/item/clothing/head/roguetown/onhelm/tw_d_basic
+	name = "helm's chaperon"
+	desc = "A simple but elegant cloth burlet worn over a helmet. It serves both to deflect the beating sun and to display the wearer's heraldic colors with pride."
+	icon = 'modular_twilight_axis/icons/roguetown/clothing/onhelm.dmi'
+	mob_overlay_icon = 'modular_twilight_axis/icons/roguetown/clothing/onmob/32x48/onhelm.dmi'
+	icon_state = "d_basic"
+	item_state = "d_basic"
+
+/obj/item/clothing/head/roguetown/onhelm/tw_d_horns
+	name = "horns helmkleinod"
+	desc = "A pair of imposing iron horns designed to be mounted atop a helmet, giving the wearer a beastly silhouette to strike fear into the hearts of their enemies."
+	icon = 'modular_twilight_axis/icons/roguetown/clothing/onhelm.dmi'
+	mob_overlay_icon = 'modular_twilight_axis/icons/roguetown/clothing/onmob/32x48/onhelm.dmi'
+	icon_state = "d_horns"
+	item_state = "d_horns"
+
+/obj/item/clothing/head/roguetown/roningasa
+	name = "roningasa"
+	flags_inv = HIDEEARS
+	icon_state = "roningasa"
+	item_state = "roningasa"
+	icon = 'modular_twilight_axis/icons/clothing/kazengun_n_burger.dmi'
+	mob_overlay_icon = 'modular_twilight_axis/icons/roguetown/clothing/onmob/64x64/head.dmi'
+	worn_x_dimension = 64
+	worn_y_dimension = 64
+
+/obj/item/clothing/head/roguetown/sandogasa
+	name = "sandogasa"
+	flags_inv = HIDEEARS
+	icon_state = "sandogasa"
+	item_state = "sandogasa"
+	icon = 'modular_twilight_axis/icons/clothing/kazengun_n_burger.dmi'
+	mob_overlay_icon = 'modular_twilight_axis/icons/roguetown/clothing/onmob/64x64/head.dmi'
+	worn_x_dimension = 64
+	worn_y_dimension = 64
+
+/obj/item/clothing/head/roguetown/stewardtophat
+	name = "top hat"
+	icon_state = "stewardtophat"
+	icon = 'modular_twilight_axis/icons/roguetown/clothing/special/noble.dmi'
+	mob_overlay_icon = 'modular_twilight_axis/icons/roguetown/clothing/onmob/64x64/head.dmi'
+	worn_x_dimension = 64
+	worn_y_dimension = 64
+
+/obj/item/clothing/head/roguetown/tiyon
+	name = "tiyon"
+	desc = "A fancy cloth headdress."
+	icon_state = "tiyon"
+	sewrepair = TRUE
+	icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/onmob/head.dmi'
+
+/obj/item/clothing/head/roguetown/torioigasa
+	name = "torioigasa"
+	flags_inv = HIDEEARS
+	icon_state = "torioigasa"
+	item_state = "torioigasa"
+	icon = 'modular_twilight_axis/icons/clothing/kazengun_n_burger.dmi'
+	mob_overlay_icon = 'modular_twilight_axis/icons/roguetown/clothing/onmob/64x64/head.dmi'
+	worn_x_dimension = 64
+	worn_y_dimension = 64
+
+/obj/item/clothing/head/roguetown/elven_hat
+	name = "elven burka"
+	desc = "A warm hat, designed to protect long elven ears from cold northern winds."
+	icon = 'modular_twilight_axis/icons/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_twilight_axis/icons/roguetown/clothing/onmob/head_48.dmi'
+	icon_state = "elven_hat"
+	flags_inv = HIDEEARS
+
+/obj/item/clothing/head/roguetown/hammerhold_hat
+	name = "kokoshnik"
+	desc = ""
+	icon = 'modular_twilight_axis/icons/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_twilight_axis/icons/roguetown/clothing/onmob/head_48.dmi'
+	icon_state = "white_mage_headwear"
+	flags_inv = HIDEEARS
+	var/hammerhold_colors = list("white", "blue")
+	var/hammerhold_variants = null
+	var/picked = FALSE
+	var/hammerhold_final_icon = null
+
+/obj/item/clothing/head/roguetown/hammerhold_hat/attack_right(mob/user)
+	..()
+	if(!picked)
+		var/choiceC = input(user, "Choose a color.", "Hammerhold colors") as anything in hammerhold_colors
+		if(choiceC == "white")
+			icon_state = "white_mage_headwear"
+		if(choiceC == "blue")
+			icon_state = "blue_mage_headwear"
+		update_icon()
+		if(loc == user && ishuman(user))
+			var/mob/living/carbon/H = user
+			H.update_inv_head()
+		if(alert("Are you pleased with your kokoshnik?", "Kokoshnik", "Yes", "No") != "Yes")
+			icon_state = "white_mage_headwear"
+			update_icon()
+			if(loc == user && ishuman(user))
+				var/mob/living/carbon/H = user
+				H.update_inv_head()
+			return
+		picked = TRUE
+
+/obj/item/clothing/head/roguetown/hammerhold_hat/attack_right(mob/user)
+	if(!picked)
+		var/choiceV = input(user, "Choose a variant.", "Hammerhold colors") as anything in hammerhold_variants
+		if(choiceV == "a")
+			icon_state = "headwear_a"
+			hammerhold_final_icon = "headwear_a"
+		if(choiceV == "b")
+			icon_state = "headwear_b"
+			hammerhold_final_icon = "headwear_b"
+		update_icon()
+		if(loc == user && ishuman(user))
+			var/mob/living/carbon/H = user
+			H.update_inv_head()
+		if(alert("Are you pleased with your hat?", "hat", "Yes", "No") != "Yes")
+			icon_state = "headwear_a"
+			hammerhold_final_icon = "headwear_a"
+			update_icon()
+			if(loc == user && ishuman(user))
+				var/mob/living/carbon/H = user
+				H.update_inv_head()
+			return
+		picked = TRUE
+
+/obj/item/clothing/head/roguetown/hammerhold_hat/equipped(mob/user, slot)
+	. = ..()
+	if(hammerhold_final_icon)
+		icon_state = hammerhold_final_icon
+		item_state = hammerhold_final_icon
+		update_icon()
+
+/obj/item/clothing/head/roguetown/hammerhold_hat/dropped(mob/user, slot)
+	. = ..()
+	if(hammerhold_final_icon)
+		icon_state = hammerhold_final_icon
+		item_state = hammerhold_final_icon
+		update_icon()
+
+/obj/item/clothing/head/roguetown/hammerhold_hat/peasant
+	name = "hammerhold hat"
+	desc = ""
+	icon = 'modular_twilight_axis/icons/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_twilight_axis/icons/roguetown/clothing/onmob/head_48.dmi'
+	icon_state = "headwear_a"
+	flags_inv = HIDEEARS
+	hammerhold_colors = null
+	hammerhold_variants = list("a", "b")
+	picked = FALSE
+
+/obj/item/clothing/head/roguetown/veiledhat
+	name = "veiled hat"
+	desc = "A luxurious, wide-brimmed hat defined by two flanking sheets of cloth sewn under the brim, it frames the face well."
+	icon_state = "veilhat"
+	sewrepair = TRUE
+	detail_tag = "_detail"
+	color = CLOTHING_WHITE
+	detail_color = CLOTHING_WHITE
+	icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/head.dmi'
+	mob_overlay_icon = 'modular_azurepeak/icons/clothing_port/roguetown/clothing/onmob/head.dmi'

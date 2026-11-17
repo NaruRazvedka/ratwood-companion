@@ -1,0 +1,1259 @@
+{
+  "revision": "80907df21ed15bde91106da41ce82e6ac6c40069",
+  "reviewed": "2026-11-14",
+  "headChecked": "667702e7445add96422ac86518acea5a23861444",
+  "decisions": [
+    {
+      "action": "merge",
+      "id": "item-roasted-coffee-beans",
+      "target": "sheet-7-r4",
+      "reason": "Same roasted output /obj/item/reagent_containers/food/snacks/grown/coffeebeansroasted; modular/Neu_Food/code/drinks/tea_coffee_drinks.dm:35-57 distinguishes fresh beans and roasting output. Preserve the generated heating route as well as the workbook's cherry/millstone/oven preparation.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/drinks/tea_coffee_drinks.dm#L35"
+        }
+      ],
+      "title": "Roasted Coffee Beans"
+    },
+    {
+      "action": "merge",
+      "id": "item-dried-rose-petal",
+      "target": "sheet-7-r6",
+      "reason": "Spelling/number alias of dried rosa petals, /obj/item/reagent_containers/food/snacks/grown/rogue/rosa_petals_dried; modular/Neu_Food/code/drinks/tea_coffee_drinks.dm:13-22. Fresh and spiced petals remain separate.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/drinks/tea_coffee_drinks.dm#L13"
+        }
+      ],
+      "title": "Dried Rose Petal"
+    },
+    {
+      "action": "merge",
+      "id": "item-small-buttered-dough",
+      "target": "sheet-7-r11",
+      "reason": "Same small raw butterdough piece; the two placeholders originate in workbook cooking rows 37 and 123. /obj/item/reagent_containers/food/snacks/rogue/butterdoughslice, modular/Neu_Food/code/raw/raw_dough.dm:698-708. Preserve raw state; pastry and frybread are separate heating results.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L698"
+        }
+      ],
+      "title": "Small Buttered Dough"
+    },
+    {
+      "action": "merge",
+      "id": "item-small-butterdough",
+      "target": "sheet-7-r11",
+      "reason": "Same small raw butterdough piece; the two placeholders originate in workbook cooking rows 37 and 123. /obj/item/reagent_containers/food/snacks/rogue/butterdoughslice, modular/Neu_Food/code/raw/raw_dough.dm:698-708. Preserve raw state; pastry and frybread are separate heating results.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L698"
+        }
+      ],
+      "title": "small Butterdough"
+    },
+    {
+      "action": "merge",
+      "id": "item-minced-fish",
+      "target": "sheet-7-r17",
+      "reason": "Same /obj/item/reagent_containers/food/snacks/rogue/meat/mince/fish, named minced fish at modular/Neu_Food/code/raw/raw_meat.dm:322-324; slicing routes at lines 243 and 256.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_meat.dm#L322"
+        }
+      ],
+      "title": "Minced Fish"
+    },
+    {
+      "action": "merge",
+      "id": "item-mince",
+      "target": "sheet-7-r18",
+      "reason": "Both explicitly map to generic /obj/item/reagent_containers/food/snacks/rogue/meat/mince, named mince at modular/Neu_Food/code/raw/raw_meat.dm:264-272. Do not absorb /mince/beef or /mince/fish.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_meat.dm#L264"
+        }
+      ],
+      "title": "Mince"
+    },
+    {
+      "action": "merge",
+      "id": "item-sliced-onion",
+      "target": "sheet-7-r21",
+      "reason": "Chopped/sliced onion alias, /obj/item/reagent_containers/food/snacks/rogue/veg/onion_sliced, modular/Neu_Food/code/raw/raw_veggies.dm:5. Fried onion remains separate.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_veggies.dm#L5"
+        }
+      ],
+      "title": "Sliced Onion"
+    },
+    {
+      "action": "merge",
+      "id": "item-garlic-clove",
+      "target": "sheet-7-r24",
+      "reason": "Garlic/garlick spelling alias, /obj/item/reagent_containers/food/snacks/rogue/veg/garlick_clove, modular/Neu_Food/code/raw/raw_veggies.dm:37.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_veggies.dm#L37"
+        }
+      ],
+      "title": "Garlic Clove"
+    },
+    {
+      "action": "merge",
+      "id": "item-crab-meat",
+      "target": "sheet-7-r27",
+      "reason": "Crabmeat/Crab Meat are the same raw ingredient. Both current metadata matches name /obj/item/reagent_containers/food/snacks/rogue/meat/crab; the handpie assembly explicitly consumes it in modular/Neu_Food/code/raw/raw_dough.dm:847-848. Do not merge whole crab or cooked crab.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L847"
+        }
+      ],
+      "title": "Crab Meat"
+    },
+    {
+      "action": "merge",
+      "id": "item-copiette",
+      "target": "sheet-7-r33",
+      "reason": "Copiette/Coppiette spelling alias of /obj/item/reagent_containers/food/snacks/rogue/meat/coppiette, modular/Neu_Food/code/others/preserved_meat.dm:49.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/others/preserved_meat.dm#L49"
+        }
+      ],
+      "title": "Copiette"
+    },
+    {
+      "action": "merge",
+      "id": "item-rasins",
+      "target": "sheet-7-r34",
+      "reason": "Typo alias for basic raisins /obj/item/reagent_containers/food/snacks/rogue/raisins, modular/Neu_Food/code/others/dried_fruits.dm:3. Other dried berry subtypes remain distinct (lines 62, 91, 120).",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/others/dried_fruits.dm#L3"
+        }
+      ],
+      "title": "Rasins"
+    },
+    {
+      "action": "merge",
+      "id": "r2-food-7cfe05103104",
+      "target": "sheet-7-r36",
+      "reason": "Raisin Bread/raisin loaf are the same cooked whole /obj/item/reagent_containers/food/snacks/rogue/raisinbread, modular/Neu_Food/code/cooked/cooked_baked.dm:372-387. Preserve the generated heat route from raw raisin loaf; raw /rbreaduncooked at lines 361-370 and /raisinbreadslice at line 409 remain separate.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_baked.dm#L372"
+        }
+      ],
+      "title": "raisin loaf"
+    },
+    {
+      "action": "merge",
+      "id": "r2-food-ac100133faf5",
+      "target": "sheet-7-r39",
+      "reason": "Bread/bread loaf are the same cooked whole /obj/item/reagent_containers/food/snacks/rogue/bread, modular/Neu_Food/code/cooked/cooked_baked.dm:43-57. Dough transforms to it in modular/Neu_Food/code/raw/raw_dough.dm:37; bread slices at cooked_baked.dm:80 remain separate. Preserve heating route.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_baked.dm#L43"
+        },
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L37"
+        }
+      ],
+      "title": "bread loaf"
+    },
+    {
+      "action": "merge",
+      "id": "r2-food-e629d7905482",
+      "target": "sheet-7-r70",
+      "reason": "Aged Cheese Wheel/wheel of aged cheese are the same /obj/item/reagent_containers/food/snacks/rogue/cheddar/aged, modular/Neu_Food/code/others/dairy.dm:237-243. Preserve ageing preparation. Fresh wheel, aged wedges and aged slices remain separate.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/others/dairy.dm#L237"
+        }
+      ],
+      "title": "wheel of aged cheese"
+    },
+    {
+      "action": "merge",
+      "id": "item-butter-stick",
+      "target": "sheet-7-r71",
+      "reason": "Same whole stick /obj/item/reagent_containers/food/snacks/butter, modular/Neu_Food/code/others/dairy.dm:44-56; slices have their own path, not an alias.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/others/dairy.dm#L44"
+        }
+      ],
+      "title": "Butter Stick"
+    },
+    {
+      "action": "merge",
+      "id": "item-bread-crumbs",
+      "target": "sheet-7-r92",
+      "reason": "Spacing alias, workbook row 134 ingredient links to row 92's toast/millstone preparation. Source item /obj/item/reagent_containers/food/snacks/rogue/toastcrumbs at modular/Neu_Food/code/cooked/cooked_baked.dm:135.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_baked.dm#L135"
+        }
+      ],
+      "title": "Bread Crumbs"
+    },
+    {
+      "action": "merge",
+      "id": "recipe-dogroll",
+      "target": "sheet-7-r100",
+      "reason": "Dogroll/Grenzel Bun are the same bun + sausage assembly; /datum/food_recipe/sandwich/grenzelbun definition is at modular/Neu_Food/code/recipes/baked_recipes.dm:123-129, output /obj/item/reagent_containers/food/snacks/rogue/bun_grenz. Object at modular/Neu_Food/code/cooked/cooked_baked.dm:807. Retain Dogroll as alias and the historical wiki credit alongside source recipe.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/recipes/baked_recipes.dm#L123"
+        },
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_baked.dm#L807"
+        }
+      ],
+      "title": "Dogroll"
+    },
+    {
+      "action": "merge",
+      "id": "r2-food-7e1f6f3c5c2d",
+      "target": "sheet-7-r121",
+      "reason": "Same /obj/item/reagent_containers/food/snacks/rogue/frybirdtato, modular/Neu_Food/code/cooked/cooked_meat_meal.dm:173. Keep all four currently stored assembly alternatives: recipes/meat_recipes.dm:73-89 and recipes/veggies_recipes.dm:19-44.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_meat_meal.dm#L173"
+        }
+      ],
+      "title": "frybird with a tato"
+    },
+    {
+      "action": "merge",
+      "id": "item-jackberry",
+      "target": "item-jacksberries",
+      "reason": "Singular/spelling alias for normal jacksberries /obj/item/reagent_containers/food/snacks/grown/berries/rogue, code/modules/farming/produce.dm:433. Poison subtype begins at line 491 and must remain distinct.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/code/modules/farming/produce.dm#L433"
+        }
+      ],
+      "title": "Jackberry"
+    },
+    {
+      "action": "merge",
+      "id": "item-rice-grains",
+      "target": "item-rice",
+      "reason": "Rice/Rice Grains/rice grain are the same unwashed raw crop /obj/item/reagent_containers/food/snacks/grown/rice, code/modules/farming/produce.dm:113-114; wetting behavior in modular/Neu_Food/code/NeuFood.dm:342-378. Washed and cooked rice remain distinct.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/code/modules/farming/produce.dm#L113"
+        },
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/NeuFood.dm#L342"
+        }
+      ],
+      "title": "Rice Grains"
+    },
+    {
+      "action": "merge",
+      "id": "r2-food-7a1105689007",
+      "target": "item-rice",
+      "reason": "Rice/Rice Grains/rice grain are the same unwashed raw crop /obj/item/reagent_containers/food/snacks/grown/rice, code/modules/farming/produce.dm:113-114; wetting behavior in modular/Neu_Food/code/NeuFood.dm:342-378. Washed and cooked rice remain distinct.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/code/modules/farming/produce.dm#L113"
+        },
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/NeuFood.dm#L342"
+        }
+      ],
+      "title": "rice grain"
+    },
+    {
+      "action": "merge",
+      "id": "item-butter-slice",
+      "target": "prep-butter-slice",
+      "reason": "Same /obj/item/reagent_containers/food/snacks/butterslice, modular/Neu_Food/code/others/dairy.dm:90-97; parent butter slices to it at lines 52-54. Keep preparation record and historical source credit.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/others/dairy.dm#L90"
+        }
+      ],
+      "title": "Butter Slice"
+    },
+    {
+      "action": "merge",
+      "id": "item-potatoes",
+      "target": "item-potato",
+      "reason": "Number alias for raw /obj/item/reagent_containers/food/snacks/grown/potato/rogue, code/modules/farming/produce.dm:797. Sliced and baked potatoes remain distinct.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/code/modules/farming/produce.dm#L797"
+        }
+      ],
+      "title": "Potatoes"
+    },
+    {
+      "action": "merge",
+      "id": "item-mince-meat",
+      "target": "item-minced-meat",
+      "reason": "Both exact current metadata matches are /obj/item/reagent_containers/food/snacks/rogue/meat/mince/beef, named minced meat at modular/Neu_Food/code/raw/raw_meat.dm:319-320. Preserve Tartar row 172 and Meat stew row 199 credits. Do not redirect either into generic Meat Mince without deciding to intentionally represent a recipe input family.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_meat.dm#L319"
+        }
+      ],
+      "title": "Mince Meat"
+    },
+    {
+      "action": "archive",
+      "id": "recipe-shrimp-gumbo",
+      "label": "Historical / unconfirmed recipe",
+      "reason": "This May 2025 wiki addition has no confirmed active assembly or crafting route in the audited Ratwood 2.0 food files. Preserved as historical reference, not a claim that it was globally removed.",
+      "sources": [
+        {
+          "title": "Compiled food includes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/roguetown.dme#L3556"
+        },
+        {
+          "title": "Legacy food crafting base",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/code/modules/food_and_drinks/recipes/food_mixtures.dm#L1"
+        }
+      ]
+    },
+    {
+      "action": "archive",
+      "id": "recipe-oyster-chowder",
+      "label": "Historical / unconfirmed recipe",
+      "reason": "This May 2025 wiki addition has no confirmed active assembly or crafting route in the audited Ratwood 2.0 food files. Preserved as historical reference, not a claim that it was globally removed.",
+      "sources": [
+        {
+          "title": "Compiled food includes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/roguetown.dme#L3556"
+        },
+        {
+          "title": "Legacy food crafting base",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/code/modules/food_and_drinks/recipes/food_mixtures.dm#L1"
+        }
+      ]
+    },
+    {
+      "action": "archive",
+      "id": "recipe-pancake",
+      "label": "Historical / unconfirmed recipe",
+      "reason": "This May 2025 wiki addition has no confirmed active assembly or crafting route in the audited Ratwood 2.0 food files. Preserved as historical reference, not a claim that it was globally removed.",
+      "sources": [
+        {
+          "title": "Compiled food includes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/roguetown.dme#L3556"
+        },
+        {
+          "title": "Legacy food crafting base",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/code/modules/food_and_drinks/recipes/food_mixtures.dm#L1"
+        }
+      ]
+    },
+    {
+      "action": "archive",
+      "id": "recipe-pancake-stack",
+      "label": "Historical / unconfirmed recipe",
+      "reason": "This May 2025 wiki addition has no confirmed active assembly or crafting route in the audited Ratwood 2.0 food files. Preserved as historical reference, not a claim that it was globally removed.",
+      "sources": [
+        {
+          "title": "Compiled food includes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/roguetown.dme#L3556"
+        },
+        {
+          "title": "Legacy food crafting base",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/code/modules/food_and_drinks/recipes/food_mixtures.dm#L1"
+        }
+      ]
+    },
+    {
+      "action": "archive",
+      "id": "recipe-honeybun",
+      "label": "Historical / unconfirmed recipe",
+      "reason": "This May 2025 wiki addition has no confirmed active assembly or crafting route in the audited Ratwood 2.0 food files. Preserved as historical reference, not a claim that it was globally removed.",
+      "sources": [
+        {
+          "title": "Compiled food includes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/roguetown.dme#L3556"
+        },
+        {
+          "title": "Legacy food crafting base",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/code/modules/food_and_drinks/recipes/food_mixtures.dm#L1"
+        }
+      ]
+    },
+    {
+      "action": "archive",
+      "id": "recipe-sausage-roll",
+      "label": "Historical / unconfirmed recipe",
+      "reason": "This May 2025 wiki addition has no confirmed active assembly or crafting route in the audited Ratwood 2.0 food files. Preserved as historical reference, not a claim that it was globally removed.",
+      "sources": [
+        {
+          "title": "Compiled food includes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/roguetown.dme#L3556"
+        },
+        {
+          "title": "Legacy food crafting base",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/code/modules/food_and_drinks/recipes/food_mixtures.dm#L1"
+        }
+      ]
+    },
+    {
+      "action": "archive",
+      "id": "recipe-scalloped-potatoes",
+      "label": "Historical / unconfirmed recipe",
+      "reason": "This May 2025 wiki addition has no confirmed active assembly or crafting route in the audited Ratwood 2.0 food files. Preserved as historical reference, not a claim that it was globally removed.",
+      "sources": [
+        {
+          "title": "Compiled food includes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/roguetown.dme#L3556"
+        },
+        {
+          "title": "Legacy food crafting base",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/code/modules/food_and_drinks/recipes/food_mixtures.dm#L1"
+        }
+      ]
+    },
+    {
+      "action": "archive",
+      "id": "recipe-field-pie",
+      "label": "Historical / unconfirmed recipe",
+      "reason": "This May 2025 wiki addition has no confirmed active assembly or crafting route in the audited Ratwood 2.0 food files. Preserved as historical reference, not a claim that it was globally removed.",
+      "sources": [
+        {
+          "title": "Compiled food includes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/roguetown.dme#L3556"
+        },
+        {
+          "title": "Legacy food crafting base",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/code/modules/food_and_drinks/recipes/food_mixtures.dm#L1"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r44",
+      "title": "Handpie(Berry)",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/handpie/berry",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r45",
+      "title": "Handpie( Poison Berry)",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/handpie/poison",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r46",
+      "title": "Handpie(Mince)",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/handpie/meat",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r47",
+      "title": "Handpie(Truffle)",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/handpie",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r48",
+      "title": "Handpie(Potato)",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/handpie/potato",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r49",
+      "title": "Handpie(Fish)",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/handpie/fish",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r50",
+      "title": "Handpie(Crab)",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/handpie/crab",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r51",
+      "title": "Handpie(Cabbage)",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/handpie/cabbage",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Whole-cabbage handpie assembly",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L857"
+        },
+        {
+          "title": "Cabbage handpie heating routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L598"
+        }
+      ],
+      "preparation": {
+        "steps": [
+          "Use one whole cabbage on pie dough and wait for the preparation action to finish.",
+          "Bake the resulting raw cabbage handpie in a lit oven, or fry it in a pan over a lit hearth."
+        ],
+        "requirements": [
+          "1 Whole Cabbage",
+          "1 Pie Dough"
+        ],
+        "ingredients": [
+          {
+            "label": "1 Whole Cabbage",
+            "tool": false,
+            "options": [
+              {
+                "name": "Cabbage",
+                "id": "item-cabbage"
+              }
+            ]
+          },
+          {
+            "label": "1 Pie Dough",
+            "tool": false,
+            "options": [
+              {
+                "name": "Pie Dough",
+                "id": "sheet-7-r13"
+              }
+            ]
+          }
+        ],
+        "station": "Oven or frying pan"
+      }
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r59",
+      "title": "Pie(Pumpkin)",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/pie/cooked/pumpkin",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r140",
+      "title": "Pumpkin Loaf",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/pumpkinloaf",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r141",
+      "title": "Pumpkin Balls",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/pumpkinball",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r60",
+      "title": "Dot Tart with Tangerines",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/dot_tart/tangerine",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r61",
+      "title": "Dot Tart with Plums",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/dot_tart/plum",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r62",
+      "title": "Dot Tart with Blackberries",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/dot_tart/blackberry",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r63",
+      "title": "Dot Tart with Raspberries",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/dot_tart/raspberry",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r64",
+      "title": "Dot Tart with Strawberries",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/dot_tart/strawberry",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r65",
+      "title": "Dot Tart with Pears",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/dot_tart/pear",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r66",
+      "title": "Dot Tart with Apples",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/dot_tart/apple",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r67",
+      "title": "Dot Tart with Ambrosia",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/dot_tart/goldapple",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r163",
+      "title": "pear-stuffed butterdough (BookBread)",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/pearbookbread",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r164",
+      "title": "plum-stuffed butterdough (BookBread)",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/plumbookbread",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r165",
+      "title": "lemon-stuffed butterdough(BookBread)",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/lemonbookbread",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r166",
+      "title": "tangerine-stuffed butterdough (BookBread)",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/tangerinebookbread",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r167",
+      "title": "blackberry-stuffed butterdough (BookBread)",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/blackberrybookbread",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r168",
+      "title": "raspberry-stuffed butterdough (BookBread)",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/raspberrybookbread",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r169",
+      "title": "jackberry-stuffed butterdough (BookBread)",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/jackberrybookbread",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r170",
+      "title": "jackberry-stuffed butterdough (Poisoned) (BookBread)",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/poisonberrybookbread",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r171",
+      "title": "chocolate-stuffed butterdough (BookBread)",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/chocolatebookbread",
+      "reason": "Reviewed raw input to cooked subtype; shared artwork is not evidence that the recipe is absent.",
+      "sources": [
+        {
+          "title": "Raw dough assembly routes",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L430"
+        },
+        {
+          "title": "Cooked pastry definitions",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pastry.dm#L430"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-9-r85",
+      "title": "Bracers",
+      "type": "/obj/item/clothing/wrists/roguetown/bracers/leather",
+      "reason": "Leather skincraft bracers are separate from steel bracers.",
+      "sources": [
+        {
+          "title": "Leather bracers",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/code/modules/clothing/rogueclothes/wrists.dm#L132"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r18",
+      "title": "Meat Mince",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/mince/beef",
+      "reason": "Ordinary meat and volf slicing yield the concrete beef mince. This recheck supersedes the earlier generic-parent mapping.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 ordinary mince slicing output",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_meat.dm#L64"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "item-mince",
+      "title": "Mince",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/mince",
+      "reason": "Generic mince is a recipe-input parent, separate from beef and fish mince.",
+      "sources": [
+        {
+          "title": "Generic mince",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_meat.dm#L264"
+        }
+      ]
+    },
+    {
+      "action": "caveat",
+      "id": "sheet-7-r45",
+      "label": "Conflicting preparation route",
+      "reason": "The audited poison-berry branch creates ordinary berry handpie dough, not the separately defined poisonous subtype. This recipe does not establish a poisonous result.",
+      "sources": [
+        {
+          "title": "Audited assembly branch",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L849"
+        }
+      ]
+    },
+    {
+      "action": "caveat",
+      "id": "sheet-7-r170",
+      "label": "Conflicting preparation route",
+      "reason": "The parent berry branch consumes poison berries and returns before the poison-specific branch. This route does not establish the separately defined poisonous loaf.",
+      "sources": [
+        {
+          "title": "Audited assembly branch",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_dough.dm#L556"
+        }
+      ]
+    },
+    {
+      "action": "merge",
+      "id": "item-bacon",
+      "target": "sheet-7-r19",
+      "title": "Bacon",
+      "reason": "Raw bacon shares the same object type; retain Raw Bacon preparation.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_meat.dm#L84"
+        }
+      ]
+    },
+    {
+      "action": "merge",
+      "id": "item-tomatoplate",
+      "target": "sheet-7-r156",
+      "title": "Tomatoplate",
+      "reason": "Base cooked tomatoplate is the cheese variant; retain the oven heating route.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_baked.dm#L499"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r16",
+      "title": "Fish Fillet",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/fish",
+      "reason": "Whole fish slicing output is fish filet; workbook uses fillet spelling.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source identity",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_fish.dm#L20"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r52",
+      "title": "Pie(Meat)",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/pie/cooked/meat",
+      "reason": "Exact cooked meat pie identity; use staged source pie preparation.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source identity",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_pies.dm#L116"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r137",
+      "title": "Aubergine",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/eggplantstuffed",
+      "reason": "Workbook stuffed aubergine identity; the source uses tomato, not the retained community apple instruction.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 source identity",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_veggies.dm#L86"
+        }
+      ]
+    },
+    {
+      "action": "merge",
+      "id": "item-fish-filet",
+      "target": "sheet-7-r16",
+      "title": "Fish Filet",
+      "reason": "Same source output /rogue/meat/fish; spelling variant of Fish Fillet. Preserve source preparation and ingredient links.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 fish slicing output",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/raw/raw_fish.dm#L20"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r104",
+      "title": "Fried Egg",
+      "type": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/fried",
+      "reason": "The actual cooked egg is the fried child; the parent is explicitly named base fried egg and should not be a finished dish.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 finished egg definition",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/cooked/cooked_egg.dm#L14"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r196",
+      "title": "Spider stew",
+      "type": "/datum/reagent/consumable/soup/stew/yucky",
+      "reason": "Match pot output by exact reagent type; source display names alone do not distinguish variants, including poisoned berry stew.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 pot recipe",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/recipes/stew_recipes.dm#L223"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r198",
+      "title": "Bisque stew",
+      "type": "/datum/reagent/consumable/soup/stew/bisque",
+      "reason": "Match pot output by exact reagent type; source display names alone do not distinguish variants, including poisoned berry stew.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 pot recipe",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/recipes/stew_recipes.dm#L310"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r200",
+      "title": "Berry stew",
+      "type": "/datum/reagent/consumable/soup/stew/berry",
+      "reason": "Match pot output by exact reagent type; source display names alone do not distinguish variants, including poisoned berry stew.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 pot recipe",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/recipes/stew_recipes.dm#L367"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r201",
+      "title": "Poisoned Berry stew",
+      "type": "/datum/reagent/consumable/soup/stew/berry_poisoned",
+      "reason": "Match pot output by exact reagent type; source display names alone do not distinguish variants, including poisoned berry stew.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 pot recipe",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/recipes/stew_recipes.dm#L367"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r202",
+      "title": "Cheese stew",
+      "type": "/datum/reagent/consumable/soup/stew/cheese",
+      "reason": "Match pot output by exact reagent type; source display names alone do not distinguish variants, including poisoned berry stew.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 pot recipe",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/recipes/stew_recipes.dm#L400"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r203",
+      "title": "Egg stew",
+      "type": "/datum/reagent/consumable/soup/stew/egg",
+      "reason": "Match pot output by exact reagent type; source display names alone do not distinguish variants, including poisoned berry stew.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 pot recipe",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/recipes/stew_recipes.dm#L422"
+        }
+      ]
+    },
+    {
+      "action": "merge",
+      "id": "item-minced-meat",
+      "target": "sheet-7-r18",
+      "title": "Minced Meat",
+      "reason": "Same concrete ordinary mince output; retain both names and source cutting routes.",
+      "sources": []
+    },
+    {
+      "action": "identify",
+      "id": "sheet-7-r194",
+      "title": "Fish stew",
+      "type": "/datum/reagent/consumable/soup/stew/fish",
+      "reason": "Fish stew is a liquid pot output; remove the old sprite-derived fish-object identity.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 pot recipe",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/recipes/stew_recipes.dm"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "sheet-8-r37",
+      "title": "Rose Tea",
+      "type": "/datum/reagent/water/rosewater",
+      "reason": "Community Rose Tea is the source rosa tea pot output; match the liquid type to retain boiling instructions and properties.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 rose-petal brewing",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/recipes/stew_recipes.dm"
+        }
+      ]
+    },
+    {
+      "action": "identify",
+      "id": "item-poison-jacksberry",
+      "title": "Poison Jacksberry",
+      "type": "/obj/item/reagent_containers/food/snacks/grown/berries/rogue/poison",
+      "reason": "Keep the explicit poison subtype separate from ordinary berries even though both source names are jacksberries.",
+      "sources": [
+        {
+          "title": "Ratwood 2.0 poisoned berry stew input",
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/80907df21ed15bde91106da41ce82e6ac6c40069/modular/Neu_Food/code/recipes/stew_recipes.dm#L367"
+        }
+      ]
+    },
+    {
+      "action": "merge",
+      "id": "item-poisoned-jacksberries",
+      "target": "item-poison-jacksberry",
+      "title": "Poisoned Jacksberries",
+      "reason": "Explicit poisoned-berry spelling alias; retain separate ordinary berries.",
+      "sources": []
+    }
+  ]
+}

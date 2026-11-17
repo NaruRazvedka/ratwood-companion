@@ -1,0 +1,1797 @@
+{
+  "revision": "80907df21ed15bde91106da41ce82e6ac6c40069",
+  "byondVersion": "516.1688",
+  "passed": 10,
+  "total": 10,
+  "scope": "Native recipe data and actual controller lookup; surrounding item/reagent infrastructure is stubbed, not a full game server.",
+  "sourceFiles": [
+    {
+      "path": "modular/Neu_Food/code/recipes/baked_recipes.dm",
+      "sha256": "8563e9c8b68ce7dee49ae160a0d5acf710549b7b9a66308276b2dad95ae660a0"
+    },
+    {
+      "path": "modular/Neu_Food/code/recipes/cakes_recipes.dm",
+      "sha256": "1bb828894709ee6a1b40509e7795663971876b0f1089a31836d3486e6a9a0faf"
+    },
+    {
+      "path": "modular/Neu_Food/code/recipes/egg_recipes.dm",
+      "sha256": "a73be0b60cab2ade6d628d49871db3c503d818a413978b70c6132e44e4d5fb98"
+    },
+    {
+      "path": "modular/Neu_Food/code/recipes/fish_recipes.dm",
+      "sha256": "7502e43744c31ad5efee1b304e04652a5ca942cf55fad348e25cf85361064f55"
+    },
+    {
+      "path": "modular/Neu_Food/code/recipes/meat_meal_recipes.dm",
+      "sha256": "0bf2e9f73abfb225549b23a209f7ed6edc961b1bab83131264efbe0ab887321d"
+    },
+    {
+      "path": "modular/Neu_Food/code/recipes/meat_recipes.dm",
+      "sha256": "28fc6e5e255e26d12a5bfd3bd3fd9668c5631cf970cdf3a8bd3e590c5c7e80eb"
+    },
+    {
+      "path": "modular/Neu_Food/code/recipes/pastry_recipes.dm",
+      "sha256": "6e35fda596b6ceb19947eb35be4a677a980e378e3f251b3d5debce30f34d0d87"
+    },
+    {
+      "path": "modular/Neu_Food/code/recipes/rice_recipes.dm",
+      "sha256": "ce16e24a0fc087b55eba00808919326011920b991188fea5e4045f6aa5c448a7"
+    },
+    {
+      "path": "modular/Neu_Food/code/recipes/veggies_recipes.dm",
+      "sha256": "3a0e1b5dc1fc405a55cddcdcb46750bfd97ee4ed790f5e2352fc1fcbc42b15b6"
+    },
+    {
+      "path": "code/datums/brewing_recipes/wine.dm",
+      "sha256": "1c33d3fa26219e6408220c8fed4b9c0fb1e6a514fae869e8a9dee14af41b2b73"
+    },
+    {
+      "path": "code/datums/brewing_recipes/mead.dm",
+      "sha256": "4d473d08aba7fa1f55db9ddb9b3280a252c784a6038ee1e1e4406f56c0f55a74"
+    },
+    {
+      "path": "code/datums/brewing_recipes/aqua_vitae.dm",
+      "sha256": "527fc8d8ae82fc7f32f29c47dc071dc18dadc0acb9765af063ab48704d8023ca"
+    },
+    {
+      "path": "code/controllers/subsystem/rogue/cooking/cooking_recipes.dm",
+      "sha256": "19d8b7d1abadf18c945e495a6b98262985c4ca72dc39f53fef8bfb290f0c9c1e"
+    },
+    {
+      "path": "code/datums/brewing_recipes/_brewing_recipe_base.dm",
+      "sha256": "c2e132c51e424540ca3a98a1537a990d6cd16424eaeda769aa7c1c55142ef3e8"
+    },
+    {
+      "path": "code/controllers/subsystem/rogue/cooking_subsystem.dm",
+      "sha256": "5dc4c25ba41e0ab2d40330559b798f774649979daeb2b33df9535c5126704baf"
+    }
+  ],
+  "recipes": [
+    {
+      "type": "/datum/food_recipe/sandwich/salami",
+      "name": "Salumoi Bread",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/breadslice",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/sandwich/salami",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/salami/slice",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/sandwich/cheese",
+      "name": "Cheese Bread",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/breadslice",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/sandwich/cheese",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/cheddarslice",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/sandwich/salo",
+      "name": "Salo Bread",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/breadslice",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/sandwich/salo",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/fat/salo/slice",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/sandwich/bacon",
+      "name": "Bacon Bread",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/breadslice",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/sandwich/bacon",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/bacon/fried",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/sandwich/buttered_toast",
+      "name": "Buttered Toast",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/breadslice/toast",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/breadslice/toast/buttered",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/butterslice",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/sandwich/egg_toast",
+      "name": "Egg Toast",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/breadslice/toast",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/sandwich/egg",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/fried",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/sandwich/jamtallowed_toast",
+      "name": "Jamtallowed Toast",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/breadslice/toast",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/breadslice/toast/jamtallowed_slice",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/jamtallowslice",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/sandwich/marmaladed_toast",
+      "name": "Marmaladed Toast",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/breadslice/toast",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/breadslice/toast/marmaladed_slice",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/marmaladeslice",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/sandwich/ham",
+      "name": "Ham Bread",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/breadslice/toast",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/sandwich/ham",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/ham/sliced",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/sandwich/grenzelbun",
+      "name": "Grenzelbun",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/bun",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/bun_grenz",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/sausage/cooked",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/sandwich/raston",
+      "name": "Raston",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/bun",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/bun_raston",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/cheddarwedge",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/sandwich/jamtallowed_bun",
+      "name": "Jamtallowed Bun",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/bun",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/bun_jamtallow",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/jamtallowslice",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/sandwich/marmaladed_bun",
+      "name": "Marmaladed Bun",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/bun",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/bun_marmalade",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/marmaladeslice",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/sandwich/jamtallowed_crossbun",
+      "name": "Jamtallowed Crossbun",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/crossbun",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/crossbun_jamtallowed",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/jamtallowslice",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/sandwich/marmaladed_crossbun",
+      "name": "Marmaladed Crossbun",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/crossbun",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/crossbun_marmaladed",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/marmaladeslice",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/sandwich/jamtallowed_psycrossbun",
+      "name": "Jamtallowed Psycrossbun",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/psycrossbun",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/psycrossbun_jamtallowed",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/jamtallowslice",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/sandwich/marmaladed_psycrossbun",
+      "name": "Marmaladed Psycrossbun",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/psycrossbun",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/psycrossbun_marmaladed",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/marmaladeslice",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/baked/half_cookie_chocolate",
+      "name": "Chocolate Cookie Dough",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/hardtack_raw",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/halfcookie_raw",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/chocolate/slice",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/baked/half_cookie_raisin",
+      "name": "Raisin Cookie Dough",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/hardtack_raw",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/halfcookier_raw",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/raisins",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/baked/half_cookie_caramel",
+      "name": "Caramel Cookie Dough",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/hardtack_raw",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/halfcookiec_raw",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/caramel",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/baked/half_cookie_dragee",
+      "name": "Dragée Cookie Dough",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/hardtack_raw",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/halfcookied_raw",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/dragee",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/baked/raisin_bread_complete",
+      "name": "Complete Raisin Dough",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/rbread_half",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/rbreaduncooked",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/raisins",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/baked/apple_bread_complete",
+      "name": "Complete Apple Dough",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/abread_half",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/abreaduncooked",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/fruit/apple_sliced",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/baked/cookie_dough_chocolate",
+      "name": "Chocolate Cookie Dough",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/halfcookie_raw",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/cookie_raw",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/chocolate/slice",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/baked/cookie_dough_dragee",
+      "name": "Dragée Cookie Dough",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/halfcookied_raw",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/cookied_raw",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/dragee",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/baked/cookie_dough_caramel",
+      "name": "Caramel Cookie Dough",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/halfcookiec_raw",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/cookiec_raw",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/caramel",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/baked/cookie_dough_raisin",
+      "name": "Raisin Cookie Dough",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/halfcookier_raw",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/cookier_raw",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/raisins",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/baked/cheese_muffin",
+      "name": "Cheese Muffin",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/muffin",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/muffin/cheese",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/cheese",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/baked/honey_muffin",
+      "name": "Honey Muffin",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/muffin",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/muffin/honey",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/honey",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/baked/sugar_strudel",
+      "name": "Coated Strudel",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/strudel",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/strudel/sugar",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/sugar",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/baked/jamtallowed_bookbread",
+      "name": "Jamtallowed Bookbread Slice",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/bookbread_slice",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/bookbread_slice_jamtallowed",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/jamtallowslice",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/baked/marmaladed_bookbread",
+      "name": "Marmaladed Bookbread Slice",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/bookbread_slice",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/bookbread_slice_marmaladed",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/marmaladeslice",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/cake/frosted_cake_base",
+      "name": "Frosted Cake Base",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/cake_base",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/frostedcakeuncooked",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/frosting",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 30
+    },
+    {
+      "type": "/datum/food_recipe/cake/cheesecake_base",
+      "name": "Cheesecake Base",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/cake_base",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/ccakeuncooked",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/cheese",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/cake/honeycake_base",
+      "name": "Honey Cake Base",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/cake_base",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/hcakeuncooked",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/honey",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/cake/frosted_cake_postbake",
+      "name": "Frosted Cake (Post-Bake)",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/cake",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/frostedcake",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/frosting",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/cake/apple_cake",
+      "name": "Apple Cake",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/frostedcake",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/applecake",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/grown/apple",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/cake/berry_cake",
+      "name": "Berry Cake",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/frostedcake",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/berrycake",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/grown/berries/rogue",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/cake/berry_cake_poison",
+      "name": "Poison Berry Cake",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/frostedcake",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/berrycake/poison",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/grown/berries/rogue/poison",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/cake/blackberry_cake",
+      "name": "Blackberry Cake",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/frostedcake",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/blackberrycake",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/grown/fruit/blackberry",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/cake/carrot_cake",
+      "name": "Carrot Cake",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/frostedcake",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/carrotcake",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/carrot_baked",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/cake/carrot_cake_alt",
+      "name": "Carrot Cake (Raw Carrot)",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/frostedcake",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/carrotcake",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/grown/carrot",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/cake/lemon_cake",
+      "name": "Lemon Cake",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/frostedcake",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/lemoncake",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/grown/fruit/lemon",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/cake/lime_cake",
+      "name": "Lime Cake",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/frostedcake",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/limecake",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/grown/fruit/lime",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/cake/mentha_cake",
+      "name": "Mentha Cake",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/frostedcake",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/menthacake",
+      "ingredients": [
+        {
+          "type": "/obj/item/alch/mentha",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/cake/peace_cake",
+      "name": "Peace Cake",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/frostedcake",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/peacecake",
+      "ingredients": [
+        {
+          "type": "/obj/item/clothing/head/peaceflower",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/cake/raspberry_cake",
+      "name": "Raspberry Cake",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/frostedcake",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/raspberrycake",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/grown/fruit/raspberry",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/cake/rocknut_cake",
+      "name": "Rocknut Cake",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/frostedcake",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/rocknutcake",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/grown/nut",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/cake/strawberry_cake",
+      "name": "Strawberry Cake",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/frostedcake",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/strawberrycake",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/grown/fruit/strawberry",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/cake/tangerine_cake",
+      "name": "Tangerine Cake",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/frostedcake",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/tangerinecake",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/grown/fruit/tangerine",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/cake/applenut_cake",
+      "name": "Applenut Cake",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/applecake",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/applenutcake",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/grown/nut",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 30
+    },
+    {
+      "type": "/datum/food_recipe/cake/applenut_cake_alt",
+      "name": "Applenut Cake (from Rocknut)",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/rocknutcake",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/applenutcake",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/grown/apple",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 30
+    },
+    {
+      "type": "/datum/food_recipe/eggs/twin_fried_eggs",
+      "name": "Twin Fried Eggs",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/fried",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/two",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/fried",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 30
+    },
+    {
+      "type": "/datum/food_recipe/eggs/wiener_egg",
+      "name": "Wiener Egg",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/fried",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/sausage",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/sausage/cooked",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 30
+    },
+    {
+      "type": "/datum/food_recipe/eggs/valerian_omelette",
+      "name": "Valerian Omelette",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/two",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/tiberian",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/cheddarwedge",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/eggs/bacon_and_eggs",
+      "name": "Bacon and Eggs",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/two",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/bacon",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/bacon/fried",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/eggs/wiener_egg_bacon",
+      "name": "Wiener Egg with Bacon",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/bacon",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/sausagebacon",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/sausage/cooked",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/eggs/wiener_egg_bacon_alt",
+      "name": "Wiener Egg with Bacon (Alt)",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/sausage",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/sausagebacon",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/bacon/fried",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/eggs/hammerholdian_breakfast",
+      "name": "Hammerholdian Breakfast",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/sausagebacon",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/hammerhold",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/breadslice/toast",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 50
+    },
+    {
+      "type": "/datum/food_recipe/seafood/buttered_sole",
+      "name": "Buttered Sole",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/sole",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/buttersole",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/butterslice",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/seafood/ale_cod",
+      "name": "Ale Cod",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/cod",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/alecod",
+      "ingredients": [
+        {
+          "type": "/datum/reagent/consumable/ethanol/beer",
+          "amount": 1
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/seafood/pepper_lobster",
+      "name": "Pepper Lobster",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/lobster",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/pepperlobsta",
+      "ingredients": [
+        {
+          "type": "/datum/reagent/consumable/blackpepper",
+          "amount": 1
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/seafood/buttered_lobster",
+      "name": "Buttered Lobster",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/lobster",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/lobster/meal",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/butterslice",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/seafood/mentha_salmon",
+      "name": "Mentha Salmon",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/salmon",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/dendorsalmon",
+      "ingredients": [
+        {
+          "type": "/obj/item/alch/mentha",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/seafood/berry_salmon",
+      "name": "Berry Salmon",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/salmon",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/berrysalmon",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/grown/berries/rogue",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/seafood/onion_plaice",
+      "name": "Onion Plaice",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/plaice",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/onionplaice",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/veg/onion_sliced",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/seafood/garlic_bass",
+      "name": "Garlic Bass",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/bass",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/garlickbass",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/veg/garlick_clove",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/seafood/milk_clam",
+      "name": "Milk Clam",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/clam",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/milkclam",
+      "ingredients": [
+        {
+          "type": "/datum/reagent/consumable/milk",
+          "amount": 1
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/peppersteak_ducal",
+      "name": "Ducal Peppersteak",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/peppersteak",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/peppersteak/ducal",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/grown/garlick/rogue",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 30
+    },
+    {
+      "type": "/datum/food_recipe/venison_prime_choice",
+      "name": "Choice cut steak",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_prime",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_prime/cooked/choice",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/veg/onion_sliced",
+          "amount": null
+        },
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/veg/garlick_clove",
+          "amount": null
+        }
+      ],
+      "needsCooking": 1,
+      "ticksPerStep": 10
+    },
+    {
+      "type": "/datum/food_recipe/venison_prime_choice_butter",
+      "name": "Choice cut steak (with butter)",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_prime/cooked/choice",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_prime/cooked/choice/butter",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/butterslice",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 10
+    },
+    {
+      "type": "/datum/food_recipe/venison_ribs_glazed",
+      "name": "glazed venison ribs",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_ribs",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_ribs/cooked/glazed",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/honey",
+          "amount": null
+        }
+      ],
+      "needsCooking": 1,
+      "ticksPerStep": 10
+    },
+    {
+      "type": "/datum/food_recipe/venison_loins_sauced",
+      "name": "wine glazed venison loins",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_loins",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_loins/cooked/sauced",
+      "ingredients": [
+        {
+          "type": "/datum/reagent/consumable/ethanol/redwine",
+          "amount": 5
+        },
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/grown/berries/rogue",
+          "amount": null
+        }
+      ],
+      "needsCooking": 1,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/deadite_loins_cubed",
+      "name": "gelatinous meat cube",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_loins_z",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_loins_z/cooked/cubed",
+      "ingredients": [
+        {
+          "type": "/obj/item/natural/bone",
+          "amount": null
+        },
+        {
+          "type": "/obj/item/alch/viscera",
+          "amount": null
+        }
+      ],
+      "needsCooking": 1,
+      "ticksPerStep": 10
+    },
+    {
+      "type": "/datum/food_recipe/deadite_ribs_crown",
+      "name": "berry rib crown",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_ribs_z",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_ribs_z/cooked/crown",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/grown/berries/rogue",
+          "amount": null
+        }
+      ],
+      "needsCooking": 1,
+      "ticksPerStep": 10
+    },
+    {
+      "type": "/datum/food_recipe/deadite_rose",
+      "name": "meat roses",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_prime_z",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_prime_z/cooked/roses",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/veg/garlick_clove",
+          "amount": null
+        },
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/veg/garlick_clove",
+          "amount": null
+        },
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/veg/garlick_clove",
+          "amount": null
+        }
+      ],
+      "needsCooking": 1,
+      "ticksPerStep": 10
+    },
+    {
+      "type": "/datum/food_recipe/deadite_loaf",
+      "name": "meatloaf",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_z",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_z/cooked/meatloaf",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_z",
+          "amount": null
+        },
+        {
+          "type": "/obj/item/alch/viscera",
+          "amount": null
+        },
+        {
+          "type": "/obj/item/alch/viscera",
+          "amount": null
+        },
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat",
+          "amount": null
+        }
+      ],
+      "needsCooking": 1,
+      "ticksPerStep": 10
+    },
+    {
+      "type": "/datum/food_recipe/steakmeal_carrot",
+      "name": "Steak Meal (Carrot)",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/onionsteak",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/steakcarrotonion",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/carrot_baked",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 30
+    },
+    {
+      "type": "/datum/food_recipe/steakmeal_onion",
+      "name": "Steak Meal (Onion)",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/carrotsteak",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/steakcarrotonion",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/onion_fried",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 30
+    },
+    {
+      "type": "/datum/food_recipe/wiener_meal_onion",
+      "name": "Wiener Meal (Onion)",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/wienerpotato",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/wienerpotatonions",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/onion_fried",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 30
+    },
+    {
+      "type": "/datum/food_recipe/wiener_meal_potato",
+      "name": "Wiener Meal (Potato)",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/wieneronions",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/wienerpotatonions",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/potato_baked",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 30
+    },
+    {
+      "type": "/datum/food_recipe/ducal_birdroast",
+      "name": "Ducal Bird-Roast",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/baked/spiced",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/baked/spiced/ducal",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/grown/garlick/rogue",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 30
+    },
+    {
+      "type": "/datum/food_recipe/elven_cabbit_roast",
+      "name": "Elven Cabbit Roast",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/rabbit/fried/garlick",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/meat/rabbit/fried/garlick/cucumber",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/veg/cucumber_sliced",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 30
+    },
+    {
+      "type": "/datum/food_recipe/hunters_feast",
+      "name": "Hunter's Feast",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/wolf/fried/garlick",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/wolf/fried/garlick/cucumber",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/veg/cucumber_sliced",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 30
+    },
+    {
+      "type": "/datum/food_recipe/pepper_steak",
+      "name": "Pepper Steak",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/fried",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/peppersteak",
+      "ingredients": [
+        {
+          "type": "/datum/reagent/consumable/blackpepper",
+          "amount": 1
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/onion_steak",
+      "name": "Onion Steak",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/fried",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/onionsteak",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/onion_fried",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/carrot_steak_meat",
+      "name": "Carrot Steak",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/fried",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/carrotsteak",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/carrot_baked",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/bacon_wiener_egg",
+      "name": "Wiener Egg with Bacon (from Bacon)",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/bacon/fried",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/sausagebacon",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/sausage",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/bacon_egg",
+      "name": "Bacon and Eggs",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/bacon/fried",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/bacon",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/fried",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/spiced_bird",
+      "name": "Spiced Bird-Roast",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/baked",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/baked/spiced",
+      "ingredients": [
+        {
+          "type": "/datum/reagent/consumable/blackpepper",
+          "amount": 1
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/butter_bird",
+      "name": "Butter Bird-Roast",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/baked",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/baked/butter",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/butter",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/double_bird",
+      "name": "Double Stacked Bird-Roast",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/baked",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/baked/doublestacked",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/baked",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/frybird_tato_meat",
+      "name": "Frybird Tato",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/cutlet/fried",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/frybirdtato",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/potato_baked",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/frybird_tato_meat_alt",
+      "name": "Frybird Tato (Alt)",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/cutlet/fried",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/frybirdtato",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/potato_fried",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/garlick_cabbit",
+      "name": "Garlick Cabbit",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/rabbit/fried",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/meat/rabbit/fried/garlick",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/veg/garlick_clove",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/garlick_volf",
+      "name": "Garlick Volf",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/wolf/fried",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/wolf/fried/garlick",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/veg/garlick_clove",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/pepper_fish",
+      "name": "Pepper Fish",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/fish/fried",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/pepperfish",
+      "ingredients": [
+        {
+          "type": "/datum/reagent/consumable/blackpepper",
+          "amount": 1
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/wiener_egg_sausage",
+      "name": "Wiener Egg (from Sausage)",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/meat/sausage/cooked",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/sausage",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/fried",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/rice/beef",
+      "name": "Rice and Beef",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/preserved/rice_cooked",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/ricebeef",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/fried",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/rice/pork",
+      "name": "Rice and Pork",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/preserved/rice_cooked",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/ricepork",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/fatty/roast",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/rice/shrimp",
+      "name": "Rice and Shrimp",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/preserved/rice_cooked",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/riceshrimp",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/shrimp",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/rice/bird",
+      "name": "Rice and Bird",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/preserved/rice_cooked",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/ricebird",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/cutlet/fried",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/rice/cheese",
+      "name": "Rice and Cheese",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/preserved/rice_cooked",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/ricecheese",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/cheddarslice",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/rice/egg",
+      "name": "Rice and Egg",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/preserved/rice_cooked",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/riceegg",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/egg",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/rice/pork_cucumber",
+      "name": "Rice and Pork Meal",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/ricepork",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/riceporkcuc",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/veg/cucumber_sliced",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/rice/beef_carrot",
+      "name": "Rice and Beef Meal",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/ricebeef",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/ricebeefcar",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/carrot_baked",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/rice/shrimp_carrot",
+      "name": "Rice and Shrimp Meal",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/riceshrimp",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/riceshrimpcar",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/carrot_baked",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/rice/bird_carrot",
+      "name": "Rice and Bird Meal",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/ricebird",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/ricebirdcar",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/preserved/carrot_baked",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/rice/egg_cheese",
+      "name": "Rice with Egg and Cheese",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/riceegg",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/riceeggcheese",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/cheddarslice",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/rice/cheese_egg",
+      "name": "Rice with Egg and Cheese (Alt)",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/ricecheese",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/riceeggcheese",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/egg",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/wiener_cabbage",
+      "name": "Wiener Cabbage",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/preserved/cabbage_fried",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/wienercabbage",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/sausage/cooked",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/wiener_potato",
+      "name": "Wiener Potato",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/preserved/potato_baked",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/wienerpotato",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/sausage/cooked",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/frybird_tato",
+      "name": "Frybird Tato",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/preserved/potato_baked",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/frybirdtato",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/cutlet/fried",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/wiener_potato_alt",
+      "name": "Wiener Potato (Alt)",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/preserved/potato_fried",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/wienerpotato",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/sausage/cooked",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/frybird_tato_alt",
+      "name": "Frybird Tato (Alt)",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/preserved/potato_fried",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/frybirdtato",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/cutlet/fried",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/carrot_steak",
+      "name": "Carrot Steak",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/preserved/carrot_baked",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/carrotsteak",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/fried",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/rice_beef_carrot_baked",
+      "name": "Rice Beef with Carrot",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/preserved/carrot_baked",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/ricebeefcar",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/ricebeef",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/wiener_onions",
+      "name": "Wiener Onions",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/preserved/onion_fried",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/wieneronions",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/sausage/cooked",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/eggplant_meat",
+      "name": "Stuffed Eggplant with Meat",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/eggplantcarved",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/eggplantmeat",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/mince/beef",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/eggplant_tomato",
+      "name": "Stuffed Eggplant with Tomato",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/eggplantmeat",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/eggplantstuffedraw",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/grown/fruit/tomato",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    },
+    {
+      "type": "/datum/food_recipe/eggplant_cheese",
+      "name": "Stuffed Eggplant with Cheese",
+      "base": "/obj/item/reagent_containers/food/snacks/rogue/preserved/eggplantstuffed",
+      "result": "/obj/item/reagent_containers/food/snacks/rogue/preserved/eggplantstuffedcheese",
+      "ingredients": [
+        {
+          "type": "/obj/item/reagent_containers/food/snacks/rogue/cheddarwedge",
+          "amount": null
+        }
+      ],
+      "needsCooking": 0,
+      "ticksPerStep": 20
+    }
+  ]
+}

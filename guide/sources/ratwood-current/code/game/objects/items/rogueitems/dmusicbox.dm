@@ -1,0 +1,170 @@
+GLOBAL_LIST_EMPTY(musicboxes) //list of all music boxes
+GLOBAL_VAR_INIT(musicboxes_last_upload, 0) //last time of the last upload, to prevent multiple uploads within seconds of eachother
+GLOBAL_VAR_INIT(musicboxes_last_play, 0) //last time of the last played track, to prevent spamming clients too often with play/stop
+
+/datum/looping_sound/music/dmusloop
+	mid_sounds = list()
+	mid_length = 12000 // 20 minutes to force a loop. File size determines server load, not audio length. Low bitrate .ogg files can run long and have their uses as ambient sound.
+	volume = 100
+	extra_range = 10	/// Uses a reserved token channel for positional updates and native repeating playback
+	use_sound_tokens = TRUE
+
+/datum/looping_sound/music/dmusloop/configure_token(datum/sound_token/token)
+	..()
+	token.stand_in_songs = GLOB.oldschool_songs
+
+/obj/item/dmusicbox
+	name = "dwarven music box"
+	desc = "It is essential that the deepest caves be tuned to the right frequency of vibrations."
+	icon = 'icons/roguetown/misc/machines.dmi'
+	icon_state = "mbox0"
+	gripped_intents = list(INTENT_GENERIC)
+	w_class = WEIGHT_CLASS_HUGE
+	twohands_required = TRUE
+	force = 20
+	throwforce = 20
+	throw_range = 2
+	var/datum/looping_sound/music/dmusloop/soundloop
+	var/curfile
+	var/playing = FALSE
+	var/loaded = TRUE
+	var/lastfilechange = 0
+	var/curvol = 100
+	anvilrepair = /datum/skill/craft/blacksmithing
+
+/obj/item/dmusicbox/Initialize(mapload)
+	GLOB.musicboxes += src
+	soundloop = new(src, FALSE)
+//	soundloop.start()
+	update_icon()
+	. = ..()
+
+/obj/item/dmusicbox/Destroy()
+	GLOB.musicboxes -= src
+	playing = FALSE
+	QDEL_NULL(soundloop)
+	return ..()
+
+/obj/item/dmusicbox/update_icon()
+	if(playing)
+		icon_state = "mboxon"
+	else
+		icon_state = "mbox[loaded]"
+
+/obj/item/dmusicbox/attackby(obj/item/P, mob/user, params)
+	if(!loaded)
+		if(istype(P, /obj/item/roguecoin/copper))
+			loaded=TRUE
+			qdel(P)
+			update_icon()
+			playsound(loc, 'sound/misc/machinevomit.ogg', 100, TRUE, -1)
+			return
+	. = ..()
+
+/obj/item/dmusicbox/rmb_self(mob/user)
+	attack_right(user)
+	return
+
+/obj/item/dmusicbox/attack_right(mob/user)
+	. = ..()
+	if(.)
+		return
+	if(loc != user)
+		return
+	if(!user.ckey)
+		return
+	if(playing)
+		return
+	user.changeNext_move(CLICK_CD_MELEE)
+	if(lastfilechange)
+		if(world.time < lastfilechange + 3 MINUTES)
+			say("NOT YET!")
+			return
+	if(!loaded)
+		say("ONE COIN, A COPPER COIN FOR AN AFTERNOON OF JOY!")
+		return
+	playsound(loc, 'sound/misc/beep.ogg', 100, FALSE, -1)
+	INVOKE_ASYNC(src, PROC_REF(upload_file), user) // call as thread to avoid halting while waiting for user file input
+
+/obj/item/dmusicbox/proc/upload_file(mob/user)
+	set waitfor = FALSE
+	var/infile = input(user, "CHOOSE A NEW SONG", src) as null|file
+
+	if(!infile)
+		return
+
+	if(!loaded)
+		return
+
+	if(world.time < GLOB.musicboxes_last_upload + 30 SECONDS)
+		say("NOT YET!")
+		return
+
+	var/filename = "[infile]"
+	var/file_ext = LOWER_TEXT(copytext(filename, -4))
+	var/file_size = length(infile)
+
+	if(file_ext != ".ogg")
+		to_chat(user, span_warning("SONG MUST BE AN OGG."))
+		return
+	if(file_size > 6485760)
+		to_chat(user, span_warning("TOO BIG. 6 MEGS OR LESS."))
+		return
+	lastfilechange = world.time
+	GLOB.musicboxes_last_upload = world.time
+	var/logged_filename = "[SONG_UPLOAD_FOLDER]round-[GLOB.round_id ? GLOB.round_id : "NULL"]/[user.ckey[1]]/[user.ckey]/[time2text(world.time, "hh_mm_ss", 0)][file_ext]"
+	if(fexists(logged_filename))
+		fdel(logged_filename)
+	if(!fcopy(infile, logged_filename))
+		to_chat(user, span_warning("Could not upload song."))
+		return
+	if(QDELETED(user) || QDELETED(src)) // clean up uploaded file if object/user was deleted while upload was in progress
+		if(fexists(logged_filename))
+			fdel(logged_filename)
+		return
+	if(fexists(logged_filename))
+		curfile = file(logged_filename)
+		if(curfile && length(curfile) != file_size) // file didn't finish/uploaded file size does not match - delete file
+			fdel(logged_filename)
+			curfile = null
+		if(!curfile)
+			user.log_message("attempted to upload jukebox song: [logged_filename]", LOG_GAME)
+		else
+			user.log_message("uploaded jukebox song: [logged_filename]", LOG_GAME)
+	else
+		curfile = null
+
+	loaded = FALSE
+	update_icon()
+
+/obj/item/dmusicbox/attack_self(mob/living/user)
+	. = ..()
+	if(.)
+		return
+	user.changeNext_move(CLICK_CD_MELEE)
+	playsound(loc, 'sound/misc/beep.ogg', 100, FALSE, -1)
+	if(!playing)
+		if(curfile)
+			// At most four boxes play at once across the world, counted by headcount
+			var/boxes_playing = 0
+			for(var/obj/item/dmusicbox/musicbox in GLOB.musicboxes)
+				if(musicbox.playing && musicbox.soundloop.is_active())
+					boxes_playing++
+			if(boxes_playing >= 4)
+				to_chat(user, span_warning("TOO MANY MUSIC BOXES IN USE AT THE SAME TIME IN THE WORLD."))
+				return
+			if(world.time < GLOB.musicboxes_last_play + 10 SECONDS)
+				to_chat(user, span_warning("STILL WARMING UP..."))
+				return
+			GLOB.musicboxes_last_play = world.time
+			playing = TRUE
+			soundloop.set_mid_sounds(list(curfile))
+			soundloop.start()
+			user.log_message("played jukebox song: [curfile]", LOG_GAME)
+	else
+		playing = FALSE
+		soundloop.stop()
+		if(curfile)
+			user.log_message("stopped jukebox song: [curfile]", LOG_GAME)
+	update_icon()
+

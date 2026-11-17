@@ -1,0 +1,251 @@
+{
+  "revision": "80907df21ed15bde91106da41ce82e6ac6c40069",
+  "reviewed": "2026-11-15",
+  "files": [
+    {
+      "path": "code/datums/components/crafting/crafting.dm",
+      "file": "sources/ratwood-2-preparation/code/datums/components/crafting/crafting.dm",
+      "sha": "1db6756cd60c91fdd2d2413f5ca639dd58b3c90a"
+    },
+    {
+      "path": "code/datums/components/crafting/recipes.dm",
+      "file": "sources/ratwood-2-preparation/code/datums/components/crafting/recipes.dm",
+      "sha": "a63f0e5c9bf0381818f3826ce940da79ed77a99e"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguecrafting/alchemy.dm",
+      "sha": "e14449e4cb811c85af846dfebf5af37f7b68ab46"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/carpentry.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguecrafting/carpentry.dm",
+      "sha": "7e1b5d15bb4ca94c2fda6d8d1ff1572fdde1c227"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/ceramics.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguecrafting/ceramics.dm",
+      "sha": "2646af79d0d8d761fbd0691717e5352661c3c74e"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/engineering.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguecrafting/engineering.dm",
+      "sha": "1e40b97bfdb2d1f1e6322e46cdc78fa91d4abe17"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/farming.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguecrafting/farming.dm",
+      "sha": "d44ac8dcfd32d157beb4848212a7a88aa9a7cb61"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/fleshcrafting.dm",
+      "file": "sources/ratwood-2-system/code/modules/roguetown/roguecrafting/fleshcrafting.dm",
+      "retained": true
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/hunting.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguecrafting/hunting.dm",
+      "sha": "252e522a28fbb9a8dc9ab6fc8ae12b9fcc9caaa9"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/items.dm",
+      "file": "sources/ratwood-2-production/code/modules/roguetown/roguecrafting/items.dm",
+      "retained": true
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/runes.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguecrafting/runes.dm",
+      "sha": "4d127de37528e45db2a6795226c7ceedeaf83f33"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/sewing.dm",
+      "file": "sources/ratwood-2-production/code/modules/roguetown/roguecrafting/sewing.dm",
+      "retained": true
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/statues.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguecrafting/statues.dm",
+      "sha": "135715095bf4d73ea9ef92e8f59a78100a08ba2d"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/structure.dm",
+      "file": "sources/ratwood-2-production/code/modules/roguetown/roguecrafting/structure.dm",
+      "retained": true
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/tallow.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguecrafting/tallow.dm",
+      "sha": "46db9ff7a3b846203c3df7c24bf69743474bbaff"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/turfs.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguecrafting/turfs.dm",
+      "sha": "d6dc574810b4bf67b5c853d3510d08f050af9ab0"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/weaving.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguecrafting/weaving.dm",
+      "sha": "4b26f8e02eb88e426bb9010618f76c465719df54"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/alch_cauldron_recipe_base.dm",
+      "file": "sources/ratwood-2/code/modules/roguetown/roguecrafting/alchemy/alch_cauldron_recipe_base.dm",
+      "retained": true
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/alch_cauldron_recipes.dm",
+      "file": "sources/ratwood-2/code/modules/roguetown/roguecrafting/alchemy/alch_cauldron_recipes.dm",
+      "retained": true
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/alch_grind_recipe_base.dm",
+      "file": "sources/ratwood-2/code/modules/roguetown/roguecrafting/alchemy/alch_grind_recipe_base.dm",
+      "retained": true
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/alch_grind_recipes.dm",
+      "file": "sources/ratwood-2/code/modules/roguetown/roguecrafting/alchemy/alch_grind_recipes.dm",
+      "retained": true
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/alch_items.dm",
+      "file": "sources/ratwood-2/code/modules/roguetown/roguecrafting/alchemy/alch_items.dm",
+      "retained": true
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/cauldron.dm",
+      "file": "sources/ratwood-2/code/modules/roguetown/roguecrafting/alchemy/cauldron.dm",
+      "retained": true
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/ingredients.dm",
+      "file": "sources/ratwood-2/code/modules/roguetown/roguecrafting/alchemy/ingredients.dm",
+      "retained": true
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/mortarpestle.dm",
+      "file": "sources/ratwood-2/code/modules/roguetown/roguecrafting/alchemy/mortarpestle.dm",
+      "retained": true
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/potionbuffs.dm",
+      "file": "sources/ratwood-2/code/modules/roguetown/roguecrafting/alchemy/potionbuffs.dm",
+      "retained": true
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/reagents.dm",
+      "file": "sources/ratwood-2/code/modules/roguetown/roguecrafting/alchemy/reagents.dm",
+      "retained": true
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/crafting/ammo_and_ranged.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguecrafting/crafting/ammo_and_ranged.dm",
+      "sha": "9d67698589e8a4fb5aaff03d5f1b9ef827f88479"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/crafting/clothes.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguecrafting/crafting/clothes.dm",
+      "sha": "0c67a51b8cc1d5d2d8cdba8c9f37713459108019"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/crafting/gemcarving.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguecrafting/crafting/gemcarving.dm",
+      "sha": "0514404fb6e7824584485fb273311a338c9b862b"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/crafting/houseware.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguecrafting/crafting/houseware.dm",
+      "sha": "f53ba886dd422475e3f24fa3dfbc4f1d66e8e970"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/crafting/weapons_tools.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguecrafting/crafting/weapons_tools.dm",
+      "sha": "f9ae14b50ced499d460781e467a484864a505939"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/leather/leather.dm",
+      "file": "sources/ratwood-2-production/code/modules/roguetown/roguecrafting/leather/leather.dm",
+      "retained": true
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/leather/leather_armor_recipes.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguecrafting/leather/leather_armor_recipes.dm",
+      "sha": "5279a85cded27a5e8e46f65b47a0237bbda9a1d6"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/leather/leather_container_recipes.dm",
+      "file": "sources/ratwood-2-production/code/modules/roguetown/roguecrafting/leather/leather_container_recipes.dm",
+      "retained": true
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/leather/leather_footwear_recipes.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguecrafting/leather/leather_footwear_recipes.dm",
+      "sha": "c54a5ebfa0e6962bd2377b7f3a65d02b97e6ce36"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/leather/leather_unique_recipes.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguecrafting/leather/leather_unique_recipes.dm",
+      "sha": "b3f93b647012f375d25975af0bf2c45bc337cef4"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/leather/reinforcement.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguecrafting/leather/reinforcement.dm",
+      "sha": "ab132bfdd60d8806149eb6e01cdbd6de826ec17f"
+    },
+    {
+      "path": "code/modules/roguetown/roguejobs/blacksmith/anvil_recipes/_anvil_recipe.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguejobs/blacksmith/anvil_recipes/_anvil_recipe.dm",
+      "sha": "8293a99b525eafaebef50d52c302fc552dbd84ff"
+    },
+    {
+      "path": "code/modules/roguetown/roguejobs/blacksmith/anvil_recipes/armor.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguejobs/blacksmith/anvil_recipes/armor.dm",
+      "sha": "2a802cc28a43e9fe080dafe05a2f7ecbffe00d5d"
+    },
+    {
+      "path": "code/modules/roguetown/roguejobs/blacksmith/anvil_recipes/blades.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguejobs/blacksmith/anvil_recipes/blades.dm",
+      "sha": "00b211acc315bf2fbf86ab0711ab3e3aed722b06"
+    },
+    {
+      "path": "code/modules/roguetown/roguejobs/blacksmith/anvil_recipes/dwarven.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguejobs/blacksmith/anvil_recipes/dwarven.dm",
+      "sha": "61ddfbfed8751303c327aed4414f12fe76554c86"
+    },
+    {
+      "path": "code/modules/roguetown/roguejobs/blacksmith/anvil_recipes/kazengunite.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguejobs/blacksmith/anvil_recipes/kazengunite.dm",
+      "sha": "00c94cf012f031357ea0ad2de79b3981b937fa4c"
+    },
+    {
+      "path": "code/modules/roguetown/roguejobs/blacksmith/anvil_recipes/tools.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguejobs/blacksmith/anvil_recipes/tools.dm",
+      "sha": "73bd18d20a73e1b3c4e31847b77fd1fa3bdb6773"
+    },
+    {
+      "path": "code/modules/roguetown/roguejobs/blacksmith/anvil_recipes/valuables.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguejobs/blacksmith/anvil_recipes/valuables.dm",
+      "sha": "635082fbb450163eafdb0a6d2e4760ddcf808a2c"
+    },
+    {
+      "path": "code/modules/roguetown/roguejobs/blacksmith/anvil_recipes/weapons.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguejobs/blacksmith/anvil_recipes/weapons.dm",
+      "sha": "5d6d148bc07b758a2e35e90f3290787333e218c3"
+    },
+    {
+      "path": "code/modules/roguetown/roguejobs/engineer/anvil_recipes/mechanical.dm",
+      "file": "sources/ratwood-2-preparation/code/modules/roguetown/roguejobs/engineer/anvil_recipes/mechanical.dm",
+      "sha": "ef06c05ee3b6285d7c4f6f90309a6dc17304bb75"
+    },
+    {
+      "path": "modular/Neu_Farming/code/eggs.dm",
+      "file": "sources/ratwood-2-preparation/modular/Neu_Farming/code/eggs.dm",
+      "retrieval": "Pinned raw GitHub UTF-8 source; retained for stateful food procedures"
+    },
+    {
+      "path": "code/game/objects/lighting/rogue_fires.dm",
+      "file": "sources/ratwood-2-preparation/code/game/objects/lighting/rogue_fires.dm",
+      "retrieval": "Pinned raw GitHub UTF-8 source; retained for stateful food procedures"
+    }
+  ]
+}

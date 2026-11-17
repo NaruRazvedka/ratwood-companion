@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Meat",
+    "type": "/obj/item/reagent_containers/food/snacks/rogue/meat",
+    "sheet": "modular/Neu_Food/icons/raw/raw_meat.dmi",
+    "state": "meatslab",
+    "reason": "State absent from referenced sheet or unsupported dimensions"
+  },
+  {
+    "title": "Salo Slice",
+    "type": "/obj/item/reagent_containers/food/snacks/fat/salo/slice",
+    "sheet": "modular/Neu_Food/icons/others/preserved_meat.dmi",
+    "state": "saloslice",
+    "reason": "State absent from referenced sheet or unsupported dimensions"
+  },
+  {
+    "title": "split tomato",
+    "type": "/obj/item/reagent_containers/food/snacks/grown/fruit/tomato_sliced",
+    "sheet": "icons/roguetown/items/produce.dmi",
+    "state": "tomato_split",
+    "reason": "State absent from referenced sheet or unsupported dimensions"
+  }
+]

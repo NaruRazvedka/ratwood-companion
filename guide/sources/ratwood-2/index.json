@@ -1,0 +1,608 @@
+{
+  "repo": "Rotwood-Vale/Ratwood-2.0",
+  "revision": "80907df21ed15bde91106da41ce82e6ac6c40069",
+  "reviewed": "2026-11-12",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha": "dbbe3558157f5861bff35dcb37b328b679b0ccfd"
+    },
+    {
+      "path": "README.md",
+      "sha": "f4b65cbc3c510268dc2b2d3e74ae6c140a99d5bd"
+    },
+    {
+      "path": "code/controllers/subsystem/rogue/cooking/cooking_recipes.dm",
+      "sha": "2b3e59c7f454d517744850b91eb30e53c973cd9f"
+    },
+    {
+      "path": "code/controllers/subsystem/rogue/cooking_subsystem.dm",
+      "sha": "c2d4347a29f4bcf6510f57232854fa62945adb0c"
+    },
+    {
+      "path": "code/datums/brewing_recipes/_brewing_recipe_base.dm",
+      "sha": "d868dec925780638851ded10f948a2995c3b90ab"
+    },
+    {
+      "path": "code/datums/brewing_recipes/aqua_vitae.dm",
+      "sha": "9f711fb90b2af96a09f7ea62fd4dfc21ed03cf41"
+    },
+    {
+      "path": "code/datums/brewing_recipes/brandy.dm",
+      "sha": "2d9b630eacf13d1d698eefd87039bf4c4bffdf61"
+    },
+    {
+      "path": "code/datums/brewing_recipes/cabbage.dm",
+      "sha": "c9e2888c396cbd60cca56cacb0f8be5d3bfb0d0e"
+    },
+    {
+      "path": "code/datums/brewing_recipes/cider.dm",
+      "sha": "e62b12cc68f868cf7caca6c61072d25d32832dc0"
+    },
+    {
+      "path": "code/datums/brewing_recipes/dwarf_brews.dm",
+      "sha": "853862227faa01fb943711349d2d6a34f62c8124"
+    },
+    {
+      "path": "code/datums/brewing_recipes/grain.dm",
+      "sha": "79891e68bde64801ae3cab92dc98ff0d3e21359c"
+    },
+    {
+      "path": "code/datums/brewing_recipes/limoncello.dm",
+      "sha": "3374c5f717d1cb160fec2157a7ea0b88f06a1813"
+    },
+    {
+      "path": "code/datums/brewing_recipes/liquor.dm",
+      "sha": "0b96c34380daa5606109fe7b73fda1a501c573c2"
+    },
+    {
+      "path": "code/datums/brewing_recipes/mead.dm",
+      "sha": "fe74785e3056c729f2b418d6c9a7f3628f12bafc"
+    },
+    {
+      "path": "code/datums/brewing_recipes/onion_beer.dm",
+      "sha": "04aa1a768c41dccab8c8a9916db1c6d16b9b71c5"
+    },
+    {
+      "path": "code/datums/brewing_recipes/sugar.dm",
+      "sha": "1868a243e7419d3a9f51cddd6da8080788cf8102"
+    },
+    {
+      "path": "code/datums/brewing_recipes/tea.dm",
+      "sha": "ad545495eb627ceab47aa3d1401176d5f266decd"
+    },
+    {
+      "path": "code/datums/brewing_recipes/vodden.dm",
+      "sha": "0e6456544576c4358fa7f4fce95e739ca2f604de"
+    },
+    {
+      "path": "code/datums/brewing_recipes/wine.dm",
+      "sha": "72ec529e55b2c10ed391bcf5f4abf6595a8fae28"
+    },
+    {
+      "path": "code/modules/farming/big_liquid_containers.dm",
+      "sha": "fb906bb33d9fd9fea8c4f297fef9ada1f4c2512c"
+    },
+    {
+      "path": "code/modules/farming/bin.dm",
+      "sha": "b3ac0dfa53f4d3fde1835f1276c3c041a1836cba"
+    },
+    {
+      "path": "code/modules/farming/bottle_kit.dm",
+      "sha": "dc284bd1cceba12103c06cf8fa8ff50dd8bf2a7d"
+    },
+    {
+      "path": "code/modules/farming/chaff.dm",
+      "sha": "3e517d6f833cd63142b1c94c7e0212f5b036a7fa"
+    },
+    {
+      "path": "code/modules/farming/composter.dm",
+      "sha": "d9ba09b5d6103db589ffb403a07ac3eb17bb088d"
+    },
+    {
+      "path": "code/modules/farming/crafting_recipes.dm",
+      "sha": "79d27a0d422d552458ea92c24ae7e61c5ea56182"
+    },
+    {
+      "path": "code/modules/farming/fermentation_keg.dm",
+      "sha": "db334693427ae4c2bea7d342220a3db22cceab11"
+    },
+    {
+      "path": "code/modules/farming/helpers.dm",
+      "sha": "401114b736857008bd8621c2ad56e3d4d31914a2"
+    },
+    {
+      "path": "code/modules/farming/plant_def.dm",
+      "sha": "6e8a9682939df48333329570ad76d195ff52515a"
+    },
+    {
+      "path": "code/modules/farming/plough.dm",
+      "sha": "56f5d7efbcb9e33bc28fcbaf57424dfcd88c1e3f"
+    },
+    {
+      "path": "code/modules/farming/produce.dm",
+      "sha": "ed11ad02f923465eae457c4edba9036f1a12bfd4"
+    },
+    {
+      "path": "code/modules/farming/seeds.dm",
+      "sha": "66b776f95e3eb1f81d3883bfe9282c1155ebd2df"
+    },
+    {
+      "path": "code/modules/farming/shellplant.dm",
+      "sha": "974d412c5546726fb74571a2f429bc4f627f44db"
+    },
+    {
+      "path": "code/modules/farming/soil.dm",
+      "sha": "137666b0827cfce91c5c885263151bf81706a968"
+    },
+    {
+      "path": "code/modules/farming/tools.dm",
+      "sha": "a66a6fbabdea7c6742925fe3b92941c264970d2c"
+    },
+    {
+      "path": "code/modules/farming/trash.dm",
+      "sha": "cefa55fbf7e743791aa420c773332392a79702cb"
+    },
+    {
+      "path": "code/modules/farming/wild_plant.dm",
+      "sha": "e2601c9dea2e2c24d7cb102a3d38bdda33101981"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/alch_cauldron_recipe_base.dm",
+      "sha": "cfb8ecfcc0acee03d5f56d5bfc102daf4c360f28"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/alch_cauldron_recipes.dm",
+      "sha": "b40e36bb77484355346eabe6b5e03c28388c393a"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/alch_grind_recipe_base.dm",
+      "sha": "4b4532b15e01545466fc1186bbe37d2dce88986f"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/alch_grind_recipes.dm",
+      "sha": "c6884a109be0e18fb6ac87f6cd1077133379bd77"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/alch_items.dm",
+      "sha": "41fec968d72756e70acb80672287b2fe6b8379be"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/cauldron.dm",
+      "sha": "cf7eb43b34c5a71a185e8a6e3862497c7b63bec2"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/ingredients.dm",
+      "sha": "98e568978de4a6842dc93cd8e606c1f00dcfd2ea"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/mortarpestle.dm",
+      "sha": "18b53e691e32379876c5dbbd6a2476ed3836d158"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/potionbuffs.dm",
+      "sha": "3a3e30719a0f5ecdbbaf21c1182b77e19491a122"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/reagents.dm",
+      "sha": "f7864640eb1d90dc14dea0d7b8856fc1990a85d5"
+    },
+    {
+      "path": "modular/Neu_Food/code/NeuFood.dm",
+      "sha": "903963ca2eb4c7cfa40ed976619c7ce18877105b"
+    },
+    {
+      "path": "modular/Neu_Food/code/cooked/cooked_baked.dm",
+      "sha": "ddcbbd7820d0909e8dd9a78335cb13912aea1c64"
+    },
+    {
+      "path": "modular/Neu_Food/code/cooked/cooked_cakes.dm",
+      "sha": "18d16725816426dc6f72d27a2a9a5de4d1561846"
+    },
+    {
+      "path": "modular/Neu_Food/code/cooked/cooked_deep_fried.dm",
+      "sha": "994b7b03b0867cbc96c14a215aee8bfe55b674a4"
+    },
+    {
+      "path": "modular/Neu_Food/code/cooked/cooked_egg.dm",
+      "sha": "d58b2f750f0b25fdad0a4cb15905466c4669cce6"
+    },
+    {
+      "path": "modular/Neu_Food/code/cooked/cooked_fruits.dm",
+      "sha": "c3d32d8e0e0ad55a75c5183bdc9d8826f3b856cf"
+    },
+    {
+      "path": "modular/Neu_Food/code/cooked/cooked_meat.dm",
+      "sha": "e624cbf37efa80b0c0c8683a048d603f782d1be3"
+    },
+    {
+      "path": "modular/Neu_Food/code/cooked/cooked_meat_meal.dm",
+      "sha": "0c76235d97be1814edd99b40abf53d811a6e60ef"
+    },
+    {
+      "path": "modular/Neu_Food/code/cooked/cooked_meat_saiga.dm",
+      "sha": "d62f435402989ddaa88b794e3f5bd8b6c8d60032"
+    },
+    {
+      "path": "modular/Neu_Food/code/cooked/cooked_pastry.dm",
+      "sha": "10c011b7509e3d19db131473bfccb748a4ab2031"
+    },
+    {
+      "path": "modular/Neu_Food/code/cooked/cooked_pies.dm",
+      "sha": "4dbcf65f8aa10f53aa5dbb3c54ff3d11db4d5991"
+    },
+    {
+      "path": "modular/Neu_Food/code/cooked/cooked_rice.dm",
+      "sha": "c953deef4112b93639677257090924fce6dacbdb"
+    },
+    {
+      "path": "modular/Neu_Food/code/cooked/cooked_seafood.dm",
+      "sha": "c7cb52fd08cb880b9c83f4669c926fc5cb42ed81"
+    },
+    {
+      "path": "modular/Neu_Food/code/cooked/cooked_seafood_meal.dm",
+      "sha": "2a9b7b72c3c256be0c6c60a8ba85c9c78ffa4e8c"
+    },
+    {
+      "path": "modular/Neu_Food/code/cooked/cooked_stag_buffs.dm",
+      "sha": "4fd3e4d45c8e1711003142708bcba0fa4979e53c"
+    },
+    {
+      "path": "modular/Neu_Food/code/cooked/cooked_veggies.dm",
+      "sha": "b8dd9e30e60804f376973811fd92d7f893b27939"
+    },
+    {
+      "path": "modular/Neu_Food/code/cookware/bowl.dm",
+      "sha": "7345e701edbc0010fc3b4058b4883ab44fa94fb7"
+    },
+    {
+      "path": "modular/Neu_Food/code/cookware/cup.dm",
+      "sha": "cf006a4abef74e2a1f8c5643d0d0fe1602ce99df"
+    },
+    {
+      "path": "modular/Neu_Food/code/cookware/fork.dm",
+      "sha": "6867f14c7851858f684f17d8c33be610cbe043a3"
+    },
+    {
+      "path": "modular/Neu_Food/code/cookware/misc_cookware.dm",
+      "sha": "48ae4e76f3d99ae18418348b71f378c738341e4b"
+    },
+    {
+      "path": "modular/Neu_Food/code/cookware/pan.dm",
+      "sha": "e19e748fa8b5296d5a36ae3706fd299de6e3185c"
+    },
+    {
+      "path": "modular/Neu_Food/code/cookware/peppermill.dm",
+      "sha": "573b9c27a80de433f8eb425acd0a9f2d4227c348"
+    },
+    {
+      "path": "modular/Neu_Food/code/cookware/platter.dm",
+      "sha": "4962d7fb65fbda0ba15e95e50e2de2f84d603e47"
+    },
+    {
+      "path": "modular/Neu_Food/code/cookware/pot.dm",
+      "sha": "c06fd4852706e5a98639c95f0def1ba2b83654b0"
+    },
+    {
+      "path": "modular/Neu_Food/code/cookware/ration.dm",
+      "sha": "311105c7b18d99e0891ccea2a83a4c75a483dc1d"
+    },
+    {
+      "path": "modular/Neu_Food/code/cookware/spoon.dm",
+      "sha": "7f46112b5370890d756c666f754c7511852dcfb2"
+    },
+    {
+      "path": "modular/Neu_Food/code/drinks/drinks_reagents.dm",
+      "sha": "161dbdc9ec1be15b88e03126021fbfb2a1800c2c"
+    },
+    {
+      "path": "modular/Neu_Food/code/drinks/stew.dm",
+      "sha": "f1a451bfefb39ef78ea5143d38308e616e671d3a"
+    },
+    {
+      "path": "modular/Neu_Food/code/drinks/tea_coffee_drinks.dm",
+      "sha": "3d6736ae115b33b26f93ccd4dc25639a14fa37aa"
+    },
+    {
+      "path": "modular/Neu_Food/code/others/dairy.dm",
+      "sha": "5aa0234aab1b8ec598cda7952be83e64bdb12261"
+    },
+    {
+      "path": "modular/Neu_Food/code/others/dried_fruits.dm",
+      "sha": "a73d8b943ce12d6b8a1c473432334a5d97ede9cc"
+    },
+    {
+      "path": "modular/Neu_Food/code/others/fat.dm",
+      "sha": "91c72a23fcd985f630e0750072a966615957d9cf"
+    },
+    {
+      "path": "modular/Neu_Food/code/others/honey.dm",
+      "sha": "e1ee035c1ec0cedf9db7c75e00fce92b5df0ced9"
+    },
+    {
+      "path": "modular/Neu_Food/code/others/preserved_meat.dm",
+      "sha": "56a48716b15def703a13c3ae596ccef94bb5bde0"
+    },
+    {
+      "path": "modular/Neu_Food/code/others/sweet.dm",
+      "sha": "e294215282678036cbaffef1d0324961a19579f1"
+    },
+    {
+      "path": "modular/Neu_Food/code/raw/raw_deep_fried.dm",
+      "sha": "7439ba802a2b3b1c930ea364f6cf6a8bd41f137e"
+    },
+    {
+      "path": "modular/Neu_Food/code/raw/raw_dough.dm",
+      "sha": "6bbe2c8650051ec58da1034e3629499848036546"
+    },
+    {
+      "path": "modular/Neu_Food/code/raw/raw_fish.dm",
+      "sha": "b38f868f288bbbc66b2ad28c97bea2d679bb4582"
+    },
+    {
+      "path": "modular/Neu_Food/code/raw/raw_fruit.dm",
+      "sha": "b40ff37a86f2f03c71a962253b23d925f46b9856"
+    },
+    {
+      "path": "modular/Neu_Food/code/raw/raw_meat.dm",
+      "sha": "44e634a3012fc48edebd7178ebd82ff92c902a11"
+    },
+    {
+      "path": "modular/Neu_Food/code/raw/raw_meat_saiga.dm",
+      "sha": "b9cf81d2a2d28c4ea4f9a028296ca62451c045ae"
+    },
+    {
+      "path": "modular/Neu_Food/code/raw/raw_pies.dm",
+      "sha": "a801e0dff1d728230f0636c0b4d53a1251562c4e"
+    },
+    {
+      "path": "modular/Neu_Food/code/raw/raw_shellfish.dm",
+      "sha": "8468ced47f8ee78eb97dbeecb8b1dccd67949c19"
+    },
+    {
+      "path": "modular/Neu_Food/code/raw/raw_veggies.dm",
+      "sha": "eaa821b33ce252be2b8bc831b4ec61e396ff4d4f"
+    },
+    {
+      "path": "modular/Neu_Food/code/recipes/baked_recipes.dm",
+      "sha": "6ea5976413b0e7cd95ee49fd6738a2e3ed33ba8c"
+    },
+    {
+      "path": "modular/Neu_Food/code/recipes/cakes_recipes.dm",
+      "sha": "896db0600091e54a3af53f102a0bd28dd206adb5"
+    },
+    {
+      "path": "modular/Neu_Food/code/recipes/cooking_recipes_base.dm",
+      "sha": "445dab9e519c9facbe7a5c1726a60956235049bd"
+    },
+    {
+      "path": "modular/Neu_Food/code/recipes/drying_recipes.dm",
+      "sha": "48a4a23160cf59fbc35d0d0a2fc07cc4c96f6a81"
+    },
+    {
+      "path": "modular/Neu_Food/code/recipes/egg_recipes.dm",
+      "sha": "4feee5b712ec6e808b60ba946f3bfe2601339be2"
+    },
+    {
+      "path": "modular/Neu_Food/code/recipes/fish_recipes.dm",
+      "sha": "f6ec8e8f53bef0c89f734c8ce5e641bed9b688a4"
+    },
+    {
+      "path": "modular/Neu_Food/code/recipes/meat_meal_recipes.dm",
+      "sha": "ef6654aa14de8e269ad9e16161d92d92dc608ea5"
+    },
+    {
+      "path": "modular/Neu_Food/code/recipes/meat_recipes.dm",
+      "sha": "55444988542b7c5330f93d266054eac32f3bad21"
+    },
+    {
+      "path": "modular/Neu_Food/code/recipes/pastry_recipes.dm",
+      "sha": "57a0de3836aaf59ad298bc2f467ae1cd41a21bfd"
+    },
+    {
+      "path": "modular/Neu_Food/code/recipes/rice_recipes.dm",
+      "sha": "d35e9765e8b94a9d7e5e1f21c84bebc17dd419db"
+    },
+    {
+      "path": "modular/Neu_Food/code/recipes/stew_recipes.dm",
+      "sha": "7f8ca41b8ab682f5275b88e72861c16fe4f3f887"
+    },
+    {
+      "path": "modular/Neu_Food/code/recipes/veggies_recipes.dm",
+      "sha": "fd37a6a08ed1d80b3a8cb12b0626da452a7343e1"
+    },
+    {
+      "path": "roguetown.dme",
+      "sha": "7bd9bfc34932d93a96df1a54ec6743695f75204c"
+    },
+    {
+      "path": "code/game/objects/items/rogueitems/natural.dm",
+      "sha": "b3615034fb5ad47cf6e873c591cd4f9c245140b1"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/headwear/hats.dm",
+      "sha": "bc053041901fa7d2f265508dcf53cee685dff12a"
+    },
+    {
+      "path": "code/modules/reagents/chemistry/reagents/alcohol_reagents.dm",
+      "sha": "5a72a294297a6adaccefc130bcbe3711d585878b"
+    },
+    {
+      "path": "code/modules/reagents/chemistry/reagents/food_reagents.dm",
+      "sha": "4d3083264799d737494ab88943826b8ab74e0545"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/armor/_armor.dm",
+      "sha": "4a829e33dff7c537397afeecd8559c7f8d1a2d1a"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/armor/armordress.dm",
+      "sha": "7ba6b48dec341698c2419773a3d968e96f6b7d68"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/armor/baotha.dm",
+      "sha": "d73342e88193587d7c6c97b30050b29ade2deaec"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/armor/blacksteel.dm",
+      "sha": "c11e7bea9c5c47b828cbd1fa6408e05dd2f10283"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/armor/brigandine.dm",
+      "sha": "cff3d5fa16eac341dd88a3919cb820bb74f8fed6"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/armor/chainmail.dm",
+      "sha": "256c0b64627ac81fb87bb09f45668205588a1c25"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/armor/gambeson.dm",
+      "sha": "dad2b4c2229d9c0ca9a38f82fde4966696f449c1"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/armor/gronn.dm",
+      "sha": "3d1d41fef90975a49823aff8dd5a986d94b1c859"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/armor/leather.dm",
+      "sha": "0d0829532c68c76d84db82cb9c6c5fed5fc12e6e"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/armor/misc.dm",
+      "sha": "cec80f80cc81e3279c8ecf8009634c71975bf349"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/armor/plate.dm",
+      "sha": "c256906514a45670504ac8dad0874aca507d0e87"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/armor/regenerating.dm",
+      "sha": "b1eb87909214754082405c862f7f6252806172a8"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/armor/unique.dm",
+      "sha": "8348ef078be0a046643b46ae45838e38be5a2c6d"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/feet.dm",
+      "sha": "b55145d20bf2fb2679dce3cb68ff2ece365de18c"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/gloves/_gloves.dm",
+      "sha": "0abc3a18e1e296a7d84d7c29611fe61a501acc19"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/gloves/angle.dm",
+      "sha": "7b3e6673e7cc242b17c3a0c130b0f0352403ac91"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/gloves/blacksteel.dm",
+      "sha": "c20ae559c8c180a8dd8cd834688d846c0a263c55"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/gloves/chain.dm",
+      "sha": "ae6b3d881b970523095e167e39ebea3057d12a13"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/gloves/contraption.dm",
+      "sha": "57c4bec872d222f726a517773fd7698aa9ade29b"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/gloves/leather.dm",
+      "sha": "da353f7134edf241ea7e4d25eba2814ee4ed38e0"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/gloves/plate.dm",
+      "sha": "1e4cccdbb572fd70cc248a0644bea9cb864aec7c"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/gloves/unique.dm",
+      "sha": "ff2c103698ae30a85d108918ed433144181fa8a7"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/headwear/_head.dm",
+      "sha": "c409f560cf50997bc3ccf025e63490cded354d55"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/headwear/adjusthoods.dm",
+      "sha": "5884794f323224391660667362d4d2306df5c31f"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/headwear/crowns.dm",
+      "sha": "68ed24c5ad25b9856466136bd74cfddef9146989"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/headwear/helmet/blacksteel.dm",
+      "sha": "eeabde9f219df1b1e24c6f7680f2aded71dc899e"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/headwear/helmet/heavy_helmet.dm",
+      "sha": "c4d6055ae7c8a408b8c3e8ae609900308d4c6dc4"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/headwear/helmet/light_helmet.dm",
+      "sha": "5282911f0e105ac801a2d5a5e1aa1438edf5cd36"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/headwear/helmet/medium_helmet.dm",
+      "sha": "4c41c3b14571de143288b91378cff108ca6f5140"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/headwear/helmet/special.dm",
+      "sha": "fd112608f1ebea29127e9de6000f9d978e5ac98b"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/headwear/masks.dm",
+      "sha": "0706451db3306cba6b48f79c0d1fbbeb3795d31f"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/headwear/otherhoods.dm",
+      "sha": "b78aedab517ea5519558050f5fd80d72a5364c7b"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/neck.dm",
+      "sha": "f2dfa8eaa9f124be71c59b4be2a1de61769e4eba"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/pants/_pants.dm",
+      "sha": "b2e098ae7560ddd969b31cda9a0f1724d36a15dd"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/pants/blacksteel.dm",
+      "sha": "0de8dc5da7a3c3e1a65bc67bcedb7e1d8424a463"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/pants/chain.dm",
+      "sha": "df36752795ec93fdcc2030816038bb21931ff2eb"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/pants/cloth.dm",
+      "sha": "4c0fa4359600cdd3996ad26da46712cf19d7ca90"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/pants/heavy_leather.dm",
+      "sha": "30b3f3c1c56ec76a4c7eb8be0c81b124df2ef863"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/pants/leather.dm",
+      "sha": "95aa853c23b1f76d35f937a7b3c59e8617848b4c"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/pants/plate.dm",
+      "sha": "8c60a62e04c94943e4a3b792536536b976998157"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/pants/skirt.dm",
+      "sha": "c833e4d7df85e96bb33830043b84b67719cd63f2"
+    },
+    {
+      "path": "code/modules/clothing/rogueclothes/wrists.dm",
+      "sha": "6f35a7f46174674307eeb2c770e7c25f211b9059"
+    },
+    {
+      "path": "code/modules/roguetown/roguejobs/cook/tools/oven.dm",
+      "localSHA256": "955af5f459ce6a9d75abc88713df28fbb5be99269cfbfff8620ee8eb5dbf57e9",
+      "note": "Pinned source file; original URL identified in recipe research."
+    }
+  ]
+}

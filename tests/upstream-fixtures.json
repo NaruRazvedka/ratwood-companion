@@ -1,0 +1,1418 @@
+[
+  {
+    "source": "",
+    "html": ""
+  },
+  {
+    "source": "**bold**",
+    "html": "<b>bold</b>"
+  },
+  {
+    "source": "*italic*",
+    "html": "<i>italic</i>"
+  },
+  {
+    "source": "_italic_",
+    "html": "<i>italic</i>"
+  },
+  {
+    "source": "|center|",
+    "html": "<center>center</center>"
+  },
+  {
+    "source": "^large^",
+    "html": "<font size=\"4\">large</font>"
+  },
+  {
+    "source": "((small))",
+    "html": "<font size=\"1\">small</font>"
+  },
+  {
+    "source": "# Head\n## Head\n### Head\n#### Head",
+    "html": "<h2>Head</h2><BR><h3>Head</h3><BR><h4>Head</h4><BR><h5>Head</h5>"
+  },
+  {
+    "source": "* item\n* next",
+    "html": "<ul><li> item<BR><li> next</ul>"
+  },
+  {
+    "source": "before---after",
+    "html": "before<hr>after"
+  },
+  {
+    "source": "-=FFAA00gold=-",
+    "html": "<font color='FFAA00'>gold</font>"
+  },
+  {
+    "source": "-=ggggggblack=-",
+    "html": "<font color='gggggg'>black</font>"
+  },
+  {
+    "source": "-=FFAA00unclosed",
+    "html": "-=FFAA00unclosed"
+  },
+  {
+    "source": "**-=FFAA00bold gold=-**",
+    "html": "<b><font color='FFAA00'>bold gold</font></b>"
+  },
+  {
+    "source": "\\**literal\\**",
+    "html": "**literal**"
+  },
+  {
+    "source": "\\*literal\\*",
+    "html": "*literal*"
+  },
+  {
+    "source": "\\_literal\\_",
+    "html": "_literal_"
+  },
+  {
+    "source": "\\^literal\\^",
+    "html": "^literal^"
+  },
+  {
+    "source": "\\((literal\\))",
+    "html": "((literal))"
+  },
+  {
+    "source": "\\|literal\\|",
+    "html": "|literal|"
+  },
+  {
+    "source": "\\\\ \\% $1 !",
+    "html": "\\ % $1 !"
+  },
+  {
+    "source": "<img src=x onerror=\"alert(1)\"> & <script>alert(1)</script>",
+    "html": "&lt;img src=x onerror=&#34;alert(1)&#34;&gt; &amp; &lt;script&gt;alert(1)&lt;/script&gt;"
+  },
+  {
+    "source": "-=FF0000red=- -=00FF00green=-",
+    "html": "<font color='FF0000'>red</font> <font color='00FF00'>green</font>"
+  },
+  {
+    "source": "-=FF0000red -=00FF00nested=- end=-",
+    "html": "<font color='FF0000'>red -=00FF00nested</font> end=-"
+  },
+  {
+    "source": "-=FF0000=-",
+    "html": "-=FF0000=-"
+  },
+  {
+    "source": "-=FF0000x=-**b**",
+    "html": "<font color='FF0000'>x</font><b>b</b>"
+  },
+  {
+    "source": "* a\n  * b\n * c\nend",
+    "html": "<ul><li> a<BR><ul><li> b<BR></ul><li> c<BR></ul>end"
+  },
+  {
+    "source": "****",
+    "html": "</i><i></i><i>"
+  },
+  {
+    "source": "***x***",
+    "html": "<b><i>x</i></b>"
+  },
+  {
+    "source": "_a_ **b** !",
+    "html": "<i>a</i> <b>b</b> !"
+  },
+  {
+    "source": "\\__a\\__",
+    "html": "__a__"
+  },
+  {
+    "source": "<>&\"'",
+    "html": "&lt;&gt;&amp;&#34;&#39;"
+  },
+  {
+    "source": "é 猫 😀",
+    "html": "é 猫 😀"
+  },
+  {
+    "source": "a\r\nb\r",
+    "html": "a\r<BR>b\r"
+  },
+  {
+    "source": "|a\nb|",
+    "html": "<center>a<BR>b</center>"
+  },
+  {
+    "source": "<-=FFAA00\t_((\\\\!#",
+    "html": "&lt;-=FFAA00\t_<font size=\"1\">\\!#"
+  },
+  {
+    "source": "-=00ff00|é=-#\t ((",
+    "html": "<font color='00ff00'>|é</font>#\t <font size=\"1\">"
+  },
+  {
+    "source": "*猫\"猫|\"---\t",
+    "html": "<ul><li>猫&#34;猫|&#34;<hr>\t</ul>"
+  },
+  {
+    "source": "-=FFAA00**---<\\*_-=00ff00=-",
+    "html": "<font color='FFAA00'></i><i><hr>&lt;*_-=00ff00</font>"
+  },
+  {
+    "source": "\t\n\t\\*_-=00ff00**))",
+    "html": "\t<BR>\t*_-=00ff00</i><i></font>"
+  },
+  {
+    "source": "=-\"-=FFAA00猫|((猫((",
+    "html": "=-&#34;-=FFAA00猫|<font size=\"1\">猫<font size=\"1\">"
+  },
+  {
+    "source": "\n*猫_é\"**",
+    "html": "<BR><ul><li>猫_é&#34;</i><i></ul>"
+  },
+  {
+    "source": "))\t\t\\*#猫é**",
+    "html": "</font>\t\t*#猫é</i><i>"
+  },
+  {
+    "source": "))\n\"!=-猫---\"",
+    "html": "</font><BR>&#34;!=-猫<hr>&#34;"
+  },
+  {
+    "source": "-=00ff00é*|\t))é|",
+    "html": "-=00ff00é*<center>\t</font>é</center>"
+  },
+  {
+    "source": "=-é **<猫 ---",
+    "html": "=-é </i><i>&lt;猫 <hr>"
+  },
+  {
+    "source": "((\\**\n!<",
+    "html": "<font size=\"1\">**<BR>!&lt;"
+  },
+  {
+    "source": "猫 ((---_!\\*",
+    "html": "猫 <font size=\"1\"><hr>_!*"
+  },
+  {
+    "source": "_\"---_猫<-=FFAA00_",
+    "html": "<i>&#34;<hr></i>猫&lt;-=FFAA00_"
+  },
+  {
+    "source": "---_<__ -=FFAA00-=FFAA00",
+    "html": "<hr><i>&lt;</i>_ -=FFAA00-=FFAA00"
+  },
+  {
+    "source": "||))-=FFAA00\"\t<!",
+    "html": "||</font>-=FFAA00&#34;\t&lt;!"
+  },
+  {
+    "source": "é=-=-))#---\\*",
+    "html": "é=-=-</font>#<hr>*"
+  },
+  {
+    "source": "----=FFAA00\t \"\\* 猫",
+    "html": "<hr>=FFAA00\t &#34;* 猫"
+  },
+  {
+    "source": "<-=FFAA00-=00ff00*\\*=-猫",
+    "html": "&lt;<font color='FFAA00'>-=00ff00**</font>猫"
+  },
+  {
+    "source": "<=-猫_=-猫=-",
+    "html": "&lt;=-猫_=-猫=-"
+  },
+  {
+    "source": "|\"\t <*))",
+    "html": "|&#34;\t &lt;*</font>"
+  },
+  {
+    "source": " *!\"^=-_<",
+    "html": "<ul><ul><li>!&#34;^=-_&lt;</ul></ul>"
+  },
+  {
+    "source": "猫=-\"^猫\n",
+    "html": "猫=-&#34;^猫<BR>"
+  },
+  {
+    "source": "*#|<*猫 ((",
+    "html": "<i>#|&lt;</i>猫 <font size=\"1\">"
+  },
+  {
+    "source": "---#-=FFAA00-=00ff00\t---猫 ",
+    "html": "<hr>#-=FFAA00-=00ff00\t<hr>猫 "
+  },
+  {
+    "source": "|猫\t-=FFAA00))-=00ff00((\n",
+    "html": "|猫\t-=FFAA00</font>-=00ff00<font size=\"1\"><BR>"
+  },
+  {
+    "source": "=-_((\n \\*\\\\=-",
+    "html": "=-_<font size=\"1\"><BR> *\\=-"
+  },
+  {
+    "source": "\t!é!#-=00ff00=-\\*",
+    "html": "\t!é!#-=00ff00=-*"
+  },
+  {
+    "source": "  \\*_猫***",
+    "html": "  *_猫</i><i>*"
+  },
+  {
+    "source": "*#-=00ff00\n))*\\\\",
+    "html": "<ul><li>#-=00ff00<BR></ul></font>*\\"
+  },
+  {
+    "source": "\\*---((<---((_^",
+    "html": "*<hr><font size=\"1\">&lt;<hr><font size=\"1\">_^"
+  },
+  {
+    "source": "\"=-!_**_",
+    "html": "&#34;=-!<i></i><i></i>"
+  },
+  {
+    "source": "*-=FFAA00---é é\\*",
+    "html": "<ul><li>-=FFAA00<hr>é é*</ul>"
+  },
+  {
+    "source": "**\\\\^))!))\"_",
+    "html": "</i><i>\\^</font>!</font>&#34;_"
+  },
+  {
+    "source": "**------é-=00ff00\" 猫",
+    "html": "</i><i><hr>é-=00ff00&#34; 猫"
+  },
+  {
+    "source": "-=00ff00_((\t\né **",
+    "html": "-=00ff00_<font size=\"1\">\t<BR>é </i><i>"
+  },
+  {
+    "source": "\t猫 \\\\**---\"))",
+    "html": "\t猫 \\</i><i><hr>&#34;</font>"
+  },
+  {
+    "source": "#<\\\\-=00ff00---é猫猫",
+    "html": "<h2>&lt;\\-=00ff00<hr>é猫猫</h2>"
+  },
+  {
+    "source": "^=-**=-)) <_",
+    "html": "^=-</i><i>=-</font> &lt;_"
+  },
+  {
+    "source": "-=FFAA00<\n---=-\\\\*\t",
+    "html": "<font color='FFAA00'>&lt;<BR><hr></font>\\*\t"
+  },
+  {
+    "source": "_é\t\n!^**))",
+    "html": "_é\t<BR>!^</i><i></font>"
+  },
+  {
+    "source": "#-=FFAA00\t*! _---",
+    "html": "<h2>-=FFAA00\t*! _<hr></h2>"
+  },
+  {
+    "source": "**^-=FFAA00---\"^-=00ff00",
+    "html": "</i><i><font size=\"4\">-=FFAA00<hr>&#34;</font>-=00ff00"
+  },
+  {
+    "source": "\t\\\\##|\"é猫",
+    "html": "\t\\##|&#34;é猫"
+  },
+  {
+    "source": "))^\t---_!|",
+    "html": "</font>^\t<hr>_!|"
+  },
+  {
+    "source": " #é))\\\\# \\\\",
+    "html": " #é</font>\\# \\"
+  },
+  {
+    "source": "\"**=----<é<\\*",
+    "html": "&#34;</i><i>=<hr>&lt;é&lt;*"
+  },
+  {
+    "source": "\\*\n#-=FFAA00!-=FFAA00 =-",
+    "html": "*<BR><h2><font color='FFAA00'>!-=FFAA00 </font></h2>"
+  },
+  {
+    "source": "-=00ff00\\*\"***<((-=00ff00",
+    "html": "-=00ff00*&#34;</i><i>*&lt;<font size=\"1\">-=00ff00"
+  },
+  {
+    "source": "))---\\*|---_<\"",
+    "html": "</font><hr>*|<hr>_&lt;&#34;"
+  },
+  {
+    "source": "# \\\\*---猫*",
+    "html": "<h2>\\<i><hr>猫</i></h2>"
+  },
+  {
+    "source": "=-*))é\n#)) ",
+    "html": "=-*</font>é<BR><h2></font> </h2>"
+  },
+  {
+    "source": "|**\"\né#!\t",
+    "html": "|</i><i>&#34;<BR>é#!\t"
+  },
+  {
+    "source": "é<#|-=00ff00))_ ",
+    "html": "é&lt;#|-=00ff00</font>_ "
+  },
+  {
+    "source": "é\t-=00ff00<-=FFAA00\\\\))é",
+    "html": "é\t-=00ff00&lt;-=FFAA00\\</font>é"
+  },
+  {
+    "source": "***---\t))猫^",
+    "html": "<ul><li></i><i><hr>\t</font>猫^</ul>"
+  },
+  {
+    "source": "))é-=FFAA00((!((|",
+    "html": "</font>é-=FFAA00<font size=\"1\">!<font size=\"1\">|"
+  },
+  {
+    "source": "---))_-=FFAA00-=FFAA00**é=-",
+    "html": "<hr></font>_<font color='FFAA00'>-=FFAA00</i><i>é</font>"
+  },
+  {
+    "source": "\\\\<_=-|=-((_",
+    "html": "\\&lt;<i>=-|=-<font size=\"1\"></i>"
+  },
+  {
+    "source": "\\*\t**))\n\\*-=00ff00",
+    "html": "*\t</i><i></font><BR>*-=00ff00"
+  },
+  {
+    "source": "\\\\\"**<猫=-!\\\\",
+    "html": "\\&#34;</i><i>&lt;猫=-!\\"
+  },
+  {
+    "source": " < *-=FFAA00-=FFAA00\n",
+    "html": " &lt; *-=FFAA00-=FFAA00<BR>"
+  },
+  {
+    "source": "\t!!猫\\\\-=00ff00\t\n",
+    "html": "\t!!猫\\-=00ff00\t<BR>"
+  },
+  {
+    "source": "-=FFAA00猫-=00ff00_\té\"---",
+    "html": "-=FFAA00猫-=00ff00_\té&#34;<hr>"
+  },
+  {
+    "source": "\t((é**)) \\\\\"",
+    "html": "\t<font size=\"1\">é</i><i></font> \\&#34;"
+  },
+  {
+    "source": "\n\\*猫^))=-|",
+    "html": "<BR>*猫^</font>=-|"
+  },
+  {
+    "source": "\\*#-=FFAA00**é=-<**",
+    "html": "*#<font color='FFAA00'><b>é</font>&lt;</b>"
+  },
+  {
+    "source": "-=00ff00\\*=-*\\\\))---\n",
+    "html": "<font color='00ff00'>*</font>*\\</font><hr><BR>"
+  },
+  {
+    "source": "| ^=-é =-é",
+    "html": "| ^=-é =-é"
+  },
+  {
+    "source": "\n|猫((<!\\*",
+    "html": "<BR>|猫<font size=\"1\">&lt;!*"
+  },
+  {
+    "source": "*é_<((#---\n",
+    "html": "<ul><li>é_&lt;<font size=\"1\">#<hr><BR></ul>"
+  },
+  {
+    "source": "-=00ff00! ((\t\\*#((",
+    "html": "-=00ff00! <font size=\"1\">\t*#<font size=\"1\">"
+  },
+  {
+    "source": "\"=-<---\n* -=00ff00",
+    "html": "&#34;=-&lt;<hr><BR><ul><li> -=00ff00</ul>"
+  },
+  {
+    "source": "\\*<\t))_-=FFAA00 ",
+    "html": "*&lt;\t</font>_-=FFAA00 "
+  },
+  {
+    "source": "\\\\_-=00ff00 \n !猫",
+    "html": "\\_-=00ff00 <BR> !猫"
+  },
+  {
+    "source": "<\t\\*^\"|\n---",
+    "html": "&lt;\t*^&#34;|<BR><hr>"
+  },
+  {
+    "source": "猫\t|---=--=FFAA00 ",
+    "html": "猫\t|<hr>=--=FFAA00 "
+  },
+  {
+    "source": "****\n|=-\"^\t",
+    "html": "</i><i></i><i><BR>|=-&#34;^\t"
+  },
+  {
+    "source": "((_^猫\n^))---",
+    "html": "<font size=\"1\">_<font size=\"4\">猫<BR></font></font><hr>"
+  },
+  {
+    "source": "\téé\\*!**",
+    "html": "\téé*!</i><i>"
+  },
+  {
+    "source": "))-=FFAA00 é-=00ff00|#<",
+    "html": "</font>-=FFAA00 é-=00ff00|#&lt;"
+  },
+  {
+    "source": "!**\n**\n*-=00ff00\n",
+    "html": "!<b><BR></b><BR><ul><li>-=00ff00<BR></ul>"
+  },
+  {
+    "source": "##^\"!-=00ff00\n",
+    "html": "<h3>^&#34;!-=00ff00</h3><BR>"
+  },
+  {
+    "source": "\\\\ =-!^!=-\\*",
+    "html": "\\ =-!^!=-*"
+  },
+  {
+    "source": " éé=-\n|<猫",
+    "html": " éé=-<BR>|&lt;猫"
+  },
+  {
+    "source": "-=FFAA00 \\\\|\"*#_",
+    "html": "-=FFAA00 \\|&#34;*#_"
+  },
+  {
+    "source": "猫-=00ff00\"#猫\"**",
+    "html": "猫-=00ff00&#34;#猫&#34;</i><i>"
+  },
+  {
+    "source": " \t^*<---é",
+    "html": " \t^*&lt;<hr>é"
+  },
+  {
+    "source": "\\\\ \"|----=FFAA00((=-",
+    "html": "\\ &#34;|<hr><font color='FFAA00'><font size=\"1\"></font>"
+  },
+  {
+    "source": "<---\"---=-\\*---*",
+    "html": "&lt;<hr>&#34;<hr>=-*<hr>*"
+  },
+  {
+    "source": "^#_---))\n*---",
+    "html": "^#_<hr></font><BR><ul><li><hr></ul>"
+  },
+  {
+    "source": "\"|^-=00ff00!*#",
+    "html": "&#34;|^-=00ff00!*#"
+  },
+  {
+    "source": "\n|-=00ff00\t=-^=-!",
+    "html": "<BR>|<font color='00ff00'>\t</font>^=-!"
+  },
+  {
+    "source": "é---猫**^))\t",
+    "html": "é<hr>猫</i><i>^</font>\t"
+  },
+  {
+    "source": "---^^**|é<",
+    "html": "<hr>^^</i><i>|é&lt;"
+  },
+  {
+    "source": "-=FFAA00猫\té\t\\*))",
+    "html": "-=FFAA00猫\té\t*</font>"
+  },
+  {
+    "source": "!-=00ff00**=-#é猫^",
+    "html": "!<font color='00ff00'></i><i></font>#é猫^"
+  },
+  {
+    "source": "---**^\n#\\\\|=-",
+    "html": "<hr></i><i>^<BR><h2>\\|=-</h2>"
+  },
+  {
+    "source": "<é\n_*\\*((猫",
+    "html": "&lt;é<BR>_**<font size=\"1\">猫"
+  },
+  {
+    "source": "((-=FFAA00|_-=FFAA00|))**",
+    "html": "<font size=\"1\">-=FFAA00<center>_-=FFAA00</center></font></i><i>"
+  },
+  {
+    "source": "))*猫((-=00ff00<*\"",
+    "html": "</font><i>猫<font size=\"1\">-=00ff00&lt;</i>&#34;"
+  },
+  {
+    "source": "\\*-=FFAA00\t#=-\n<猫",
+    "html": "*<font color='FFAA00'>\t#</font><BR>&lt;猫"
+  },
+  {
+    "source": "_! __é\\\\",
+    "html": "<i>! </i>_é\\"
+  },
+  {
+    "source": "-=FFAA00-=FFAA00\t---**\t<猫",
+    "html": "-=FFAA00-=FFAA00\t<hr></i><i>\t&lt;猫"
+  },
+  {
+    "source": "\n((\"-=FFAA00**!**\t",
+    "html": "<BR><font size=\"1\">&#34;-=FFAA00<b>!</b>\t"
+  },
+  {
+    "source": "\\\\\"^<**((<",
+    "html": "\\&#34;^&lt;</i><i><font size=\"1\">&lt;"
+  },
+  {
+    "source": " -=00ff00**-=FFAA00^-=00ff00))**",
+    "html": " -=00ff00<b>-=FFAA00^-=00ff00</font></b>"
+  },
+  {
+    "source": "*_猫猫\\\\((*-=00ff00",
+    "html": "<i>_猫猫\\<font size=\"1\"></i>-=00ff00"
+  },
+  {
+    "source": "_*((---#-=00ff00^猫",
+    "html": "_*<font size=\"1\"><hr>#-=00ff00^猫"
+  },
+  {
+    "source": "_---猫((é|<=-",
+    "html": "_<hr>猫<font size=\"1\">é|&lt;=-"
+  },
+  {
+    "source": "\\\\猫------**\\\\\"",
+    "html": "\\猫<hr></i><i>\\&#34;"
+  },
+  {
+    "source": "^***<**!!\t",
+    "html": "^</i><i><i>&lt;</i>*!!\t"
+  },
+  {
+    "source": "---猫-=FFAA00!=-猫\"-=FFAA00",
+    "html": "<hr>猫<font color='FFAA00'>!</font>猫&#34;-=FFAA00"
+  },
+  {
+    "source": "\\\\=----\\\\))\\*!\n",
+    "html": "\\=<hr>\\</font>*!<BR>"
+  },
+  {
+    "source": "**----=FFAA00------#\\\\!",
+    "html": "</i><i><hr>=FFAA00<hr>#\\!"
+  },
+  {
+    "source": "((\t---**^^**",
+    "html": "<font size=\"1\">\t<hr><b>^^</b>"
+  },
+  {
+    "source": "(())\t\t-=00ff00|<\\*",
+    "html": "<font size=\"1\"></font>\t\t-=00ff00|&lt;*"
+  },
+  {
+    "source": "\\*\"#=-猫猫\\*",
+    "html": "*&#34;#=-猫猫*"
+  },
+  {
+    "source": "=--=00ff00=-é\\\\------",
+    "html": "=--=00ff00=-é\\<hr>"
+  },
+  {
+    "source": "*-=00ff00#\\\\!**((",
+    "html": "<ul><li>-=00ff00#\\!</i><i><font size=\"1\"></ul>"
+  },
+  {
+    "source": "**\\\\-=00ff00=-é!\"*",
+    "html": "<ul><li><i>\\-=00ff00=-é!&#34;</i></ul>"
+  },
+  {
+    "source": "\"!\\\\\n<((((",
+    "html": "&#34;!\\<BR>&lt;<font size=\"1\"><font size=\"1\">"
+  },
+  {
+    "source": "((\\\\<\"*=-*\"",
+    "html": "<font size=\"1\">\\&lt;&#34;<i>=-</i>&#34;"
+  },
+  {
+    "source": "é\\\\\\*\\*é猫\"",
+    "html": "é\\**é猫&#34;"
+  },
+  {
+    "source": "\t#|\t*<猫",
+    "html": "\t#|\t*&lt;猫"
+  },
+  {
+    "source": "-=00ff00((-=00ff00*|**((",
+    "html": "-=00ff00<font size=\"1\">-=00ff00<i>|</i>*<font size=\"1\">"
+  },
+  {
+    "source": "---\"猫<-=FFAA00猫\t",
+    "html": "<hr>&#34;猫&lt;-=FFAA00猫\t"
+  },
+  {
+    "source": "\\\\((-=00ff00=-#\n#\\*",
+    "html": "\\<font size=\"1\">-=00ff00=-#<BR><h2>*</h2>"
+  },
+  {
+    "source": "\\\\---\"**é-=00ff00\\\\))",
+    "html": "\\<hr>&#34;</i><i>é-=00ff00\\</font>"
+  },
+  {
+    "source": "---\n|<----=00ff00é=-",
+    "html": "<hr><BR>|&lt;<hr><font color='00ff00'>é</font>"
+  },
+  {
+    "source": "**((=----))\n-=FFAA00-=00ff00",
+    "html": "</i><i><font size=\"1\">=<hr></font><BR>-=FFAA00-=00ff00"
+  },
+  {
+    "source": "-=00ff00\\*\\**\n\t#",
+    "html": "-=00ff00***<BR>\t#"
+  },
+  {
+    "source": "**_#**\\\\猫\" ",
+    "html": "<b>_#</b>\\猫&#34; "
+  },
+  {
+    "source": "猫\t| é))-=FFAA00",
+    "html": "猫\t| é</font>-=FFAA00"
+  },
+  {
+    "source": "=----=-((\t-=FFAA00\t*",
+    "html": "=<hr>=-<font size=\"1\">\t-=FFAA00\t*"
+  },
+  {
+    "source": "\\*| _\\*#\"))",
+    "html": "*| _*#&#34;</font>"
+  },
+  {
+    "source": "猫é*=-\n\\*",
+    "html": "猫é*=-<BR>*"
+  },
+  {
+    "source": ")) _*猫é!!",
+    "html": "</font> _*猫é!!"
+  },
+  {
+    "source": "#))=- (( =-",
+    "html": "<h2></font>=- <font size=\"1\"> =-</h2>"
+  },
+  {
+    "source": "---\n**_((#))!",
+    "html": "<hr><BR></i><i>_<font size=\"1\">#</font>!"
+  },
+  {
+    "source": "-=FFAA00__\t#\n<|",
+    "html": "-=FFAA00</i><i>\t#<BR>&lt;|"
+  },
+  {
+    "source": " \"=-**-=FFAA00\t\\\\=-",
+    "html": " &#34;=-</i><i><font color='FFAA00'>\t\\</font>"
+  },
+  {
+    "source": "**|!!\"((猫!",
+    "html": "</i><i>|!!&#34;<font size=\"1\">猫!"
+  },
+  {
+    "source": "|-=FFAA00!_****!\"",
+    "html": "|-=FFAA00!_</i><i></i><i>!&#34;"
+  },
+  {
+    "source": "é\\*---\\\\**猫-=00ff00\\*",
+    "html": "é*<hr>\\</i><i>猫-=00ff00*"
+  },
+  {
+    "source": "))\n-=00ff00**=-\\\\*",
+    "html": "</font><BR><font color='00ff00'></i><i></font>\\*"
+  },
+  {
+    "source": "_# \t--- **\n",
+    "html": "_# \t<hr> </i><i><BR>"
+  },
+  {
+    "source": "猫\\\\*\n\t-=FFAA00))^",
+    "html": "猫\\*<BR>\t-=FFAA00</font>^"
+  },
+  {
+    "source": "\\*---<\\*))-=00ff00猫",
+    "html": "*<hr>&lt;*</font>-=00ff00猫"
+  },
+  {
+    "source": "\\\\#=- \\*^\" ",
+    "html": "\\#=- *^&#34; "
+  },
+  {
+    "source": "-=FFAA00-=00ff00_-=00ff00*猫*",
+    "html": "-=FFAA00-=00ff00_-=00ff00<i>猫</i>"
+  },
+  {
+    "source": "é\t!_\t\né=-",
+    "html": "é\t!_\t<BR>é=-"
+  },
+  {
+    "source": "|\\\\^_-=FFAA00#!#",
+    "html": "|\\^_-=FFAA00#!#"
+  },
+  {
+    "source": "#((\"\n\t))é((",
+    "html": "<h2><font size=\"1\">&#34;</h2><BR>\t</font>é<font size=\"1\">"
+  },
+  {
+    "source": "-=00ff00 ---))!猫!",
+    "html": "-=00ff00 <hr></font>!猫!"
+  },
+  {
+    "source": "_ \n\"éé",
+    "html": "_ <BR>&#34;éé"
+  },
+  {
+    "source": "\\*é**=-=-^<((",
+    "html": "*é</i><i>=-=-^&lt;<font size=\"1\">"
+  },
+  {
+    "source": "!\t**=- <\t**",
+    "html": "!\t<b>=- &lt;\t</b>"
+  },
+  {
+    "source": "!=-^***^\\*-=00ff00",
+    "html": "!=-<font size=\"4\"></i><i>*</font>*-=00ff00"
+  },
+  {
+    "source": "-=00ff00((\néé*猫=-",
+    "html": "<font color='00ff00'><font size=\"1\"><BR>éé*猫</font>"
+  },
+  {
+    "source": "))-=FFAA00 \\\\))**^((",
+    "html": "</font>-=FFAA00 \\</font></i><i>^<font size=\"1\">"
+  },
+  {
+    "source": "\\\\_!<#\\\\! ",
+    "html": "\\_!&lt;#\\! "
+  },
+  {
+    "source": "-=00ff00\"---!* -=FFAA00**",
+    "html": "-=00ff00&#34;<hr>!<i> -=FFAA00</i>*"
+  },
+  {
+    "source": "|\"\"\\\\-=00ff00((**",
+    "html": "|&#34;&#34;\\-=00ff00<font size=\"1\"></i><i>"
+  },
+  {
+    "source": "=-((猫\n猫=-_",
+    "html": "=-<font size=\"1\">猫<BR>猫=-_"
+  },
+  {
+    "source": "\\*-=00ff00é**\"-=FFAA00猫猫",
+    "html": "*-=00ff00é</i><i>&#34;-=FFAA00猫猫"
+  },
+  {
+    "source": "\t!\"\\*((=-=-^",
+    "html": "\t!&#34;*<font size=\"1\">=-=-^"
+  },
+  {
+    "source": "**---\\*))\t=-\t\"",
+    "html": "</i><i><hr>*</font>\t=-\t&#34;"
+  },
+  {
+    "source": "))é*\\*#*\"))",
+    "html": "</font>é<i>*#</i>&#34;</font>"
+  },
+  {
+    "source": "^<((**\\\\\n|---",
+    "html": "^&lt;<font size=\"1\"></i><i>\\<BR>|<hr>"
+  },
+  {
+    "source": "\t\\***!^**\\*\"",
+    "html": "\t**<i>!^</i>**&#34;"
+  },
+  {
+    "source": "!*\t-=00ff00\" ((猫",
+    "html": "!*\t-=00ff00&#34; <font size=\"1\">猫"
+  },
+  {
+    "source": "\"))---\\*\\\\猫 \\*",
+    "html": "&#34;</font><hr>*\\猫 *"
+  },
+  {
+    "source": "\t-=00ff00<!^(( -=FFAA00",
+    "html": "\t-=00ff00&lt;!^<font size=\"1\"> -=FFAA00"
+  },
+  {
+    "source": "---^ \\*^#\"_",
+    "html": "<hr><font size=\"4\"> *</font>#&#34;_"
+  },
+  {
+    "source": "----=00ff00---=-\"\n ",
+    "html": "<hr><font color='00ff00'><hr></font>&#34;<BR> "
+  },
+  {
+    "source": "-=FFAA00^((*((\"\t\n",
+    "html": "-=FFAA00^<font size=\"1\">*<font size=\"1\">&#34;\t<BR>"
+  },
+  {
+    "source": "\t<!\\*猫_\\*",
+    "html": "\t&lt;!*猫_*"
+  },
+  {
+    "source": "*#-=FFAA00))<_\\***",
+    "html": "<i>#-=FFAA00</font>&lt;_**</i>"
+  },
+  {
+    "source": "<((\t**-=FFAA00-=00ff00-=FFAA00#",
+    "html": "&lt;<font size=\"1\">\t</i><i>-=FFAA00-=00ff00-=FFAA00#"
+  },
+  {
+    "source": "\t_\"é))-=FFAA00-=00ff00-=00ff00",
+    "html": "\t_&#34;é</font>-=FFAA00-=00ff00-=00ff00"
+  },
+  {
+    "source": "**\\*\\\\é猫 =-*",
+    "html": "<ul><li><i>*\\é猫 =-</i></ul>"
+  },
+  {
+    "source": "\\\\猫\"=-猫-=00ff00=-\t",
+    "html": "\\猫&#34;=-猫-=00ff00=-\t"
+  },
+  {
+    "source": "\\*\\\\\n--- ---#-=00ff00",
+    "html": "*\\<BR><hr> <hr>#-=00ff00"
+  },
+  {
+    "source": "^\\\\\\*\n\t\\*---=-",
+    "html": "^\\*<BR>\t*<hr>=-"
+  },
+  {
+    "source": "=-<<\"<#---=-",
+    "html": "=-&lt;&lt;&#34;&lt;#<hr>=-"
+  },
+  {
+    "source": "((((------\t-=FFAA00_",
+    "html": "<font size=\"1\"><font size=\"1\"><hr>\t-=FFAA00_"
+  },
+  {
+    "source": "-=00ff00=- \n-=FFAA00((**!",
+    "html": "-=00ff00=- <BR>-=FFAA00<font size=\"1\"></i><i>!"
+  },
+  {
+    "source": "\"---(( |---\\\\((",
+    "html": "&#34;<hr><font size=\"1\"> |<hr>\\<font size=\"1\">"
+  },
+  {
+    "source": "!-=00ff00\\*-=00ff00|=-^\t",
+    "html": "!<font color='00ff00'>*-=00ff00|</font>^\t"
+  },
+  {
+    "source": "**\t\"\\*-=00ff00*\\*|",
+    "html": "<ul><li><i>\t&#34;*-=00ff00</i>*|</ul>"
+  },
+  {
+    "source": " |\\*|\\\\é<\t",
+    "html": " <center>*</center>\\é&lt;\t"
+  },
+  {
+    "source": "é <猫! ---",
+    "html": "é &lt;猫! <hr>"
+  },
+  {
+    "source": "=-é\t*é\n\t",
+    "html": "=-é\t*é<BR>\t"
+  },
+  {
+    "source": "\né*))!((猫#",
+    "html": "<BR>é*</font>!<font size=\"1\">猫#"
+  },
+  {
+    "source": "*))-=00ff00-=FFAA00))\t!-=FFAA00",
+    "html": "<ul><li></font>-=00ff00-=FFAA00</font>\t!-=FFAA00</ul>"
+  },
+  {
+    "source": "(( ---))<^#!",
+    "html": "<font size=\"1\"> <hr></font>&lt;^#!"
+  },
+  {
+    "source": "\\\\))\\*_^\\*<!",
+    "html": "\\</font>*_^*&lt;!"
+  },
+  {
+    "source": "^**\\\\\n\t^猫_",
+    "html": "<font size=\"4\"></i><i>\\<BR>\t</font>猫_"
+  },
+  {
+    "source": "!#**---_-=00ff00**\"",
+    "html": "!#<b><hr>_-=00ff00</b>&#34;"
+  },
+  {
+    "source": "-=FFAA00!-=FFAA00\\*<))-=00ff00猫",
+    "html": "-=FFAA00!-=FFAA00*&lt;</font>-=00ff00猫"
+  },
+  {
+    "source": "^=-^\\*猫((!))",
+    "html": "<font size=\"4\">=-</font>*猫<font size=\"1\">!</font>"
+  },
+  {
+    "source": "**\\*#**!\\*))",
+    "html": "<b>*#</b>!*</font>"
+  },
+  {
+    "source": "\\\\^((((!!#\\\\",
+    "html": "\\^<font size=\"1\"><font size=\"1\">!!#\\"
+  },
+  {
+    "source": "\"-=00ff00猫))##!^",
+    "html": "&#34;-=00ff00猫</font>##!^"
+  },
+  {
+    "source": "))---\\*=-^_!",
+    "html": "</font><hr>*=-^_!"
+  },
+  {
+    "source": "^\"| \\\\<\n",
+    "html": "^&#34;| \\&lt;<BR>"
+  },
+  {
+    "source": "---##-=00ff00^!\\\\*",
+    "html": "<hr>##-=00ff00^!\\*"
+  },
+  {
+    "source": "\t\"-=FFAA00_-=FFAA00猫<é",
+    "html": "\t&#34;-=FFAA00_-=FFAA00猫&lt;é"
+  },
+  {
+    "source": "*^=-=-^|*\"",
+    "html": "<i><font size=\"4\">=-=-</font>|</i>&#34;"
+  },
+  {
+    "source": " ))\n=-((\"\n",
+    "html": " </font><BR>=-<font size=\"1\">&#34;<BR>"
+  },
+  {
+    "source": "((!---\\**_\"\"",
+    "html": "<font size=\"1\">!<hr>**_&#34;&#34;"
+  },
+  {
+    "source": "|\\**\\*=-**\\**",
+    "html": "|***=-</i><i>**"
+  },
+  {
+    "source": "\\*|*<\n^é*",
+    "html": "*|<i>&lt;<BR>^é</i>"
+  },
+  {
+    "source": "---\"=--=FFAA00#\n-=00ff00é",
+    "html": "<hr>&#34;=--=FFAA00#<BR>-=00ff00é"
+  },
+  {
+    "source": "!^\t\\*|\\*|!",
+    "html": "!^\t*<center>*</center>!"
+  },
+  {
+    "source": "\\*))^---| #((",
+    "html": "*</font>^<hr>| #<font size=\"1\">"
+  },
+  {
+    "source": "_\\\\**---((^^!",
+    "html": "_\\</i><i><hr><font size=\"1\">^^!"
+  },
+  {
+    "source": "---<\t\"\"\\*<))",
+    "html": "<hr>&lt;\t&#34;&#34;*&lt;</font>"
+  },
+  {
+    "source": "#))((_\\*\"!<",
+    "html": "<h2></font><font size=\"1\">_*&#34;!&lt;</h2>"
+  },
+  {
+    "source": "=-\\*-=00ff00 \t=----",
+    "html": "=-*<font color='00ff00'> \t</font><hr>"
+  },
+  {
+    "source": "((\n猫é\t-=00ff00*",
+    "html": "<font size=\"1\"><BR>猫é\t-=00ff00*"
+  },
+  {
+    "source": "*\\\\\"| \\\\^",
+    "html": "<ul><li>\\&#34;| \\^</ul>"
+  },
+  {
+    "source": "#))*猫*\\\\\n))",
+    "html": "<h2></font><i>猫</i>\\</h2><BR></font>"
+  },
+  {
+    "source": "_----=FFAA00<_#---",
+    "html": "<i><hr>=FFAA00&lt;</i>#<hr>"
+  },
+  {
+    "source": "\\*<-=00ff00**<\\\\))\n",
+    "html": "*&lt;-=00ff00</i><i>&lt;\\</font><BR>"
+  },
+  {
+    "source": "__\n-=FFAA00 ^",
+    "html": "</i><i><BR>-=FFAA00 ^"
+  },
+  {
+    "source": "-=00ff00\t<!!\t-=FFAA00-=FFAA00",
+    "html": "-=00ff00\t&lt;!!\t-=FFAA00-=FFAA00"
+  },
+  {
+    "source": "---))((\"**猫<",
+    "html": "<hr></font><font size=\"1\">&#34;</i><i>猫&lt;"
+  },
+  {
+    "source": " -=FFAA00\"-=00ff00=-\n\\\\!",
+    "html": " <font color='FFAA00'>&#34;-=00ff00</font><BR>\\!"
+  },
+  {
+    "source": "#猫\n\t<=--=00ff00))",
+    "html": "<h2>猫</h2><BR>\t&lt;=--=00ff00</font>"
+  },
+  {
+    "source": "-=FFAA00**-=FFAA00^=-_=--=FFAA00",
+    "html": "<font color='FFAA00'></i><i>-=FFAA00^</font>_=--=FFAA00"
+  },
+  {
+    "source": "=-=-!-=FFAA00 \"\\*---",
+    "html": "=-=-!-=FFAA00 &#34;*<hr>"
+  },
+  {
+    "source": "^---||é**=- ",
+    "html": "^<hr>||é</i><i>=- "
+  },
+  {
+    "source": "**-=FFAA00^ééé",
+    "html": "</i><i>-=FFAA00^ééé"
+  },
+  {
+    "source": "***\\\\  |((^",
+    "html": "<ul><li></i><i>\\  |<font size=\"1\">^</ul>"
+  },
+  {
+    "source": "^|_<\t=-\"*",
+    "html": "^|_&lt;\t=-&#34;*"
+  },
+  {
+    "source": "**\"!é-=FFAA00---é#",
+    "html": "</i><i>&#34;!é-=FFAA00<hr>é#"
+  },
+  {
+    "source": "^))|\\*=-猫<^",
+    "html": "<font size=\"4\"></font>|*=-猫&lt;</font>"
+  },
+  {
+    "source": "_---#*--- <",
+    "html": "_<hr>#*<hr> &lt;"
+  },
+  {
+    "source": "^ 猫-=00ff00((---<=-",
+    "html": "^ 猫<font color='00ff00'><font size=\"1\"><hr>&lt;</font>"
+  },
+  {
+    "source": "é\té-=FFAA00 <((",
+    "html": "é\té-=FFAA00 &lt;<font size=\"1\">"
+  },
+  {
+    "source": "__(( -=FFAA00**\n---",
+    "html": "<b><font size=\"1\"> -=FFAA00</b><BR><hr>"
+  },
+  {
+    "source": "((\\*-=00ff00-=FFAA00-=FFAA00猫 ",
+    "html": "<font size=\"1\">*-=00ff00-=FFAA00-=FFAA00猫 "
+  },
+  {
+    "source": "\\*-=FFAA00\n!é))^猫",
+    "html": "*-=FFAA00<BR>!é</font>^猫"
+  },
+  {
+    "source": "###\"**---=-\n",
+    "html": "<h4>&#34;</i><i><hr>=-</h4><BR>"
+  },
+  {
+    "source": "#_\t-=00ff00_\"=-!",
+    "html": "<h2><i>\t<font color='00ff00'></i>&#34;</font>!</h2>"
+  },
+  {
+    "source": "\"*---**\\\\猫\"-=FFAA00",
+    "html": "&#34;<i><hr></i>*\\猫&#34;-=FFAA00"
+  },
+  {
+    "source": "((** !-=FFAA00!<**",
+    "html": "<font size=\"1\"><b> !-=FFAA00!&lt;</b>"
+  },
+  {
+    "source": "*-=FFAA00*((\\*_((\\\\",
+    "html": "<i>-=FFAA00</i><font size=\"1\">*_<font size=\"1\">\\"
+  },
+  {
+    "source": "((\n=-\\*((\t猫\n",
+    "html": "<font size=\"1\"><BR>=-*<font size=\"1\">\t猫<BR>"
+  },
+  {
+    "source": "=-\"----=00ff00||é^",
+    "html": "=-&#34;<hr>=00ff00||é^"
+  },
+  {
+    "source": "\n**\\*<((---^猫",
+    "html": "<BR></i><i>*&lt;<font size=\"1\"><hr>^猫"
+  },
+  {
+    "source": "-=FFAA00\né*((=-\"((",
+    "html": "<font color='FFAA00'><BR>é*<font size=\"1\"></font>&#34;<font size=\"1\">"
+  },
+  {
+    "source": "=----猫 **\n_*",
+    "html": "=<hr>猫 </i><i><BR>_*"
+  },
+  {
+    "source": "=-((\\*|-=00ff00**-=00ff00",
+    "html": "=-<font size=\"1\">*|-=00ff00</i><i>-=00ff00"
+  },
+  {
+    "source": "#))#))\"*#\n",
+    "html": "<h2></font>#</font>&#34;*#</h2><BR>"
+  },
+  {
+    "source": "é---猫((<猫**",
+    "html": "é<hr>猫<font size=\"1\">&lt;猫</i><i>"
+  },
+  {
+    "source": "-=00ff00**-=00ff00\t\t|=-!",
+    "html": "<font color='00ff00'></i><i>-=00ff00\t\t|</font>!"
+  },
+  {
+    "source": "_----=00ff00*\\*|\t**",
+    "html": "_<hr>=00ff00<i>*|\t</i>*"
+  },
+  {
+    "source": "\"((-=FFAA00-=FFAA00))-=FFAA00\n<",
+    "html": "&#34;<font size=\"1\">-=FFAA00-=FFAA00</font>-=FFAA00<BR>&lt;"
+  },
+  {
+    "source": "\"))^é\\\\**猫=-",
+    "html": "&#34;</font>^é\\</i><i>猫=-"
+  },
+  {
+    "source": "<\n((#é#\n",
+    "html": "&lt;<BR><font size=\"1\">#é#<BR>"
+  },
+  {
+    "source": "=----**<#**",
+    "html": "=<hr><b>&lt;#</b>"
+  },
+  {
+    "source": "\"\t\n猫\n=-))*",
+    "html": "&#34;\t<BR>猫<BR>=-</font>*"
+  },
+  {
+    "source": "_\t))))-=FFAA00*\\\\))",
+    "html": "_\t</font></font>-=FFAA00*\\</font>"
+  },
+  {
+    "source": "---\t\n\\*\\\\-=FFAA00\\\\((",
+    "html": "<hr>\t<BR>*\\-=FFAA00\\<font size=\"1\">"
+  },
+  {
+    "source": "\"=-éé\\\\<-=FFAA00",
+    "html": "&#34;=-éé\\&lt;-=FFAA00"
+  },
+  {
+    "source": "**-=00ff00\n_-=00ff00-=00ff00\t**",
+    "html": "<b>-=00ff00<BR>_-=00ff00-=00ff00\t</b>"
+  },
+  {
+    "source": "\\\\(( \"猫éé",
+    "html": "\\<font size=\"1\"> &#34;猫éé"
+  },
+  {
+    "source": "-=00ff00-=00ff00-=00ff00((^**<",
+    "html": "-=00ff00-=00ff00-=00ff00<font size=\"1\">^</i><i>&lt;"
+  },
+  {
+    "source": "\t\\\\\\*猫^\n=-\"",
+    "html": "\t\\*猫^<BR>=-&#34;"
+  },
+  {
+    "source": "=- \\*\t猫=----\"",
+    "html": "=- *\t猫=<hr>&#34;"
+  },
+  {
+    "source": "|**_=--=FFAA00-=00ff00*-=00ff00",
+    "html": "|</i><i>_=--=FFAA00-=00ff00*-=00ff00"
+  },
+  {
+    "source": "\\*))-=00ff00\n**^^_",
+    "html": "*</font>-=00ff00<BR></i><i>^^_"
+  },
+  {
+    "source": "-=FFAA00\t\"<\\*))(( ",
+    "html": "-=FFAA00\t&#34;&lt;*</font><font size=\"1\"> "
+  },
+  {
+    "source": "*\\*-=FFAA00#\né*",
+    "html": "<ul><li>*-=FFAA00#<BR></ul>é*"
+  },
+  {
+    "source": " 猫\\\\(())\t\n",
+    "html": " 猫\\<font size=\"1\"></font>\t<BR>"
+  },
+  {
+    "source": "\\\\-=FFAA00\\*_é!\t",
+    "html": "\\-=FFAA00*_é!\t"
+  },
+  {
+    "source": "<))é-=00ff00))!_猫",
+    "html": "&lt;</font>é-=00ff00</font>!_猫"
+  },
+  {
+    "source": "**!\n--- ((=--=00ff00",
+    "html": "</i><i>!<BR><hr> <font size=\"1\">=--=00ff00"
+  },
+  {
+    "source": "***\"-=FFAA00=-\\\\((**",
+    "html": "<ul><li><b>&#34;-=FFAA00=-\\<font size=\"1\"></b></ul>"
+  },
+  {
+    "source": "---\"_\t((-=00ff00\\\\",
+    "html": "<hr>&#34;_\t<font size=\"1\">-=00ff00\\"
+  },
+  {
+    "source": "*))**---# \"",
+    "html": "<ul><li></font></i><i><hr># &#34;</ul>"
+  },
+  {
+    "source": "\"**=-猫\n**\\*",
+    "html": "&#34;<b>=-猫<BR></b>*"
+  },
+  {
+    "source": "\t_-=00ff00))^#^\"",
+    "html": "\t_-=00ff00</font><font size=\"4\">#</font>&#34;"
+  },
+  {
+    "source": "^))-=FFAA00-=FFAA00))^\"^",
+    "html": "<font size=\"4\"></font>-=FFAA00-=FFAA00</font></font>&#34;^"
+  },
+  {
+    "source": "\"\t-=00ff00\n猫_---",
+    "html": "&#34;\t-=00ff00<BR>猫_<hr>"
+  },
+  {
+    "source": "猫*猫 ((\\*\\*",
+    "html": "猫*猫 <font size=\"1\">**"
+  },
+  {
+    "source": "-=FFAA00))**-=00ff00\\\\))(())",
+    "html": "-=FFAA00</font></i><i>-=00ff00\\</font><font size=\"1\"></font>"
+  },
+  {
+    "source": "=-#---))\\***|\"",
+    "html": "=-#<hr></font>***|&#34;"
+  },
+  {
+    "source": "|\\\\\t<---|\t**",
+    "html": "<center>\\\t&lt;<hr></center>\t</i><i>"
+  },
+  {
+    "source": "!-=00ff00^\\\\\n ((^",
+    "html": "!-=00ff00<font size=\"4\">\\<BR> <font size=\"1\"></font>"
+  },
+  {
+    "source": "\n---猫_#-=FFAA00_<",
+    "html": "<BR><hr>猫<i>#-=FFAA00</i>&lt;"
+  },
+  {
+    "source": "---\" _=-\t---**",
+    "html": "<hr>&#34; _=-\t<hr></i><i>"
+  },
+  {
+    "source": "-=FFAA00=-\t---_\"^",
+    "html": "-=FFAA00=-\t<hr>_&#34;^"
+  },
+  {
+    "source": "<!^\t----=FFAA00__",
+    "html": "&lt;!^\t<hr>=FFAA00</i><i>"
+  },
+  {
+    "source": "\t\n \"((猫^*",
+    "html": "\t<BR> &#34;<font size=\"1\">猫^*"
+  },
+  {
+    "source": "<**<\"=--=FFAA00---",
+    "html": "&lt;</i><i>&lt;&#34;=--=FFAA00<hr>"
+  },
+  {
+    "source": "é#-=FFAA00!*-=FFAA00\t*",
+    "html": "é#-=FFAA00!<i>-=FFAA00\t</i>"
+  },
+  {
+    "source": "\t* item",
+    "html": "<ul><ul><ul><ul><ul><ul><ul><ul>\t<li> item</ul></ul></ul></ul></ul></ul></ul></ul>"
+  },
+  {
+    "source": "﻿test",
+    "html": "﻿test"
+  },
+  {
+    "source": "1. First\n2. Second",
+    "html": "<ol><li>First</li><BR><li>Second</li></ol>"
+  },
+  {
+    "source": "  12. Indented\n9. Next",
+    "html": "<ol><li>Indented</li><BR><li>Next</li></ol>"
+  },
+  {
+    "source": "1.No space",
+    "html": "1.No space"
+  },
+  {
+    "source": "1. First\nplain",
+    "html": "<ol><li>First</li><BR></ol>plain"
+  },
+  {
+    "source": "* bullet\n1. Ordered",
+    "html": "<ul><li> bullet<BR><ol><li></ul>1. Ordered</li></ol>"
+  },
+  {
+    "source": "1. Ordered\n* bullet",
+    "html": "<ol><li>Ordered</li><BR><ul><ul><ul><ul><ul><ul><ul><ul><ul><ul><ul><ul><ul><ul></ol><li> bullet</ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul>"
+  },
+  {
+    "source": "1. Ordered\n  * nested\n2. Next",
+    "html": "<ol><li>Ordered</li><BR><ul><ul><ul><ul><ul><ul><ul><ul><ul><ul><ul><ul><ul><ul><ul><ul></ol>  <li> nested<BR><ol><li></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul>2. Next</li></ol>"
+  },
+  {
+    "source": "1. *italic*\n2. **bold**",
+    "html": "<ol><li><i>italic</i></li><BR><li><b>bold</b></li></ol>"
+  },
+  {
+    "source": "-=FFAA00=-",
+    "html": "-=FFAA00=-"
+  },
+  {
+    "source": "-=A1b2C3line one\nline two=-",
+    "html": "<font color='A1b2C3'>line one<BR>line two</font>"
+  },
+  {
+    "source": "-=zzzzzzinvalid=-",
+    "html": "<font color='zzzzzz'>invalid</font>"
+  },
+  {
+    "source": "-=FFAA00outer -=00FF00inner=- rest=-",
+    "html": "<font color='FFAA00'>outer -=00FF00inner</font> rest=-"
+  },
+  {
+    "source": "-=FFAA00a=--=00FF00b=-",
+    "html": "<font color='FFAA00'>a</font><font color='00FF00'>b</font>"
+  },
+  {
+    "source": "-=------bad=-",
+    "html": "-=<hr>bad=-"
+  },
+  {
+    "source": "-=123456<svg/onload=alert(1)>=-",
+    "html": "<font color='123456'>&lt;svg/onload=alert(1)&gt;</font>"
+  },
+  {
+    "source": "1. 猫😀\n2. é",
+    "html": "<ol><li>猫😀</li><BR><li>é</li></ol>"
+  },
+  {
+    "source": "1. First\n\n2. Second",
+    "html": "<ol><li>First</li><BR></ol><BR><ol><li>Second</li></ol>"
+  }
+]
