@@ -63,8 +63,8 @@ function main(){
         if(t.recipeRoutes)t.recipeRoutes=t.recipeRoutes.filter(r=>!['Alchemy cauldron','Butchery'].includes(r.method));
       }
       const content=require('./ratwood2-content.cjs');
-      content.apply(data.topics,load('ratwood2-food-recipes.json'));
-      content.applyStews(data.topics,load('ratwood2-stew-recipes.json'));
+      const recipeCoverage=[...content.apply(data.topics,load('ratwood2-food-recipes.json')),...content.applyStews(data.topics,load('ratwood2-stew-recipes.json'))];
+      fs.writeFileSync(path.join(root,'sources/ratwood2-recipe-coverage.json'),JSON.stringify(recipeCoverage,null,2)+'\n');
       content.applyHeating(data.topics,load('ratwood2-heating.json'));
       require('./recipe-audit.cjs').applyPreparation(data.topics,routes);
       for(const t of data.topics)if(prior.has(t.id)&&!t.preparationRoutes?.length&&!t.sourceRecipeVariants?.length&&!t.potRecipes?.length&&!t.heatingRoutes?.length){t.status='unverified';t.gaps=['A preparation route from the previous revision was not confirmed by the current import. Check its historical source before relying on it.'];t.availability={state:'needs-review',note:t.gaps[0]};}
