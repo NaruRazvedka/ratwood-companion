@@ -75,9 +75,10 @@
     if(topic.potRecipes?.length)ingredients.unshift('Water — 30 drams per pot ingredient');
     return {ingredients,tools,yield:yieldText,time:timeText,shelfLife:p?.shelfLife?.label||'Not stated',quality:p?.quality?.label||'Not specified',value:p?.value?.label||'No verified fixed value',alternative:routes.length>1||topic.sourceRecipeVariants?.length>1||topic.potRecipes?.length>1||topic.heatingRoutes?.length>1};
   }
-  function filterOptions(topics){
-    const items=topics.filter(t=>t.section==='items'),profiles=items.map(t=>t.recipeProfile||recipeProfile(t));
-    return {quality:[...new Set(profiles.map(p=>p.quality))].sort(),method:[...new Set(profiles.flatMap(p=>p.methods))].sort(),skill:[...new Set(profiles.flatMap(p=>p.skills))].sort()};
+  function filterOptions(topics,options={}){
+    const items=topics.filter(t=>t.section==='items');
+    const values={quality:p=>[p.quality],method:p=>p.methods.filter(method=>!options.skill||p.methodSkills[method]?.includes(options.skill)),skill:p=>options.method?p.methodSkills[options.method]||[]:p.skills,evidence:p=>[p.evidence]};
+    return Object.fromEntries(Object.entries(values).map(([field,read])=>[field,[...new Set(search(items,{...options,[field]:''}).flatMap(t=>read(t.recipeProfile||recipeProfile(t))))].sort()]));
   }
   function indexTopics(topics) {
     return topics.map(topic => ({ ...topic, recipeProfile:topic.recipeProfile||recipeProfile(topic),titleKey: normalize(topic.title),aliasKeys:(topic.aliases||[]).map(normalize), searchKey: topic.searchKey||normalize([topic.title, ...(topic.aliases || []), topic.summary, topic.itemInfo?.description?.text, ...(topic.itemInfo?.mechanics||[]).map(m=>m.text), topic.itemProperties?.shelfLife?.label,topic.itemProperties?.quality?.label,topic.itemProperties?.value?.label,...recipeRoutes(topic).flatMap(r=>[r.name,...r.steps,...r.requirements,...r.groups.map(g=>g.label)]),...(topic.requirements || []), ...(topic.steps || []), ...(topic.sections||[]).map(s=>[s.title,s.text,...(s.steps||[]),...(s.facts||[]).map(f=>f.label+' '+f.value)].join(' ')), ...(topic.facts || []).map(f => f.label + ' ' + f.value)].join(' ')) }));

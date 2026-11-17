@@ -9,6 +9,7 @@ function permitted(name,repository=false){
   if(/(?:^|\/)(?:client-pack|licensed-infraredbaron)(?:\/|$)/i.test(name)||/pterra\.ttf$/i.test(name))return false;
   if(runtimeRoot.has(name))return true;
   if(name.startsWith('guide/')&&runtimeGuide.has(name.slice(6)))return true;
+  if(/^guide\/assets\/social\/(?:guide|workshop)\.png$/.test(name))return true;
   if(/^guide\/details\/[\w.-]+\.js$/.test(name))return true;
   if(/^guide\/assets\/(?:icons|sprites)\//.test(name))return /\.(?:png|svg|dmi|md|txt|json|dm)$/i.test(name);
   if(!repository)return false;

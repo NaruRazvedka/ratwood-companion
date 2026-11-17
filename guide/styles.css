@@ -60,3 +60,5 @@
 .mobile-bookmarks{display:none}
 @media(max-width:620px){.mobile-bookmarks{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}.mobile-bookmarks button{font-size:13px;min-height:38px;padding:8px 10px}}
 .compact .mobile-bookmarks,.compact-inline .mobile-bookmarks{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}.compact .mobile-bookmarks button,.compact-inline .mobile-bookmarks button{font-size:13px;min-height:36px;padding:7px}
+
+.recipe-filters label[hidden]{display:none}

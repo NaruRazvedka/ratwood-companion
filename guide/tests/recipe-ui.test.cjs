@@ -33,6 +33,8 @@ test('filters combine method and skill on the same route and preserve evidence u
   assert.equal(core.search(rows,{quality:'Fine',method:'Smithing',skill:'Armorsmithing',evidence:'source'})[0].id,'a');
   assert.deepEqual(core.search(rows,{method:'Smithing',skill:'Cooking'}),[]);
   assert.equal(core.search(rows,{evidence:'incomplete'})[0].id,'b');assert.equal(core.search(rows,{evidence:'conflict'})[0].id,'c');
+  assert.deepEqual(core.filterOptions(rows,{skill:'Cooking'}).method,['Cutting']);
+  assert.deepEqual(core.filterOptions(rows,{method:'Smithing'}).skill,['Armorsmithing']);
   const options=core.filterOptions(topics);assert.ok(options.method.includes('Baking'));assert.ok(options.skill.includes('Sewing'));assert.ok(!options.skill.some(s=>s==='null'||s.startsWith('/')));
 });
 
@@ -74,4 +76,20 @@ test('filter controls update actual catalogue results, reset, and hide on an art
   panel.navigate('sheet-7-r38');assert.equal(bar.hidden,true);assert.match(view.innerHTML,/recipe-panel/);
   const back={dataset:{},closest(){return this;},hasAttribute:name=>name==='data-back'};
   host.listeners.click({target:back});assert.equal(bar.hidden,false);
+});
+
+test('filter choices belong to the current category and compatible routes',()=>{
+  const rows=core.indexTopics([
+    {id:'dish',title:'Pie',section:'items',category:'Dishes',itemProperties:{quality:{label:'Fine'}},preparationRoutes:[{method:'Bake',skill:'Cooking',evidence:'source',steps:['Bake.']}]},
+    {id:'drink',title:'Wine',section:'items',category:'Drinks',itemProperties:{quality:{label:'Nice'}},preparationRoutes:[{method:'Fermentation',skill:'Alchemy',steps:['Ferment.']}]},
+    {id:'armor',title:'Mail',section:'items',category:'Clothing & armor',preparationRoutes:[{method:'Smithing',skill:'Armorsmithing',steps:['Forge.']}]}
+  ]);
+  const dishes=core.filterOptions(rows,{category:'Dishes'});
+  assert.deepEqual(dishes.quality,['Fine']);assert.deepEqual(dishes.method,['Baking']);assert.deepEqual(dishes.skill,['Cooking']);assert.deepEqual(dishes.evidence,['source']);
+  const drinks=core.filterOptions(rows,{category:'Drinks'});assert.deepEqual(drinks.quality,['Nice']);assert.deepEqual(drinks.method,['Fermentation']);
+  assert.deepEqual(core.filterOptions(rows,{method:'Baking'}).skill,['Cooking']);
+  assert.deepEqual(core.filterOptions(rows,{query:'wine'}).quality,['Nice']);
+  assert.deepEqual(core.filterOptions(rows,{bookmarksOnly:true,bookmarks:new Set(['armor'])}).method,['Smithing']);
+  for(const [field,values] of Object.entries(core.filterOptions(rows,{category:'Dishes'})))for(const value of values)
+    assert.ok(core.search(rows,{category:'Dishes',[field]:value}).length,field+' '+value);
 });

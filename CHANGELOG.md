@@ -1,5 +1,11 @@
 # Changes
 
+## 2026-11-17 · Filters and sharing
+
+- Scoped quality, preparation, skill and evidence filters to the current category, search and compatible selections. Hide controls without useful choices and clear selections that no longer apply.
+- Added large sharing cards for the guide and workshop.
+- Credited NaruRazvedka (Pushinka) as creator and ChatGPT for development, research and editing assistance.
+
 ## 2026-11-17 · Companion revamp
 
 - Updated the workshop parser to the pinned current Ratwood color and numbered-list behavior; verified 354 outputs against the real DM parser with BYOND 516.1688.

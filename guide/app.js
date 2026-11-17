@@ -3,7 +3,6 @@
   'use strict';
   const data=GUIDE_DATA,core=GuideCore,esc=core.escapeHTML;
   const topics=core.indexTopics(data.topics),byId=new Map(topics.map(t=>[t.id,t]));
-  const filterChoices=core.filterOptions(topics);
   const resolve=id=>data.redirects?.[id]||id;
   const modes={items:'Items',guides:'Guides',reference:'Reference',...(!data.publicEdition?{sources:'Sources'}:{})};
   const categoryOrder=['Dishes','Soups & stews','Drinks','Liquids','Potions','Prepared ingredients','Ingredients','Plants & crops','Alchemy ingredients','Alchemy products','Tools & stations','Materials','Weapons','Clothing & armor','Armor','Construction'];
@@ -101,7 +100,9 @@
     host.innerHTML=`<div class="menu-shell ${compact?'compact':''}"><aside class="menu-sidebar"><p class="eyebrow">FIELD GUIDE</p><div class="mode-nav">${Object.entries(modes).map(([id,name])=>`<button data-mode="${id}">${name}</button>`).join('')}</div><div class="category-list"></div><button class="saved-nav" data-saved>☆ Bookmarks <span>${bookmarks.size}</span></button><div class="bookmark-tools"><button data-export-bookmarks>Export bookmarks</button><button data-import-bookmarks>Import bookmarks</button></div><a class="source-link" href="../credits.html">Credits & sources</a></aside><main class="menu-main"><div class="menu-search"><label><span aria-hidden="true">⌕</span><input type="search" aria-label="Search the whole guide"><kbd>/</kbd></label><button class="float-button" data-float>${compact?'↗ Full guide':'↗ Float guide'}</button></div><label class="search-scope">Search in <select data-search-scope aria-label="Search section"><option value="">Everything</option>${Object.entries(modes).map(([id,name])=>`<option value="${id}">${name}</option>`).join('')}</select></label><div class="mobile-modes">${Object.entries(modes).map(([id,name])=>`<button data-mode="${id}">${name}</button>`).join('')}</div><div class="mobile-bookmarks"><button data-saved>☆ Bookmarks</button><button data-export-bookmarks>Export bookmarks</button><button data-import-bookmarks>Import bookmarks</button></div><div class="mobile-categories"></div><p class="app-notice" role="status"></p><p class="search-status" role="status" aria-live="polite" aria-atomic="true"></p><div class="menu-view"></div></main></div>`;
     const q=s=>host.querySelector(s),view=q('.menu-view');
     const filterBar=doc.createElement('div');filterBar.className='recipe-filters';
-    filterBar.innerHTML=Object.entries({quality:'Quality',method:'Preparation method',skill:'Required skill'}).map(([id,label])=>`<label>${label}<select data-filter="${id}" aria-label="${label}"><option value="">Any</option>${filterChoices[id].map(value=>`<option value="${esc(value)}">${esc(value)}</option>`).join('')}</select></label>`).join('')+'<label>Procedure evidence<select data-filter="evidence" aria-label="Procedure evidence"><option value="">Any</option><option value="source">Source-backed procedure</option><option value="incomplete">Procedure incomplete</option><option value="conflict">Conflicting source</option></select></label><button data-clear-filters>Clear filters</button>';
+    const filterLabels={quality:'Quality',method:'Preparation method',skill:'Required skill',evidence:'Procedure evidence'};
+    const evidenceLabels={source:'Source-backed procedure',incomplete:'Procedure incomplete',conflict:'Conflicting source'};
+    filterBar.innerHTML=Object.entries(filterLabels).map(([id,label])=>`<label>${label}<select data-filter="${id}" aria-label="${label}"></select></label>`).join('')+'<button data-clear-filters>Clear filters</button>';
     view.before(filterBar);
     function historyState(){return {ratwoodGuide:true,state:{...state},catalogue:catalogue&&{...catalogue,state:{...catalogue.state}},scroll:win.scrollY||0};}
     function saveHistory(push=false){if(compact)return;const h=historyState(),url=state.id?route(state.id):location.pathname+location.search;(push?history.pushState:history.replaceState)?.call(history,h,'',url);}
@@ -109,9 +110,24 @@
     function tileHTML(t){return `<a class="item-tile" href="${route(t.id)}" data-topic="${esc(t.id)}" ${t.itemInfo?.description?.text?`title="${esc(t.itemInfo.description.text)}"`:''}>${image(t)}<span>${esc(t.title)}</span>${bookmarks.has(t.id)?'<small aria-label="Bookmarked">★</small>':''}</a>`;}
     function listHTML(rows,section){return section==='items'?`<div class="item-menu">${rows.map(tileHTML).join('')}</div>`:`<div class="guide-menu">${rows.map(t=>`<a href="${route(t.id)}" data-topic="${esc(t.id)}"><span><strong>${esc(t.title)}</strong>${t.summary?`<small>${esc(t.summary)}</small>`:''}</span><span aria-hidden="true">↗</span></a>`).join('')}</div>`;}
     function render(){
-      filterBar.hidden=Boolean(state.id)||(!state.query&&state.section!=='items')||(Boolean(state.query)&&Boolean(state.scope)&&state.scope!=='items');
-      filterBar.querySelectorAll('[data-filter]').forEach(select=>{select.value=state[select.dataset.filter];});
-      filterBar.querySelector('[data-clear-filters]').disabled=!['quality','method','skill','evidence'].some(k=>state[k]);
+      const section=state.query?state.scope:state.bookmarksOnly?'':state.section;
+      const pool=topics.filter(t=>t.section!=='sources'||section==='sources').map(t=>byId.get(t.id)||t);
+      const context={...state,section,bookmarks};
+      const unfiltered={...context,quality:'',method:'',skill:'',evidence:''};
+      const available=core.filterOptions(pool,unfiltered);
+      for(const field of Object.keys(filterLabels))if(state[field]&&!available[field].includes(state[field]))state[field]='';
+      const currentFilters=()=>Object.fromEntries(Object.keys(filterLabels).map(k=>[k,state[k]]));
+      if(!core.search(pool,{...context,...currentFilters()}).length)
+        for(const field of Object.keys(filterLabels))state[field]='';
+      const choices=core.filterOptions(pool,{...context,...currentFilters()});
+      filterBar.hidden=Boolean(state.id)||(!state.query&&state.section!=='items')||(Boolean(state.query)&&Boolean(state.scope)&&state.scope!=='items')||(!Object.values(choices).some(values=>values.length>1)&&!Object.keys(filterLabels).some(k=>state[k]));
+      filterBar.querySelectorAll('[data-filter]').forEach(select=>{
+        const field=select.dataset.filter,values=choices[field];
+        select.innerHTML='<option value="">Any</option>'+values.map(value=>`<option value="${esc(value)}">${esc(field==='evidence'?evidenceLabels[value]||value:value)}</option>`).join('');
+        select.value=state[field];
+        if(select.parentElement)select.parentElement.hidden=values.length<2&&!state[field];
+      });
+      filterBar.querySelector('[data-clear-filters]').disabled=!Object.keys(filterLabels).some(k=>state[k]);
       const cats=[...new Set(topics.filter(t=>t.section===state.section).map(t=>t.category))].sort((a,b)=>{const i=categoryOrder.indexOf(a),j=categoryOrder.indexOf(b);return(i<0?99:i)-(j<0?99:j)||a.localeCompare(b);});
       host.querySelectorAll('[data-mode]').forEach(b=>{b.classList.toggle('active',b.dataset.mode===state.section);b.setAttribute('aria-pressed',String(b.dataset.mode===state.section));});
       q('.category-list').innerHTML=`<button data-category="" class="${!state.category?'active':''}">All ${esc(modes[state.section].toLowerCase())}<span>${topics.filter(t=>t.section===state.section).length}</span></button>${cats.map(c=>`<button data-category="${esc(c)}" class="${state.category===c?'active':''}">${esc(c)}<span>${topics.filter(t=>t.section===state.section&&t.category===c).length}</span></button>`).join('')}`;
@@ -121,8 +137,6 @@
       q('[data-search-scope]').value=state.scope;
       if(!storageAvailable)q('.app-notice').textContent='Bookmarks will last for this session; browser storage is unavailable.';
       if(state.id){const t=byId.get(resolve(state.id));view.innerHTML=t?articleHTML(t,compact||Boolean(doc.body?.classList?.contains('compact-inline'))):'<p class="empty">Entry not found. Use search or choose a category.</p>';return;}
-      const section=state.query?state.scope:state.bookmarksOnly?'':state.section;
-      const pool=topics.filter(t=>t.section!=='sources'||section==='sources').map(t=>byId.get(t.id)||t);
       const result=core.search(pool,{...state,section,bookmarks}),shown=result.slice(0,state.limit);
       q('.search-status').textContent=result.length+' '+(result.length===1?'result':'results')+(state.query?' for '+state.query:'');
       const grouped=Boolean(state.query)||state.bookmarksOnly;
