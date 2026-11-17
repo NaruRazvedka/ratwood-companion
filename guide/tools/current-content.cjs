@@ -3,6 +3,7 @@ const {createHash}=require('node:crypto');
 const key=s=>String(s||'').toLowerCase().replace(/[^a-z0-9]/g,'');
 const uid=type=>'current-'+createHash('sha256').update(type).digest('hex').slice(0,14);
 function apply(data,current){
+  const previousManaged=new Set((data.currentCoverage||[]).map(row=>row.topicId).filter(Boolean));
   const topics=data.topics,byType=new Map(topics.filter(t=>t.sourceObjectType||t.sourceType).map(t=>[t.sourceObjectType||t.sourceType,t]));
   const byName=new Map(topics.filter(t=>t.kind!=='source').map(t=>[key(t.title),t]));
   const mapped=new Map();
@@ -13,6 +14,13 @@ function apply(data,current){
     if(t){const id=t.id;Object.assign(t,structuredClone(entry),{id});}
     else {t=structuredClone(entry);topics.push(t);}
     if(type)byType.set(type,t);byName.set(key(t.title),t);mapped.set(entry.id,t.id);
+  }
+  const confirmed=new Set(mapped.values());
+  data.retiredReferences??=[];
+  for(const t of topics)if(previousManaged.has(t.id)&&!confirmed.has(t.id)){
+    t.status='historical';t.section='reference';t.category='Previous references';
+    t.gaps=['This entry was not confirmed by the current source import. Its details belong to the previous recorded revision.'];
+    if(!data.retiredReferences.some(row=>row.id===t.id))data.retiredReferences.push({id:t.id,title:t.title,previousRevision:t.sourceRevision,currentRevision:current.revision});
   }
   function ensure(type,name){
     if(byType.has(type))return byType.get(type);

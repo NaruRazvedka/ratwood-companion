@@ -37,8 +37,11 @@ async function main(){
   run(process.env.PYTHON||'python',['guide/tools/import-current-content.py']);
   run(process.env.PYTHON||'python',['guide/tools/import-heartbeasts.py']);
   run(process.execPath,['guide/tools/build-data.cjs','--public']);
-  run(process.env.PYTHON||'python',['guide/tools/refresh-current-sprites.py','--fetch']);
-  run(process.execPath,['guide/tools/build-data.cjs','--public']);
+  if(process.env.GITHUB_ACTIONS==='true')console.log('Existing reviewed artwork is retained. Review changed DMI paths and licenses before importing new sprites.');
+  else{
+    run(process.env.PYTHON||'python',['guide/tools/refresh-current-sprites.py','--fetch']);
+    run(process.execPath,['guide/tools/build-data.cjs','--public']);
+  }
   run(process.execPath,['tools/content-diff.cjs']);
   console.log('Content refreshed. Review guide/sources/public-change-report.json and run the checks before publishing.');
 }

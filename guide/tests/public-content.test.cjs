@@ -6,6 +6,14 @@ const data=require('../data.js');
 const byId=new Map(data.topics.map(t=>[t.id,t]));
 const current=require('../sources/current-content.json');
 const build=require('../tools/build-public.cjs');
+test('a source update marks previously managed references absent from the new import',()=>{
+  const record=(id,type)=>({id,title:id,kind:'skill',section:'reference',category:'Skills',sourceType:type,sourceRevision:'old',related:[],sources:[],gaps:[]});
+  const sample={topics:[record('kept','/datum/skill/kept'),record('retired','/datum/skill/retired')],currentCoverage:[{topicId:'kept'},{topicId:'retired'}],counts:{}};
+  require('../tools/current-content.cjs').apply(sample,{revision:'new',reviewed:'2026-11-17',topics:[record('new-id','/datum/skill/kept')],acquisition:[],coverage:[]});
+  assert.equal(sample.topics.find(t=>t.id==='retired').status,'historical');
+  assert.equal(sample.retiredReferences[0].id,'retired');assert.equal(sample.retiredReferences[0].previousRevision,'old');
+  assert.ok(!sample.retiredReferences.some(row=>row.id==='kept'));
+});
 
 test('public corpus has unique identities, working links and no private workbook or cache payload',()=>{
   const clean=build.sanitize(data),text=JSON.stringify(clean);

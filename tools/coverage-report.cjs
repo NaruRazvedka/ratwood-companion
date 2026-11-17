@@ -9,6 +9,7 @@ function report(data,preparations=[],sprites={}){
     counts:{topics:data.topics.length,items:data.topics.filter(t=>t.section==='items').length,topicsWithSprites:data.topics.filter(t=>t.sprite).length,byKind:countBy(data.topics,'kind'),byStatus:countBy(data.topics,'status')},
     definitions:{states:countBy(data.currentCoverage||[],'state'),entries:data.currentCoverage||[]},
     cookbook:{states:countBy(data.cookbookCoverage||[],'state'),entries:data.cookbookCoverage||[]},
+    retiredReferences:data.retiredReferences||[],
     preparationDeclarations:{states:countBy(preparations,'evidence'),entries:preparations.map(r=>({type:r.type||r.id,output:r.outputType,state:routes.has(r.type||r.id)?'linked':r.evidence==='source'?'review-output-link':'needs-review',source:r.source}))},
     itemsNeedingResearch:data.topics.filter(t=>t.section==='items'&&!t.preparationRoutes?.length&&!t.recipeRoutes?.length&&!t.sourceRecipeVariants?.length&&!t.potRecipes?.length&&!t.heatingRoutes?.length).map(t=>({id:t.id,title:t.title,gaps:t.gaps||['Acquisition or preparation remains unconfirmed.']})),
     sprites:{matched:sprites.matched,gaps:sprites.gaps||[]},

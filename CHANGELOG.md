@@ -15,5 +15,6 @@
 - Made search global, added ordinary-question handling and spelling suggestions, and preserved browser navigation, catalogue position and focus.
 - Added bookmark export/import and compact-window synchronization; increased text and control sizes.
 - Added a reproducible public build, daily source checks, change reports, and tested deployment packaging. Restricted GitHub policies fall back to a review branch/link without expanding review permissions.
+- Update proposals flag previously managed references absent from a new import and retain reviewed artwork until replacement licenses are checked.
 
 Source revision: `2d61e02c69520dacb0f4edc1d269395713cbeafb`. Source checks and parser fixtures do not establish the version deployed on the live server.
