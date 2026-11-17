@@ -5,7 +5,7 @@ const root=path.resolve(__dirname,'..');
 const runtimeRoot=new Set(['index.html','app.js','parser.js','gradient.js','styles.css','credits.html','LICENSE','NOTICE.md','README.md','CHANGELOG.md']);
 const runtimeGuide=new Set(['index.html','app.js','core.js','recipe-ui.js','styles.css','data.js','search.js','README.md','NOTICE.md','coverage-report.json']);
 function permitted(name,repository=false){
-  if(name.split('/').some(p=>p.startsWith('.')||p==='node_modules'||p==='__pycache__'))return repository&&(name==='.gitignore'||/^\.github\/workflows\/[\w.-]+\.ya?ml$/.test(name));
+  if(name.split('/').some(p=>p.startsWith('.')||p==='node_modules'||p==='__pycache__'))return repository&&(['.gitignore','.gitattributes'].includes(name)||/^\.github\/workflows\/[\w.-]+\.ya?ml$/.test(name));
   if(/(?:^|\/)(?:client-pack|licensed-infraredbaron)(?:\/|$)/i.test(name)||/pterra\.ttf$/i.test(name))return false;
   if(runtimeRoot.has(name))return true;
   if(name.startsWith('guide/')&&runtimeGuide.has(name.slice(6)))return true;
