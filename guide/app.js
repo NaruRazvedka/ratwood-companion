@@ -28,7 +28,7 @@
     const shared=m=>['/obj','/obj/item','/obj/item/reagent_containers','/obj/item/reagent_containers/food/snacks/rogue'].includes(m.owner);
     const hints=(info?.mechanics||[]).filter(m=>!shared(m)),common=(info?.mechanics||[]).filter(shared);
     const messages=entries=>`<ul class="mechanics-hints">${entries.map(m=>`<li>${esc(m.text)}</li>`).join('')}</ul>`;
-    return `<section class="item-description"><h2>Description</h2><p>${info?.description?esc(info.description.text)||'No written description.':info?.descriptionDynamic?'The description changes in-game.':'No description recorded.'}</p>${hints.length?`<h3>Mechanics</h3>${messages(hints)}`:''}${common.length?`<details><summary>Shared food/item mechanics</summary>${messages(common)}</details>`:''}${info?.contextualMechanics?'<p class="mechanics-context">Additional examine hints depend on the item’s current state in-game.</p>':''}</section>`;
+    return `<section class="item-description"><h2>Description</h2><p>${info?.description?esc(info.description.text)||'No written description.':info?.descriptionDynamic?'The description changes in-game.':'No description recorded.'}</p>${hints.length?`<h3>Mechanics</h3>${messages(hints)}`:''}${common.length?`<details><summary>Shared food/item mechanics</summary>${messages(common)}</details>`:''}</section>`;
   }
   function propertiesHTML(t){
     if(t.section!=='items')return '';

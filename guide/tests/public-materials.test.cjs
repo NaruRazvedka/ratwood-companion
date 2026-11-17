@@ -15,6 +15,10 @@ test('table assembly counts its single base and each listed added item',()=>{
   const route=core.recipeRoutes({sourceRecipeVariants:[{base:{id:'base',name:'Base'},ingredients:[{id:'fruit',name:'Fruit'}],steps:['Assemble.']} ]})[0];
   assert.deepEqual(route.groups.map(g=>g.options[0].amount),[1,1]);
 });
+test('similar route labels identify their ingredient differences',()=>{
+  const routes=core.recipeRoutes({preparationRoutes:[{id:'oat',method:'Milling',ingredients:[{name:'oat grain',amount:1}],steps:['Mill oats.']},{id:'wheat',method:'Milling',ingredients:[{name:'wheat grain',amount:1}],steps:['Mill wheat.']}]});
+  assert.match(routes[0].name,/oat grain/);assert.match(routes[1].name,/wheat grain/);assert.notEqual(routes[0].name,routes[1].name);
+});
 test('an existing floating window follows the selected topic without creating another window',async()=>{
   const mounts=[],win={closed:false,focus(){}},controller=core.floatingController({openPopup:()=>win,mount:(_win,id)=>mounts.push(id),status(){},inline(){}});
   controller.update('before-open');assert.equal(mounts.length,0);

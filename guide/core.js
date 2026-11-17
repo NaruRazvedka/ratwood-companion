@@ -16,7 +16,9 @@
     }
     if(!routes.length&&(topic.recipe||legacy.length||topic.steps?.length))routes=[{name:'Preparation',groups:legacy,steps:topic.steps||[],requirements:topic.requirements||[],station:topic.station}];
     const seen=new Set();
-    return routes.filter(r=>{const key=JSON.stringify([r.groups,r.steps]);if(seen.has(key))return false;seen.add(key);return true;}).map((r,i)=>({...r,id:String(r.id||'route-'+i),name:r.name||r.method||'Preparation '+(i+1),groups:r.groups||legacy,steps:r.steps||[],requirements:r.requirements||[],gaps:r.gaps||[]}));
+    const normalized=routes.filter(r=>{const key=JSON.stringify([r.groups,r.steps]);if(seen.has(key))return false;seen.add(key);return true;}).map((r,i)=>({...r,id:String(r.id||'route-'+i),name:r.name||r.method||'Preparation '+(i+1),groups:r.groups||legacy,steps:r.steps||[],requirements:r.requirements||[],gaps:r.gaps||[]}));
+    const names=new Map();for(const r of normalized)names.set(r.name,(names.get(r.name)||0)+1);
+    return normalized.map(r=>names.get(r.name)>1?{...r,name:r.name+' · '+r.groups.filter(g=>!g.tool).slice(0,2).map(g=>g.label).join(' + ')}:r);
   }
   function materialTotals(topic,byId,selections=new Map()) {
     const totals=new Map(),gaps=new Set();

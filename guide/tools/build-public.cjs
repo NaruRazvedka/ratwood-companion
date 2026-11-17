@@ -11,7 +11,7 @@ function sanitize(data){
     if(out.category==='Armor')out.category='Clothing & armor';
     const current=t.publicContent;
     const traced=t.recipeRoutes?.length||t.preparationRoutes?.length||t.sourceRecipeVariants?.length||t.potRecipes?.length||t.heatingRoutes?.length;
-    out.summary=current?t.summary:t.kind==='guide'?t.summary:traced?'Preparation and item information.':t.itemInfo?.description?.text||'Reference entry; some details remain unconfirmed.';
+    out.summary=current||t.kind==='guide'?t.summary:'';
     out.requirements=current?t.requirements:traced?t.requirements||[]:[];
     out.steps=current?t.steps:traced?t.steps||[]:[];
     out.facts=current?t.facts:[];
