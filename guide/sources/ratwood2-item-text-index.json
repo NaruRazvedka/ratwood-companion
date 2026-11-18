@@ -1,5 +1,13 @@
 [
   {
+    "path": "code/__DEFINES/DNA.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/DNA.dm"
+  },
+  {
+    "path": "code/__DEFINES/MC.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/MC.dm"
+  },
+  {
     "path": "code/__DEFINES/_bitfields.dm",
     "file": "sources/ratwood-current/code/__DEFINES/_bitfields.dm"
   },
@@ -296,10 +304,6 @@
     "file": "sources/ratwood-current/code/__DEFINES/directional.dm"
   },
   {
-    "path": "code/__DEFINES/DNA.dm",
-    "file": "sources/ratwood-current/code/__DEFINES/DNA.dm"
-  },
-  {
     "path": "code/__DEFINES/dye_keys.dm",
     "file": "sources/ratwood-current/code/__DEFINES/dye_keys.dm"
   },
@@ -466,10 +470,6 @@
   {
     "path": "code/__DEFINES/maths.dm",
     "file": "sources/ratwood-current/code/__DEFINES/maths.dm"
-  },
-  {
-    "path": "code/__DEFINES/MC.dm",
-    "file": "sources/ratwood-current/code/__DEFINES/MC.dm"
   },
   {
     "path": "code/__DEFINES/mecha.dm",
@@ -2736,6 +2736,54 @@
     "file": "sources/ratwood-current/code/modules/food_and_drinks/recipes/food_mixtures.dm"
   },
   {
+    "path": "code/modules/jobs/job_types/roguetown/Inquisition/absolutionist.dm",
+    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/absolutionist.dm"
+  },
+  {
+    "path": "code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/adjudicator.dm",
+    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/adjudicator.dm"
+  },
+  {
+    "path": "code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/arbalist.dm",
+    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/arbalist.dm"
+  },
+  {
+    "path": "code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/confessor.dm",
+    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/confessor.dm"
+  },
+  {
+    "path": "code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/disciple.dm",
+    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/disciple.dm"
+  },
+  {
+    "path": "code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/psyalmist.dm",
+    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/psyalmist.dm"
+  },
+  {
+    "path": "code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/sojourner.dm",
+    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/sojourner.dm"
+  },
+  {
+    "path": "code/modules/jobs/job_types/roguetown/Inquisition/orthodoxist.dm",
+    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/orthodoxist.dm"
+  },
+  {
+    "path": "code/modules/jobs/job_types/roguetown/Inquisition/puritan.dm",
+    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/puritan.dm"
+  },
+  {
+    "path": "code/modules/jobs/job_types/roguetown/Inquisition/puritanclasses/arbiter.dm",
+    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/puritanclasses/arbiter.dm"
+  },
+  {
+    "path": "code/modules/jobs/job_types/roguetown/Inquisition/puritanclasses/inspector.dm",
+    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/puritanclasses/inspector.dm"
+  },
+  {
+    "path": "code/modules/jobs/job_types/roguetown/Inquisition/puritanclasses/ordinator.dm",
+    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/puritanclasses/ordinator.dm"
+  },
+  {
     "path": "code/modules/jobs/job_types/roguetown/adventurer/adventurer.dm",
     "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/adventurer/adventurer.dm"
   },
@@ -2758,6 +2806,10 @@
   {
     "path": "code/modules/jobs/job_types/roguetown/adventurer/types/_classagemods.dm",
     "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/adventurer/types/_classagemods.dm"
+  },
+  {
+    "path": "code/modules/jobs/job_types/roguetown/adventurer/types/antag/Iconoclast.dm",
+    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/adventurer/types/antag/Iconoclast.dm"
   },
   {
     "path": "code/modules/jobs/job_types/roguetown/adventurer/types/antag/assassin/hitman.dm",
@@ -2806,10 +2858,6 @@
   {
     "path": "code/modules/jobs/job_types/roguetown/adventurer/types/antag/hedgemage.dm",
     "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/adventurer/types/antag/hedgemage.dm"
-  },
-  {
-    "path": "code/modules/jobs/job_types/roguetown/adventurer/types/antag/Iconoclast.dm",
-    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/adventurer/types/antag/Iconoclast.dm"
   },
   {
     "path": "code/modules/jobs/job_types/roguetown/adventurer/types/antag/knave.dm",
@@ -3284,6 +3332,10 @@
     "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/church/priest.dm"
   },
   {
+    "path": "code/modules/jobs/job_types/roguetown/church/templar/templar_spellblade.dm",
+    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/church/templar/templar_spellblade.dm"
+  },
+  {
     "path": "code/modules/jobs/job_types/roguetown/church/templar.dm",
     "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/church/templar.dm"
   },
@@ -3414,54 +3466,6 @@
   {
     "path": "code/modules/jobs/job_types/roguetown/garrison/watchcaptain.dm",
     "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/garrison/watchcaptain.dm"
-  },
-  {
-    "path": "code/modules/jobs/job_types/roguetown/Inquisition/absolutionist.dm",
-    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/absolutionist.dm"
-  },
-  {
-    "path": "code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/adjudicator.dm",
-    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/adjudicator.dm"
-  },
-  {
-    "path": "code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/arbalist.dm",
-    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/arbalist.dm"
-  },
-  {
-    "path": "code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/confessor.dm",
-    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/confessor.dm"
-  },
-  {
-    "path": "code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/disciple.dm",
-    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/disciple.dm"
-  },
-  {
-    "path": "code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/psyalmist.dm",
-    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/psyalmist.dm"
-  },
-  {
-    "path": "code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/sojourner.dm",
-    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/sojourner.dm"
-  },
-  {
-    "path": "code/modules/jobs/job_types/roguetown/Inquisition/orthodoxist.dm",
-    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/orthodoxist.dm"
-  },
-  {
-    "path": "code/modules/jobs/job_types/roguetown/Inquisition/puritan.dm",
-    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/puritan.dm"
-  },
-  {
-    "path": "code/modules/jobs/job_types/roguetown/Inquisition/puritanclasses/arbiter.dm",
-    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/puritanclasses/arbiter.dm"
-  },
-  {
-    "path": "code/modules/jobs/job_types/roguetown/Inquisition/puritanclasses/inspector.dm",
-    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/puritanclasses/inspector.dm"
-  },
-  {
-    "path": "code/modules/jobs/job_types/roguetown/Inquisition/puritanclasses/ordinator.dm",
-    "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/Inquisition/puritanclasses/ordinator.dm"
   },
   {
     "path": "code/modules/jobs/job_types/roguetown/mercenaries/classes/atgervi.dm",
@@ -4536,16 +4540,16 @@
     "file": "sources/ratwood-current/code/modules/roguetown/roguejobs/tailor/tanning.dm"
   },
   {
+    "path": "code/modules/roguetown/roguemachine/ATM.dm",
+    "file": "sources/ratwood-current/code/modules/roguetown/roguemachine/ATM.dm"
+  },
+  {
     "path": "code/modules/roguetown/roguemachine/_roguemachine.dm",
     "file": "sources/ratwood-current/code/modules/roguetown/roguemachine/_roguemachine.dm"
   },
   {
     "path": "code/modules/roguetown/roguemachine/_shop.dm",
     "file": "sources/ratwood-current/code/modules/roguetown/roguemachine/_shop.dm"
-  },
-  {
-    "path": "code/modules/roguetown/roguemachine/ATM.dm",
-    "file": "sources/ratwood-current/code/modules/roguetown/roguemachine/ATM.dm"
   },
   {
     "path": "code/modules/roguetown/roguemachine/atm_tgui.dm",
@@ -6540,6 +6544,250 @@
     "file": "sources/ratwood-current/code/modules/surgery/surgery_tools_rogue.dm"
   },
   {
+    "path": "modular/Creechers/code/trufflepig.dm",
+    "file": "sources/ratwood-current/modular/Creechers/code/trufflepig.dm"
+  },
+  {
+    "path": "modular/Mapping/icons/Mapping_aides.dm",
+    "file": "sources/ratwood-current/modular/Mapping/icons/Mapping_aides.dm"
+  },
+  {
+    "path": "modular/Neu_Farming/code/eggs.dm",
+    "file": "sources/ratwood-current/modular/Neu_Farming/code/eggs.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/NeuFood.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/NeuFood.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_baked.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_baked.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_cakes.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_cakes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_deep_fried.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_deep_fried.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_egg.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_egg.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_fruits.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_fruits.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_meat.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_meat.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_meat_meal.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_meat_meal.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_meat_saiga.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_meat_saiga.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_pastry.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_pastry.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_pies.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_pies.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_rice.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_rice.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_seafood.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_seafood.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_seafood_meal.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_seafood_meal.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_stag_buffs.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_stag_buffs.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cooked/cooked_veggies.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_veggies.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cookware/bowl.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cookware/bowl.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cookware/cup.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cookware/cup.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cookware/fork.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cookware/fork.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cookware/misc_cookware.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cookware/misc_cookware.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cookware/pan.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cookware/pan.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cookware/peppermill.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cookware/peppermill.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cookware/platter.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cookware/platter.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cookware/pot.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cookware/pot.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cookware/ration.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cookware/ration.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/cookware/spoon.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/cookware/spoon.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/drinks/drinks_reagents.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/drinks/drinks_reagents.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/drinks/stew.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/drinks/stew.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/drinks/tea_coffee_drinks.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/drinks/tea_coffee_drinks.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/others/dairy.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/others/dairy.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/others/dried_fruits.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/others/dried_fruits.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/others/fat.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/others/fat.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/others/honey.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/others/honey.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/others/preserved_meat.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/others/preserved_meat.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/others/sweet.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/others/sweet.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/raw/raw_deep_fried.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/raw/raw_deep_fried.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/raw/raw_dough.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/raw/raw_dough.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/raw/raw_fish.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/raw/raw_fish.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/raw/raw_flour.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/raw/raw_flour.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/raw/raw_fruit.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/raw/raw_fruit.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/raw/raw_meat.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/raw/raw_meat.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/raw/raw_meat_saiga.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/raw/raw_meat_saiga.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/raw/raw_pies.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/raw/raw_pies.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/raw/raw_shellfish.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/raw/raw_shellfish.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/raw/raw_veggies.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/raw/raw_veggies.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/baked_recipes.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/baked_recipes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/cakes_recipes.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/cakes_recipes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/cooking_recipes_base.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/cooking_recipes_base.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/drying_recipes.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/drying_recipes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/egg_recipes.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/egg_recipes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/fish_recipes.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/fish_recipes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/meat_meal_recipes.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/meat_meal_recipes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/meat_recipes.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/meat_recipes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/pastry_recipes.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/pastry_recipes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/rice_recipes.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/rice_recipes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/stew_recipes.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/stew_recipes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/code/recipes/veggies_recipes.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/veggies_recipes.dm"
+  },
+  {
+    "path": "modular/Neu_Food/cooking_helpers.dm",
+    "file": "sources/ratwood-current/modular/Neu_Food/cooking_helpers.dm"
+  },
+  {
     "path": "modular/ambush/ambush_config/antlion_ambush.dm",
     "file": "sources/ratwood-current/modular/ambush/ambush_config/antlion_ambush.dm"
   },
@@ -6710,250 +6958,6 @@
   {
     "path": "modular/code/modules/surgery/organs/manticore_tail.dm",
     "file": "sources/ratwood-current/modular/code/modules/surgery/organs/manticore_tail.dm"
-  },
-  {
-    "path": "modular/Creechers/code/trufflepig.dm",
-    "file": "sources/ratwood-current/modular/Creechers/code/trufflepig.dm"
-  },
-  {
-    "path": "modular/Mapping/icons/Mapping_aides.dm",
-    "file": "sources/ratwood-current/modular/Mapping/icons/Mapping_aides.dm"
-  },
-  {
-    "path": "modular/Neu_Farming/code/eggs.dm",
-    "file": "sources/ratwood-current/modular/Neu_Farming/code/eggs.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cooked/cooked_baked.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_baked.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cooked/cooked_cakes.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_cakes.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cooked/cooked_deep_fried.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_deep_fried.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cooked/cooked_egg.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_egg.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cooked/cooked_fruits.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_fruits.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cooked/cooked_meat.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_meat.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cooked/cooked_meat_meal.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_meat_meal.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cooked/cooked_meat_saiga.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_meat_saiga.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cooked/cooked_pastry.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_pastry.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cooked/cooked_pies.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_pies.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cooked/cooked_rice.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_rice.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cooked/cooked_seafood.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_seafood.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cooked/cooked_seafood_meal.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_seafood_meal.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cooked/cooked_stag_buffs.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_stag_buffs.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cooked/cooked_veggies.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cooked/cooked_veggies.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cookware/bowl.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cookware/bowl.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cookware/cup.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cookware/cup.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cookware/fork.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cookware/fork.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cookware/misc_cookware.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cookware/misc_cookware.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cookware/pan.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cookware/pan.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cookware/peppermill.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cookware/peppermill.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cookware/platter.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cookware/platter.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cookware/pot.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cookware/pot.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cookware/ration.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cookware/ration.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/cookware/spoon.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/cookware/spoon.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/drinks/drinks_reagents.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/drinks/drinks_reagents.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/drinks/stew.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/drinks/stew.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/drinks/tea_coffee_drinks.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/drinks/tea_coffee_drinks.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/NeuFood.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/NeuFood.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/others/dairy.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/others/dairy.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/others/dried_fruits.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/others/dried_fruits.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/others/fat.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/others/fat.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/others/honey.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/others/honey.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/others/preserved_meat.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/others/preserved_meat.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/others/sweet.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/others/sweet.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/raw/raw_deep_fried.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/raw/raw_deep_fried.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/raw/raw_dough.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/raw/raw_dough.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/raw/raw_fish.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/raw/raw_fish.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/raw/raw_flour.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/raw/raw_flour.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/raw/raw_fruit.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/raw/raw_fruit.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/raw/raw_meat.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/raw/raw_meat.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/raw/raw_meat_saiga.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/raw/raw_meat_saiga.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/raw/raw_pies.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/raw/raw_pies.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/raw/raw_shellfish.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/raw/raw_shellfish.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/raw/raw_veggies.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/raw/raw_veggies.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/recipes/baked_recipes.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/baked_recipes.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/recipes/cakes_recipes.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/cakes_recipes.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/recipes/cooking_recipes_base.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/cooking_recipes_base.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/recipes/drying_recipes.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/drying_recipes.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/recipes/egg_recipes.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/egg_recipes.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/recipes/fish_recipes.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/fish_recipes.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/recipes/meat_meal_recipes.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/meat_meal_recipes.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/recipes/meat_recipes.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/meat_recipes.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/recipes/pastry_recipes.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/pastry_recipes.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/recipes/rice_recipes.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/rice_recipes.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/recipes/stew_recipes.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/stew_recipes.dm"
-  },
-  {
-    "path": "modular/Neu_Food/code/recipes/veggies_recipes.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/code/recipes/veggies_recipes.dm"
-  },
-  {
-    "path": "modular/Neu_Food/cooking_helpers.dm",
-    "file": "sources/ratwood-current/modular/Neu_Food/cooking_helpers.dm"
   },
   {
     "path": "modular/origins/origins.dm",

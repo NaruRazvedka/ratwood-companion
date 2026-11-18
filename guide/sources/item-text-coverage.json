@@ -22015,6 +22015,13 @@
     "mechanics": 6
   },
   {
+    "id": "prep-67dd0d4bfe0a",
+    "title": "kabuto",
+    "type": "/obj/item/clothing/head/roguetown/helmet/heavy/kabuto",
+    "status": "description",
+    "mechanics": 1
+  },
+  {
     "id": "prep-17c7046c7678",
     "title": "mince (meat / mince)",
     "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/mince",

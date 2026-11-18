@@ -5,7 +5,7 @@
     "outputType": "/obj/item/reagent_containers/glass/bottle/claybottle",
     "outputName": "clay bottle",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L20"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L20"
   },
   {
     "inputType": "/obj/item/natural/clay/claybottleclassic",
@@ -13,7 +13,7 @@
     "outputType": "/obj/item/reagent_containers/glass/bottle/claybottleclassic",
     "outputName": "clay bottle",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L28"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L28"
   },
   {
     "inputType": "/obj/item/natural/clay/clayvase",
@@ -21,7 +21,7 @@
     "outputType": "/obj/item/reagent_containers/glass/bottle/clayvase",
     "outputName": "ceramic vase",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L106"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L106"
   },
   {
     "inputType": "/obj/item/natural/clay/clayvaseclassic",
@@ -29,7 +29,7 @@
     "outputType": "/obj/item/reagent_containers/glass/bottle/clayvaseclassic",
     "outputName": "ceramic vase",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L114"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L114"
   },
   {
     "inputType": "/obj/item/natural/clay/clayfancyvase",
@@ -37,7 +37,7 @@
     "outputType": "/obj/item/reagent_containers/glass/bottle/clayfancyvase",
     "outputName": "fancy ceramic vase",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L191"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L191"
   },
   {
     "inputType": "/obj/item/natural/clay/clayfancyvaseclassic",
@@ -45,7 +45,7 @@
     "outputType": "/obj/item/reagent_containers/glass/bottle/clayfancyvaseclassic",
     "outputName": "fancy ceramic vase",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L199"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L199"
   },
   {
     "inputType": "/obj/item/natural/clay/claycup",
@@ -53,7 +53,7 @@
     "outputType": "/obj/item/reagent_containers/glass/cup/claycup",
     "outputName": "clay canister",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L276"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L276"
   },
   {
     "inputType": "/obj/item/natural/clay/claycupclassic",
@@ -61,7 +61,7 @@
     "outputType": "/obj/item/reagent_containers/glass/cup/claycupclassic",
     "outputName": "clay canister",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L284"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L284"
   },
   {
     "inputType": "/obj/item/natural/clay/rawteapot",
@@ -69,7 +69,7 @@
     "outputType": "/obj/item/reagent_containers/glass/bucket/pot/teapot",
     "outputName": "teapot",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L370"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L370"
   },
   {
     "inputType": "/obj/item/natural/clay/rawteacup",
@@ -77,7 +77,7 @@
     "outputType": "/obj/item/reagent_containers/glass/cup/ceramic",
     "outputName": "teacup",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L379"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L379"
   },
   {
     "inputType": "/obj/item/natural/clay/claybrick",
@@ -85,7 +85,7 @@
     "outputType": "/obj/item/natural/brick",
     "outputName": "brick",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L388"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L388"
   },
   {
     "inputType": "/obj/item/natural/clay/claystatue",
@@ -93,7 +93,7 @@
     "outputType": "/obj/item/roguestatue/clay",
     "outputName": "ceramic statue",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L397"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L397"
   },
   {
     "inputType": "/obj/item/natural/clay/claystatue/design1",
@@ -101,7 +101,7 @@
     "outputType": "/obj/item/roguestatue/clay/design1",
     "outputName": "ceramic statue",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L406"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L406"
   },
   {
     "inputType": "/obj/item/natural/clay/claystatue/design2",
@@ -109,7 +109,7 @@
     "outputType": "/obj/item/roguestatue/clay/design2",
     "outputName": "ceramic statue",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L410"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L410"
   },
   {
     "inputType": "/obj/item/natural/clay/claystatue/design3",
@@ -117,7 +117,7 @@
     "outputType": "/obj/item/roguestatue/clay/design3",
     "outputName": "ceramic statue",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L414"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L414"
   },
   {
     "inputType": "/obj/item/natural/clay/claystatue/design4",
@@ -125,7 +125,7 @@
     "outputType": "/obj/item/roguestatue/clay/design4",
     "outputName": "ceramic statue",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L418"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L418"
   },
   {
     "inputType": "/obj/item/natural/clay/claystatue/design5",
@@ -133,7 +133,7 @@
     "outputType": "/obj/item/roguestatue/clay/design5",
     "outputName": "ceramic statue",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L422"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L422"
   },
   {
     "inputType": "/obj/item/natural/clay/jarhelm",
@@ -141,7 +141,7 @@
     "outputType": "/obj/item/clothing/head/roguetown/helmet/heavy/jar",
     "outputName": "jar",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L426"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L426"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/cameo",
@@ -149,7 +149,7 @@
     "outputType": "/obj/item/carvedgem/porcelain/cameo",
     "outputName": "porcelain cameo",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L573"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L573"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/figurine",
@@ -157,7 +157,7 @@
     "outputType": "/obj/item/carvedgem/porcelain/figurine",
     "outputName": "porcelain figurine",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L578"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L578"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/fish",
@@ -165,7 +165,7 @@
     "outputType": "/obj/item/carvedgem/porcelain/fish",
     "outputName": "porcelain fish figurine",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L583"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L583"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/tablet",
@@ -173,7 +173,7 @@
     "outputType": "/obj/item/carvedgem/porcelain/tablet",
     "outputName": "porcelain tablet",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L588"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L588"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/vase",
@@ -181,7 +181,7 @@
     "outputType": "/obj/item/carvedgem/porcelain/vase",
     "outputName": "porcelain vase",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L593"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L593"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/bust",
@@ -189,7 +189,7 @@
     "outputType": "/obj/item/carvedgem/porcelain/bust",
     "outputName": "porcelain bust",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L599"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L599"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/fancyvase",
@@ -197,7 +197,7 @@
     "outputType": "/obj/item/carvedgem/porcelain/fancyvase",
     "outputName": "fancy porcelain vase",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L604"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L604"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/comb",
@@ -205,7 +205,7 @@
     "outputType": "/obj/item/carvedgem/porcelain/comb",
     "outputName": "porcelain comb",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L610"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L610"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/duck",
@@ -213,7 +213,7 @@
     "outputType": "/obj/item/carvedgem/porcelain/duck",
     "outputName": "porcelain duck",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L615"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L615"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/mask",
@@ -221,7 +221,7 @@
     "outputType": "/obj/item/clothing/mask/rogue/facemask/carved/porcelainmask",
     "outputName": "porcelain mask",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L620"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L620"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/urn",
@@ -229,7 +229,7 @@
     "outputType": "/obj/item/carvedgem/porcelain/urn",
     "outputName": "porcelain urn",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L625"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L625"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/statue",
@@ -237,7 +237,7 @@
     "outputType": "/obj/item/carvedgem/porcelain/statue",
     "outputName": "porcelain statue",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L630"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L630"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/obelisk",
@@ -245,7 +245,7 @@
     "outputType": "/obj/item/carvedgem/porcelain/obelisk",
     "outputName": "porcelain obelisk",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L635"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L635"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/turtle",
@@ -253,7 +253,7 @@
     "outputType": "/obj/item/carvedgem/porcelain/turtle",
     "outputName": "porcelain turtle carving",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L640"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L640"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/rungu",
@@ -261,7 +261,7 @@
     "outputType": "/obj/item/rogueweapon/mace/cudgel/porcelainrungu",
     "outputName": "porcelain rungu",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L645"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L645"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/bauble",
@@ -269,7 +269,7 @@
     "outputType": "/obj/item/carvedgem/porcelain/bauble",
     "outputName": "porcelain bauble",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L650"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L650"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/fork",
@@ -277,7 +277,7 @@
     "outputType": "/obj/item/kitchen/fork/carved/porcelain",
     "outputName": "porcelain fork",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L655"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L655"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/spoon",
@@ -285,7 +285,7 @@
     "outputType": "/obj/item/kitchen/spoon/carved/porcelain",
     "outputName": "porcelain spoon",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L660"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L660"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/bowl",
@@ -293,7 +293,7 @@
     "outputType": "/obj/item/reagent_containers/glass/bowl/carved/porcelain",
     "outputName": "porcelain bowl",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L665"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L665"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/cup",
@@ -301,7 +301,7 @@
     "outputType": "/obj/item/reagent_containers/glass/cup/porcelain",
     "outputName": "porcelain teacup",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L670"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L670"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/fancycup",
@@ -309,7 +309,7 @@
     "outputType": "/obj/item/reagent_containers/glass/cup/porcelain/fancy",
     "outputName": "fancy porcelain teacup",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L676"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L676"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/fancyteacup",
@@ -317,7 +317,7 @@
     "outputType": "/obj/item/reagent_containers/glass/cup/ceramic/fancy",
     "outputName": "fancy teacup",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L682"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L682"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/platter",
@@ -325,7 +325,7 @@
     "outputType": "/obj/item/cooking/platter/carved/porcelain",
     "outputName": "porcelain platter",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L687"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L687"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/teapot",
@@ -333,7 +333,7 @@
     "outputType": "/obj/item/reagent_containers/glass/bucket/pot/teapot/porcelain",
     "outputName": "porcelain teapot",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L692"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L692"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/fancyteapot",
@@ -341,7 +341,7 @@
     "outputType": "/obj/item/reagent_containers/glass/bucket/pot/teapot/fancy",
     "outputName": "teapot",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L697"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L697"
   },
   {
     "inputType": "/obj/item/natural/clay/porcelain/decorativeteapot",
@@ -349,7 +349,7 @@
     "outputType": "/obj/item/reagent_containers/glass/bucket/pot/teapot/porcelain/decorative",
     "outputName": "decorative porcelain teapot",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/ceramics.dm#L703"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/game/objects/items/rogueitems/ceramics.dm#L703"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/potato/rogue",
@@ -357,7 +357,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/preserved/potato_baked",
     "outputName": "baked potatoes",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/produce.dm#L797"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/farming/produce.dm#L797"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/carrot",
@@ -365,7 +365,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/preserved/carrot_baked",
     "outputName": "baked carrot",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/produce.dm#L862"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/farming/produce.dm#L862"
   },
   {
     "inputType": "/obj/item/seeds/berryrogue/poison",
@@ -373,7 +373,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/grown/pepperseed",
     "outputName": "pepperberries",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L246"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/farming/seeds.dm#L246"
   },
   {
     "inputType": "/obj/item/seeds/sunflower",
@@ -381,7 +381,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/roastseeds/sunflower",
     "outputName": "roasted sunflower seeds",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L255"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/farming/seeds.dm#L255"
   },
   {
     "inputType": "/obj/item/seeds/pumpkin",
@@ -389,7 +389,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/roastseeds/pumpkin",
     "outputName": "roasted pumpkin seeds",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L292"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/farming/seeds.dm#L292"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/beetle",
@@ -397,7 +397,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/beetle/cooked",
     "outputName": "cooked beetle meat",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/mob/living/simple_animal/rogue/creacher/beetle.dm#L126"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/mob/living/simple_animal/rogue/creacher/beetle.dm#L126"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/beetle",
@@ -405,7 +405,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/fried",
     "outputName": "frysteak",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/mob/living/simple_animal/rogue/creacher/beetle.dm#L126"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/mob/living/simple_animal/rogue/creacher/beetle.dm#L126"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/beetle/cooked",
@@ -413,7 +413,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/fried",
     "outputName": "frysteak",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/mob/living/simple_animal/rogue/creacher/beetle.dm#L134"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/mob/living/simple_animal/rogue/creacher/beetle.dm#L134"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/truffles",
@@ -421,7 +421,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/truffles/cooked",
     "outputName": "truffles",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Creechers/code/trufflepig.dm#L43"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Creechers/code/trufflepig.dm#L43"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/truffles",
@@ -429,7 +429,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/truffles/cooked",
     "outputName": "truffles",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Creechers/code/trufflepig.dm#L43"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Creechers/code/trufflepig.dm#L43"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/toxicshrooms",
@@ -437,7 +437,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/toxicshrooms/cooked",
     "outputName": "truffles",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Creechers/code/trufflepig.dm#L64"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Creechers/code/trufflepig.dm#L64"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/toxicshrooms",
@@ -445,7 +445,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/toxicshrooms/cooked",
     "outputName": "truffles",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Creechers/code/trufflepig.dm#L64"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Creechers/code/trufflepig.dm#L64"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/egg",
@@ -453,7 +453,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/friedegg/fried",
     "outputName": "fried egg",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Farming/code/eggs.dm#L1"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Farming/code/eggs.dm#L1"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/ricewet",
@@ -461,7 +461,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/preserved/rice_cooked",
     "outputName": "cooked rice",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/NeuFood.dm#L388"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/NeuFood.dm#L388"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/hardtack_raw",
@@ -469,7 +469,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/crackerscooked",
     "outputName": "hardtack",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_baked.dm#L5"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_baked.dm#L5"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/breadslice",
@@ -477,7 +477,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/breadslice/toast",
     "outputName": "toast",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_baked.dm#L80"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_baked.dm#L80"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/crossbun_raw",
@@ -485,7 +485,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/crossbun",
     "outputName": "crossbun",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_baked.dm#L253"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_baked.dm#L253"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/psycrossbun_raw",
@@ -493,7 +493,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/psycrossbun",
     "outputName": "psycrossbun",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_baked.dm#L262"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_baked.dm#L262"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/rbreaduncooked",
@@ -501,7 +501,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/raisinbread",
     "outputName": "raisin loaf",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_baked.dm#L360"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_baked.dm#L360"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/abreaduncooked",
@@ -509,7 +509,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/applebread",
     "outputName": "apple loaf",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_baked.dm#L434"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_baked.dm#L434"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/cheesebun_raw",
@@ -517,7 +517,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/cheesebun",
     "outputName": "fresh cheese bun",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_baked.dm#L758"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_baked.dm#L758"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/cake_base",
@@ -525,7 +525,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/cake",
     "outputName": "cake",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_cakes.dm#L2"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_cakes.dm#L2"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/frostedcakeuncooked",
@@ -533,7 +533,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/frostedcake",
     "outputName": "frosted cake",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_cakes.dm#L50"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_cakes.dm#L50"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/hcakeuncooked",
@@ -541,7 +541,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/hcake",
     "outputName": "zybantine cake",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_cakes.dm#L643"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_cakes.dm#L643"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/ccakeuncooked",
@@ -549,7 +549,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/ccake",
     "outputName": "cheesecake",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_cakes.dm#L694"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_cakes.dm#L694"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/stuffedegg",
@@ -557,7 +557,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/stuffedegg/cooked",
     "outputName": "stuffed egg",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_egg.dm#L31"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_egg.dm#L31"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/stuffedegg",
@@ -565,7 +565,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/stuffedegg/cooked",
     "outputName": "stuffed egg",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_egg.dm#L31"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_egg.dm#L31"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/troll/fried",
@@ -573,7 +573,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/fat",
     "outputName": "fat",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_meat.dm#L163"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_meat.dm#L163"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/troll/fried",
@@ -581,7 +581,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/fat",
     "outputName": "fat",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_meat.dm#L163"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_meat.dm#L163"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/biscuit_raw",
@@ -589,7 +589,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/biscuit",
     "outputName": "raisin biscuit",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L30"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L30"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/chocolatebiscuit_raw",
@@ -597,7 +597,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/chocolatebiscuit",
     "outputName": "chocolate biscuit",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L53"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L53"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/plumbiscuit_raw",
@@ -605,7 +605,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/plumbiscuit",
     "outputName": "plum biscuit",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L76"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L76"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/tangerinebiscuit_raw",
@@ -613,7 +613,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/tangerinebiscuit",
     "outputName": "tangerine biscuit",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L99"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L99"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/cookie_raw",
@@ -621,7 +621,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/cookie",
     "outputName": "baked slab of cookiedough",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L119"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L119"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/cookied_raw",
@@ -629,7 +629,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/cookied",
     "outputName": "baked slab of drag\u00e9elidough",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L194"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L194"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/cookiec_raw",
@@ -637,7 +637,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/cookiec",
     "outputName": "baked slab of carameliedough",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L269"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L269"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/cookier_raw",
@@ -645,7 +645,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/cookier",
     "outputName": "baked slab of raelseinidough",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L344"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L344"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/prezzel_raw",
@@ -653,7 +653,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/prezzel",
     "outputName": "prezzel",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L410"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L410"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/pumpkinball_raw",
@@ -661,7 +661,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/pumpkinball",
     "outputName": "pumpkin balls",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L431"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L431"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/pumpkinball_raw",
@@ -669,7 +669,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/pumpkinball",
     "outputName": "pumpkin balls",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L431"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L431"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/pumpkinloaf_raw",
@@ -677,7 +677,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/pumpkinloaf",
     "outputName": "pumpkin loaf",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L465"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L465"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/handpieraw",
@@ -685,7 +685,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/handpie",
     "outputName": "handpie",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L530"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L530"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/handpieraw",
@@ -693,7 +693,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/handpie",
     "outputName": "handpie",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L530"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L530"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/handpieraw/mushroom",
@@ -701,7 +701,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/handpie",
     "outputName": "handpie",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L540"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L540"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/handpieraw/mushroom",
@@ -709,7 +709,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/handpie",
     "outputName": "handpie",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L540"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L540"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/handpieraw/fish",
@@ -717,7 +717,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/handpie/fish",
     "outputName": "fish handpie",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L548"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L548"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/handpieraw/fish",
@@ -725,7 +725,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/handpie/fish",
     "outputName": "fish handpie",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L548"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L548"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/handpieraw/meat",
@@ -733,7 +733,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/handpie/meat",
     "outputName": "meat handpie",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L555"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L555"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/handpieraw/meat",
@@ -741,7 +741,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/handpie/meat",
     "outputName": "meat handpie",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L555"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L555"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/handpieraw/crab",
@@ -749,7 +749,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/handpie/crab",
     "outputName": "crab handpie",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L562"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L562"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/handpieraw/crab",
@@ -757,7 +757,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/handpie/crab",
     "outputName": "crab handpie",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L562"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L562"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/handpieraw/berry",
@@ -765,7 +765,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/handpie/berry",
     "outputName": "berry handpie",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L569"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L569"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/handpieraw/berry",
@@ -773,7 +773,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/handpie/berry",
     "outputName": "berry handpie",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L569"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L569"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/handpieraw/poison",
@@ -781,7 +781,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/handpie/poison",
     "outputName": "berry handpie",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L576"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L576"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/handpieraw/poison",
@@ -789,7 +789,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/handpie/poison",
     "outputName": "berry handpie",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L576"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L576"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/handpieraw/apple",
@@ -797,7 +797,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/handpie/apple",
     "outputName": "apple handpie",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L584"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L584"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/handpieraw/apple",
@@ -805,7 +805,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/handpie/apple",
     "outputName": "apple handpie",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L584"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L584"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/handpieraw/potato",
@@ -813,7 +813,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/handpie/potato",
     "outputName": "potato handpie",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L591"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L591"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/handpieraw/potato",
@@ -821,7 +821,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/handpie/potato",
     "outputName": "potato handpie",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L591"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L591"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/handpieraw/cabbage",
@@ -829,7 +829,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/handpie/cabbage",
     "outputName": "cabbage handpie",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L598"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L598"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/handpieraw/cabbage",
@@ -837,7 +837,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/handpie/cabbage",
     "outputName": "cabbage handpie",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L598"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L598"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/muffin/cheese",
@@ -845,7 +845,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/muffin/cheese/baked",
     "outputName": "cheese muffin",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L666"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L666"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/muffin/honey",
@@ -853,7 +853,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/muffin/honey/baked",
     "outputName": "honey muffin",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_pastry.dm#L682"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_pastry.dm#L682"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/eel",
@@ -861,7 +861,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/jelliedeel",
     "outputName": "jellied eel",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_seafood.dm#L33"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_seafood.dm#L33"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/eggplantstuffedraw",
@@ -869,7 +869,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/preserved/eggplantstuffed",
     "outputName": "stuffed aubergine",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/cooked/cooked_veggies.dm#L78"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/cooked/cooked_veggies.dm#L78"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/coffeebeans",
@@ -877,7 +877,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/grown/coffeebeansroasted",
     "outputName": "roasted coffee beans",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/drinks/tea_coffee_drinks.dm#L35"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/drinks/tea_coffee_drinks.dm#L35"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/sugarshape",
@@ -885,7 +885,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/sugarstatue",
     "outputName": "sugarglass statue",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/others/sweet.dm#L192"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/others/sweet.dm#L192"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/sugarshape/dmark",
@@ -893,7 +893,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/sugarstatue/dmark",
     "outputName": "ducal sugarglass mark",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/others/sweet.dm#L208"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/others/sweet.dm#L208"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/sugarshape/smark",
@@ -901,7 +901,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/sugarstatue/smark",
     "outputName": "skulled sugarglass mark",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/others/sweet.dm#L213"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/others/sweet.dm#L213"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/sugarshape/amark",
@@ -909,7 +909,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/sugarstatue/amark",
     "outputName": "holy sugarglass mark",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/others/sweet.dm#L218"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/others/sweet.dm#L218"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/sugarshape/zmark",
@@ -917,7 +917,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/sugarstatue/zmark",
     "outputName": "zizonic sugarglass mark",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/others/sweet.dm#L223"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/others/sweet.dm#L223"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/sugarshape/pmark",
@@ -925,7 +925,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/sugarstatue/pmark",
     "outputName": "psydonic sugarglass mark",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/others/sweet.dm#L228"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/others/sweet.dm#L228"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/sugarshape/hmark",
@@ -933,7 +933,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/sugarstatue/hmark",
     "outputName": "hearted sugarglass mark",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/others/sweet.dm#L233"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/others/sweet.dm#L233"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/sugarshape/statuer",
@@ -941,7 +941,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/sugarstatue/statuer",
     "outputName": "royal sugarglass statue",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/others/sweet.dm#L238"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/others/sweet.dm#L238"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/sugarshape/statuek",
@@ -949,7 +949,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/sugarstatue/statuek",
     "outputName": "knightly sugarglass statue",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/others/sweet.dm#L243"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/others/sweet.dm#L243"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/sugarshape/statuey",
@@ -957,7 +957,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/sugarstatue/statuey",
     "outputName": "yeomannic sugarglass statue",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/others/sweet.dm#L248"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/others/sweet.dm#L248"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/sugarshape/statuel",
@@ -965,7 +965,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/sugarstatue/statuel",
     "outputName": "lordly sugarglass statue",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/others/sweet.dm#L253"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/others/sweet.dm#L253"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/sugarshape/arch",
@@ -973,7 +973,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/sugarstatue/arch",
     "outputName": "sugarglass arch",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/others/sweet.dm#L258"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/others/sweet.dm#L258"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/sugarshape/archway",
@@ -981,7 +981,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/sugarstatue/archway",
     "outputName": "sugarglass archway",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/others/sweet.dm#L263"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/others/sweet.dm#L263"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/sugarshape/tower",
@@ -989,7 +989,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/sugarstatue/tower",
     "outputName": "sugarglass tower",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/others/sweet.dm#L268"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/others/sweet.dm#L268"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/sugarshape/towers",
@@ -997,7 +997,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/sugarstatue/towers",
     "outputName": "small sugarglass tower",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/others/sweet.dm#L273"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/others/sweet.dm#L273"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/sugarshape/castle",
@@ -1005,7 +1005,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/sugarstatue/castle",
     "outputName": "sugarglass castle",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/others/sweet.dm#L278"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/others/sweet.dm#L278"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/sugarshape/flag",
@@ -1013,7 +1013,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/sugarstatue/flag",
     "outputName": "sugarglass flag",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/others/sweet.dm#L283"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/others/sweet.dm#L283"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/sugarshape/house",
@@ -1021,7 +1021,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/sugarstatue/house",
     "outputName": "sugarglass house",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/others/sweet.dm#L288"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/others/sweet.dm#L288"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/grown/sugarshape/tree",
@@ -1029,7 +1029,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/sugarstatue/tree",
     "outputName": "sugarglass tree",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/others/sweet.dm#L293"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/others/sweet.dm#L293"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/dough",
@@ -1037,7 +1037,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/bread",
     "outputName": "bread loaf",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L29"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L29"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/flatdough",
@@ -1045,7 +1045,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/frybread",
     "outputName": "frybread",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L103"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L103"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/tomatoplate_raw_cheese",
@@ -1053,7 +1053,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/tomatoplate",
     "outputName": "tomatoplate",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L186"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L186"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/tomatoplate_raw_sausage",
@@ -1061,7 +1061,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meattomatoplate",
     "outputName": "sausaged tomatoplate",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L289"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L289"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/tomatoplate_raw_fish",
@@ -1069,7 +1069,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fishtomatoplate",
     "outputName": "fished tomatoplate",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L300"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L300"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/tomatoplate_raw_truffles",
@@ -1077,7 +1077,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/truffletomatoplate",
     "outputName": "truffled tomatoplate",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L311"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L311"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/tomatoplate_raw_poisontruffles",
@@ -1085,7 +1085,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/poisontruffletomatoplate",
     "outputName": "truffled tomatoplate",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L322"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L322"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/tomatoplate_raw_onion",
@@ -1093,7 +1093,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/oniontomatoplate",
     "outputName": "onioned tomatoplate",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L334"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L334"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/tomatoplate_raw_pear",
@@ -1101,7 +1101,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/peartomatoplate",
     "outputName": "pearacotta tomatoplate",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L345"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L345"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/doughslice",
@@ -1109,7 +1109,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/bun",
     "outputName": "bun",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L357"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L357"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/butterdough",
@@ -1117,7 +1117,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/bookbread",
     "outputName": "bookbread loaf",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L431"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L431"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/pearbread_uncooked",
@@ -1125,7 +1125,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/pearbookbread",
     "outputName": "pear bookbread",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L597"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L597"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/plumbread_uncooked",
@@ -1133,7 +1133,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/plumbookbread",
     "outputName": "plum bookbread",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L608"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L608"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/lemonbread_uncooked",
@@ -1141,7 +1141,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/lemonbookbread",
     "outputName": "lemon bookbread",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L619"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L619"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/tangerinebread_uncooked",
@@ -1149,7 +1149,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/tangerinebookbread",
     "outputName": "tangerine bookbread",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L630"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L630"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/blackberrybread_uncooked",
@@ -1157,7 +1157,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/blackberrybookbread",
     "outputName": "blackberry bookbread",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L641"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L641"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/raspberrybread_uncooked",
@@ -1165,7 +1165,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/raspberrybookbread",
     "outputName": "raspberry bookbread",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L652"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L652"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/jackberrybread_uncooked",
@@ -1173,7 +1173,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/jackberrybookbread",
     "outputName": "jacksberried bookbread",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L663"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L663"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/poisonberrybread_uncooked",
@@ -1181,7 +1181,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/poisonberrybookbread",
     "outputName": "jacksberried bookbread",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L674"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L674"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/chocolatebread_uncooked",
@@ -1189,7 +1189,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/chocolatebookbread",
     "outputName": "chocolate bookbread",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L686"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L686"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/butterdoughslice",
@@ -1197,7 +1197,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/pastry",
     "outputName": "pastry",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L698"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L698"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/butterdoughslice",
@@ -1205,7 +1205,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/frybread",
     "outputName": "frybread",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L698"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L698"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/muffindough",
@@ -1213,7 +1213,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/muffin",
     "outputName": "muffin",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L819"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L819"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/piedough",
@@ -1221,7 +1221,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/piebottom",
     "outputName": "pie bottom",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L830"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L830"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/tartdough_tangerine",
@@ -1229,7 +1229,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/dot_tart/tangerine",
     "outputName": "tangerine dot tart",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L1023"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L1023"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/tartdough_plum",
@@ -1237,7 +1237,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/dot_tart/plum",
     "outputName": "plum dot tart",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L1034"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L1034"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/tartdough_blackberry",
@@ -1245,7 +1245,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/dot_tart/blackberry",
     "outputName": "blackberry dot tart",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L1045"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L1045"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/tartdough_raspberry",
@@ -1253,7 +1253,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/dot_tart/raspberry",
     "outputName": "raspberry dot tart",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L1056"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L1056"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/tartdough_strawberry",
@@ -1261,7 +1261,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/dot_tart/strawberry",
     "outputName": "strawberry dot tart",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L1067"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L1067"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/tartdough_pear",
@@ -1269,7 +1269,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/dot_tart/pear",
     "outputName": "pear dot tart",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L1078"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L1078"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/tartdough_apple",
@@ -1277,7 +1277,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/dot_tart/apple",
     "outputName": "apple dot tart",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L1089"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L1089"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/tartdough_goldapple",
@@ -1285,7 +1285,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/dot_tart/goldapple",
     "outputName": "ambrosia dot tart",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_dough.dm#L1100"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_dough.dm#L1100"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/salmon",
@@ -1293,7 +1293,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/salmon",
     "outputName": "cooked salmon",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L100"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L100"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/salmon",
@@ -1301,7 +1301,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/salmon",
     "outputName": "cooked salmon",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L100"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L100"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/plaice",
@@ -1309,7 +1309,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/plaice",
     "outputName": "cooked plaice",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L110"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L110"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/plaice",
@@ -1317,7 +1317,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/plaice",
     "outputName": "cooked plaice",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L110"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L110"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/mudskipper",
@@ -1325,7 +1325,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/mudskipper",
     "outputName": "cooked mudskipper",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L120"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L120"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/mudskipper",
@@ -1333,7 +1333,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/mudskipper",
     "outputName": "cooked mudskipper",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L120"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L120"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/bass",
@@ -1341,7 +1341,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/bass",
     "outputName": "cooked seabass",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L130"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L130"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/bass",
@@ -1349,7 +1349,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/bass",
     "outputName": "cooked seabass",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L130"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L130"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/sunny",
@@ -1357,7 +1357,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/sunny",
     "outputName": "cooked sunny",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L140"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L140"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/sunny",
@@ -1365,7 +1365,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/sunny",
     "outputName": "cooked sunny",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L140"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L140"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/carp",
@@ -1373,7 +1373,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/carp",
     "outputName": "cooked carp",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L150"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L150"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/carp",
@@ -1381,7 +1381,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/carp",
     "outputName": "cooked carp",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L150"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L150"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/clownfish",
@@ -1389,7 +1389,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/clownfish",
     "outputName": "cooked clownfish",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L158"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L158"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/clownfish",
@@ -1397,7 +1397,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/clownfish",
     "outputName": "cooked clownfish",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L158"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L158"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/angler",
@@ -1405,7 +1405,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/angler",
     "outputName": "cooked anglerfish",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L167"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L167"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/angler",
@@ -1413,7 +1413,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/angler",
     "outputName": "cooked anglerfish",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L167"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L167"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/eel",
@@ -1421,7 +1421,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/eel",
     "outputName": "cooked eel",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L176"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L176"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/eel",
@@ -1429,7 +1429,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/eel",
     "outputName": "cooked eel",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L176"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L176"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/sole",
@@ -1437,7 +1437,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/sole",
     "outputName": "cooked sole",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L185"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L185"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/sole",
@@ -1445,7 +1445,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/sole",
     "outputName": "cooked sole",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L185"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L185"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/cod",
@@ -1453,7 +1453,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/cod",
     "outputName": "cooked cod",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L195"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L195"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/cod",
@@ -1461,7 +1461,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/cod",
     "outputName": "cooked cod",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L195"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L195"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/salmon/black_headed",
@@ -1469,7 +1469,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/salmon/black_headed",
     "outputName": "black-headed salmon",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L299"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L299"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/salmon/black_headed",
@@ -1477,7 +1477,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/salmon/black_headed",
     "outputName": "black-headed salmon",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L299"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L299"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/flounder",
@@ -1485,7 +1485,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/flounder",
     "outputName": "flounder",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L309"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L309"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/flounder",
@@ -1493,7 +1493,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/flounder",
     "outputName": "flounder",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L309"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L309"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/swamp_shrimp",
@@ -1501,7 +1501,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/swamp_shrimp",
     "outputName": "swamp shrimp",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L319"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L319"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/swamp_shrimp",
@@ -1509,7 +1509,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/swamp_shrimp",
     "outputName": "swamp shrimp",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L319"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L319"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/swamp_mother",
@@ -1517,7 +1517,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/swamp_mother",
     "outputName": "swamp mother",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L329"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L329"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/swamp_mother",
@@ -1525,7 +1525,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/swamp_mother",
     "outputName": "swamp mother",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L329"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L329"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/black_bass",
@@ -1533,7 +1533,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/black_bass",
     "outputName": "black bass",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L339"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L339"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/black_bass",
@@ -1541,7 +1541,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/black_bass",
     "outputName": "black bass",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L339"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L339"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/zizo_abberation",
@@ -1549,7 +1549,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/zizo_abberation",
     "outputName": "zizo abberation",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L349"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L349"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/zizo_abberation",
@@ -1557,7 +1557,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/zizo_abberation",
     "outputName": "zizo abberation",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L349"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L349"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/sturgeon",
@@ -1565,7 +1565,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/sturgeon",
     "outputName": "sturgeon",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L359"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L359"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/sturgeon",
@@ -1573,7 +1573,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/sturgeon",
     "outputName": "sturgeon",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L359"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L359"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/mackerel",
@@ -1581,7 +1581,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/mackerel",
     "outputName": "mackerel",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L369"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L369"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/mackerel",
@@ -1589,7 +1589,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/mackerel",
     "outputName": "mackerel",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L369"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L369"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/beaksnapper",
@@ -1597,7 +1597,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/beaksnapper",
     "outputName": "beaksnapper",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L379"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L379"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/beaksnapper",
@@ -1605,7 +1605,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/beaksnapper",
     "outputName": "beaksnapper",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fish.dm#L379"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fish.dm#L379"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/fruit/pumpkin_sliced",
@@ -1613,7 +1613,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/preserved/pumpkin_mashed",
     "outputName": "cooked pumpkin mash",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fruit.dm#L10"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fruit.dm#L10"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/fruit/pumpkin_sliced",
@@ -1621,7 +1621,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/preserved/pumpkin_mashed",
     "outputName": "cooked pumpkin mash",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_fruit.dm#L10"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_fruit.dm#L10"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak",
@@ -1629,7 +1629,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/fried",
     "outputName": "frysteak",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L51"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L51"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak",
@@ -1637,7 +1637,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/fried",
     "outputName": "frysteak",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L51"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L51"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/fatty",
@@ -1645,7 +1645,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/fatty/roast",
     "outputName": "roast pork",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L67"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L67"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/bacon",
@@ -1653,7 +1653,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/bacon/fried",
     "outputName": "fried bacon",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L88"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L88"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/bacon",
@@ -1661,7 +1661,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/bacon/fried",
     "outputName": "fried bacon",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L88"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L88"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/spider",
@@ -1669,7 +1669,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/spider/fried",
     "outputName": "fried spidermeat",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L99"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L99"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/spider",
@@ -1677,7 +1677,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/spider/fried",
     "outputName": "fried spidermeat",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L99"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L99"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry",
@@ -1685,7 +1685,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/baked",
     "outputName": "roast bird",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L126"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L126"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/cutlet",
@@ -1693,7 +1693,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/cutlet/fried",
     "outputName": "frybird",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L138"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L138"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/cutlet",
@@ -1701,7 +1701,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/poultry/cutlet/fried",
     "outputName": "frybird",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L138"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L138"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/crab",
@@ -1709,7 +1709,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/crab/fried",
     "outputName": "fried crabmeat",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L165"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L165"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/crab",
@@ -1717,7 +1717,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/crab/fried",
     "outputName": "fried crabmeat",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L165"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L165"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/rabbit",
@@ -1725,7 +1725,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/rabbit/fried",
     "outputName": "fried cabbit",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L193"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L193"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/rabbit",
@@ -1733,7 +1733,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/rabbit/fried",
     "outputName": "fried cabbit",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L193"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L193"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/wolf",
@@ -1741,7 +1741,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/wolf/fried",
     "outputName": "fried volf",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L203"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L203"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/wolf",
@@ -1749,7 +1749,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/wolf/fried",
     "outputName": "fried volf",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L203"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L203"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/rat",
@@ -1757,7 +1757,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/rat/fried",
     "outputName": "fried rous",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L211"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L211"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/rat",
@@ -1765,7 +1765,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/rat/fried",
     "outputName": "fried rous",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L211"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L211"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/bear",
@@ -1773,7 +1773,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/bear/fried",
     "outputName": "T-bone bear steak",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L220"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L220"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/bear",
@@ -1781,7 +1781,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/bear/fried",
     "outputName": "T-bone bear steak",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L220"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L220"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/troll",
@@ -1789,7 +1789,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/troll/fried",
     "outputName": "chewy troll blubber",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L229"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L229"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/troll",
@@ -1797,7 +1797,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/troll/fried",
     "outputName": "chewy troll blubber",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L229"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L229"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/fish",
@@ -1805,7 +1805,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/fish/fried",
     "outputName": "fryfilet",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L239"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L239"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/fish",
@@ -1813,7 +1813,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/fish/fried",
     "outputName": "fryfilet",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L239"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L239"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/shellfish",
@@ -1821,7 +1821,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/shellfish/fried",
     "outputName": "fried shellfish",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L251"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L251"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/shellfish",
@@ -1829,7 +1829,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/shellfish/fried",
     "outputName": "fried shellfish",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L251"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L251"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/sausage",
@@ -1837,7 +1837,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/sausage/cooked",
     "outputName": "sausage",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L367"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L367"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/sausage",
@@ -1845,7 +1845,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/sausage/cooked",
     "outputName": "sausage",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L367"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L367"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/spider/meatball",
@@ -1853,7 +1853,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/spider/meatball/cooked",
     "outputName": "fried spidermeatball",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L392"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L392"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/spider/meatball",
@@ -1861,7 +1861,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/spider/meatball/cooked",
     "outputName": "fried spidermeatball",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L392"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L392"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/spider/surprise",
@@ -1869,7 +1869,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/spider/surprise/cooked",
     "outputName": "spider surprise",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L400"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L400"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/spider/surprise",
@@ -1877,7 +1877,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/spider/surprise/cooked",
     "outputName": "spider surprise",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L400"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L400"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/gnoll",
@@ -1885,7 +1885,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/gnoll/seared",
     "outputName": "seared gnoll",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L460"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L460"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/gnoll",
@@ -1893,7 +1893,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/steak/gnoll/seared",
     "outputName": "seared gnoll",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L460"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L460"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/ham",
@@ -1901,7 +1901,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/ham/steamed",
     "outputName": "steamed ham",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L540"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L540"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/ham",
@@ -1909,7 +1909,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/ham/steamed",
     "outputName": "steamed ham",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L540"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L540"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/ham/boar",
@@ -1917,7 +1917,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/ham/steamed",
     "outputName": "steamed ham",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L551"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L551"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/ham/boar",
@@ -1925,7 +1925,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/ham/steamed",
     "outputName": "steamed ham",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat.dm#L551"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat.dm#L551"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga",
@@ -1933,7 +1933,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga/cooked",
     "outputName": "venison steak",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L1"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L1"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga",
@@ -1941,7 +1941,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga/cooked",
     "outputName": "venison steak",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L1"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L1"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_ribs",
@@ -1949,7 +1949,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_ribs/cooked",
     "outputName": "succulent venison ribs",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L11"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L11"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_ribs",
@@ -1957,7 +1957,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_ribs/cooked",
     "outputName": "succulent venison ribs",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L11"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L11"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_loins",
@@ -1965,7 +1965,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_loins/cooked",
     "outputName": "tender venison loins",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L21"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L21"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_loins",
@@ -1973,7 +1973,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_loins/cooked",
     "outputName": "tender venison loins",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L21"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L21"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_prime",
@@ -1981,7 +1981,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_prime/cooked",
     "outputName": "venison prime steak",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L31"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L31"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_prime",
@@ -1989,7 +1989,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_prime/cooked",
     "outputName": "venison prime steak",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L31"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L31"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_z",
@@ -1997,7 +1997,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_z/cooked",
     "outputName": "vile venison steak",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L41"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L41"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_z",
@@ -2005,7 +2005,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_z/cooked",
     "outputName": "vile venison steak",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L41"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L41"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_ribs_z",
@@ -2013,7 +2013,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_ribs_z/cooked",
     "outputName": "putrid venison ribs",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L53"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L53"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_ribs_z",
@@ -2021,7 +2021,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_ribs_z/cooked",
     "outputName": "putrid venison ribs",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L53"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L53"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_loins_z",
@@ -2029,7 +2029,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_loins_z/cooked",
     "outputName": "decomposing venison loins",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L64"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L64"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_loins_z",
@@ -2037,7 +2037,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_loins_z/cooked",
     "outputName": "decomposing venison loins",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L64"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L64"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_prime_z",
@@ -2045,7 +2045,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_prime_z/cooked",
     "outputName": "odorous venison prime steak",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L75"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L75"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_prime_z",
@@ -2053,7 +2053,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_prime_z/cooked",
     "outputName": "odorous venison prime steak",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L75"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L75"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_w",
@@ -2061,7 +2061,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_w/cooked",
     "outputName": "royal venison steak",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L86"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L86"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_w",
@@ -2069,7 +2069,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_w/cooked",
     "outputName": "royal venison steak",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L86"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L86"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_ribs_w",
@@ -2077,7 +2077,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_ribs_w/cooked",
     "outputName": "royal venison ribs",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L96"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L96"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_ribs_w",
@@ -2085,7 +2085,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_ribs_w/cooked",
     "outputName": "royal venison ribs",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L96"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L96"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_loins_w",
@@ -2093,7 +2093,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_loins_w/cooked",
     "outputName": "royal venison loins",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L106"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L106"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_loins_w",
@@ -2101,7 +2101,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_loins_w/cooked",
     "outputName": "royal venison loins",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L106"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L106"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_prime_w",
@@ -2109,7 +2109,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_prime_w/cooked",
     "outputName": "royal venison prime steak",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L116"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L116"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_prime_w",
@@ -2117,7 +2117,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/meat/saiga_prime_w/cooked",
     "outputName": "royal venison prime steak",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L116"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_meat_saiga.dm#L116"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/crab",
@@ -2125,7 +2125,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/crab",
     "outputName": "cooked crab",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_shellfish.dm#L3"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_shellfish.dm#L3"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/crab",
@@ -2133,7 +2133,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/crab",
     "outputName": "cooked crab",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_shellfish.dm#L3"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_shellfish.dm#L3"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/clam",
@@ -2141,7 +2141,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/clam",
     "outputName": "cooked clam",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_shellfish.dm#L31"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_shellfish.dm#L31"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/clam",
@@ -2149,7 +2149,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/clam",
     "outputName": "cooked clam",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_shellfish.dm#L31"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_shellfish.dm#L31"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/lobster",
@@ -2157,7 +2157,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/lobster",
     "outputName": "cooked lobster",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_shellfish.dm#L42"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_shellfish.dm#L42"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/lobster",
@@ -2165,7 +2165,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/lobster",
     "outputName": "cooked lobster",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_shellfish.dm#L42"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_shellfish.dm#L42"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/shrimp",
@@ -2173,7 +2173,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/shrimp",
     "outputName": "cooked shrimp",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_shellfish.dm#L54"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_shellfish.dm#L54"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/fish/shrimp",
@@ -2181,7 +2181,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/fryfish/shrimp",
     "outputName": "cooked shrimp",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_shellfish.dm#L54"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_shellfish.dm#L54"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/crabcakeraw",
@@ -2189,7 +2189,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/crabcake",
     "outputName": "crab cake",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_shellfish.dm#L137"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_shellfish.dm#L137"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/foodbase/crabcakeraw",
@@ -2197,7 +2197,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/crabcake",
     "outputName": "crab cake",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_shellfish.dm#L137"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_shellfish.dm#L137"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/veg/onion_sliced",
@@ -2205,7 +2205,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/preserved/onion_fried",
     "outputName": "fried onion",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_veggies.dm#L5"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_veggies.dm#L5"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/veg/cabbage_sliced",
@@ -2213,7 +2213,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/preserved/cabbage_fried",
     "outputName": "cooked cabbage",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_veggies.dm#L13"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_veggies.dm#L13"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/veg/cabbage_sliced",
@@ -2221,7 +2221,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/preserved/cabbage_fried",
     "outputName": "cooked cabbage",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_veggies.dm#L13"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_veggies.dm#L13"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/veg/potato_sliced",
@@ -2229,7 +2229,7 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/preserved/potato_fried",
     "outputName": "fried potato",
     "method": "Bake",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_veggies.dm#L21"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_veggies.dm#L21"
   },
   {
     "inputType": "/obj/item/reagent_containers/food/snacks/rogue/veg/potato_sliced",
@@ -2237,6 +2237,6 @@
     "outputType": "/obj/item/reagent_containers/food/snacks/rogue/preserved/potato_fried",
     "outputName": "fried potato",
     "method": "Fry",
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/raw/raw_veggies.dm#L21"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/raw/raw_veggies.dm#L21"
   }
 ]

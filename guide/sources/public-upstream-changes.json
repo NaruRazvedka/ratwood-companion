@@ -1,0 +1,1278 @@
+{
+  "from": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+  "to": "640df7ac30ca385cb443fd6165e4e746f288a719",
+  "changes": [
+    {
+      "state": "M",
+      "path": "code/__DEFINES/atom_hud.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/__DEFINES/combat.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/__DEFINES/jobs.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/__DEFINES/roguetown/armor_defines.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/__DEFINES/role_preferences.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/__DEFINES/traits.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/_onclick/hud/screen_objects.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/controllers/subsystem/nightshift.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/controllers/subsystem/villains.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/actions/action_cooldown.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/antag_retainer.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/character_flaw/_character_flaw.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/datums/components/rotting.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/forecast/_base.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/gods/_patron.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/gods/patrons/inhumen/zizo.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/hud.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/mind.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/status_effects/debuffs.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/datums/status_effects/firestacker.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/datums/status_effects/rogue/roguebuff.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/datums/stress/negative_events.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/world_traits/gods_boons.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/wounds/types/special.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/game/objects/effects/decals/cleanable/humans.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/game/objects/effects/gods/unassuming_fluff.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/game/objects/effects/temporary_visuals/cult.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/game/objects/items/rogueitems/necro_relics.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/game/objects/items/rogueweapons/integrity.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/game/objects/items/rogueweapons/melee/blunt.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/game/objects/items/rogueweapons/melee/flail.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/game/objects/lighting/_base_light.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/game/objects/lighting/_base_roguestreet.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/game/objects/obj_defense.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/game/objects/structures/mineral_doors.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/game/objects/structures/roguetown/gate.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/game/objects/structures/rune_ward_structure.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/admin/admin.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/admin/sql_ban_system.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "code/modules/antagonists/roguetown/villain/zzizocult/aspect_rituals.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "code/modules/antagonists/roguetown/villain/zzizocult/rituals.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "code/modules/antagonists/roguetown/villain/zzizocult/zizo_ascendant.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "code/modules/antagonists/roguetown/villain/zzizocult/zizocult.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/client/customizer/customizers/organ/tail.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/client/preferences_savefile.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/clothing/clothing.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/events/antagonist/solo/masquerade.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/events/antagonist/solo/vampires.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/events/antagonist/solo/vampires_and_werewolves.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "code/modules/events/antagonist/solo/zizo_cult.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/Inquisition/absolutionist.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/adjudicator.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/arbalist.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/confessor.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/disciple.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/psyalmist.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/Inquisition/orthoclasses/sojourner.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/Inquisition/puritanclasses/arbiter.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/Inquisition/puritanclasses/inspector.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/Inquisition/puritanclasses/ordinator.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/adventurer/types/_advclass.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/adventurer/types/combat/cleric.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/adventurer/types/combat/foreigner/naledi.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/adventurer/types/combat/spellblade_chant.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/adventurer/types/wretch/necromancer.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/church/keeper.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/church/martyr/martyr.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/church/monk.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/church/priest.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/church/templar.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "A",
+      "path": "code/modules/jobs/job_types/roguetown/church/templar/templar_spellblade.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/courtier/chaplain.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/courtier/mage_associate.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/garrison/rookie.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/garrison/squire.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/mercenaries/classes/grenzelhoft.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/mercenaries/classes/oathmarked.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/mercenaries/classes/warscholar.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/nobility/bailiff.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/nobility/prince.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/peasants/bathmaid.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/yeomen/archivist.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/yeomen/nightmaster.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/youngfolk/churchling.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/youngfolk/shophand.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/youngfolk/smith_apprentice.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/youngfolk/vagabond/excommunicado.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/jobs/job_types/roguetown/youngfolk/vagabond/failed_apprentice.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/dead/new_player/sprite_accessory/_sprite_accessory.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/dead/new_player/sprite_accessory/tails.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/blood.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/carbon/human/death.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/carbon/human/examine.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/carbon/human/human_defense.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/carbon/human/human_defines.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/carbon/human/species_types/furry/anthromorph.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/carbon/human/species_types/furry/anthromorphsmall.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/carbon/human/species_types/furry/demihuman.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/carbon/stress.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/grabbing.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/living.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/living_defines.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/special_intents.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/stats.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/update_icons.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/reagents/chemistry/reagents/other_reagents.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/roguetown/roguejobs/blacksmith/anvil_recipes/kazengunite.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/roguetown/roguejobs/fisher/leeches.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/roguetown/roguejobs/gravedigger/hole.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/roguetown/roguemachine/inqports/inqshop.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/round_modifier/antagonist.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/spells/roguetown/acolyte/dendor.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/spells/roguetown/necromancer.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/spells/spell_types/wizard/conjure/conjure_arcyne_ward.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/spells/spell_types/wizard/ferramancy/blade_form_spells.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/surgery/bodyparts/_bodyparts.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/surgery/bodyparts/bodypart_dismemberment.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "code/modules/vampire_neu/vampire_sight.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "D",
+      "path": "html/changelogs/AutoChangeLog-pr-3001.yml",
+      "inSnapshot": true
+    },
+    {
+      "state": "D",
+      "path": "html/changelogs/AutoChangeLog-pr-3122.yml",
+      "inSnapshot": true
+    },
+    {
+      "state": "A",
+      "path": "html/changelogs/AutoChangeLog-pr-3172.yml",
+      "inSnapshot": true
+    },
+    {
+      "state": "D",
+      "path": "html/changelogs/AutoChangeLog-pr-3201.yml",
+      "inSnapshot": true
+    },
+    {
+      "state": "D",
+      "path": "html/changelogs/AutoChangeLog-pr-3343.yml",
+      "inSnapshot": true
+    },
+    {
+      "state": "D",
+      "path": "html/changelogs/AutoChangeLog-pr-3346.yml",
+      "inSnapshot": true
+    },
+    {
+      "state": "D",
+      "path": "html/changelogs/AutoChangeLog-pr-3349.yml",
+      "inSnapshot": true
+    },
+    {
+      "state": "D",
+      "path": "html/changelogs/AutoChangeLog-pr-3351.yml",
+      "inSnapshot": true
+    },
+    {
+      "state": "D",
+      "path": "html/changelogs/AutoChangeLog-pr-3354.yml",
+      "inSnapshot": true
+    },
+    {
+      "state": "D",
+      "path": "html/changelogs/AutoChangeLog-pr-3355.yml",
+      "inSnapshot": true
+    },
+    {
+      "state": "A",
+      "path": "html/changelogs/AutoChangeLog-pr-3356.yml",
+      "inSnapshot": true
+    },
+    {
+      "state": "D",
+      "path": "html/changelogs/AutoChangeLog-pr-3357.yml",
+      "inSnapshot": true
+    },
+    {
+      "state": "A",
+      "path": "html/changelogs/AutoChangeLog-pr-3362.yml",
+      "inSnapshot": true
+    },
+    {
+      "state": "A",
+      "path": "html/changelogs/AutoChangeLog-pr-3365.yml",
+      "inSnapshot": true
+    },
+    {
+      "state": "A",
+      "path": "html/changelogs/AutoChangeLog-pr-3366.yml",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "html/changelogs/archive/2026-11.yml",
+      "inSnapshot": true
+    },
+    {
+      "state": "A",
+      "path": "icons/effects/beam96x96.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/effects/cult_effects.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/effects/eldritch.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/effects/zizo_gazer_orb.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/effects/zizo_star_ball.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/mob/actions/zizomiracles.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/mob/hud.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/mob/mob.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/mob/sprite_accessory/tails/tails.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/mob/zizo_gazer.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/obj/sigils.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/roguetown/cult/blightfloor.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/roguetown/cult/blightwall.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/roguetown/cult/cultsprites.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/roguetown/cult/cultweapons32.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/roguetown/cult/cultweapons64.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/roguetown/cult/halo.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/roguetown/cult/ravermeat.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/roguetown/cult/zizohead.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/roguetown/items/misc.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/roguetown/misc/doors.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/roguetown/weapons/blunt64.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/roguetown/weapons/daggers32.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/roguetown/weapons/misc32.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/roguetown/weapons/polearms64.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "modular_azurepeak/code/game/objects/items/ritualcircles.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "modular_azurepeak/code/modules/spells/pantheon/inhumen/zizo.dm",
+      "inSnapshot": true
+    },
+    {
+      "state": "M",
+      "path": "modular_deserttown/icons/clothing/onmob/shadowcloak.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "modular_deserttown/icons/clothing/shadowcloak.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "roguetown.dme",
+      "inSnapshot": true
+    },
+    {
+      "state": "A",
+      "path": "sound/magic/cosmic_energy.ogg",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "sound/magic/stargazer/beam_loop_one.ogg",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "sound/magic/stargazer/beam_open.ogg",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "sound/music/cmode/antag/combat_cult.ogg",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "sound/vo/cult/praise.ogg",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "sound/vo/cult/skvor.ogg",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "sound/vo/cult/tesa.ogg",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "tgui/packages/tgui/interfaces/ZizoResearch.tsx",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "tgui/packages/tgui/styles/main.scss",
+      "inSnapshot": false
+    }
+  ],
+  "outsideSnapshot": [
+    {
+      "state": "M",
+      "path": "code/_onclick/hud/screen_objects.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/controllers/subsystem/nightshift.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/controllers/subsystem/villains.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/actions/action_cooldown.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/antag_retainer.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/components/rotting.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/forecast/_base.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/gods/_patron.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/gods/patrons/inhumen/zizo.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/hud.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/mind.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/stress/negative_events.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/world_traits/gods_boons.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/datums/wounds/types/special.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/admin/admin.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/admin/sql_ban_system.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "code/modules/antagonists/roguetown/villain/zzizocult/aspect_rituals.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "code/modules/antagonists/roguetown/villain/zzizocult/rituals.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "code/modules/antagonists/roguetown/villain/zzizocult/zizo_ascendant.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "code/modules/antagonists/roguetown/villain/zzizocult/zizocult.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/client/customizer/customizers/organ/tail.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/client/preferences_savefile.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/events/antagonist/solo/masquerade.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/events/antagonist/solo/vampires.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/events/antagonist/solo/vampires_and_werewolves.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "code/modules/events/antagonist/solo/zizo_cult.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/dead/new_player/sprite_accessory/_sprite_accessory.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/dead/new_player/sprite_accessory/tails.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/blood.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/carbon/human/death.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/carbon/human/examine.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/carbon/human/human_defense.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/carbon/human/human_defines.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/carbon/human/species_types/furry/anthromorph.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/carbon/human/species_types/furry/anthromorphsmall.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/carbon/human/species_types/furry/demihuman.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/carbon/stress.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/grabbing.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/living.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/living_defines.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/special_intents.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/stats.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/mob/living/update_icons.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/round_modifier/antagonist.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "code/modules/vampire_neu/vampire_sight.dm",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/effects/beam96x96.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/effects/cult_effects.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/effects/eldritch.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/effects/zizo_gazer_orb.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/effects/zizo_star_ball.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/mob/actions/zizomiracles.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/mob/hud.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/mob/mob.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/mob/sprite_accessory/tails/tails.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/mob/zizo_gazer.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/obj/sigils.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/roguetown/cult/blightfloor.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/roguetown/cult/blightwall.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/roguetown/cult/cultsprites.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/roguetown/cult/cultweapons32.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/roguetown/cult/cultweapons64.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/roguetown/cult/halo.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/roguetown/cult/ravermeat.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "icons/roguetown/cult/zizohead.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/roguetown/items/misc.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/roguetown/misc/doors.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/roguetown/weapons/blunt64.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/roguetown/weapons/daggers32.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/roguetown/weapons/misc32.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "icons/roguetown/weapons/polearms64.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "modular_deserttown/icons/clothing/onmob/shadowcloak.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "modular_deserttown/icons/clothing/shadowcloak.dmi",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "sound/magic/cosmic_energy.ogg",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "sound/magic/stargazer/beam_loop_one.ogg",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "sound/magic/stargazer/beam_open.ogg",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "sound/music/cmode/antag/combat_cult.ogg",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "sound/vo/cult/praise.ogg",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "sound/vo/cult/skvor.ogg",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "sound/vo/cult/tesa.ogg",
+      "inSnapshot": false
+    },
+    {
+      "state": "A",
+      "path": "tgui/packages/tgui/interfaces/ZizoResearch.tsx",
+      "inSnapshot": false
+    },
+    {
+      "state": "M",
+      "path": "tgui/packages/tgui/styles/main.scss",
+      "inSnapshot": false
+    }
+  ]
+}

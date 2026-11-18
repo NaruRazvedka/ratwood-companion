@@ -1,0 +1,65 @@
+{
+  "added": [
+    {
+      "id": "prep-67dd0d4bfe0a",
+      "title": "kabuto"
+    },
+    {
+      "id": "current-ba00732427ce37",
+      "title": "Noccite Warmage (specialty)"
+    },
+    {
+      "id": "current-f4ee03964c91c2",
+      "title": "Summon Skeleton"
+    },
+    {
+      "id": "current-56594cd93b899e",
+      "title": "Raise Lesser Undead"
+    },
+    {
+      "id": "current-a4edc0fcc63b5b",
+      "title": "Virgin"
+    },
+    {
+      "id": "current-d57e17a06da690",
+      "title": "Monstrous"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "id": "guide-magic",
+      "title": "Magic & faith"
+    },
+    {
+      "id": "prep-fcdf12a2dd57",
+      "title": "jingasa"
+    },
+    {
+      "id": "prep-d93d451a3c2b",
+      "title": "steel lucerne"
+    },
+    {
+      "id": "prep-8ba4d8a385bf",
+      "title": "blacksteel lucerne"
+    },
+    {
+      "id": "prep-19226c80c9bb",
+      "title": "lucerne"
+    },
+    {
+      "id": "current-8f281d64df232a",
+      "title": "Templar (role)"
+    },
+    {
+      "id": "current-cb741b5a0677e7",
+      "title": "Armbrustschütze (specialty)"
+    },
+    {
+      "id": "current-a08fa20198ed91",
+      "title": "Maille Training"
+    }
+  ],
+  "renamed": [],
+  "sprites": []
+}

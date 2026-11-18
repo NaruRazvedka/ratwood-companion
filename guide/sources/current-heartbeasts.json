@@ -1,6 +1,6 @@
 {
-  "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
-  "reviewed": "2026-11-17",
+  "revision": "640df7ac30ca385cb443fd6165e4e746f288a719",
+  "reviewed": "2026-11-18",
   "topics": [
     {
       "id": "heart-7c5c5e3deb6929",
@@ -57,15 +57,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L6"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L6"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/pain",
       "publicContent": true,
       "gaps": [
@@ -127,15 +127,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L16"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L16"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/blood",
       "publicContent": true,
       "gaps": [
@@ -197,15 +197,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L26"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L26"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/fear",
       "publicContent": true,
       "gaps": [
@@ -267,15 +267,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L36"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L36"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/hunger",
       "publicContent": true,
       "gaps": [
@@ -337,15 +337,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L46"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L46"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/love",
       "publicContent": true,
       "gaps": [
@@ -407,15 +407,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L56"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L56"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/death",
       "publicContent": true,
       "gaps": [
@@ -477,15 +477,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L66"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L66"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/time",
       "publicContent": true,
       "gaps": [
@@ -547,15 +547,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L76"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L76"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/dreams",
       "publicContent": true,
       "gaps": [
@@ -617,15 +617,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L86"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L86"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/memory",
       "publicContent": true,
       "gaps": [
@@ -687,15 +687,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L96"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L96"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/truth",
       "publicContent": true,
       "gaps": [
@@ -757,15 +757,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L106"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L106"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/lies",
       "publicContent": true,
       "gaps": [
@@ -827,15 +827,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L116"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L116"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/power",
       "publicContent": true,
       "gaps": [
@@ -897,15 +897,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L126"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L126"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/weakness",
       "publicContent": true,
       "gaps": [
@@ -967,15 +967,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L136"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L136"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/creation",
       "publicContent": true,
       "gaps": [
@@ -1037,15 +1037,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L146"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L146"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/destruction",
       "publicContent": true,
       "gaps": [
@@ -1107,15 +1107,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L156"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L156"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/order",
       "publicContent": true,
       "gaps": [
@@ -1177,15 +1177,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L166"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L166"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/chaos",
       "publicContent": true,
       "gaps": [
@@ -1247,15 +1247,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L176"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L176"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/beauty",
       "publicContent": true,
       "gaps": [
@@ -1317,15 +1317,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L186"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L186"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/ugliness",
       "publicContent": true,
       "gaps": [
@@ -1387,15 +1387,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L196"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L196"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/sacrifice",
       "publicContent": true,
       "gaps": [
@@ -1457,15 +1457,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L206"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L206"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/greed",
       "publicContent": true,
       "gaps": [
@@ -1527,15 +1527,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L216"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L216"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/justice",
       "publicContent": true,
       "gaps": [
@@ -1597,15 +1597,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L226"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L226"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/mercy",
       "publicContent": true,
       "gaps": [
@@ -1667,15 +1667,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L236"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L236"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/loneliness",
       "publicContent": true,
       "gaps": [
@@ -1737,15 +1737,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L246"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L246"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/companionship",
       "publicContent": true,
       "gaps": [
@@ -1807,15 +1807,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L256"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L256"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/hope",
       "publicContent": true,
       "gaps": [
@@ -1877,15 +1877,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L266"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L266"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/despair",
       "publicContent": true,
       "gaps": [
@@ -1947,15 +1947,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L276"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L276"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/courage",
       "publicContent": true,
       "gaps": [
@@ -2017,15 +2017,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L286"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L286"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/cowardice",
       "publicContent": true,
       "gaps": [
@@ -2087,15 +2087,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L296"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L296"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/wisdom",
       "publicContent": true,
       "gaps": [
@@ -2157,15 +2157,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L306"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L306"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/ignorance",
       "publicContent": true,
       "gaps": [
@@ -2227,15 +2227,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L316"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L316"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/freedom",
       "publicContent": true,
       "gaps": [
@@ -2297,15 +2297,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L326"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L326"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/bondage",
       "publicContent": true,
       "gaps": [
@@ -2367,15 +2367,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L336"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L336"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/growth",
       "publicContent": true,
       "gaps": [
@@ -2437,15 +2437,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L346"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L346"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/decay",
       "publicContent": true,
       "gaps": [
@@ -2507,15 +2507,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L356"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L356"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/transformation",
       "publicContent": true,
       "gaps": [
@@ -2577,15 +2577,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L366"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L366"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/identity",
       "publicContent": true,
       "gaps": [
@@ -2647,15 +2647,15 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L376"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_concepts.dm#L376"
         },
         {
           "title": "Question selection and answer scoring",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_component.dm#L295"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_concept/unity",
       "publicContent": true,
       "gaps": [
@@ -2732,19 +2732,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_personalities.dm#L11"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_personalities.dm#L11"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_archetype/fearful",
       "publicContent": true,
       "gaps": [
@@ -2826,19 +2826,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_personalities.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_personalities.dm#L34"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_archetype/authoritarian",
       "publicContent": true,
       "gaps": [
@@ -2921,19 +2921,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_personalities.dm#L58"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_personalities.dm#L58"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_archetype/aggressive",
       "publicContent": true,
       "gaps": [
@@ -3024,19 +3024,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_personalities.dm#L83"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_personalities.dm#L83"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_archetype/arbitrary",
       "publicContent": true,
       "gaps": [
@@ -3122,19 +3122,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_personalities.dm#L116"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_personalities.dm#L116"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_archetype/inquisitive",
       "publicContent": true,
       "gaps": [
@@ -3227,19 +3227,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_personalities.dm#L144"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_personalities.dm#L144"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_archetype/split_personality",
       "publicContent": true,
       "gaps": [
@@ -3311,19 +3311,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L23"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L23"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_quirk/obedient",
       "publicContent": true,
       "gaps": [
@@ -3394,19 +3394,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L43"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L43"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_quirk/curious",
       "publicContent": true,
       "gaps": [
@@ -3476,19 +3476,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L64"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L64"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_quirk/impatient",
       "publicContent": true,
       "gaps": [
@@ -3557,19 +3557,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L81"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L81"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_quirk/royal",
       "publicContent": true,
       "gaps": [
@@ -3638,19 +3638,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L117"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L117"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_quirk/discharge",
       "publicContent": true,
       "gaps": [
@@ -3719,19 +3719,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L158"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L158"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_quirk/repetitive",
       "publicContent": true,
       "gaps": [
@@ -3803,19 +3803,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L170"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L170"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_quirk/timid",
       "publicContent": true,
       "gaps": [
@@ -3884,19 +3884,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L194"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L194"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_quirk/ambitious",
       "publicContent": true,
       "gaps": [
@@ -3965,19 +3965,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L222"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L222"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_quirk/forgetful",
       "publicContent": true,
       "gaps": [
@@ -4046,19 +4046,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L287"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L287"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_quirk/affectionate",
       "publicContent": true,
       "gaps": [
@@ -4127,19 +4127,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L304"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L304"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_quirk/territorial",
       "publicContent": true,
       "gaps": [
@@ -4208,19 +4208,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L403"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L403"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_quirk/mimic",
       "publicContent": true,
       "gaps": [
@@ -4290,19 +4290,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L478"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L478"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_quirk/stubborn",
       "publicContent": true,
       "gaps": [
@@ -4372,19 +4372,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L497"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_quirks.dm#L497"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_quirk/patient",
       "publicContent": true,
       "gaps": [
@@ -4449,19 +4449,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_quirks/quirk_hoarder.dm#L3"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_quirks/quirk_hoarder.dm#L3"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_quirk/hoarder",
       "publicContent": true,
       "gaps": [
@@ -4538,19 +4538,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L11"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L11"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_trait/deception",
       "publicContent": true,
       "gaps": [
@@ -4630,19 +4630,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L20"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L20"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_trait/violent",
       "publicContent": true,
       "gaps": [
@@ -4722,19 +4722,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L29"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L29"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_trait/cautious",
       "publicContent": true,
       "gaps": [
@@ -4813,19 +4813,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L38"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L38"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_trait/observant",
       "publicContent": true,
       "gaps": [
@@ -4905,19 +4905,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L47"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L47"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_trait/peaceful",
       "publicContent": true,
       "gaps": [
@@ -4999,19 +4999,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L56"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L56"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_trait/creative",
       "publicContent": true,
       "gaps": [
@@ -5089,19 +5089,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L65"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L65"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_trait/curious",
       "publicContent": true,
       "gaps": [
@@ -5178,19 +5178,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L74"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L74"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_trait/ambitious",
       "publicContent": true,
       "gaps": [
@@ -5269,19 +5269,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L83"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L83"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_trait/logical",
       "publicContent": true,
       "gaps": [
@@ -5358,19 +5358,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L92"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L92"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_trait/honest",
       "publicContent": true,
       "gaps": [
@@ -5449,19 +5449,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L101"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L101"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_trait/orderly",
       "publicContent": true,
       "gaps": [
@@ -5542,19 +5542,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L110"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L110"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_trait/impulsive",
       "publicContent": true,
       "gaps": [
@@ -5630,19 +5630,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L119"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L119"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_trait/territorial",
       "publicContent": true,
       "gaps": [
@@ -5718,19 +5718,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L128"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L128"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_trait/dominant",
       "publicContent": true,
       "gaps": [
@@ -5811,19 +5811,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L137"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L137"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_trait/destructive",
       "publicContent": true,
       "gaps": [
@@ -5900,19 +5900,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L146"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L146"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_trait/playful",
       "publicContent": true,
       "gaps": [
@@ -5991,19 +5991,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L155"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L155"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_trait/chaotic",
       "publicContent": true,
       "gaps": [
@@ -6079,19 +6079,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L164"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L164"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_trait/philosophical",
       "publicContent": true,
       "gaps": [
@@ -6167,19 +6167,19 @@
       "sources": [
         {
           "title": "Ratwood 2.0 heartbeast source",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L173"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_traits.dm#L173"
         },
         {
           "title": "Canister filling and calibration",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_canisters.dm#L151"
         },
         {
           "title": "Aspect rack slots",
-          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
+          "url": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/code/modules/roguetown/roguemachine/heartbeast/heart_rack.dm#L34"
         }
       ],
       "status": "source",
-      "sourceRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+      "sourceRevision": "640df7ac30ca385cb443fd6165e4e746f288a719",
       "sourceType": "/datum/flesh_trait/analytical",
       "publicContent": true,
       "gaps": [

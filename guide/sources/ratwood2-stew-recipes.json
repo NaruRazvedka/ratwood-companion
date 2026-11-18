@@ -35,7 +35,7 @@
     ],
     "seconds": 30.0,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L36"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L36"
   },
   {
     "type": "/datum/stew_recipe/thickporridge",
@@ -57,7 +57,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L41"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L41"
   },
   {
     "type": "/datum/stew_recipe/allspice",
@@ -71,7 +71,7 @@
     ],
     "seconds": 180,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L46"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L46"
   },
   {
     "type": "/datum/stew_recipe/breadpudding",
@@ -113,7 +113,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L51"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L51"
   },
   {
     "type": "/datum/stew_recipe/thickbreadpudding",
@@ -143,7 +143,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L56"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L56"
   },
   {
     "type": "/datum/stew_recipe/frostedpudding",
@@ -209,7 +209,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L61"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L61"
   },
   {
     "type": "/datum/stew_recipe/thickfrostedpudding",
@@ -247,7 +247,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L66"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L66"
   },
   {
     "type": "/datum/stew_recipe/chocolatepudding",
@@ -277,7 +277,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L71"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L71"
   },
   {
     "type": "/datum/stew_recipe/thickchocolatepudding",
@@ -295,7 +295,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L76"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L76"
   },
   {
     "type": "/datum/stew_recipe/oatmeal",
@@ -309,7 +309,7 @@
     ],
     "seconds": 30.0,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L81"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L81"
   },
   {
     "type": "/datum/stew_recipe/hardtackstew",
@@ -323,7 +323,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L86"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L86"
   },
   {
     "type": "/datum/stew_recipe/thickbalefirestew",
@@ -337,7 +337,7 @@
     ],
     "seconds": 180,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L91"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L91"
   },
   {
     "type": "/datum/stew_recipe/balefirestew",
@@ -351,7 +351,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L96"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L96"
   },
   {
     "type": "/datum/stew_recipe/congee",
@@ -365,7 +365,7 @@
     ],
     "seconds": 30.0,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L101"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L101"
   },
   {
     "type": "/datum/stew_recipe/frycongee",
@@ -379,7 +379,7 @@
     ],
     "seconds": 30.0,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L106"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L106"
   },
   {
     "type": "/datum/stew_recipe/purebutter",
@@ -393,7 +393,7 @@
     ],
     "seconds": 20.0,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L111"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L111"
   },
   {
     "type": "/datum/stew_recipe/potato",
@@ -407,7 +407,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L116"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L116"
   },
   {
     "type": "/datum/stew_recipe/thickpotato",
@@ -421,7 +421,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L120"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L120"
   },
   {
     "type": "/datum/stew_recipe/thickfrypotato",
@@ -439,7 +439,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L125"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L125"
   },
   {
     "type": "/datum/stew_recipe/onion",
@@ -453,7 +453,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L130"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L130"
   },
   {
     "type": "/datum/stew_recipe/thickonion",
@@ -467,7 +467,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L134"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L134"
   },
   {
     "type": "/datum/stew_recipe/thickfryonion",
@@ -481,7 +481,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L139"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L139"
   },
   {
     "type": "/datum/stew_recipe/cabbage",
@@ -495,7 +495,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L144"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L144"
   },
   {
     "type": "/datum/stew_recipe/thickcabbage",
@@ -509,7 +509,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L148"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L148"
   },
   {
     "type": "/datum/stew_recipe/thickfrycabbage",
@@ -523,7 +523,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L153"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L153"
   },
   {
     "type": "/datum/stew_recipe/thickturnip",
@@ -537,7 +537,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L158"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L158"
   },
   {
     "type": "/datum/stew_recipe/turnip",
@@ -551,7 +551,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L163"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L163"
   },
   {
     "type": "/datum/stew_recipe/veggiefryfish",
@@ -569,7 +569,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L167"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L167"
   },
   {
     "type": "/datum/stew_recipe/evilfryfish",
@@ -583,7 +583,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L171"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L171"
   },
   {
     "type": "/datum/stew_recipe/pepperfryfish",
@@ -597,7 +597,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L175"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L175"
   },
   {
     "type": "/datum/stew_recipe/lavishfryfish",
@@ -627,7 +627,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L179"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L179"
   },
   {
     "type": "/datum/stew_recipe/fryfish",
@@ -645,7 +645,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L183"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L183"
   },
   {
     "type": "/datum/stew_recipe/fish",
@@ -663,7 +663,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L187"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L187"
   },
   {
     "type": "/datum/stew_recipe/veggiefryrabbit",
@@ -681,7 +681,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L191"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L191"
   },
   {
     "type": "/datum/stew_recipe/fryrabbit",
@@ -695,7 +695,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L195"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L195"
   },
   {
     "type": "/datum/stew_recipe/rabbit",
@@ -713,7 +713,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L199"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L199"
   },
   {
     "type": "/datum/stew_recipe/kingvolf",
@@ -727,7 +727,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L203"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L203"
   },
   {
     "type": "/datum/stew_recipe/veggiefryvolf",
@@ -741,7 +741,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L207"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L207"
   },
   {
     "type": "/datum/stew_recipe/fryvolf",
@@ -755,7 +755,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L211"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L211"
   },
   {
     "type": "/datum/stew_recipe/volf",
@@ -769,7 +769,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L215"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L215"
   },
   {
     "type": "/datum/stew_recipe/fryspider",
@@ -783,7 +783,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L219"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L219"
   },
   {
     "type": "/datum/stew_recipe/spider",
@@ -797,7 +797,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L223"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L223"
   },
   {
     "type": "/datum/stew_recipe/slop",
@@ -811,7 +811,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L227"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L227"
   },
   {
     "type": "/datum/stew_recipe/veggiefrybird",
@@ -825,7 +825,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L231"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L231"
   },
   {
     "type": "/datum/stew_recipe/lavishfrybird",
@@ -847,7 +847,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L236"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L236"
   },
   {
     "type": "/datum/stew_recipe/pepperfrybird",
@@ -861,7 +861,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L241"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L241"
   },
   {
     "type": "/datum/stew_recipe/thickfrybird",
@@ -879,7 +879,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L246"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L246"
   },
   {
     "type": "/datum/stew_recipe/frybird",
@@ -893,7 +893,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L251"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L251"
   },
   {
     "type": "/datum/stew_recipe/chicken",
@@ -911,7 +911,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L255"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L255"
   },
   {
     "type": "/datum/stew_recipe/frymeat",
@@ -925,7 +925,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L260"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L260"
   },
   {
     "type": "/datum/stew_recipe/veggiefrymeat",
@@ -959,7 +959,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L264"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L264"
   },
   {
     "type": "/datum/stew_recipe/pepperfrymeat",
@@ -973,7 +973,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L268"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L268"
   },
   {
     "type": "/datum/stew_recipe/thickpork",
@@ -987,7 +987,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L272"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L272"
   },
   {
     "type": "/datum/stew_recipe/frypork",
@@ -1005,7 +1005,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L277"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L277"
   },
   {
     "type": "/datum/stew_recipe/pork",
@@ -1023,7 +1023,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L281"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L281"
   },
   {
     "type": "/datum/stew_recipe/thickfrypork",
@@ -1049,7 +1049,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L285"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L285"
   },
   {
     "type": "/datum/stew_recipe/frybisque",
@@ -1079,7 +1079,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L290"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L290"
   },
   {
     "type": "/datum/stew_recipe/lavishfrybisque",
@@ -1101,7 +1101,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L294"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L294"
   },
   {
     "type": "/datum/stew_recipe/seafoodbroil",
@@ -1123,7 +1123,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L298"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L298"
   },
   {
     "type": "/datum/stew_recipe/fryseafoodbroil",
@@ -1141,7 +1141,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L302"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L302"
   },
   {
     "type": "/datum/stew_recipe/lavishfryseafoodbroil",
@@ -1155,7 +1155,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L306"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L306"
   },
   {
     "type": "/datum/stew_recipe/bisque",
@@ -1181,7 +1181,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L310"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L310"
   },
   {
     "type": "/datum/stew_recipe/meatrice",
@@ -1203,7 +1203,7 @@
     ],
     "seconds": 30.0,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L314"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L314"
   },
   {
     "type": "/datum/stew_recipe/eggrice",
@@ -1217,7 +1217,7 @@
     ],
     "seconds": 30.0,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L319"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L319"
   },
   {
     "type": "/datum/stew_recipe/shrimprice",
@@ -1231,7 +1231,7 @@
     ],
     "seconds": 30.0,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L324"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L324"
   },
   {
     "type": "/datum/stew_recipe/cheeserice",
@@ -1245,7 +1245,7 @@
     ],
     "seconds": 30.0,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L329"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L329"
   },
   {
     "type": "/datum/stew_recipe/lavishfryrice",
@@ -1275,7 +1275,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L334"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L334"
   },
   {
     "type": "/datum/stew_recipe/bone",
@@ -1293,7 +1293,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L339"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L339"
   },
   {
     "type": "/datum/stew_recipe/viscera",
@@ -1335,7 +1335,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L344"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L344"
   },
   {
     "type": "/datum/stew_recipe/brothbrique",
@@ -1349,7 +1349,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L349"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L349"
   },
   {
     "type": "/datum/stew_recipe/thickbrothbrique",
@@ -1363,7 +1363,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L353"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L353"
   },
   {
     "type": "/datum/stew_recipe/saltmeat",
@@ -1389,7 +1389,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L357"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L357"
   },
   {
     "type": "/datum/stew_recipe/meat",
@@ -1403,7 +1403,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L362"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L362"
   },
   {
     "type": "/datum/stew_recipe/berry_poisoned",
@@ -1417,7 +1417,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L367"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L367"
   },
   {
     "type": "/datum/stew_recipe/berry",
@@ -1443,7 +1443,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L371"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L371"
   },
   {
     "type": "/datum/stew_recipe/lemon",
@@ -1461,7 +1461,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L375"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L375"
   },
   {
     "type": "/datum/stew_recipe/lime",
@@ -1475,7 +1475,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L379"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L379"
   },
   {
     "type": "/datum/stew_recipe/pear",
@@ -1489,7 +1489,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L383"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L383"
   },
   {
     "type": "/datum/stew_recipe/apple",
@@ -1507,7 +1507,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L387"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L387"
   },
   {
     "type": "/datum/stew_recipe/parmesan",
@@ -1525,7 +1525,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L391"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L391"
   },
   {
     "type": "/datum/stew_recipe/thickparmesan",
@@ -1539,7 +1539,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L395"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L395"
   },
   {
     "type": "/datum/stew_recipe/cheese",
@@ -1557,7 +1557,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L400"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L400"
   },
   {
     "type": "/datum/stew_recipe/thickcheese",
@@ -1571,7 +1571,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L404"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L404"
   },
   {
     "type": "/datum/stew_recipe/lavishfryegg",
@@ -1589,7 +1589,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L409"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L409"
   },
   {
     "type": "/datum/stew_recipe/thickfryegg",
@@ -1611,7 +1611,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L413"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L413"
   },
   {
     "type": "/datum/stew_recipe/fryegg",
@@ -1633,7 +1633,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L418"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L418"
   },
   {
     "type": "/datum/stew_recipe/egg",
@@ -1651,7 +1651,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L422"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L422"
   },
   {
     "type": "/datum/stew_recipe/garlick_soup",
@@ -1669,7 +1669,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L426"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L426"
   },
   {
     "type": "/datum/stew_recipe/cucumber_soup",
@@ -1683,7 +1683,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L430"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L430"
   },
   {
     "type": "/datum/stew_recipe/thickcucumber_soup",
@@ -1697,7 +1697,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L434"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L434"
   },
   {
     "type": "/datum/stew_recipe/eggplant_soup",
@@ -1715,7 +1715,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L439"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L439"
   },
   {
     "type": "/datum/stew_recipe/aubergine_soup",
@@ -1737,7 +1737,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L443"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L443"
   },
   {
     "type": "/datum/stew_recipe/lavishaubergine_soup",
@@ -1751,7 +1751,7 @@
     ],
     "seconds": 120,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L448"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L448"
   },
   {
     "type": "/datum/stew_recipe/carrot_stew",
@@ -1765,7 +1765,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L453"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L453"
   },
   {
     "type": "/datum/stew_recipe/roastcarrot_stew",
@@ -1779,7 +1779,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L457"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L457"
   },
   {
     "type": "/datum/stew_recipe/nutty_stew",
@@ -1793,7 +1793,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L461"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L461"
   },
   {
     "type": "/datum/stew_recipe/tomato_soup",
@@ -1811,7 +1811,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L465"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L465"
   },
   {
     "type": "/datum/stew_recipe/plum_soup",
@@ -1825,7 +1825,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L469"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L469"
   },
   {
     "type": "/datum/stew_recipe/tangerine_marmalade",
@@ -1839,7 +1839,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L473"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L473"
   },
   {
     "type": "/datum/stew_recipe/squash_soup",
@@ -1853,7 +1853,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L477"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L477"
   },
   {
     "type": "/datum/stew_recipe/frysquash_soup",
@@ -1867,7 +1867,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L481"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L481"
   },
   {
     "type": "/datum/stew_recipe/rose_tea",
@@ -1881,7 +1881,7 @@
     ],
     "seconds": 15.0,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L486"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L486"
   },
   {
     "type": "/datum/stew_recipe/rose_tea_spiced",
@@ -1895,7 +1895,7 @@
     ],
     "seconds": 20.0,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L491"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L491"
   },
   {
     "type": "/datum/stew_recipe/coffee",
@@ -1909,7 +1909,7 @@
     ],
     "seconds": 15.0,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L496"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L496"
   },
   {
     "type": "/datum/stew_recipe/coffee_spiced",
@@ -1923,7 +1923,7 @@
     ],
     "seconds": 20.0,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L501"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L501"
   },
   {
     "type": "/datum/stew_recipe/tea",
@@ -1937,7 +1937,7 @@
     ],
     "seconds": 15.0,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L506"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L506"
   },
   {
     "type": "/datum/stew_recipe/tea_spiced",
@@ -1951,7 +1951,7 @@
     ],
     "seconds": 20.0,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L511"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L511"
   },
   {
     "type": "/datum/stew_recipe/chocolate_spiced",
@@ -1965,7 +1965,7 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L516"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L516"
   },
   {
     "type": "/datum/stew_recipe/chocolate",
@@ -1983,7 +1983,7 @@
     ],
     "seconds": 30.0,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L521"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L521"
   },
   {
     "type": "/datum/stew_recipe/poppy_milk",
@@ -1997,6 +1997,6 @@
     ],
     "seconds": 60,
     "unresolved": [],
-    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/modular/Neu_Food/code/recipes/stew_recipes.dm#L526"
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/640df7ac30ca385cb443fd6165e4e746f288a719/modular/Neu_Food/code/recipes/stew_recipes.dm#L526"
   }
 ]
