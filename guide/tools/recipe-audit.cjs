@@ -71,21 +71,29 @@ function applyPreparation(topics,routes){
 
 function applyProperties(topics,records){
   const byType=new Map(records.map(r=>[r.type,r]));
+  const topicByType=new Map(topics.filter(t=>t.sourceObjectType||t.sourceType).map(t=>[t.sourceObjectType||t.sourceType,t]));
   const byName=new Map();
   for(const r of records)for(const name of [r.name,...(r.aliases||[])].filter(Boolean)){
     const k=key(name);if(!byName.has(k))byName.set(k,[]);byName.get(k).push(r);
   }
-  for(const t of topics.filter(t=>t.section==='items')){
-    const type=t.sourceObjectType||t.itemInfo?.type||t.potRecipes?.[0].output;
+  for(const t of topics.filter(t=>t.section==='items'||t.kind==='spell')){
+    const type=t.sourceObjectType||t.sourceType||t.itemInfo?.type||t.potRecipes?.[0].output;
     let record=byType.get(type);
     const matches=unique([t.title,...(t.aliases||[])].flatMap(n=>byName.get(key(n))||[]));
     const brews=matches.filter(r=>r.brewing);
     if(!type?.startsWith('/obj/')&&brews.length===1)record=brews[0];
     if(!record){
       if(matches.length===1)record=matches[0];
-      else if(matches.length&&matches.every(r=>JSON.stringify([r.shelfLife,r.quality,r.value,r.brewing])===JSON.stringify([matches[0].shelfLife,matches[0].quality,matches[0].value,matches[0].brewing])))record=matches[0];
+      else if(matches.length&&matches.every(r=>JSON.stringify([r.shelfLife,r.quality,r.value,r.brewing,r.useCases])===JSON.stringify([matches[0].shelfLife,matches[0].quality,matches[0].value,matches[0].brewing,matches[0].useCases])))record=matches[0];
     }
-    if(record)t.itemProperties=record;
+    if(record){
+      t.itemProperties=structuredClone(record);
+      if(type&&record.type!==type)delete t.itemProperties.useCases;
+      for(const group of t.itemProperties.useCases||[]){
+        if(topicByType.has(group.type))group.topicId=topicByType.get(group.type).id;
+        for(const fact of group.facts)if(topicByType.has(fact.type))fact.topicId=topicByType.get(fact.type).id;
+      }
+    }
   }
 }
 

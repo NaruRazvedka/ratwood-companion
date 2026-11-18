@@ -29,6 +29,14 @@
     const messages=entries=>`<ul class="mechanics-hints">${entries.map(m=>`<li>${esc(m.text)}</li>`).join('')}</ul>`;
     return `<section class="item-description"><h2>Description</h2><p>${info?.description?esc(info.description.text)||'No written description.':info?.descriptionDynamic?'The description changes in-game.':'No description recorded.'}</p>${hints.length?`<h3>Mechanics</h3>${messages(hints)}`:''}${common.length?`<details><summary>Shared food/item mechanics</summary>${messages(common)}</details>`:''}</section>`;
   }
+  function specificationsHTML(t){
+    if(t.section!=='items'&&t.kind!=='spell')return '';
+    const groups=t.itemProperties?.useCases||[];
+    if(!groups.length)return ['Weapons','Clothing & armor','Tools & stations'].includes(t.category)?'<p class="preparation-gap">Use-specific statistics have not been matched to this exact item definition.</p>':'';
+    const primary=t.kind==='spell'?'spell':t.category==='Weapons'?'weapon':t.category==='Clothing & armor'?'armor':t.category==='Tools & stations'?'tool':'';
+    const facts=rows=>rows.length?`<dl class="compact-facts">${rows.map(f=>`<div><dt>${esc(f.label)}</dt><dd>${f.topicId?link(f.topicId,f.value):esc(f.value)}</dd></div>`).join('')}</dl>`:'';
+    return `<section class="item-specifications"><h2>Use & specifications</h2>${groups.map(g=>`<details class="specification-group" ${g.id===primary?'open':''}><summary>${esc(g.title)}</summary>${g.note?`<p class="specification-note">${esc(g.note)}</p>`:''}${g.topicId?`<p>${link(g.topicId,'Open '+g.title)}</p>`:''}${facts(g.facts||[])}${(g.attacks||[]).map(a=>`<details class="attack-specification"><summary>${esc(a.name)}${a.facts?.length?` <span>${esc(a.facts.filter(f=>['Armor damage channel','Damage multiplier','Penetration tier'].includes(f.label)).map(f=>(f.label==='Damage multiplier'?'×':f.label==='Penetration tier'?'Penetration ':'')+f.value).join(' · '))}</span>`:''}</summary>${a.description?`<p>${esc(a.description)}</p>`:''}${facts(a.facts||[])}${a.gap?'<p>Details for this source attack are not resolved.</p>':''}</details>`).join('')}</details>`).join('')}</section>`;
+  }
   function propertiesHTML(t){
     if(t.section!=='items')return '';
     const p=t.itemProperties,food=p?.shelfLife||p?.quality||['Dishes','Prepared ingredients','Ingredients','Soups & stews'].includes(t.category);
@@ -83,7 +91,7 @@
     return `<article class="entry ${compact&&item?'floating-recipe':''}" id="guide-content" tabindex="-1"><div class="entry-path"><button data-back>← Back to results</button><span>${esc(t.category)}</span>${t.status==='historical'?'<span class="historical-label">Historical</span>':''}</div><div class="entry-title">${item?image(t):''}<h1>${esc(t.title)}</h1><button class="bookmark" data-bookmark="${esc(t.id)}" aria-label="${bookmarks.has(t.id)?'Remove bookmark':'Bookmark topic'}" aria-pressed="${bookmarks.has(t.id)}">${bookmarks.has(t.id)?'★':'☆'}</button></div>${t.summary?`<p class="entry-summary">${esc(t.summary)}</p>`:''}
     ${t.availability?`<aside class="availability-note"><strong>${esc(t.availability.label)}</strong><p>${esc(t.availability.reason)}</p></aside>`:''}
     ${t.recipeAudit&&t.recipeAudit.state!=='source-procedure'?`<p class="preparation-gap">${esc(t.recipeAudit.note)}</p>`:''}
-    ${item?itemInfoHTML(t)+recipePanelHTML(t):writtenSteps(t.steps)}
+    ${item?itemInfoHTML(t)+specificationsHTML(t)+recipePanelHTML(t):specificationsHTML(t)+writtenSteps(t.steps)}
     ${item?`<details class="reference-notes"><summary>Storage, quality & value</summary>${propertiesHTML(t)}</details>`:''}
     ${(t.sections||[]).map(s=>`<section class="guide-section"><h2>${esc(s.title)}</h2>${s.text?`<p>${esc(s.text)}</p>`:''}${writtenSteps(s.steps)}${factsHTML(s.facts)}</section>`).join('')}
     ${reference.length?`<details class="reference-notes" ${t.section==='reference'?'open':''}><summary>${t.section==='reference'?'Reference':'Details'}</summary>${factsHTML(reference)}</details>`:''}

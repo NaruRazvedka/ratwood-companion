@@ -1,4 +1,4 @@
-"""Import inherited food timers, fare ranks and base prices from pinned DM, without executing it."""
+"""Import inherited item properties from pinned DM, without executing it."""
 import ast
 import hashlib
 import json
@@ -12,7 +12,8 @@ ROOT = Path(__file__).resolve().parents[1]
 REV = '80907df21ed15bde91106da41ce82e6ac6c40069'
 URL = f'https://github.com/Rotwood-Vale/Ratwood-2.0/blob/{REV}/'
 HELPERS = runpy.run_path(str(ROOT/'tools/extract-sprites.py'))
-FIELDS = {'name','bottle_name','rotprocess','warming','become_rot_type','faretype','quality','sellprice','static_price',
+USE = runpy.run_path(str(ROOT/'tools/item-use-properties.py'))
+FIELDS = USE['FIELDS'] | {'name','bottle_name','rotprocess','warming','become_rot_type','faretype','quality','sellprice','static_price',
           'sell_value','brew_time','brewed_amount','per_brew_amount','reagent_to_brew','parent_type'}
 FARE = {'FARE_IMPOVERISHED':'Fit for the desperate','FARE_POOR':'Fit for the poor',
         'FARE_NEUTRAL':'Decent','FARE_FINE':'Fine','FARE_LAVISH':'Lavish'}
@@ -31,6 +32,7 @@ def number(expression, constants=None):
     if expression is None:
         return None
     expression = str(expression).strip()
+    if not re.fullmatch(r'[A-Za-z_0-9\s.+*/()|&<>~\-]+',expression):return None
     if expression in {'null','FALSE'}:
         return 0
     if expression == 'TRUE':
@@ -40,14 +42,19 @@ def number(expression, constants=None):
         if isinstance(node,ast.Expression):return visit(node.body)
         if isinstance(node,ast.Constant) and type(node.value) in (int,float):return node.value
         if isinstance(node,ast.Name) and node.id in constants:return constants[node.id]
-        if isinstance(node,ast.UnaryOp) and isinstance(node.op,(ast.UAdd,ast.USub)):
+        if isinstance(node,ast.UnaryOp) and isinstance(node.op,(ast.UAdd,ast.USub,ast.Invert)):
             value=visit(node.operand)
-            return value if isinstance(node.op,ast.UAdd) else -value
-        if isinstance(node,ast.BinOp) and isinstance(node.op,(ast.Add,ast.Sub,ast.Mult,ast.Div)):
+            return value if isinstance(node.op,ast.UAdd) else ~value if isinstance(node.op,ast.Invert) else -value
+        if isinstance(node,ast.BinOp) and isinstance(node.op,(ast.Add,ast.Sub,ast.Mult,ast.Div,ast.BitOr,ast.BitAnd,ast.LShift,ast.RShift)):
             left,right=visit(node.left),visit(node.right)
             if isinstance(node.op,ast.Add):return left+right
             if isinstance(node.op,ast.Sub):return left-right
             if isinstance(node.op,ast.Mult):return left*right
+            if isinstance(node.op,ast.BitOr):return int(left)|int(right)
+            if isinstance(node.op,ast.BitAnd):return int(left)&int(right)
+            if isinstance(node.op,(ast.LShift,ast.RShift)):
+                if not 0 <= right <= 32:raise ValueError('Unsafe shift')
+                return int(left)<<int(right) if isinstance(node.op,ast.LShift) else int(left)>>int(right)
             return left/right
         raise ValueError('Nonconstant expression')
     try:
@@ -60,15 +67,21 @@ def number(expression, constants=None):
 def blocks(text, source):
     text=re.sub(r'/\*.*?\*/',lambda m:'\n'*m[0].count('\n'),text,flags=re.S)
     current=None
-    for line,text in HELPERS['logical_lines'](text):
-        if text.startswith('/'):
-            path=text.split('//',1)[0].strip()
+    lines=list(HELPERS['logical_lines'](text))
+    index=0
+    while index<len(lines):
+        line,content=lines[index];index+=1
+        if content.startswith('/'):
+            path=content.split('//',1)[0].strip()
             current=path if re.fullmatch(r'/(?:obj|atom|datum)(?:/\w+)*',path) else None
             if current:yield current,None,{'source':URL+source+f'#L{line}'}
         elif current:
-            match=re.match(r'^(?:\t| {4})(?:var/(?:\w+/)*)?(\w+)\s*=\s*(.*?)\s*(?://.*)?$',text)
+            match=re.match(r'^(?:\t| {4})(?:var/(?:\w+/)*)?(\w+)\s*=\s*(.*?)\s*(?://.*)?$',content)
             if match and match[1] in FIELDS:
-                yield current,match[1],{'expression':match[2].strip(),'source':URL+source+f'#L{line}'}
+                expression=match[2].strip()
+                while USE['unclosed_list'](expression) and index<len(lines):
+                    expression+=' '+lines[index][1].split('//',1)[0].strip();index+=1
+                yield current,match[1],{'expression':expression,'source':URL+source+f'#L{line}'}
 
 
 def resolve_fields(raw):
@@ -130,6 +143,9 @@ def main():
             relative=file.relative_to(base).as_posix()
             if current and relative not in {f['path'] for f in manifest['files']}:continue
             if relative.startswith(('code/','modular/','modular_')):files.setdefault(relative,file)
+    if current:
+        includes=re.findall(r'^#include \"([^\"]+)\"', (ROOT/'sources/ratwood-current/roguetown.dme').read_text(encoding='utf-8-sig'), re.M)
+        files={name:files[name] for name in (p.replace('\\','/') for p in includes) if name in files}
     raw={}
     for source,file in files.items():
         for path,key,value in blocks(file.read_text(encoding='utf-8-sig'),source):
@@ -138,12 +154,15 @@ def main():
             else:own.setdefault('_definition',value)
     objects=resolve_fields(raw)
     constants={'SECONDS':10,'MINUTES':600,'HOURS':36000,'DAYS':864000}
-    for _ in range(3):
-        for source,file in files.items():
-            if '/__DEFINES/' not in source:continue
-            for key,expression in re.findall(r'^#define\s+(\w+)\s+([^\n]+)',file.read_text(encoding='utf-8-sig'),re.M):
-                value=number(expression.split('//',1)[0],constants)
-                if value is not None:constants[key]=value
+    macros={}
+    for source,file in files.items():
+        for _,line in HELPERS['logical_lines'](file.read_text(encoding='utf-8-sig')):
+            match=re.match(r'^#define\s+(\w+)\s+(.+)',line)
+            if match:macros[match[1]]=match[2].split('//',1)[0].strip()
+    for _ in range(12):
+        for key,expression in macros.items():
+            value=number(expression,constants)
+            if value is not None:constants[key]=value
     result=[]
     aging={}
     for source,file in files.items():
@@ -212,12 +231,16 @@ def main():
             quality=liquid.get('quality')
             if quality and quality['expression'] in DRINK:row['quality']={'code':quality['expression'],'label':DRINK[quality['expression']],'source':quality['source'],'conditions':'Initial brewed reagent; aging can change its drink quality.'}
             row['shelfLife']={'label':'No solid-food rot timer; check brewing and aging stages','conditions':'Brewing duration is a production time, not a spoilage deadline.','source':fields['_definition']['source']}
+        row['useCases']=USE['use_cases'](path,fields,objects,constants,macros,number,HELPERS['literal_text'])
+        if row.get('brewing') and (reagent:=row['brewing'].get('reagentType')) in objects:
+            row['useCases']+=USE['use_cases'](reagent,objects[reagent],objects,constants,macros,number,HELPERS['literal_text'])
         for field in ['shelfLife','quality','value']:
             if field in row:row['sources'].append(row[field]['source'])
+        row['sources'] += [f['source'] for group in row['useCases'] for f in group['facts'] if f.get('source')]
         row['sources']=list(dict.fromkeys(row['sources']))
         result.append(row)
     out=ROOT/'sources/ratwood2-item-properties.json'
-    out.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    out.write_text(json.dumps(result,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
     evidence=[]
     for source,file in files.items():
         if 'ratwood-2-properties' in str(file):

@@ -89,3 +89,11 @@ For an optional loopback preview, run `python -m http.server 8765 --bind 127.0.0
 The public repository and Pages artifact must exclude personal drafts, `.validation/`, game clones, cached client resources, unlicensed font files, and raw community workbook exports. Public credits are centralized in [credits.html](../credits.html); source provenance stays in maintenance records without repeated blocks on each item.
 
 Application code uses [AGPL-3.0-or-later](../LICENSE). Sprites retain their upstream terms, including applicable CC BY-SA 3.0 requirements and file-specific exceptions. The [guide notices](NOTICE.md) distinguish the public package from historical personal research assets.
+
+## Item specifications
+
+The property importer follows declared parents and the pinned DME include order. `item-use-properties.py` defines the supported families and field labels; `import-item-properties.py --current` emits claim-level source links in `ratwood2-item-properties.json`. The normal refresh and public build apply these records to exact item definitions and regenerate the search/detail bundles.
+
+Weapon force, attack multipliers and projectile damage remain separate. Armor zones are decoded from source masks; rating channels are not labeled as percentages. Storage grids and item-count ceilings remain separate. Liquid metabolism is per processing cycle, and plant timers are converted only when the source units are known. Runtime effects, constructor overrides and conditional handlers can change initial values. Unresolved expressions are displayed as unresolved. Name-only matches do not inherit equipment statistics from a different explicit type.
+
+`coverage-report.json` accounts for item property matches and gaps by category, alongside spell casting coverage. Add a fixture to `test_current_item_use.py` when extending the supported fields, then check both generated values and the rendered entry.

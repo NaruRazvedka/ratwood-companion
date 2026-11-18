@@ -62,3 +62,5 @@
 .compact .mobile-bookmarks,.compact-inline .mobile-bookmarks{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}.compact .mobile-bookmarks button,.compact-inline .mobile-bookmarks button{font-size:13px;min-height:36px;padding:7px}
 
 .recipe-filters label[hidden]{display:none}
+
+.item-specifications{margin:24px 0}.specification-group{border:1px solid var(--line);border-radius:5px;margin:10px 0;padding:12px 15px;background:#251b24}.specification-group>summary{font-size:16px;cursor:pointer;color:var(--gold);min-height:28px}.specification-note{color:var(--muted);font-size:14px!important;line-height:1.6;margin:12px 0}.attack-specification{border-top:1px solid var(--line);padding:12px 0}.attack-specification summary{cursor:pointer;line-height:1.6}.attack-specification summary span{display:block;font-size:13px;color:var(--muted);margin-left:17px}.specification-group .compact-facts dd{overflow-wrap:anywhere}.compact .specification-group,.compact-inline .specification-group{padding:10px}.compact .specification-group>summary{font-size:14px}

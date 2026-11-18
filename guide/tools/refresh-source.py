@@ -10,7 +10,8 @@ from datetime import date
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECKOUT = ROOT.parent / 'lab' / 'Ratwood-2.0'
-PATHS = ['code/__HELPERS/text.dm', 'code/__HELPERS/sanitize.dm', 'roguetown.dme', 'code/game/objects',
+PATHS = ['code/__HELPERS/text.dm', 'code/__HELPERS/sanitize.dm', 'code/__DEFINES', 'roguetown.dme', 'code/game/objects',
+         'code/datums/armor.dm', 'code/datums/components/storage',
          'code/game/rotational_objects', 'code/game/turfs', 'code/modules/surgery/revive_chair.dm',
          'code/modules/mob/living/carbon/human/species_types/roguetown/construct',
          'code/datums/character_flaw', 'code/__DEFINES/charflaws.dm', 'code/datums/status_effects',

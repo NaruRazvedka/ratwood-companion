@@ -1,5 +1,15 @@
 # Changes
 
+## 2026-11-18 · Item use and equipment specifications
+
+- Added inherited weapon force, wielded force, skill, strength requirements, parry, durability and grip information.
+- Added per-attack damage multipliers, armor channels, penetration, reach, timing and fatigue costs; kept projectile damage separate from melee force.
+- Added armor body-zone coverage, rating channels, class, repair and material information.
+- Added storage grid dimensions, size limits, container volume, tool behavior, food contents and processing targets, plant growth settings, and liquid metabolism and composition.
+- Added casting costs, target range, held/worn-item requirements and restrictions to spell entries.
+- Expanded the pinned source snapshot with equipment constants and storage components. Statistics retain claim-level source references and unresolved expressions remain explicit.
+- Indexed the new specifications for search and added property coverage accounting by category.
+
 ## 2026-11-17 · Filters and sharing
 
 - Scoped quality, preparation, skill and evidence filters to the current category, search and compatible selections. Hide controls without useful choices and clear selections that no longer apply.

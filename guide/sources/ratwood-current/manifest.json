@@ -1,7 +1,7 @@
 {
   "repository": "Rotwood-Vale/Ratwood-2.0",
   "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
-  "reviewed": "2026-11-17",
+  "reviewed": "2026-11-18",
   "files": [
     {
       "path": "LICENSE",
@@ -12,24 +12,844 @@
       "sha256": "e6aa0b3764518baf864866d84fe50a97d7f3dc729acf189fe1b2150c627c7671"
     },
     {
+      "path": "code/__DEFINES/DNA.dm",
+      "sha256": "0562bdc91cc8929ce9bce0cadecf68339641a929689e4db6350310b8b92ea525"
+    },
+    {
+      "path": "code/__DEFINES/MC.dm",
+      "sha256": "f7a4b6389a26a8656f79c0a4906d5fe87d764ab107a7ca141180bff0a62fd9cf"
+    },
+    {
+      "path": "code/__DEFINES/README.md",
+      "sha256": "6c980b3f34e5fed07c70eb38971e1021ab8e8d209ffc4374d085b181d433361c"
+    },
+    {
+      "path": "code/__DEFINES/_bitfields.dm",
+      "sha256": "cb24aecde1d1766bef6f586d9a054edf333a958816f11c6b5bc2f2236b041019"
+    },
+    {
+      "path": "code/__DEFINES/_globals.dm",
+      "sha256": "f0f4230916377bb8526b038d11d8b6b0f9f3338f90cbe1e8dba109f3e31ee8ca"
+    },
+    {
+      "path": "code/__DEFINES/_helpers.dm",
+      "sha256": "d4ed80267df9922578f5f7ccf65ba3fe4ecfa4be7116ad110c67f561d7c6d656"
+    },
+    {
+      "path": "code/__DEFINES/_protect.dm",
+      "sha256": "de57dffc1006dc1fdb739f9c614350c9a1772a09afccd121d169636cf3da2793"
+    },
+    {
+      "path": "code/__DEFINES/_tick.dm",
+      "sha256": "7840667968a8257eae60fa210d6413e0797743c59fe97b9d9f2800ecb0313974"
+    },
+    {
+      "path": "code/__DEFINES/access.dm",
+      "sha256": "d715c93452adb95e6fd03bd7fa17e28c4ad9d1bbeda2a156bf39fbc058b8337d"
+    },
+    {
+      "path": "code/__DEFINES/achievements.dm",
+      "sha256": "39039dcc1b245db9f69dc6c5e6a6e5b1efdc87bb904c6bde50101cd423af7bf4"
+    },
+    {
+      "path": "code/__DEFINES/actions.dm",
+      "sha256": "76965badb7b14397b2742d273328fb7f99aa44472969111a68356ce14e91680b"
+    },
+    {
+      "path": "code/__DEFINES/admin.dm",
+      "sha256": "8e63fecd06ad486433f06404a6f0bb37d4b5a60e20c9b857d54f9a417621146b"
+    },
+    {
+      "path": "code/__DEFINES/ai/_ai.dm",
+      "sha256": "87f44627f9c717eb7609b5fbb88f132622df971f647c91db6029faeeb12a246e"
+    },
+    {
+      "path": "code/__DEFINES/ai/hostile.dm",
+      "sha256": "304debf85b910e653931cd77ad259ffa3c7de3ae06eecda15d9119213573a9e4"
+    },
+    {
+      "path": "code/__DEFINES/alerts.dm",
+      "sha256": "8923fd07b333b28e39537a419e7262e3c55a818a1a00632de985ac104acddc46"
+    },
+    {
+      "path": "code/__DEFINES/antagonists.dm",
+      "sha256": "ed8d25e1e70c58f7742466c94fd33862558d22264c3b4940a5eac3b9e8a6ac76"
+    },
+    {
+      "path": "code/__DEFINES/assets.dm",
+      "sha256": "2b5338ec532d48731fce9626c817ecef940093974d76ebe7bbdd5001b3266aaf"
+    },
+    {
+      "path": "code/__DEFINES/atmospherics.dm",
+      "sha256": "a3b705b816dc271a419243d2c185ea93e2e13d2555f908c3e3a715b5b7dbf236"
+    },
+    {
+      "path": "code/__DEFINES/atom_hud.dm",
+      "sha256": "6da0eeec0517d528047e678bebcd1c3e96bcb06bb24527420c000a613e4e6307"
+    },
+    {
+      "path": "code/__DEFINES/banking.dm",
+      "sha256": "487a14799dfaa9d54eb3fe924039b342f1d2ce5ae4ac635eaaa46476f3f74f3b"
+    },
+    {
+      "path": "code/__DEFINES/barks.dm",
+      "sha256": "3bf35400724beafca4bf7895bd96501e9634f663df1ff5ba5f37471925743e57"
+    },
+    {
+      "path": "code/__DEFINES/calendar.dm",
+      "sha256": "bfad9260209bed624bf7fd00dbbba2ecd6a043d01df9c344e90a008e0ddae6aa"
+    },
+    {
+      "path": "code/__DEFINES/callbacks.dm",
+      "sha256": "e11f4954cacf6b9981c7edf07b7f4a75b2f32b438114d0c1f50042b9bbececec"
+    },
+    {
+      "path": "code/__DEFINES/cargo.dm",
+      "sha256": "aa7a8cfb8256f097f37e245cefaa68c9e8b100d943476eba5be8a3c6291da9ed"
+    },
+    {
       "path": "code/__DEFINES/charflaws.dm",
       "sha256": "0cefd2da13940982560036d852f6e3e70f180dfda3fc83821a546a2c4b345582"
+    },
+    {
+      "path": "code/__DEFINES/chat.dm",
+      "sha256": "c31eb5a35c3ee6d3cd69641c09c4080484abfccebbcbdd6ca59eadf5f0acc5e7"
+    },
+    {
+      "path": "code/__DEFINES/chess.dm",
+      "sha256": "bfd869215415916d0ff34e17b74252dfec019bb886c45251253a270ea95e657b"
+    },
+    {
+      "path": "code/__DEFINES/cinematics.dm",
+      "sha256": "90cf099eb97b9e5d2dd1041c0d704cdb1bde172e7c7160997f2cc2db445d66b9"
+    },
+    {
+      "path": "code/__DEFINES/city_assembly.dm",
+      "sha256": "c47c716e037741e6aa709725b342c0abb84c84ecce46a191fa9595a88401f8fa"
+    },
+    {
+      "path": "code/__DEFINES/cleaning.dm",
+      "sha256": "8285142e63c6d43e209015fdb8d68ca74975342f661187bc381edcd4f07efa1d"
+    },
+    {
+      "path": "code/__DEFINES/click.dm",
+      "sha256": "47666595ce5495ad74b49bef96c05e8870fbfc90eeb7717b2b6014e67018815d"
+    },
+    {
+      "path": "code/__DEFINES/colors.dm",
+      "sha256": "86ffdb950487b0ce4b673c9de7595c69d3c4c551a882b1f6fda93684eaea53f7"
+    },
+    {
+      "path": "code/__DEFINES/combat.dm",
+      "sha256": "41b40e9149c3de77a501246be99d7f53047d74f8dafa32029b13db5cf5966d57"
+    },
+    {
+      "path": "code/__DEFINES/components.dm",
+      "sha256": "cd3cb936b20ee95f19185b20d5c27dffad587d3a0280a4d32829b449bc9daeda"
+    },
+    {
+      "path": "code/__DEFINES/configuration.dm",
+      "sha256": "254256128e199cbcb8b1ad05306af376a9c71e85f69c8e751db9564aa2204cbc"
+    },
+    {
+      "path": "code/__DEFINES/construction.dm",
+      "sha256": "4f34af8205d741fcb1b221b4863bde66f128e2415e80bdb098e91db065c05209"
+    },
+    {
+      "path": "code/__DEFINES/contracts.dm",
+      "sha256": "ef64ac8e6708a0e054aafbf3fafaa91159e2c7e12d39361888a5697818af4f85"
+    },
+    {
+      "path": "code/__DEFINES/cooking.dm",
+      "sha256": "86caf20efad23a04b5f06a9d8e1100e7b8772ddbb8eb460f89358b8fa9452dc5"
+    },
+    {
+      "path": "code/__DEFINES/cooldowns.dm",
+      "sha256": "51749f253c51e35ffc0d903e2b5286de6b04cc264af3472811f066750d21e396"
+    },
+    {
+      "path": "code/__DEFINES/coven.dm",
+      "sha256": "b5b26dfb059a9cc30289b35ee85c689e77793a2a682804420a915de5e30a850a"
+    },
+    {
+      "path": "code/__DEFINES/cult.dm",
+      "sha256": "d0caf426d360901cef21c8a7bc58754d45f359ba7d546ae3647e2c07c9fd765e"
+    },
+    {
+      "path": "code/__DEFINES/customization/body_markings.dm",
+      "sha256": "72119aff55c817176dac39f95b3d7422014acbfca2ed7744393fcd022c395410"
+    },
+    {
+      "path": "code/__DEFINES/customization/hair_gradients.dm",
+      "sha256": "e8bf4001ce781abfdd0671634a0988221b780f5159dd073ec417a1f3c3fa8722"
+    },
+    {
+      "path": "code/__DEFINES/customization/mob_descriptors.dm",
+      "sha256": "40af4f04e248045d7e9dae03f8d33b5bf63c54b6e3519ec470434c59697b27a7"
+    },
+    {
+      "path": "code/__DEFINES/customization/organ_customization.dm",
+      "sha256": "4ecc180d637ea047fc94d865af94aa443d029abcb5269348c04f2bbbd98c7f0e"
+    },
+    {
+      "path": "code/__DEFINES/customization/sprite_accessory.dm",
+      "sha256": "4a114c958b2775550dff7b53057d62631cb3c3ead4a518a147408b34714f2fd5"
+    },
+    {
+      "path": "code/__DEFINES/dcs/flags.dm",
+      "sha256": "85d596fd2320a7cb6f60214d8e15f547864eef1581ada8a35ac86f94d0792bd1"
+    },
+    {
+      "path": "code/__DEFINES/dcs/helpers.dm",
+      "sha256": "84a2133443dad6d9c8d914c0a48d637cc26cca6e08691d7d1f5e3f2f482dd2f5"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_action.dm",
+      "sha256": "1170522c367f8f884a3d6164690ff49ebd95533c9794de6db695e88cdea7cbff"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_ai.dm",
+      "sha256": "3dde6e1530527a21f273bd8b89eee6f62946b1f9a15dc2847cd6b241b93838da"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_atom/signals_atom_mouse.dm",
+      "sha256": "d209cf8b9ae41c9b0dd26dc8382cb2f0aa68c852dc108806591ea7d9a53404d5"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_atom/signals_atom_movement.dm",
+      "sha256": "b4db7cf0f87665677ac015015a61b5da261e6d3af81cbdcfff29897b8a6a0ea2"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_beam.dm",
+      "sha256": "63e9ffa6aa065037df0886c6b3774ef4b499bc3b92edde3b8186910fb664ed41"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_coven_powers.dm",
+      "sha256": "9d015f20a9c2d41515dec53837b500071b1cb9e4d5a3f5f588bbdcd4737425bf"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_datum.dm",
+      "sha256": "d842941b1cd147bba9813773548ce0cc6e30d05e296998f81ada14c1aa4b16eb"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_global.dm",
+      "sha256": "aba77c6f81ad64f86250b615d4b78bfbfa10b963768fd30fc0391cf420c0f42c"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_human.dm",
+      "sha256": "421f5687f3932706778156c9ee16931eb7d31039d446ddb0bb9a7068181a5c0e"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_mob.dm",
+      "sha256": "7620ae9f1ad80853158c384c011eb538d4a8c1c612f82957627258949da52bbc"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_mob/signals_client.dm",
+      "sha256": "d2e413015e6d558b418b65fddb2410bb26eccbffa15a80aad855dded6f3e6184"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_mob/signals_mind.dm",
+      "sha256": "b010d1749f34272247ddb102d6a9ee0817cbd97ad9d6781e5df7045bff8ca53e"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_mob/signals_mob.dm",
+      "sha256": "a73d40165493d9dd6bdd127556f84eaea964f066d81fb6925d2490bebb00b017"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_mob/signals_mob_living.dm",
+      "sha256": "f1abe4b67237f7536be611140eef58c6959ea2092fb41525f07115f88656bbbb"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_movable.dm",
+      "sha256": "1e4e759882b78ca89600176d7292045ac29f092a1a37dd81a0757523e5a67076"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_moveloop.dm",
+      "sha256": "53a1aa30276b67313b445a1ec1e0c039446f93a66b216080541dfc9336b3b680"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_objectives.dm",
+      "sha256": "07ca39039992c1a653722d052631e9e27bb050247b2f4058c716b4471fa34407"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_spatial_grid.dm",
+      "sha256": "91412270c7beb1e7eee3db5e9e79ba7e9964db80fe0cfaaf3e6b86b113ba01d2"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_spell.dm",
+      "sha256": "22e5cf277eb0b5d20268fa2e899bc3beca3005327f85d0b35a5e79dbe0f62014"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_tgui.dm",
+      "sha256": "98b742e35bc0040eeb6c921dc4b625505da1322b9649d0c2a9717c2f02454f06"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_tram.dm",
+      "sha256": "0228be1c4342ccac62af061de44298d81c3a79998e3aba141d3d4510b1ab8f6c"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals/signals_turf.dm",
+      "sha256": "fbeb1fa03e385b82798d35393daf885481cf7c4152c5f897a70e085904cb4e0f"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals_atoms/appearance.dm",
+      "sha256": "3692f2b61d7f2be953aebce7b97ae11f764a1d4bb85fc75b36a6dd5bdaf9b005"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals_atoms/lighting.dm",
+      "sha256": "c62b755bdbe40663e515de20fa5082c8695f31cda5e4342e4586532bea119b18"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals_atoms/movable_lighting.dm",
+      "sha256": "db5b46e26af76527ede32da6456950276cb584e75012aa52c09fe92ed171deb7"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals_atoms/signals_atom.dm",
+      "sha256": "ec9e5c8daa07fbe27c8e87d5a9720773c073b281cf0eab9a75131cbc1a596d19"
+    },
+    {
+      "path": "code/__DEFINES/dcs/signals_atoms/signals_atom_movable.dm",
+      "sha256": "70f24e2ce3a24f552fd794037146317b5a7e4a816c69e30a1351c87588b4b237"
+    },
+    {
+      "path": "code/__DEFINES/decrees.dm",
+      "sha256": "dad565807984e07983116f3d3fb1cb9761eb90d3796b8e87cfde678a8f10c211"
+    },
+    {
+      "path": "code/__DEFINES/directional.dm",
+      "sha256": "9d54d453e0f7b3af79bd4607c15cff6688800b67c6e2e42562cf3e58d0b06ad0"
+    },
+    {
+      "path": "code/__DEFINES/dye_keys.dm",
+      "sha256": "8816a0bbc4b6abf95ab5e0845b2352999292e85ad5d9772fcf4ea44fd36af82d"
+    },
+    {
+      "path": "code/__DEFINES/economy.dm",
+      "sha256": "570e0d1876e338049d2b40e19464234ae5d16b9e88757b9351bc9bf82c1db29a"
+    },
+    {
+      "path": "code/__DEFINES/economy/auto_import.dm",
+      "sha256": "ac9655855b90467ec61846c6cbba5a4d31162408fc3b74f0350945f600537f9a"
+    },
+    {
+      "path": "code/__DEFINES/economy/internal_trade_and_quests.dm",
+      "sha256": "945da09658b1c0f01967124349500bec414f1b2c76c54a3a0760aa07ca090a5a"
+    },
+    {
+      "path": "code/__DEFINES/economy/merchant_trade.dm",
+      "sha256": "bf1cca2a4a7e7e983e1abfc9419a1af776d287c0d5db2fbe6fef3ecf9bfe017e"
+    },
+    {
+      "path": "code/__DEFINES/economy/pricing_defines.dm",
+      "sha256": "5c985728e33c1e0a2a4c9e47c00e542a489767c623edae6246f2f05dc705cdb9"
+    },
+    {
+      "path": "code/__DEFINES/economy/questing.dm",
+      "sha256": "02e00af3887c872cca3142cd8c424f16e5b24e97646f6751390cb5800378ce3c"
+    },
+    {
+      "path": "code/__DEFINES/economy/regional_threat.dm",
+      "sha256": "3f1a69c9c96f7bec732ae8cf01f9f5c2ce27a895bc01c1075ca2d1126da8845d"
+    },
+    {
+      "path": "code/__DEFINES/economy/rumor.dm",
+      "sha256": "4f1b3ff3f0aeb32b8d2dd973066895906834685050a0709580b47aa1368e69f0"
+    },
+    {
+      "path": "code/__DEFINES/economy/trade_volumes.dm",
+      "sha256": "894db586d2e232db028cf8d04ed44b9b081c32a164cd1397e96889dd58f6c400"
+    },
+    {
+      "path": "code/__DEFINES/economy/zadcote.dm",
+      "sha256": "4f1f1534ac5de1782e8197edc0f050727b3c6fd503ce741dc45a7e40327945ab"
+    },
+    {
+      "path": "code/__DEFINES/elastic.dm",
+      "sha256": "3d423e7eee2b4aed0d3799ff3798ca8c9e521800ba725bea62650f0c345a2ef7"
+    },
+    {
+      "path": "code/__DEFINES/events.dm",
+      "sha256": "643f75076b4670f6c15965fa2b0d65ed7b7dd671be4107c9e39ca44988cf09ed"
+    },
+    {
+      "path": "code/__DEFINES/exports.dm",
+      "sha256": "fc58a55d3dbe0b4e37be3dc260b35d947e81e7cce4f6d06e361902fae9918e6f"
+    },
+    {
+      "path": "code/__DEFINES/familiars.dm",
+      "sha256": "41de21691d1f9fae0869f79e117686f210856f50e5449b6935b60417aedd5427"
+    },
+    {
+      "path": "code/__DEFINES/fantasy_affixes.dm",
+      "sha256": "ad298634e4787d012f1668724b369fa25b29a5026ff7f929dbb3cbb9fdecad92"
+    },
+    {
+      "path": "code/__DEFINES/fellowship.dm",
+      "sha256": "5a34b8616fbec32d84bdad27a7aa7dcae996a09caca47249b15e03470d9d8683"
+    },
+    {
+      "path": "code/__DEFINES/flags.dm",
+      "sha256": "083992a4fe5d285a2a995e8b450127b0219aa33803d6bbcd78cf67289f515b5d"
     },
     {
       "path": "code/__DEFINES/food.dm",
       "sha256": "f290c3db4088bc5881e1fa73fcac9c7512a7f8ac98c23a7935b21dfa95cf50c2"
     },
     {
+      "path": "code/__DEFINES/footsteps.dm",
+      "sha256": "03d4998296967227882ffa7704c776b4a128a0e08bae8843fa7f6ab7d62593a2"
+    },
+    {
+      "path": "code/__DEFINES/forensics.dm",
+      "sha256": "a1e972f807321ffb50ef2216997660a36a28a54bb16c5e1b031f607ca45274de"
+    },
+    {
+      "path": "code/__DEFINES/gnoll.dm",
+      "sha256": "260effdd56fc1d9413e49969dbc1743dffab439e06a8706ca85cf797d5f93bdb"
+    },
+    {
+      "path": "code/__DEFINES/hud.dm",
+      "sha256": "af840122f77da45a5dd1a95b97e927a997ccb79e07face812799cd6e25449f9a"
+    },
+    {
+      "path": "code/__DEFINES/important_recursive_contents.dm",
+      "sha256": "20783cbf7651f9a89222deec0d71d4f0e6637253fdac09bad0accfcc98b13af4"
+    },
+    {
+      "path": "code/__DEFINES/industrial_lifts.dm",
+      "sha256": "217d907ae76c835cce2d00abaeacefdc4babb4e68d34e263f40d115f1a985d97"
+    },
+    {
+      "path": "code/__DEFINES/interaction_flags.dm",
+      "sha256": "299af155bf440a478d94bdbfa1eaa74a020d20d939547c56dfb4bfd6db56abbc"
+    },
+    {
+      "path": "code/__DEFINES/inventory.dm",
+      "sha256": "a785815146a9383c10d971565d2eb9e883e4729b6b58a4ee2dcbbc0319bee9e9"
+    },
+    {
+      "path": "code/__DEFINES/is_helpers.dm",
+      "sha256": "45973a214d517d43a34ca6f005e20f69ade1ca2fe3a813195d840b94e36af985"
+    },
+    {
+      "path": "code/__DEFINES/item_categories.dm",
+      "sha256": "8f5ed929dac667686659207898dac534b08bb4f243253f1c4ab89e6b53970be5"
+    },
+    {
+      "path": "code/__DEFINES/item_quality.dm",
+      "sha256": "9b62d0aa1c4939f072ae911067b8b015d81f0157de3db76825ebd4d7a3a283f4"
+    },
+    {
+      "path": "code/__DEFINES/jobs.dm",
+      "sha256": "13411c819b23f85e29f9b08124e992c0ddd7a561250b2709d8d0ffd50c19c9b0"
+    },
+    {
+      "path": "code/__DEFINES/keybindings.dm",
+      "sha256": "28206b50977c4415cef49aebf6e987fbf02238c73215a5af28906b7640cdeaad"
+    },
+    {
+      "path": "code/__DEFINES/language.dm",
+      "sha256": "5ccd1e4ecd15eeb198ed67b3d93ae525e6d5986a3f7ca0c7bbdfe505e371018e"
+    },
+    {
+      "path": "code/__DEFINES/layers.dm",
+      "sha256": "7a03257d79ae0b562f7b7229b320ff9ee0f9cbd37e1e7cc75d11bec00a9da053"
+    },
+    {
+      "path": "code/__DEFINES/lewd.dm",
+      "sha256": "d766ce98ba9d2f41dfce48f1cfdd0b420f0935e2886428ebdecab08a294c4ae5"
+    },
+    {
+      "path": "code/__DEFINES/lighting.dm",
+      "sha256": "2bf7b0bdd94c37e5384882ffbb1d4d846d6aa5e58e344d1fcf115ddf75880e18"
+    },
+    {
+      "path": "code/__DEFINES/logging.dm",
+      "sha256": "b5d64edd0201464617c8164cec3dee303d47b83df47535a2bce65df9fce00bf7"
+    },
+    {
+      "path": "code/__DEFINES/machines.dm",
+      "sha256": "7a2d2deaf12004cf82d340f28e349a0a9978cd2f4d0144e9d5f288571161bd88"
+    },
+    {
+      "path": "code/__DEFINES/magic.dm",
+      "sha256": "2ca922877bb5d0103f29322e303d3c3330aaa3ac7aaf915057ff66f48f185dee"
+    },
+    {
+      "path": "code/__DEFINES/maps.dm",
+      "sha256": "610fc3972fd6db6c122aaec590c5f1127b560d355930ac23ec6a4edb87f5c55f"
+    },
+    {
+      "path": "code/__DEFINES/materials.dm",
+      "sha256": "bf3b1c199e33a8de34fd35932a5b5a6e3f28c1a586495938d1f317e32753f170"
+    },
+    {
+      "path": "code/__DEFINES/maths.dm",
+      "sha256": "8979347b0d1c3b6840bda2e746d857911fdd125c44756043eb3f5dac645a21ca"
+    },
+    {
+      "path": "code/__DEFINES/mecha.dm",
+      "sha256": "69cda7867e8b37859b31692f66e34741e4b9bef21cf86ced2265d3e198fe0300"
+    },
+    {
+      "path": "code/__DEFINES/medical.dm",
+      "sha256": "ff7a744c70528eb2d777e5fab160db58eef69ef4f018176149927d000a4c25e1"
+    },
+    {
+      "path": "code/__DEFINES/melee.dm",
+      "sha256": "e9bdbf2663c5d8cde5169f2aea2d6d004182961e634838cdb6eed2d023d16fd8"
+    },
+    {
+      "path": "code/__DEFINES/menu.dm",
+      "sha256": "b68665574f09756ff5596bdfc7c901250e653b9e907b7e49de9a8b941e3293b5"
+    },
+    {
+      "path": "code/__DEFINES/migrants.dm",
+      "sha256": "cd37be14c6e7bf5c3deef77468bfbb303748f2cbb041806ed2066178851aaaae"
+    },
+    {
+      "path": "code/__DEFINES/misc.dm",
+      "sha256": "aee4722bd8a69538110b9e6c7e4b86e0af9e13bf752d08a95b155eac59223c04"
+    },
+    {
+      "path": "code/__DEFINES/mob_timers.dm",
+      "sha256": "a65629852163a9c3d644b9d863e1f3e5e8a82176212246d2fca259630f6f59ed"
+    },
+    {
+      "path": "code/__DEFINES/mobs.dm",
+      "sha256": "1836a1402b22e86f249c190e3b792f0f0d743bac7bdd4389f498c38824022310"
+    },
+    {
+      "path": "code/__DEFINES/mobs/simplemob_attack_speed.dm",
+      "sha256": "124e365113e98ee53fa278f7e884f4af3e214c53828252af534e2106997fc67e"
+    },
+    {
+      "path": "code/__DEFINES/mobs/simplemob_health.dm",
+      "sha256": "49ac23d1e73f5a10fe458a368b24bc2a14f61a2d025400f24d6750fc8ff8f896"
+    },
+    {
+      "path": "code/__DEFINES/mobs/simplemob_movement_speed.dm",
+      "sha256": "8265ca9de441f12f2a1b73d6e9cb2f44d1e215871d0a2bbbd81b9bf4cfd62cf3"
+    },
+    {
+      "path": "code/__DEFINES/move_force.dm",
+      "sha256": "6d86333ae06b4db529c64994db35a922619b96b7c3ccecb85a0896a2fa9ef1cb"
+    },
+    {
+      "path": "code/__DEFINES/movement.dm",
+      "sha256": "903d743aa438d2153c6719bf2c3e4a69de0b7a706e60054fb6e234380cdbcba4"
+    },
+    {
+      "path": "code/__DEFINES/movement_info.dm",
+      "sha256": "92e7213eaae3373ecd47534121805ee3cc0e6a9866ce13cc3d25a4b925948d59"
+    },
+    {
+      "path": "code/__DEFINES/movespeed_modification.dm",
+      "sha256": "a8972bdc99e662b2d8b6a90f816e39e8984243ffff50dbe775ff4fc0ca3bef85"
+    },
+    {
+      "path": "code/__DEFINES/multiz.dm",
+      "sha256": "51069c419dba3fe71895e2f67f394c89b9d4801b23b07a4dc2a13b3d6b375241"
+    },
+    {
+      "path": "code/__DEFINES/musicsystem.dm",
+      "sha256": "a6e9cdd332cb9105616bfc430ece501193d3cf52cb84e8aee9b58c0cf153159a"
+    },
+    {
+      "path": "code/__DEFINES/nanites.dm",
+      "sha256": "72473e57aada865f41f3c96f234763f7632500caa8ce590a1a48cdc142e064c1"
+    },
+    {
+      "path": "code/__DEFINES/networks.dm",
+      "sha256": "569c0968e1803e101c00c5ff0cba8e32c2a22bf288917d9c35d3873113c1aea0"
+    },
+    {
+      "path": "code/__DEFINES/noticeboard.dm",
+      "sha256": "c80303b95a5130826760b297c00c59911d1ab500f25bf2114e9bac94e20f8e0c"
+    },
+    {
       "path": "code/__DEFINES/nutrition.dm",
       "sha256": "bab8ebdf44ae7c6830dfc6d6cca0bb062d3b3931f78740a2b2118df9056db461"
+    },
+    {
+      "path": "code/__DEFINES/obj_flags.dm",
+      "sha256": "5c30857df09a4dba7de058f67fa81bd206d2463978a26e61e94808b20727453f"
+    },
+    {
+      "path": "code/__DEFINES/offer.dm",
+      "sha256": "c9d2dcef4a139efa910293628ea5e3b35487ac91b5f299f8c9d7d1f7608bc4d2"
+    },
+    {
+      "path": "code/__DEFINES/omens.dm",
+      "sha256": "e5f8d6952b052392aae0555bf949070672dbac6a891628bf4b62107913b96cd2"
+    },
+    {
+      "path": "code/__DEFINES/particle_weather.dm",
+      "sha256": "d13345100f37821ce62655d80c0f301f1f50d0184beda130c54a6a877a44b22c"
+    },
+    {
+      "path": "code/__DEFINES/particles.dm",
+      "sha256": "89cdabf5ae7bd4c51926aa21eb1c8f7cbb5f30222067b1d329d2d792727d157c"
+    },
+    {
+      "path": "code/__DEFINES/playerquality.dm",
+      "sha256": "a2b81eb74b5304dbc705be439d4eb0fe452b2dc48ffee110be25f4fec53d14d8"
+    },
+    {
+      "path": "code/__DEFINES/plumbing.dm",
+      "sha256": "4bb401d90ea2a146e329235582d982934d82a239643ce15b839624fb0ba5fcf0"
+    },
+    {
+      "path": "code/__DEFINES/pollution.dm",
+      "sha256": "f2f09b70360ad8d89cd1832d7673b2c974b8131775fa43694d42c11805f025af"
+    },
+    {
+      "path": "code/__DEFINES/power.dm",
+      "sha256": "2a894e2b6e86327cc33301fa9db7c78797c1b5a856c4c4aa188435ae4a49cfec"
+    },
+    {
+      "path": "code/__DEFINES/preferences.dm",
+      "sha256": "3089f48bfbac957a9756b2d4990cd185964bc03b0c2cddb8666a3f8a81244f01"
+    },
+    {
+      "path": "code/__DEFINES/procpath.dm",
+      "sha256": "ded63e9b0e3e7c9e29be4415794213eb1a7a75538bcc2904c22bf375c7017ab5"
+    },
+    {
+      "path": "code/__DEFINES/profile.dm",
+      "sha256": "07a6225aa7556cdbb98595cf292c01393ca4b18faa8b7dbb262f69d69ce0807b"
+    },
+    {
+      "path": "code/__DEFINES/qdel.dm",
+      "sha256": "d62d3ddc5bdd2954703abda84f3c26a4a82862cf558b8b2955031ff5b0fa9208"
+    },
+    {
+      "path": "code/__DEFINES/quest_factions.dm",
+      "sha256": "dd0ea8890f9f84a8667995adb8a379239e600741edaa4b687f091b6bf82ea4c4"
+    },
+    {
+      "path": "code/__DEFINES/radiation.dm",
+      "sha256": "303e545d034083073e88d41a3d08b559b30c6c11c655d8aaada0ffc84b186739"
+    },
+    {
+      "path": "code/__DEFINES/radio.dm",
+      "sha256": "6cb7fe25c677893db1d6380e51bfaea2017e4c6c769d972e2cf34db13faffa1a"
+    },
+    {
+      "path": "code/__DEFINES/reactions.dm",
+      "sha256": "7dce38d31cab81431774143559708e36f51a0241ee1cc35d696cbfb824b39cc9"
+    },
+    {
+      "path": "code/__DEFINES/reagents.dm",
+      "sha256": "f2d8acb5ed3c28b99917d235ccf35165f5554f47e81541d92114273e05a1e955"
+    },
+    {
+      "path": "code/__DEFINES/reagents_specific_heat.dm",
+      "sha256": "8718427b4d5ecddb6a222bcbc1e3ebd74a0c85ccc05a38ea42a963eb286838f0"
+    },
+    {
+      "path": "code/__DEFINES/research.dm",
+      "sha256": "126f79c8c374f6865fc281bc579744f1177c0bf7cfef147897a4cc4ccf9b4c99"
+    },
+    {
+      "path": "code/__DEFINES/robots.dm",
+      "sha256": "4ebb9aaef9151b2a926759232281bb6e10a4951a97f8733cf9e18ba8abd158b4"
+    },
+    {
+      "path": "code/__DEFINES/roguetown.dm",
+      "sha256": "5a69139882a1dde1ebb7110eeef84892f76a9d549bb4d153a8e4507a52abdefc"
+    },
+    {
+      "path": "code/__DEFINES/roguetown/area_detail_text.dm",
+      "sha256": "7c53aea218f1e23f93777a0b91952e2b7c392de9193868246da50a64502a4805"
+    },
+    {
+      "path": "code/__DEFINES/roguetown/armor_defines.dm",
+      "sha256": "86ac7eee60df955c98d4e48eb374045e0a14f1fa2c623a9a4bdc9990ba565563"
+    },
+    {
+      "path": "code/__DEFINES/roguetown/chastity.dm",
+      "sha256": "06a32384a4a8f49f0fdf366759a8fb91bd62c9221a45da202f7d22ae084bc3b5"
+    },
+    {
+      "path": "code/__DEFINES/roguetown/combat.dm",
+      "sha256": "c039d4067399fd557220e6d98cd5765e5cb389ed7035a4ae4726a7e80fed6a12"
+    },
+    {
+      "path": "code/__DEFINES/roguetown/rebel.dm",
+      "sha256": "fc24627c2bfe1c4b8254d82a64ac1973cadb59e67d0c310a997a40b45ba45f7c"
+    },
+    {
+      "path": "code/__DEFINES/roguetown/scomm.dm",
+      "sha256": "cfbae27cdabbc68fda6e0f19b29f94d5c6adab4bcd3734c1259ba5c0032b4ec2"
+    },
+    {
+      "path": "code/__DEFINES/roguetown/werewolf.dm",
+      "sha256": "3fc3de4c753572c26fa9ecf1c49df2af9e7e051362532a81c0258c8138e096c8"
+    },
+    {
+      "path": "code/__DEFINES/role_preferences.dm",
+      "sha256": "33abc8778412613eead0b9e36ffa59b905fc7f829c82668ec34ac9b3247aa3f7"
+    },
+    {
+      "path": "code/__DEFINES/rotation.dm",
+      "sha256": "1ed162ca78a5ab0a57b400861efea1c1c2454e97e8955c48ef4b7688cca92b6f"
+    },
+    {
+      "path": "code/__DEFINES/rotational_defines.dm",
+      "sha256": "36b78c7b72196f0bb1d83130b3bfd98fed63eb1a56fdd2bc5c6d0070173ad428"
+    },
+    {
+      "path": "code/__DEFINES/rust_g.dm",
+      "sha256": "b61b96e40f7ff38dc64e32306dedc98ee2221eaec7ce6bda2b172cd1a00e647c"
+    },
+    {
+      "path": "code/__DEFINES/say.dm",
+      "sha256": "0385f874b13dd703750adcfb35286d81bbd3a89f21e9ecaae073f656b2e7cc45"
+    },
+    {
+      "path": "code/__DEFINES/sexcon_defines.dm",
+      "sha256": "681e1fa655f1e70afe792a7a0aca57632ebcecba4b46e33621bd075046937daf"
+    },
+    {
+      "path": "code/__DEFINES/sight.dm",
+      "sha256": "569fdcda4db4dcb5040a8adc9d879f24a035a2725309f18a2c2590eeb0313eb9"
     },
     {
       "path": "code/__DEFINES/skills.dm",
       "sha256": "4db5a07817b092a1b83343a30f4bcebb9945c1cdc4d3b59821a8d80cc3df772e"
     },
     {
+      "path": "code/__DEFINES/sleep_adv.dm",
+      "sha256": "48509ade8691c9f5370cf641dd892d901ac3a94f6dd1c407645de5ee23503d79"
+    },
+    {
+      "path": "code/__DEFINES/sound.dm",
+      "sha256": "bec02fdb923e9185131bdbf9810488eff1a1a030eff6148443a60e825f274a14"
+    },
+    {
+      "path": "code/__DEFINES/spaceman_dmm.dm",
+      "sha256": "df97d036ee7fba259764da33bcc26a25f29d79a071349d2f89a1db34df117e8b"
+    },
+    {
+      "path": "code/__DEFINES/spans.dm",
+      "sha256": "f6b332283082ced2c80b3a6efc527fda0791e77bed1ac54a19fff281dacd3885"
+    },
+    {
+      "path": "code/__DEFINES/spatial_gridmap.dm",
+      "sha256": "085925f6f656b85df42bd461b1f7056c08d0904a03e38273013613e180996438"
+    },
+    {
+      "path": "code/__DEFINES/spell_defines.dm",
+      "sha256": "ee0e08f1cf153d748548879bb2715d575f8d9e192cf01fe40c64f5145b2d81c4"
+    },
+    {
+      "path": "code/__DEFINES/spirits.dm",
+      "sha256": "77e54fe6d6bd6990e60a9e1ff2554bfc3152376856f6ee2606ca08ae48adacfe"
+    },
+    {
+      "path": "code/__DEFINES/stat.dm",
+      "sha256": "1526a5f4f37d1e1d4ee56a30b3ff12a2efc7b1f42b2224765d57135ad8b7cccd"
+    },
+    {
+      "path": "code/__DEFINES/stat_tracking.dm",
+      "sha256": "73dc99f8f8adb059247ea0d708aab2f6854f59a58314729179bf0025e7310403"
+    },
+    {
+      "path": "code/__DEFINES/status_effects.dm",
+      "sha256": "9afb403a9881319554a2fd8efd2bdda9eadf2cfd7a9a6d88f79d214e0f85f8d0"
+    },
+    {
+      "path": "code/__DEFINES/storytellers.dm",
+      "sha256": "e15a1e058076ec41664de36ccd55526a2caa1d3fb4142f7ae2f77c62e628d901"
+    },
+    {
+      "path": "code/__DEFINES/subsystems.dm",
+      "sha256": "738d0d5281ca6927ee6606642c7c4e476b6409087431913c56a4c116194736b5"
+    },
+    {
+      "path": "code/__DEFINES/text.dm",
+      "sha256": "d6dee020c35b95b4449815dbf65605202c70224cf95a4f419dd1b10663b4ca9d"
+    },
+    {
+      "path": "code/__DEFINES/tgs.config.dm",
+      "sha256": "daaf1bfae0b11c8c476bb0798409eeaea016d888febf8ddb6ca61e311f107bad"
+    },
+    {
+      "path": "code/__DEFINES/tgs.dm",
+      "sha256": "d216e2133e8f1455bc8075eebee2b983f55ebbf4cbd7e194e307365c1c320ef0"
+    },
+    {
+      "path": "code/__DEFINES/tgui.dm",
+      "sha256": "aa06b43ab18eb825ff26f376f9bc73114d3082b00200d2411c05f9bb8094fb55"
+    },
+    {
+      "path": "code/__DEFINES/tgui_bits.dm",
+      "sha256": "5453ba150c7fe8737061c22d68de7265a2c53aecc4b8823009c1677be0a27742"
+    },
+    {
+      "path": "code/__DEFINES/time.dm",
+      "sha256": "20fe22139cfe0106f3524152de855673fb8cd1d7e05a9fb20ea12c3bb6688cc6"
+    },
+    {
+      "path": "code/__DEFINES/tools.dm",
+      "sha256": "eca468148ccab220b592fe5aa83ae2de7079b7b79fa52e706e4cf2c3a53e7446"
+    },
+    {
+      "path": "code/__DEFINES/trade_goods.dm",
+      "sha256": "0480cc87aa149d200527a200a4ff84aa4b091f256b368c1b1d2cb2a8764d18c4"
+    },
+    {
+      "path": "code/__DEFINES/trait_sources.dm",
+      "sha256": "9cf4267ca40de2a6ee2285b5d4c114aa91ade72ccc5849de92717b23411cbd75"
+    },
+    {
       "path": "code/__DEFINES/traits.dm",
       "sha256": "036b5379791774a8fca4199cd59d76b97bc3e5e7c5a511031c23d4aa9502d093"
+    },
+    {
+      "path": "code/__DEFINES/treasury.dm",
+      "sha256": "a62fd8c1946699053a3813f25bbd445606ef923e6141e89e24db0baf5730af54"
+    },
+    {
+      "path": "code/__DEFINES/turf_flags.dm",
+      "sha256": "87a6ec682683538bd5a916607b0452b65853c08d16032d3eed0c311e6973c8c8"
+    },
+    {
+      "path": "code/__DEFINES/typeids.dm",
+      "sha256": "2c32e4ad54d908867e88f0276aaaed8a993a56454e6bf6195c9e3e7c2dcb2f53"
+    },
+    {
+      "path": "code/__DEFINES/unit_tests.dm",
+      "sha256": "daacdf66bb35e99d98d04504bf0156e44896bd53a98d859cbf2f9e2d9cdc6083"
+    },
+    {
+      "path": "code/__DEFINES/vampires.dm",
+      "sha256": "53e377869954b48f5285e6a9580597818b3efa8a81d2b1ac106e9b47eaed1a9b"
+    },
+    {
+      "path": "code/__DEFINES/vehicles.dm",
+      "sha256": "700a36b7377891d235dea6b23a596e0d21c38e0ac04a34529107baf4f0d414eb"
+    },
+    {
+      "path": "code/__DEFINES/vv.dm",
+      "sha256": "79d3509b3a62432345704220af5e44c1ef685dbc705856a19ad5fc1c88c359df"
+    },
+    {
+      "path": "code/__DEFINES/wall_dents.dm",
+      "sha256": "e65d7ee05043b6489d5ec6e26c3f80ee61b9bc1fb0514951aebc3fe751ed2027"
+    },
+    {
+      "path": "code/__DEFINES/weaponsounds.dm",
+      "sha256": "c126e5b540ea6ffe3fd1b04aa24f1fa4428804d9f03bfd0f878867c81201df35"
+    },
+    {
+      "path": "code/__DEFINES/weather.dm",
+      "sha256": "c85db00b8bd86904379b8e5b9c0b00950bcdf2be8ab143869f558f9926c9c5bf"
+    },
+    {
+      "path": "code/__DEFINES/wires.dm",
+      "sha256": "9f05653fbfa53714a82a25ebbb69a0d390aad7980c5521f945b3dbe29a6dee5a"
     },
     {
       "path": "code/__HELPERS/text.dm",
@@ -50,6 +870,10 @@
     {
       "path": "code/controllers/subsystem/rogue/heart_tech_subsystem.dm",
       "sha256": "96fc45ab2f9a32004c6361dacd0d50fd6d96b5b84f8b9ad424492fed1e5cfa9f"
+    },
+    {
+      "path": "code/datums/armor.dm",
+      "sha256": "e3225061df0b842e78cd0bdaab836fda65f950a36adf38bce40eb142e55fec6b"
     },
     {
       "path": "code/datums/brewing_recipes/_brewing_recipe_base.dm",
@@ -134,6 +958,18 @@
     {
       "path": "code/datums/components/crafting/recipes.dm",
       "sha256": "ddb18b93c2800aa6da4e1e552d0814250112c3f0fbf4cdaa6e0758d294671c35"
+    },
+    {
+      "path": "code/datums/components/storage/concrete/_concrete.dm",
+      "sha256": "90690d19962a52d4c8360d05b4676a9fe5b9b0be1119ecb0a686e43031cb0da5"
+    },
+    {
+      "path": "code/datums/components/storage/storage.dm",
+      "sha256": "1260471392486dbe417f16b2a9585d98b735aeeb2935da419b5d044e08081f3e"
+    },
+    {
+      "path": "code/datums/components/storage/storage_types.dm",
+      "sha256": "0535c942f129337b82a0226733a309385b1d749085a33a3eccbd18e49f4d2109"
     },
     {
       "path": "code/datums/skill_holder.dm",
@@ -7529,24 +8365,215 @@
   "changes": {
     "previousRevision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
     "added": [
-      "code/__DEFINES/charflaws.dm",
-      "code/datums/character_flaw/_character_flaw.dm",
-      "code/datums/character_flaw/addiction.dm",
-      "code/datums/character_flaw/lawless.dm",
-      "code/datums/character_flaw/limbloss.dm",
-      "code/datums/status_effects/buffs.dm",
-      "code/datums/status_effects/debuffs.dm",
-      "code/datums/status_effects/debuffs/recent_weapon.dm",
-      "code/datums/status_effects/debuffs/silenced.dm",
-      "code/datums/status_effects/firestacker.dm",
-      "code/datums/status_effects/gas.dm",
-      "code/datums/status_effects/neutral.dm",
-      "code/datums/status_effects/rogue/alerts.dm",
-      "code/datums/status_effects/rogue/debuff.dm",
-      "code/datums/status_effects/rogue/residual_focus.dm",
-      "code/datums/status_effects/rogue/roguebuff.dm",
-      "code/datums/status_effects/rogue/roguestatus.dm",
-      "code/datums/status_effects/status_effect.dm"
+      "code/__DEFINES/DNA.dm",
+      "code/__DEFINES/MC.dm",
+      "code/__DEFINES/README.md",
+      "code/__DEFINES/_bitfields.dm",
+      "code/__DEFINES/_globals.dm",
+      "code/__DEFINES/_helpers.dm",
+      "code/__DEFINES/_protect.dm",
+      "code/__DEFINES/_tick.dm",
+      "code/__DEFINES/access.dm",
+      "code/__DEFINES/achievements.dm",
+      "code/__DEFINES/actions.dm",
+      "code/__DEFINES/admin.dm",
+      "code/__DEFINES/ai/_ai.dm",
+      "code/__DEFINES/ai/hostile.dm",
+      "code/__DEFINES/alerts.dm",
+      "code/__DEFINES/antagonists.dm",
+      "code/__DEFINES/assets.dm",
+      "code/__DEFINES/atmospherics.dm",
+      "code/__DEFINES/atom_hud.dm",
+      "code/__DEFINES/banking.dm",
+      "code/__DEFINES/barks.dm",
+      "code/__DEFINES/calendar.dm",
+      "code/__DEFINES/callbacks.dm",
+      "code/__DEFINES/cargo.dm",
+      "code/__DEFINES/chat.dm",
+      "code/__DEFINES/chess.dm",
+      "code/__DEFINES/cinematics.dm",
+      "code/__DEFINES/city_assembly.dm",
+      "code/__DEFINES/cleaning.dm",
+      "code/__DEFINES/click.dm",
+      "code/__DEFINES/colors.dm",
+      "code/__DEFINES/combat.dm",
+      "code/__DEFINES/components.dm",
+      "code/__DEFINES/configuration.dm",
+      "code/__DEFINES/construction.dm",
+      "code/__DEFINES/contracts.dm",
+      "code/__DEFINES/cooking.dm",
+      "code/__DEFINES/cooldowns.dm",
+      "code/__DEFINES/coven.dm",
+      "code/__DEFINES/cult.dm",
+      "code/__DEFINES/customization/body_markings.dm",
+      "code/__DEFINES/customization/hair_gradients.dm",
+      "code/__DEFINES/customization/mob_descriptors.dm",
+      "code/__DEFINES/customization/organ_customization.dm",
+      "code/__DEFINES/customization/sprite_accessory.dm",
+      "code/__DEFINES/dcs/flags.dm",
+      "code/__DEFINES/dcs/helpers.dm",
+      "code/__DEFINES/dcs/signals/signals_action.dm",
+      "code/__DEFINES/dcs/signals/signals_ai.dm",
+      "code/__DEFINES/dcs/signals/signals_atom/signals_atom_mouse.dm",
+      "code/__DEFINES/dcs/signals/signals_atom/signals_atom_movement.dm",
+      "code/__DEFINES/dcs/signals/signals_beam.dm",
+      "code/__DEFINES/dcs/signals/signals_coven_powers.dm",
+      "code/__DEFINES/dcs/signals/signals_datum.dm",
+      "code/__DEFINES/dcs/signals/signals_global.dm",
+      "code/__DEFINES/dcs/signals/signals_human.dm",
+      "code/__DEFINES/dcs/signals/signals_mob.dm",
+      "code/__DEFINES/dcs/signals/signals_mob/signals_client.dm",
+      "code/__DEFINES/dcs/signals/signals_mob/signals_mind.dm",
+      "code/__DEFINES/dcs/signals/signals_mob/signals_mob.dm",
+      "code/__DEFINES/dcs/signals/signals_mob/signals_mob_living.dm",
+      "code/__DEFINES/dcs/signals/signals_movable.dm",
+      "code/__DEFINES/dcs/signals/signals_moveloop.dm",
+      "code/__DEFINES/dcs/signals/signals_objectives.dm",
+      "code/__DEFINES/dcs/signals/signals_spatial_grid.dm",
+      "code/__DEFINES/dcs/signals/signals_spell.dm",
+      "code/__DEFINES/dcs/signals/signals_tgui.dm",
+      "code/__DEFINES/dcs/signals/signals_tram.dm",
+      "code/__DEFINES/dcs/signals/signals_turf.dm",
+      "code/__DEFINES/dcs/signals_atoms/appearance.dm",
+      "code/__DEFINES/dcs/signals_atoms/lighting.dm",
+      "code/__DEFINES/dcs/signals_atoms/movable_lighting.dm",
+      "code/__DEFINES/dcs/signals_atoms/signals_atom.dm",
+      "code/__DEFINES/dcs/signals_atoms/signals_atom_movable.dm",
+      "code/__DEFINES/decrees.dm",
+      "code/__DEFINES/directional.dm",
+      "code/__DEFINES/dye_keys.dm",
+      "code/__DEFINES/economy.dm",
+      "code/__DEFINES/economy/auto_import.dm",
+      "code/__DEFINES/economy/internal_trade_and_quests.dm",
+      "code/__DEFINES/economy/merchant_trade.dm",
+      "code/__DEFINES/economy/pricing_defines.dm",
+      "code/__DEFINES/economy/questing.dm",
+      "code/__DEFINES/economy/regional_threat.dm",
+      "code/__DEFINES/economy/rumor.dm",
+      "code/__DEFINES/economy/trade_volumes.dm",
+      "code/__DEFINES/economy/zadcote.dm",
+      "code/__DEFINES/elastic.dm",
+      "code/__DEFINES/events.dm",
+      "code/__DEFINES/exports.dm",
+      "code/__DEFINES/familiars.dm",
+      "code/__DEFINES/fantasy_affixes.dm",
+      "code/__DEFINES/fellowship.dm",
+      "code/__DEFINES/flags.dm",
+      "code/__DEFINES/footsteps.dm",
+      "code/__DEFINES/forensics.dm",
+      "code/__DEFINES/gnoll.dm",
+      "code/__DEFINES/hud.dm",
+      "code/__DEFINES/important_recursive_contents.dm",
+      "code/__DEFINES/industrial_lifts.dm",
+      "code/__DEFINES/interaction_flags.dm",
+      "code/__DEFINES/inventory.dm",
+      "code/__DEFINES/is_helpers.dm",
+      "code/__DEFINES/item_categories.dm",
+      "code/__DEFINES/item_quality.dm",
+      "code/__DEFINES/jobs.dm",
+      "code/__DEFINES/keybindings.dm",
+      "code/__DEFINES/language.dm",
+      "code/__DEFINES/layers.dm",
+      "code/__DEFINES/lewd.dm",
+      "code/__DEFINES/lighting.dm",
+      "code/__DEFINES/logging.dm",
+      "code/__DEFINES/machines.dm",
+      "code/__DEFINES/magic.dm",
+      "code/__DEFINES/maps.dm",
+      "code/__DEFINES/materials.dm",
+      "code/__DEFINES/maths.dm",
+      "code/__DEFINES/mecha.dm",
+      "code/__DEFINES/medical.dm",
+      "code/__DEFINES/melee.dm",
+      "code/__DEFINES/menu.dm",
+      "code/__DEFINES/migrants.dm",
+      "code/__DEFINES/misc.dm",
+      "code/__DEFINES/mob_timers.dm",
+      "code/__DEFINES/mobs.dm",
+      "code/__DEFINES/mobs/simplemob_attack_speed.dm",
+      "code/__DEFINES/mobs/simplemob_health.dm",
+      "code/__DEFINES/mobs/simplemob_movement_speed.dm",
+      "code/__DEFINES/move_force.dm",
+      "code/__DEFINES/movement.dm",
+      "code/__DEFINES/movement_info.dm",
+      "code/__DEFINES/movespeed_modification.dm",
+      "code/__DEFINES/multiz.dm",
+      "code/__DEFINES/musicsystem.dm",
+      "code/__DEFINES/nanites.dm",
+      "code/__DEFINES/networks.dm",
+      "code/__DEFINES/noticeboard.dm",
+      "code/__DEFINES/obj_flags.dm",
+      "code/__DEFINES/offer.dm",
+      "code/__DEFINES/omens.dm",
+      "code/__DEFINES/particle_weather.dm",
+      "code/__DEFINES/particles.dm",
+      "code/__DEFINES/playerquality.dm",
+      "code/__DEFINES/plumbing.dm",
+      "code/__DEFINES/pollution.dm",
+      "code/__DEFINES/power.dm",
+      "code/__DEFINES/preferences.dm",
+      "code/__DEFINES/procpath.dm",
+      "code/__DEFINES/profile.dm",
+      "code/__DEFINES/qdel.dm",
+      "code/__DEFINES/quest_factions.dm",
+      "code/__DEFINES/radiation.dm",
+      "code/__DEFINES/radio.dm",
+      "code/__DEFINES/reactions.dm",
+      "code/__DEFINES/reagents.dm",
+      "code/__DEFINES/reagents_specific_heat.dm",
+      "code/__DEFINES/research.dm",
+      "code/__DEFINES/robots.dm",
+      "code/__DEFINES/roguetown.dm",
+      "code/__DEFINES/roguetown/area_detail_text.dm",
+      "code/__DEFINES/roguetown/armor_defines.dm",
+      "code/__DEFINES/roguetown/chastity.dm",
+      "code/__DEFINES/roguetown/combat.dm",
+      "code/__DEFINES/roguetown/rebel.dm",
+      "code/__DEFINES/roguetown/scomm.dm",
+      "code/__DEFINES/roguetown/werewolf.dm",
+      "code/__DEFINES/role_preferences.dm",
+      "code/__DEFINES/rotation.dm",
+      "code/__DEFINES/rotational_defines.dm",
+      "code/__DEFINES/rust_g.dm",
+      "code/__DEFINES/say.dm",
+      "code/__DEFINES/sexcon_defines.dm",
+      "code/__DEFINES/sight.dm",
+      "code/__DEFINES/sleep_adv.dm",
+      "code/__DEFINES/sound.dm",
+      "code/__DEFINES/spaceman_dmm.dm",
+      "code/__DEFINES/spans.dm",
+      "code/__DEFINES/spatial_gridmap.dm",
+      "code/__DEFINES/spell_defines.dm",
+      "code/__DEFINES/spirits.dm",
+      "code/__DEFINES/stat.dm",
+      "code/__DEFINES/stat_tracking.dm",
+      "code/__DEFINES/status_effects.dm",
+      "code/__DEFINES/storytellers.dm",
+      "code/__DEFINES/subsystems.dm",
+      "code/__DEFINES/text.dm",
+      "code/__DEFINES/tgs.config.dm",
+      "code/__DEFINES/tgs.dm",
+      "code/__DEFINES/tgui.dm",
+      "code/__DEFINES/tgui_bits.dm",
+      "code/__DEFINES/time.dm",
+      "code/__DEFINES/tools.dm",
+      "code/__DEFINES/trade_goods.dm",
+      "code/__DEFINES/trait_sources.dm",
+      "code/__DEFINES/treasury.dm",
+      "code/__DEFINES/turf_flags.dm",
+      "code/__DEFINES/typeids.dm",
+      "code/__DEFINES/unit_tests.dm",
+      "code/__DEFINES/vampires.dm",
+      "code/__DEFINES/vehicles.dm",
+      "code/__DEFINES/vv.dm",
+      "code/__DEFINES/wall_dents.dm",
+      "code/__DEFINES/weaponsounds.dm",
+      "code/__DEFINES/weather.dm",
+      "code/__DEFINES/wires.dm",
+      "code/datums/armor.dm",
+      "code/datums/components/storage/concrete/_concrete.dm",
+      "code/datums/components/storage/storage.dm",
+      "code/datums/components/storage/storage_types.dm"
     ],
     "removed": [],
     "changed": []

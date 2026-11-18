@@ -1,6 +1,6 @@
 {
   "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
-  "reviewed": "2026-11-17",
+  "reviewed": "2026-11-18",
   "counts": {
     "topics": 5126,
     "items": 3146,
@@ -14932,6 +14932,1569 @@
         "candidateIds": [
           "sheet-7-r143"
         ]
+      }
+    ]
+  },
+  "retiredReferences": [],
+  "itemSpecifications": {
+    "spellsWithProperties": 323,
+    "withProperties": 2897,
+    "byCategory": {
+      "Alchemy ingredients": {
+        "total": 42,
+        "withProperties": 42
+      },
+      "Potions": {
+        "total": 31,
+        "withProperties": 17
+      },
+      "Tools & stations": {
+        "total": 22,
+        "withProperties": 8
+      },
+      "Alchemy products": {
+        "total": 24,
+        "withProperties": 5
+      },
+      "Prepared ingredients": {
+        "total": 174,
+        "withProperties": 174
+      },
+      "Dishes": {
+        "total": 169,
+        "withProperties": 168
+      },
+      "Soups & stews": {
+        "total": 100,
+        "withProperties": 100
+      },
+      "Drinks": {
+        "total": 42,
+        "withProperties": 26
+      },
+      "Clothing & armor": {
+        "total": 903,
+        "withProperties": 865
+      },
+      "Liquids": {
+        "total": 5,
+        "withProperties": 5
+      },
+      "Materials": {
+        "total": 788,
+        "withProperties": 741
+      },
+      "Plants & crops": {
+        "total": 88,
+        "withProperties": 77
+      },
+      "Ingredients": {
+        "total": 126,
+        "withProperties": 124
+      },
+      "Weapons": {
+        "total": 343,
+        "withProperties": 343
+      },
+      "Construction": {
+        "total": 289,
+        "withProperties": 202
+      }
+    },
+    "gaps": [
+      {
+        "id": "sheet-4-r11",
+        "title": "Potion of Mountain Muscles",
+        "category": "Potions",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-4-r12",
+        "title": "Potion of Fleet Foot",
+        "category": "Potions",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-4-r13",
+        "title": "Potion of Stone Flesh",
+        "category": "Potions",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-4-r14",
+        "title": "Potion of Enduring Fortitude",
+        "category": "Potions",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-4-r15",
+        "title": "Potion of Keen Mind",
+        "category": "Potions",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-4-r16",
+        "title": "Potion of Keen Eye",
+        "category": "Potions",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-4-r17",
+        "title": "Potion of Seven Clovers",
+        "category": "Potions",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-4-r18",
+        "title": "Death Poison",
+        "category": "Potions",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-4-r23",
+        "title": "Emberwine",
+        "category": "Potions",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r2",
+        "title": "Alchemy Table",
+        "category": "Tools & stations",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r3",
+        "title": "Alchemy Cauldron",
+        "category": "Tools & stations",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r6",
+        "title": "Glass Bottles",
+        "category": "Tools & stations",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r7",
+        "title": "Alchemy Bottles (vials)",
+        "category": "Tools & stations",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r8",
+        "title": "Stone to Coal",
+        "category": "Alchemy products",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r9",
+        "title": "Coal to Iron",
+        "category": "Alchemy products",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r10",
+        "title": "Iron to Gold",
+        "category": "Alchemy products",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r11",
+        "title": "Gold to Toper",
+        "category": "Alchemy products",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r12",
+        "title": "Toper to Gemerald",
+        "category": "Alchemy products",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r13",
+        "title": "Gemerald to Saphirra",
+        "category": "Alchemy products",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r14",
+        "title": "Saphirra to Blortz",
+        "category": "Alchemy products",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r15",
+        "title": "Blortz to Diamond",
+        "category": "Alchemy products",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r17",
+        "title": "Fibers to Grain",
+        "category": "Alchemy products",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r18",
+        "title": "Grain to Westleach",
+        "category": "Alchemy products",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r19",
+        "title": "Westleach to Swampleaf",
+        "category": "Alchemy products",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r20",
+        "title": "Berry to Apple",
+        "category": "Alchemy products",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r21",
+        "title": "Distill Water",
+        "category": "Alchemy products",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r22",
+        "title": "Water to Wine",
+        "category": "Alchemy products",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r25",
+        "title": "Ozium (X3)",
+        "category": "Alchemy products",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r27",
+        "title": "Moondust (X3)",
+        "category": "Alchemy products",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r28",
+        "title": "QuickSilver",
+        "category": "Alchemy products",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r29",
+        "title": "Sui Dust (Transit Dust)",
+        "category": "Alchemy products",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r30",
+        "title": "Salt Pile",
+        "category": "Alchemy products",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r32",
+        "title": "Rot Cure Potion",
+        "category": "Potions",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r33",
+        "title": "Paralytic Venom",
+        "category": "Potions",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r34",
+        "title": "Revival Potion A",
+        "category": "Potions",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-5-r35",
+        "title": "Revival Potion B",
+        "category": "Potions",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-8-r2",
+        "title": "Cider- Strawberry",
+        "category": "Drinks",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-8-r3",
+        "title": "Cider-Apple",
+        "category": "Drinks",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-8-r4",
+        "title": "Cider-Pear",
+        "category": "Drinks",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-8-r5",
+        "title": "Wine-Raspberry",
+        "category": "Drinks",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-8-r7",
+        "title": "Wine-Tangerine",
+        "category": "Drinks",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-8-r8",
+        "title": "Wine-Blackberry",
+        "category": "Drinks",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-8-r9",
+        "title": "Wine-Umeshu(Plum)",
+        "category": "Drinks",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-8-r13",
+        "title": "Fireleaf",
+        "category": "Drinks",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-8-r15",
+        "title": "Spider Honey Mead",
+        "category": "Drinks",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-8-r16",
+        "title": "Molasses",
+        "category": "Drinks",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-8-r17",
+        "title": "Onion Cognac",
+        "category": "Drinks",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-8-r18",
+        "title": "Voddena",
+        "category": "Drinks",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-8-r19",
+        "title": "Golden Calendula Tea",
+        "category": "Drinks",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-8-r20",
+        "title": "Soothing Valerian Tea",
+        "category": "Drinks",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-8-r33",
+        "title": "Limoncello",
+        "category": "Drinks",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-8-r34",
+        "title": "Gin",
+        "category": "Drinks",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r3",
+        "title": "Cut-Throat Pants",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r6",
+        "title": "Grenzelhoft Paumpers",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r14",
+        "title": "Steel Mail Skirt",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r18",
+        "title": "Grenzelhoft Hip Shirt",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r21",
+        "title": "Worn Dobo Robe",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r23",
+        "title": "Hierophant's Kandeys",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r25",
+        "title": "Pointex's Qaba",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r29",
+        "title": "Decorated Dobo Robe",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r30",
+        "title": "Pontifex Kaftan",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r31",
+        "title": "Leather Corselet",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r32",
+        "title": "Hide Corselet",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r33",
+        "title": "Studded Leather Corselet",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r34",
+        "title": "Chainmail Corselet",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r42",
+        "title": "Megamarch Scale Coat",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r47",
+        "title": "Brayette",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r52",
+        "title": "Carapace Chausses",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r53",
+        "title": "Carapace Skirt",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r57",
+        "title": "(Iron) Kilt",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r59",
+        "title": "Decrepit Chainmail",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r60",
+        "title": "Carapace Armor",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r63",
+        "title": "Carapace Cuirass",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r72",
+        "title": "Half-plate Corselet",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r79",
+        "title": "Ancient Ceremonial Plate",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r84",
+        "title": "Carapace Bracers",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r86",
+        "title": "Hardened Bracers",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r97",
+        "title": "Psydonian Leather Gloves",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r98",
+        "title": "Carapace Gauntlets",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r107",
+        "title": "Carapace Cap",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r113",
+        "title": "Carapace Helmet",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r121",
+        "title": "Savoyard",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r131",
+        "title": "Houndskull Bascinet",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r132",
+        "title": "Etruscan Bascinet",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r134",
+        "title": "Klappenlonger",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r141",
+        "title": "Steel Full Chain Coif",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r149",
+        "title": "Steel Chain Mantle",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r151",
+        "title": "Holy Blacksteel Boots",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r155",
+        "title": "Carapace Boots",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "sheet-9-r157",
+        "title": "Light Plated Boots",
+        "category": "Clothing & armor",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-cauldron",
+        "title": "Cauldron",
+        "category": "Tools & stations",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-dirt-clod",
+        "title": "Dirt Clod",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-saphirra",
+        "title": "Saphirra",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-diamonds",
+        "title": "Diamonds",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-westleach",
+        "title": "Westleach",
+        "category": "Plants & crops",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-stampoison",
+        "title": "Stampoison",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-westleech",
+        "title": "Westleech",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-a-devotee",
+        "title": "a devotee",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-herb-seed",
+        "title": "Herb Seed",
+        "category": "Plants & crops",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-alchemical-bottle",
+        "title": "Alchemical bottle",
+        "category": "Tools & stations",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-fyritius",
+        "title": "Fyritius",
+        "category": "Plants & crops",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-spider-venom",
+        "title": "Spider Venom",
+        "category": "Potions",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-auril",
+        "title": "Auril",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-wheat",
+        "title": "Wheat",
+        "category": "Plants & crops",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-oat",
+        "title": "Oat",
+        "category": "Plants & crops",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-oven",
+        "title": "Oven",
+        "category": "Tools & stations",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-tea-leaf",
+        "title": "Tea Leaf",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-drying-rack",
+        "title": "Drying Rack",
+        "category": "Tools & stations",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-knife",
+        "title": "Knife",
+        "category": "Tools & stations",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-spoon",
+        "title": "Spoon",
+        "category": "Tools & stations",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-hearth",
+        "title": "Hearth",
+        "category": "Tools & stations",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-campfire",
+        "title": "Campfire",
+        "category": "Tools & stations",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-whole-fish",
+        "title": "Whole Fish",
+        "category": "Ingredients",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-raw-pigflesh",
+        "title": "Raw Pigflesh",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-non-crab-shellfish",
+        "title": "Non Crab Shellfish",
+        "category": "Ingredients",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-astrata-cross",
+        "title": "Astrata Cross",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-cross",
+        "title": "Cross",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-truffle",
+        "title": "Truffle",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-ambrosia-slice",
+        "title": "Ambrosia Slice",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-bread-slice",
+        "title": "Bread Slice",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-roasted-carrot",
+        "title": "Roasted Carrot",
+        "category": "Plants & crops",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-roast-carrot",
+        "title": "Roast Carrot",
+        "category": "Plants & crops",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-bird-roast",
+        "title": "Bird Roast",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-roknut",
+        "title": "Roknut",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-grain",
+        "title": "Grain",
+        "category": "Plants & crops",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-barrel",
+        "title": "Barrel",
+        "category": "Tools & stations",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-good-jacksberries",
+        "title": "Good jacksberries",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-oat-grains",
+        "title": "Oat grains",
+        "category": "Plants & crops",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-sliced",
+        "title": "Sliced",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-distillery",
+        "title": "Distillery",
+        "category": "Tools & stations",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-plum-wine",
+        "title": "Plum Wine",
+        "category": "Plants & crops",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-rice-wine",
+        "title": "Rice Wine",
+        "category": "Plants & crops",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-leather",
+        "title": "Leather",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-dobo-robe",
+        "title": "Dobo Robe",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-carapace",
+        "title": "Carapace",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-ancient-alloy-bar",
+        "title": "Ancient Alloy Bar",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-blacksteel-bars",
+        "title": "Blacksteel Bars",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-steel",
+        "title": "Steel",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "item-leather-padded-hood",
+        "title": "Leather Padded Hood",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-67d9b3262203",
+        "title": "Ale",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-644d044c004d",
+        "title": "Butterhairs",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-416e3db1bef3",
+        "title": "Jackberry Wine",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-3f3587cd3665",
+        "title": "Luxintenebre",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-08f82a8ee68c",
+        "title": "Stonebeard Reserve",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-1aabb737b42b",
+        "title": "Magickal Whip Wine",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-14abbb75ccca",
+        "title": "item",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-8abc04f0789d",
+        "title": "cogwheel item",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-70f232e93e69",
+        "title": "gearbox item",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-b9a4eabd1f60",
+        "title": "large cogwheel item",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-2b8d13aec63b",
+        "title": "cart rail item",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-9741ade703b9",
+        "title": "cart rail brake item",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-e1976e9553ee",
+        "title": "engineering shaft",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-2fc050a79bf3",
+        "title": "vertical gearbox item",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-f6b514a54888",
+        "title": "waterwheel item",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-6e5cf267cb41",
+        "title": "surgeon's bag (surgery_bag / full)",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-91a5b9bb948d",
+        "title": "iron anvil",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-f84d6b7d8144",
+        "title": "artificer table",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-cece80bcf727",
+        "title": "Dye Station",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-5c3494809e3f",
+        "title": "campfire (campfire / densefire)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-b5e46d717e5f",
+        "title": "fireplace",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-ea37ddf331f8",
+        "title": "fireplace (crafted / blue)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-df9f973df2e0",
+        "title": "desert fireplace",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-4f0e7d041365",
+        "title": "candles",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-4836e65a2bbb",
+        "title": "candles (candle / blue)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-a8cb0b4d8bbd",
+        "title": "candles (candle / floorcandle)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-0c276221287a",
+        "title": "candles (floorcandle / alt)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-b0756251db49",
+        "title": "candles (alt / pink)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-28f9d247ec3a",
+        "title": "candles (floorcandle / pink)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-8753c531e19f",
+        "title": "standing fire",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-4f755c20d964",
+        "title": "standing fire (standing / blue)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-197cefd5e774",
+        "title": "brazier",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-692437e947e3",
+        "title": "stone forge",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-f47b0f7533a2",
+        "title": "infernal forge",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-f47fc3c63b2e",
+        "title": "wooden spit",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-1f13bc2c1a46",
+        "title": "stone furnace",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-adb402cf3ba6",
+        "title": "bronze melter",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-16bb8bf15037",
+        "title": "great furnace",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-f5f4bfe03481",
+        "title": "iron bloomery",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-fcfd5bc97b80",
+        "title": "sconce",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-654a1cfcd9de",
+        "title": "loom",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-7c99813ad0b5",
+        "title": "brick wall",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-30a613a1f0ff",
+        "title": "brick window",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-85f475e6f6af",
+        "title": "stone wall",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-d3dc17cf698c",
+        "title": "decorated stone wall",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-6311bd3c3eab",
+        "title": "decorated wooden wall",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-36f395320d2a",
+        "title": "sandbrick wall",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-efe980bd72af",
+        "title": "sandstone wall",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-6523648c0988",
+        "title": "stone wall (rogue / stone)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-9bc15ee35d57",
+        "title": "stone window",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-310db218903f",
+        "title": "brick wall (rogue / stonebrick)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-f43572a5a2f2",
+        "title": "lit stone brick wall",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-de50bc6e0ee5",
+        "title": "tent",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-040397a021bf",
+        "title": "tent (tent / leather)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-4227ac3ade6a",
+        "title": "wooden wall",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-ca5fa1899b67",
+        "title": "wooden window",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-07b9c4ec6b63",
+        "title": "dark wood wall",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-7d1c665b3236",
+        "title": "dark wood wall (wooddark / horizontal)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-2d9e509f17d3",
+        "title": "dark wood wall (wooddark / vertical)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-75aa4f887efb",
+        "title": "dark wood window",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-e69a32a37d37",
+        "title": "carpet",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-f3df7d95e548",
+        "title": "carpet (carpet / purple)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-8e80d1649bab",
+        "title": "carpet (carpet / red)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-3a967b38ee70",
+        "title": "carpet (carpet / royalblack)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-176b1c04992d",
+        "title": "carpet (carpet / stellar)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-b193dcef0174",
+        "title": "stone flooring",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-f0682b22dacc",
+        "title": "stone flooring (blocks / bluestone)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-ce35ad409ade",
+        "title": "stone flooring (newstone / alt)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-c8f4f2c1db84",
+        "title": "platform",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-373adde2391b",
+        "title": "large red tiles",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-d4907cf71474",
+        "title": "square red tiles",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-b87c2a75ff96",
+        "title": "floor",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-59419a268f9b",
+        "title": "marble flooring",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-2dd36523e59d",
+        "title": "cobblestone",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-4cab6d7aa2f0",
+        "title": "cobbled rock path",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-7d1e349ae426",
+        "title": "slab flooring",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-695aa06cf79a",
+        "title": "floor (rogue / darkpath)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-eb18812c9a26",
+        "title": "desert grass",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-4f5249801398",
+        "title": "grass",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-cc4c5af20d0f",
+        "title": "tundra grass",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-8ab5f1553dd0",
+        "title": "fungal 'grass'",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-99bcbce73cf5",
+        "title": "red grass",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-bb4c7f75a28e",
+        "title": "yellow grass",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-6fdb07c6407a",
+        "title": "hay",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-27e945a90d4f",
+        "title": "stone herringbone flooring",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-ce3c0e54be29",
+        "title": "floor (rogue / hexstone)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-ce784cad00dc",
+        "title": "wooden floorboards",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-c38fcb6369ab",
+        "title": "floorboards",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-6bd9074f47e9",
+        "title": "wooden herringbone flooring",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-e367b3ba931c",
+        "title": "platform (ruinedwood / platform)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-98638a90dbb3",
+        "title": "wooden floorboards (ruinedwood / spiral)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-050120bf07b6",
+        "title": "floor (rogue / sandbrick)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-106db69ac0aa",
+        "title": "floor (tile / bfloorz)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-08f0cbe36f49",
+        "title": "floor (tile / brick)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-f29b9ac9578a",
+        "title": "floor (tile / harem)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-88ab5fbdd145",
+        "title": "floor (tile / harem1)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-68fd2d700a65",
+        "title": "floor (tile / harem2)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-a14021c193a6",
+        "title": "floor (tile / masonic)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-27e0b3f755c0",
+        "title": "floor (masonic / inverted)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-2e075abd43bc",
+        "title": "floor (masonic / spiral)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-3b69c5d0d167",
+        "title": "twig flooring",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-1f6f84fcf7b1",
+        "title": "twig platform",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-f1b179e994dd",
+        "title": "floor (rogue / wood)",
+        "category": "Construction",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-1d73eaa4e810",
+        "title": "blessed silver bar",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-1eb0771ec6fc",
+        "title": "holy steel bar",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-8fbed6914ba3",
+        "title": "item (item / paper)",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "prep-e6e58886a780",
+        "title": "limb",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "current-8dcab6e9a667d3",
+        "title": "valuable jewelry spawner",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "current-365ee1f26b0045",
+        "title": "dragon head",
+        "category": "Materials",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
+      },
+      {
+        "id": "cookbook-8b8466046483",
+        "title": "raelesini",
+        "category": "Dishes",
+        "reason": "No exact supported static property record; dynamic behavior may need separate research."
       }
     ]
   },

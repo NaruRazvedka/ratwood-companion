@@ -1,23 +1,839 @@
 [
   {
+    "path": "code/__DEFINES/_bitfields.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/_bitfields.dm"
+  },
+  {
+    "path": "code/__DEFINES/_globals.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/_globals.dm"
+  },
+  {
+    "path": "code/__DEFINES/_helpers.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/_helpers.dm"
+  },
+  {
+    "path": "code/__DEFINES/_protect.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/_protect.dm"
+  },
+  {
+    "path": "code/__DEFINES/_tick.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/_tick.dm"
+  },
+  {
+    "path": "code/__DEFINES/access.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/access.dm"
+  },
+  {
+    "path": "code/__DEFINES/achievements.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/achievements.dm"
+  },
+  {
+    "path": "code/__DEFINES/actions.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/actions.dm"
+  },
+  {
+    "path": "code/__DEFINES/admin.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/admin.dm"
+  },
+  {
+    "path": "code/__DEFINES/ai/_ai.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/ai/_ai.dm"
+  },
+  {
+    "path": "code/__DEFINES/ai/hostile.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/ai/hostile.dm"
+  },
+  {
+    "path": "code/__DEFINES/alerts.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/alerts.dm"
+  },
+  {
+    "path": "code/__DEFINES/antagonists.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/antagonists.dm"
+  },
+  {
+    "path": "code/__DEFINES/assets.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/assets.dm"
+  },
+  {
+    "path": "code/__DEFINES/atmospherics.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/atmospherics.dm"
+  },
+  {
+    "path": "code/__DEFINES/atom_hud.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/atom_hud.dm"
+  },
+  {
+    "path": "code/__DEFINES/banking.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/banking.dm"
+  },
+  {
+    "path": "code/__DEFINES/barks.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/barks.dm"
+  },
+  {
+    "path": "code/__DEFINES/calendar.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/calendar.dm"
+  },
+  {
+    "path": "code/__DEFINES/callbacks.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/callbacks.dm"
+  },
+  {
+    "path": "code/__DEFINES/cargo.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/cargo.dm"
+  },
+  {
     "path": "code/__DEFINES/charflaws.dm",
     "file": "sources/ratwood-current/code/__DEFINES/charflaws.dm"
+  },
+  {
+    "path": "code/__DEFINES/chat.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/chat.dm"
+  },
+  {
+    "path": "code/__DEFINES/chess.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/chess.dm"
+  },
+  {
+    "path": "code/__DEFINES/cinematics.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/cinematics.dm"
+  },
+  {
+    "path": "code/__DEFINES/city_assembly.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/city_assembly.dm"
+  },
+  {
+    "path": "code/__DEFINES/cleaning.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/cleaning.dm"
+  },
+  {
+    "path": "code/__DEFINES/click.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/click.dm"
+  },
+  {
+    "path": "code/__DEFINES/colors.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/colors.dm"
+  },
+  {
+    "path": "code/__DEFINES/combat.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/combat.dm"
+  },
+  {
+    "path": "code/__DEFINES/components.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/components.dm"
+  },
+  {
+    "path": "code/__DEFINES/configuration.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/configuration.dm"
+  },
+  {
+    "path": "code/__DEFINES/construction.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/construction.dm"
+  },
+  {
+    "path": "code/__DEFINES/contracts.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/contracts.dm"
+  },
+  {
+    "path": "code/__DEFINES/cooking.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/cooking.dm"
+  },
+  {
+    "path": "code/__DEFINES/cooldowns.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/cooldowns.dm"
+  },
+  {
+    "path": "code/__DEFINES/coven.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/coven.dm"
+  },
+  {
+    "path": "code/__DEFINES/cult.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/cult.dm"
+  },
+  {
+    "path": "code/__DEFINES/customization/body_markings.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/customization/body_markings.dm"
+  },
+  {
+    "path": "code/__DEFINES/customization/hair_gradients.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/customization/hair_gradients.dm"
+  },
+  {
+    "path": "code/__DEFINES/customization/mob_descriptors.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/customization/mob_descriptors.dm"
+  },
+  {
+    "path": "code/__DEFINES/customization/organ_customization.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/customization/organ_customization.dm"
+  },
+  {
+    "path": "code/__DEFINES/customization/sprite_accessory.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/customization/sprite_accessory.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/flags.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/flags.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/helpers.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/helpers.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_action.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_action.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_ai.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_ai.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_atom/signals_atom_mouse.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_atom/signals_atom_mouse.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_atom/signals_atom_movement.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_atom/signals_atom_movement.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_beam.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_beam.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_coven_powers.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_coven_powers.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_datum.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_datum.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_global.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_global.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_human.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_human.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_mob/signals_client.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_mob/signals_client.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_mob/signals_mind.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_mob/signals_mind.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_mob/signals_mob.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_mob/signals_mob.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_mob/signals_mob_living.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_mob/signals_mob_living.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_mob.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_mob.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_movable.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_movable.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_moveloop.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_moveloop.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_objectives.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_objectives.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_spatial_grid.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_spatial_grid.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_spell.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_spell.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_tgui.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_tgui.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_tram.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_tram.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals/signals_turf.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals/signals_turf.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals_atoms/appearance.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals_atoms/appearance.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals_atoms/lighting.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals_atoms/lighting.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals_atoms/movable_lighting.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals_atoms/movable_lighting.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals_atoms/signals_atom.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals_atoms/signals_atom.dm"
+  },
+  {
+    "path": "code/__DEFINES/dcs/signals_atoms/signals_atom_movable.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dcs/signals_atoms/signals_atom_movable.dm"
+  },
+  {
+    "path": "code/__DEFINES/decrees.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/decrees.dm"
+  },
+  {
+    "path": "code/__DEFINES/directional.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/directional.dm"
+  },
+  {
+    "path": "code/__DEFINES/DNA.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/DNA.dm"
+  },
+  {
+    "path": "code/__DEFINES/dye_keys.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/dye_keys.dm"
+  },
+  {
+    "path": "code/__DEFINES/economy/auto_import.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/economy/auto_import.dm"
+  },
+  {
+    "path": "code/__DEFINES/economy/internal_trade_and_quests.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/economy/internal_trade_and_quests.dm"
+  },
+  {
+    "path": "code/__DEFINES/economy/merchant_trade.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/economy/merchant_trade.dm"
+  },
+  {
+    "path": "code/__DEFINES/economy/pricing_defines.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/economy/pricing_defines.dm"
+  },
+  {
+    "path": "code/__DEFINES/economy/questing.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/economy/questing.dm"
+  },
+  {
+    "path": "code/__DEFINES/economy/regional_threat.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/economy/regional_threat.dm"
+  },
+  {
+    "path": "code/__DEFINES/economy/rumor.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/economy/rumor.dm"
+  },
+  {
+    "path": "code/__DEFINES/economy/trade_volumes.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/economy/trade_volumes.dm"
+  },
+  {
+    "path": "code/__DEFINES/economy/zadcote.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/economy/zadcote.dm"
+  },
+  {
+    "path": "code/__DEFINES/economy.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/economy.dm"
+  },
+  {
+    "path": "code/__DEFINES/elastic.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/elastic.dm"
+  },
+  {
+    "path": "code/__DEFINES/events.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/events.dm"
+  },
+  {
+    "path": "code/__DEFINES/exports.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/exports.dm"
+  },
+  {
+    "path": "code/__DEFINES/familiars.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/familiars.dm"
+  },
+  {
+    "path": "code/__DEFINES/fantasy_affixes.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/fantasy_affixes.dm"
+  },
+  {
+    "path": "code/__DEFINES/fellowship.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/fellowship.dm"
+  },
+  {
+    "path": "code/__DEFINES/flags.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/flags.dm"
   },
   {
     "path": "code/__DEFINES/food.dm",
     "file": "sources/ratwood-current/code/__DEFINES/food.dm"
   },
   {
+    "path": "code/__DEFINES/footsteps.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/footsteps.dm"
+  },
+  {
+    "path": "code/__DEFINES/forensics.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/forensics.dm"
+  },
+  {
+    "path": "code/__DEFINES/gnoll.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/gnoll.dm"
+  },
+  {
+    "path": "code/__DEFINES/hud.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/hud.dm"
+  },
+  {
+    "path": "code/__DEFINES/important_recursive_contents.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/important_recursive_contents.dm"
+  },
+  {
+    "path": "code/__DEFINES/industrial_lifts.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/industrial_lifts.dm"
+  },
+  {
+    "path": "code/__DEFINES/interaction_flags.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/interaction_flags.dm"
+  },
+  {
+    "path": "code/__DEFINES/inventory.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/inventory.dm"
+  },
+  {
+    "path": "code/__DEFINES/is_helpers.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/is_helpers.dm"
+  },
+  {
+    "path": "code/__DEFINES/item_categories.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/item_categories.dm"
+  },
+  {
+    "path": "code/__DEFINES/item_quality.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/item_quality.dm"
+  },
+  {
+    "path": "code/__DEFINES/jobs.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/jobs.dm"
+  },
+  {
+    "path": "code/__DEFINES/keybindings.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/keybindings.dm"
+  },
+  {
+    "path": "code/__DEFINES/language.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/language.dm"
+  },
+  {
+    "path": "code/__DEFINES/layers.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/layers.dm"
+  },
+  {
+    "path": "code/__DEFINES/lewd.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/lewd.dm"
+  },
+  {
+    "path": "code/__DEFINES/lighting.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/lighting.dm"
+  },
+  {
+    "path": "code/__DEFINES/logging.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/logging.dm"
+  },
+  {
+    "path": "code/__DEFINES/machines.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/machines.dm"
+  },
+  {
+    "path": "code/__DEFINES/magic.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/magic.dm"
+  },
+  {
+    "path": "code/__DEFINES/maps.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/maps.dm"
+  },
+  {
+    "path": "code/__DEFINES/materials.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/materials.dm"
+  },
+  {
+    "path": "code/__DEFINES/maths.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/maths.dm"
+  },
+  {
+    "path": "code/__DEFINES/MC.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/MC.dm"
+  },
+  {
+    "path": "code/__DEFINES/mecha.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/mecha.dm"
+  },
+  {
+    "path": "code/__DEFINES/medical.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/medical.dm"
+  },
+  {
+    "path": "code/__DEFINES/melee.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/melee.dm"
+  },
+  {
+    "path": "code/__DEFINES/menu.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/menu.dm"
+  },
+  {
+    "path": "code/__DEFINES/migrants.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/migrants.dm"
+  },
+  {
+    "path": "code/__DEFINES/misc.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/misc.dm"
+  },
+  {
+    "path": "code/__DEFINES/mob_timers.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/mob_timers.dm"
+  },
+  {
+    "path": "code/__DEFINES/mobs/simplemob_attack_speed.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/mobs/simplemob_attack_speed.dm"
+  },
+  {
+    "path": "code/__DEFINES/mobs/simplemob_health.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/mobs/simplemob_health.dm"
+  },
+  {
+    "path": "code/__DEFINES/mobs/simplemob_movement_speed.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/mobs/simplemob_movement_speed.dm"
+  },
+  {
+    "path": "code/__DEFINES/mobs.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/mobs.dm"
+  },
+  {
+    "path": "code/__DEFINES/move_force.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/move_force.dm"
+  },
+  {
+    "path": "code/__DEFINES/movement.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/movement.dm"
+  },
+  {
+    "path": "code/__DEFINES/movement_info.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/movement_info.dm"
+  },
+  {
+    "path": "code/__DEFINES/movespeed_modification.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/movespeed_modification.dm"
+  },
+  {
+    "path": "code/__DEFINES/multiz.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/multiz.dm"
+  },
+  {
+    "path": "code/__DEFINES/musicsystem.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/musicsystem.dm"
+  },
+  {
+    "path": "code/__DEFINES/nanites.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/nanites.dm"
+  },
+  {
+    "path": "code/__DEFINES/networks.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/networks.dm"
+  },
+  {
+    "path": "code/__DEFINES/noticeboard.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/noticeboard.dm"
+  },
+  {
     "path": "code/__DEFINES/nutrition.dm",
     "file": "sources/ratwood-current/code/__DEFINES/nutrition.dm"
+  },
+  {
+    "path": "code/__DEFINES/obj_flags.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/obj_flags.dm"
+  },
+  {
+    "path": "code/__DEFINES/offer.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/offer.dm"
+  },
+  {
+    "path": "code/__DEFINES/omens.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/omens.dm"
+  },
+  {
+    "path": "code/__DEFINES/particle_weather.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/particle_weather.dm"
+  },
+  {
+    "path": "code/__DEFINES/particles.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/particles.dm"
+  },
+  {
+    "path": "code/__DEFINES/playerquality.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/playerquality.dm"
+  },
+  {
+    "path": "code/__DEFINES/plumbing.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/plumbing.dm"
+  },
+  {
+    "path": "code/__DEFINES/pollution.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/pollution.dm"
+  },
+  {
+    "path": "code/__DEFINES/power.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/power.dm"
+  },
+  {
+    "path": "code/__DEFINES/preferences.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/preferences.dm"
+  },
+  {
+    "path": "code/__DEFINES/procpath.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/procpath.dm"
+  },
+  {
+    "path": "code/__DEFINES/profile.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/profile.dm"
+  },
+  {
+    "path": "code/__DEFINES/qdel.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/qdel.dm"
+  },
+  {
+    "path": "code/__DEFINES/quest_factions.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/quest_factions.dm"
+  },
+  {
+    "path": "code/__DEFINES/radiation.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/radiation.dm"
+  },
+  {
+    "path": "code/__DEFINES/radio.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/radio.dm"
+  },
+  {
+    "path": "code/__DEFINES/reactions.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/reactions.dm"
+  },
+  {
+    "path": "code/__DEFINES/reagents.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/reagents.dm"
+  },
+  {
+    "path": "code/__DEFINES/reagents_specific_heat.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/reagents_specific_heat.dm"
+  },
+  {
+    "path": "code/__DEFINES/research.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/research.dm"
+  },
+  {
+    "path": "code/__DEFINES/robots.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/robots.dm"
+  },
+  {
+    "path": "code/__DEFINES/roguetown/area_detail_text.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/roguetown/area_detail_text.dm"
+  },
+  {
+    "path": "code/__DEFINES/roguetown/armor_defines.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/roguetown/armor_defines.dm"
+  },
+  {
+    "path": "code/__DEFINES/roguetown/chastity.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/roguetown/chastity.dm"
+  },
+  {
+    "path": "code/__DEFINES/roguetown/combat.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/roguetown/combat.dm"
+  },
+  {
+    "path": "code/__DEFINES/roguetown/rebel.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/roguetown/rebel.dm"
+  },
+  {
+    "path": "code/__DEFINES/roguetown/scomm.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/roguetown/scomm.dm"
+  },
+  {
+    "path": "code/__DEFINES/roguetown/werewolf.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/roguetown/werewolf.dm"
+  },
+  {
+    "path": "code/__DEFINES/roguetown.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/roguetown.dm"
+  },
+  {
+    "path": "code/__DEFINES/role_preferences.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/role_preferences.dm"
+  },
+  {
+    "path": "code/__DEFINES/rotation.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/rotation.dm"
+  },
+  {
+    "path": "code/__DEFINES/rotational_defines.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/rotational_defines.dm"
+  },
+  {
+    "path": "code/__DEFINES/rust_g.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/rust_g.dm"
+  },
+  {
+    "path": "code/__DEFINES/say.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/say.dm"
+  },
+  {
+    "path": "code/__DEFINES/sexcon_defines.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/sexcon_defines.dm"
+  },
+  {
+    "path": "code/__DEFINES/sight.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/sight.dm"
   },
   {
     "path": "code/__DEFINES/skills.dm",
     "file": "sources/ratwood-current/code/__DEFINES/skills.dm"
   },
   {
+    "path": "code/__DEFINES/sleep_adv.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/sleep_adv.dm"
+  },
+  {
+    "path": "code/__DEFINES/sound.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/sound.dm"
+  },
+  {
+    "path": "code/__DEFINES/spaceman_dmm.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/spaceman_dmm.dm"
+  },
+  {
+    "path": "code/__DEFINES/spans.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/spans.dm"
+  },
+  {
+    "path": "code/__DEFINES/spatial_gridmap.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/spatial_gridmap.dm"
+  },
+  {
+    "path": "code/__DEFINES/spell_defines.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/spell_defines.dm"
+  },
+  {
+    "path": "code/__DEFINES/spirits.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/spirits.dm"
+  },
+  {
+    "path": "code/__DEFINES/stat.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/stat.dm"
+  },
+  {
+    "path": "code/__DEFINES/stat_tracking.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/stat_tracking.dm"
+  },
+  {
+    "path": "code/__DEFINES/status_effects.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/status_effects.dm"
+  },
+  {
+    "path": "code/__DEFINES/storytellers.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/storytellers.dm"
+  },
+  {
+    "path": "code/__DEFINES/subsystems.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/subsystems.dm"
+  },
+  {
+    "path": "code/__DEFINES/text.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/text.dm"
+  },
+  {
+    "path": "code/__DEFINES/tgs.config.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/tgs.config.dm"
+  },
+  {
+    "path": "code/__DEFINES/tgs.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/tgs.dm"
+  },
+  {
+    "path": "code/__DEFINES/tgui.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/tgui.dm"
+  },
+  {
+    "path": "code/__DEFINES/tgui_bits.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/tgui_bits.dm"
+  },
+  {
+    "path": "code/__DEFINES/time.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/time.dm"
+  },
+  {
+    "path": "code/__DEFINES/tools.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/tools.dm"
+  },
+  {
+    "path": "code/__DEFINES/trade_goods.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/trade_goods.dm"
+  },
+  {
+    "path": "code/__DEFINES/trait_sources.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/trait_sources.dm"
+  },
+  {
     "path": "code/__DEFINES/traits.dm",
     "file": "sources/ratwood-current/code/__DEFINES/traits.dm"
+  },
+  {
+    "path": "code/__DEFINES/treasury.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/treasury.dm"
+  },
+  {
+    "path": "code/__DEFINES/turf_flags.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/turf_flags.dm"
+  },
+  {
+    "path": "code/__DEFINES/typeids.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/typeids.dm"
+  },
+  {
+    "path": "code/__DEFINES/unit_tests.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/unit_tests.dm"
+  },
+  {
+    "path": "code/__DEFINES/vampires.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/vampires.dm"
+  },
+  {
+    "path": "code/__DEFINES/vehicles.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/vehicles.dm"
+  },
+  {
+    "path": "code/__DEFINES/vv.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/vv.dm"
+  },
+  {
+    "path": "code/__DEFINES/wall_dents.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/wall_dents.dm"
+  },
+  {
+    "path": "code/__DEFINES/weaponsounds.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/weaponsounds.dm"
+  },
+  {
+    "path": "code/__DEFINES/weather.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/weather.dm"
+  },
+  {
+    "path": "code/__DEFINES/wires.dm",
+    "file": "sources/ratwood-current/code/__DEFINES/wires.dm"
   },
   {
     "path": "code/__HELPERS/text.dm",
@@ -38,6 +854,10 @@
   {
     "path": "code/controllers/subsystem/rogue/heart_tech_subsystem.dm",
     "file": "sources/ratwood-current/code/controllers/subsystem/rogue/heart_tech_subsystem.dm"
+  },
+  {
+    "path": "code/datums/armor.dm",
+    "file": "sources/ratwood-current/code/datums/armor.dm"
   },
   {
     "path": "code/datums/brewing_recipes/_brewing_recipe_base.dm",
@@ -122,6 +942,18 @@
   {
     "path": "code/datums/components/crafting/recipes.dm",
     "file": "sources/ratwood-current/code/datums/components/crafting/recipes.dm"
+  },
+  {
+    "path": "code/datums/components/storage/concrete/_concrete.dm",
+    "file": "sources/ratwood-current/code/datums/components/storage/concrete/_concrete.dm"
+  },
+  {
+    "path": "code/datums/components/storage/storage.dm",
+    "file": "sources/ratwood-current/code/datums/components/storage/storage.dm"
+  },
+  {
+    "path": "code/datums/components/storage/storage_types.dm",
+    "file": "sources/ratwood-current/code/datums/components/storage/storage_types.dm"
   },
   {
     "path": "code/datums/skill_holder.dm",
