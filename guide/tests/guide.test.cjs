@@ -28,7 +28,8 @@ test('topic IDs, categories, related links and provenance are valid',()=>{
     assert.ok(topic.sources.length,topic.id);
     for(const id of topic.related||[])assert.ok(byId.has(id),`${topic.id} -> ${id}`);
     for(const s of topic.sources)assert.match(s.url,/^https:\/\//,topic.id);
-    if(topic.kind==='guide')assert.ok(topic.sections.length>=2,topic.id);
+    if(topic.kind==='guide'&&topic.section==='guides')assert.ok(topic.sections.length>=2,topic.id);
+    if(topic.kind==='guide'&&topic.section!=='guides')assert.ok(topic.sections?.length||topic.facts?.length||topic.steps?.length,topic.id);
     if(topic.kind==='recipe'||topic.kind==='potion')assert.ok(topic.steps.length||topic.gaps.length,topic.id);
   }
 });
@@ -75,9 +76,10 @@ test('a handpie preparation chain reaches grain, dough, butter and milk',()=>{
   walk(root);
   for(const title of ['Pie Dough','Small Butter Dough','Butter Dough','Dough','Flour','Butter Slice','Butter','Milk'])assert.ok(ids.some(id=>byId.get(id)?.title===title),title);
   const grain=core.preparationTree('sheet-7-r2',byId);
-  assert.match(grain.groups[0].label,/Choose one/);
-  assert.deepEqual(new Set(grain.groups[0].options.map(o=>o.name)),new Set(['wheat grain','oat grain','rice grain',"baker's root"]));
-  assert.ok(grain.groups[0].options.every(o=>o.id));
+  const routes=core.recipeRoutes(byId.get('sheet-7-r2'));
+  for(const type of ['wheat','oat','rice'])assert.ok(routes.some(r=>r.groups.some(g=>g.options.some(o=>o.type?.endsWith('/'+type)))),type);
+  assert.ok(routes.some(r=>r.groups.some(g=>g.options.some(o=>/baker.s root/i.test(o.name)))));
+  assert.ok(routes.every(r=>r.groups.every(g=>g.options.every(o=>o.id))));
   const dough=byId.get('sheet-7-r7');
   assert.ok(dough.ingredients.some(g=>g.options.some(o=>o.name==='unfinished dough')));
   assert.ok(dough.ingredients.some(g=>g.options.some(o=>o.name==='flour')));

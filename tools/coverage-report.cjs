@@ -5,7 +5,7 @@ const countBy=(rows,key)=>rows.reduce((counts,row)=>{const value=row[key]||'unsp
 function report(data,preparations=[],sprites={}){
   const routes=new Set(data.topics.flatMap(t=>(t.preparationRoutes||[]).map(r=>r.type||r.id).filter(Boolean)));
   return {
-    revision:data.currentSource?.revision,reviewed:data.currentSource?.reviewed,
+    revision:data.currentSource?.revision,reviewed:data.currentSource?.reviewed,nativeEvidence:data.nativeEvidence||null,handlerContentHeld:data.handlerContentHeld||null,
     counts:{topics:data.topics.length,items:data.topics.filter(t=>t.section==='items').length,topicsWithSprites:data.topics.filter(t=>t.sprite).length,byKind:countBy(data.topics,'kind'),byStatus:countBy(data.topics,'status')},
     definitions:{states:countBy(data.currentCoverage||[],'state'),entries:data.currentCoverage||[]},
     cookbook:{states:countBy(data.cookbookCoverage||[],'state'),entries:data.cookbookCoverage||[]},

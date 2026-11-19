@@ -62673,5 +62673,1017 @@
     ],
     "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
     "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "wooden club (base variant)"
+    ],
+    "topicIds": [
+      "handler-32e0d3889b9a62"
+    ],
+    "type": "/obj/item/rogueweapon/mace/woodclub",
+    "path": "assets/sprites/current/5a0b71579375fb12eae6.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/roguetown/weapons/blunt32.dmi",
+    "sheet": "icons/roguetown/weapons/blunt32.dmi",
+    "state": "club1",
+    "initialState": "club1",
+    "sha": "e3ace7d7d5eb93ac4988143f72e9d88bc6a28381",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueweapons/melee/blunt.dm#L240",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "oat stalks"
+    ],
+    "topicIds": [
+      "handler-318ade8ae2b0a5"
+    ],
+    "type": "/obj/item/natural/chaff/oat",
+    "path": "assets/sprites/current/888d2828cd3067f0b776.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/roguetown/items/produce.dmi",
+    "sheet": "icons/roguetown/items/produce.dmi",
+    "state": "oatchaff",
+    "initialState": "oatchaff",
+    "sha": "79b43f8f06df05de3fa6e6fdde8a5ff0fbd2f5cc",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/chaff.dm#L70",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "rice stalks"
+    ],
+    "topicIds": [
+      "handler-c4391e14b1f939"
+    ],
+    "type": "/obj/item/natural/chaff/rice",
+    "path": "assets/sprites/current/f6a089422d8a04b32270.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/roguetown/items/produce.dmi",
+    "sheet": "icons/roguetown/items/produce.dmi",
+    "state": "ricechaff",
+    "initialState": "ricechaff",
+    "sha": "79b43f8f06df05de3fa6e6fdde8a5ff0fbd2f5cc",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/chaff.dm#L75",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "wheat seeds"
+    ],
+    "topicIds": [
+      "handler-5370482e051be4"
+    ],
+    "type": "/obj/item/seeds/wheat",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L170",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "glimmering slag"
+    ],
+    "topicIds": [
+      "handler-427f59abeebebe"
+    ],
+    "type": "/obj/item/ingot/aaslag",
+    "path": "assets/sprites/current/4540c8634f917a265311.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/roguetown/items/ore.dmi",
+    "sheet": "icons/roguetown/items/ore.dmi",
+    "state": "ancientslag",
+    "initialState": "ancientslag",
+    "sha": "01ccd5ea53da7b0bdae7d3cd10c14256a142c558",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguejobs/miner/rogueores.dm#L273",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "charcoal"
+    ],
+    "topicIds": [
+      "handler-5b544140039ea1"
+    ],
+    "type": "/obj/item/rogueore/coal/charcoal",
+    "path": "assets/sprites/current/1dcc46e2503aa87ff6da.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/roguetown/items/ore.dmi",
+    "sheet": "icons/roguetown/items/ore.dmi",
+    "state": "oreada",
+    "initialState": "oreada",
+    "sha": "01ccd5ea53da7b0bdae7d3cd10c14256a142c558",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguejobs/miner/rogueores.dm#L82",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "berry seeds"
+    ],
+    "topicIds": [
+      "handler-14aa7d10f16a62"
+    ],
+    "type": "/obj/item/seeds/berryrogue",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L242",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "swampweed seeds"
+    ],
+    "topicIds": [
+      "handler-7feb638b969184"
+    ],
+    "type": "/obj/item/seeds/swampweed",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L238",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "manabloom seeds"
+    ],
+    "topicIds": [
+      "handler-0d6c662f62e1e4"
+    ],
+    "type": "/obj/item/herbseed/manabloom",
+    "path": "assets/sprites/current/da1ac2ea64546e9d622c.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/roguetown/items/produce.dmi",
+    "sheet": "icons/roguetown/items/produce.dmi",
+    "state": "seeds",
+    "initialState": "seeds",
+    "sha": "79b43f8f06df05de3fa6e6fdde8a5ff0fbd2f5cc",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguejobs/alchemist/herb_seeds.dm#L229",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "rice seeds"
+    ],
+    "topicIds": [
+      "handler-fa6be8ca52c49b"
+    ],
+    "type": "/obj/item/seeds/rice",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L182",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "sugarcane seeds"
+    ],
+    "topicIds": [
+      "handler-2dfa5b6ec02960"
+    ],
+    "type": "/obj/item/seeds/sugarcane",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L230",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "coffee seeds"
+    ],
+    "topicIds": [
+      "handler-0d8257f3c9072c"
+    ],
+    "type": "/obj/item/seeds/coffee",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L284",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "cabbage seeds"
+    ],
+    "topicIds": [
+      "handler-ad1df7612055d3"
+    ],
+    "type": "/obj/item/seeds/cabbage",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L264",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "onion seeds"
+    ],
+    "topicIds": [
+      "handler-639690ba8f3129"
+    ],
+    "type": "/obj/item/seeds/onion",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L260",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "potato seeds"
+    ],
+    "topicIds": [
+      "handler-e6f4670aed520d"
+    ],
+    "type": "/obj/item/seeds/potato",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L268",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "garlick seeds"
+    ],
+    "topicIds": [
+      "handler-50dc43012c6bd4"
+    ],
+    "type": "/obj/item/seeds/garlick",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L280",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "turnip seeds"
+    ],
+    "topicIds": [
+      "handler-896dbb060d7ced"
+    ],
+    "type": "/obj/item/seeds/turnip",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L251",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "apple seeds"
+    ],
+    "topicIds": [
+      "handler-bf694e2659f098"
+    ],
+    "type": "/obj/item/seeds/apple",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L186",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "berry seeds (poison)"
+    ],
+    "topicIds": [
+      "handler-923f43b0f6db62"
+    ],
+    "type": "/obj/item/seeds/berryrogue/poison",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L246",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "tangerine seeds"
+    ],
+    "topicIds": [
+      "handler-ecafd5677a2074"
+    ],
+    "type": "/obj/item/seeds/tangerine",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L202",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "plum seeds"
+    ],
+    "topicIds": [
+      "handler-9bd3f88672594a"
+    ],
+    "type": "/obj/item/seeds/plum",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L206",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "blackberry seeds"
+    ],
+    "topicIds": [
+      "handler-6fcea9fc2e0792"
+    ],
+    "type": "/obj/item/seeds/blackberry",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L214",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "raspberry seeds"
+    ],
+    "topicIds": [
+      "handler-07ec2b19bddf04"
+    ],
+    "type": "/obj/item/seeds/raspberry",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L218",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "strawberry seeds"
+    ],
+    "topicIds": [
+      "handler-0010fa787f085c"
+    ],
+    "type": "/obj/item/seeds/strawberry",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L210",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "pear seeds"
+    ],
+    "topicIds": [
+      "handler-94c836b9233778"
+    ],
+    "type": "/obj/item/seeds/pear",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L190",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "carrot seeds"
+    ],
+    "topicIds": [
+      "handler-1ca91f1eeb59de"
+    ],
+    "type": "/obj/item/seeds/carrot",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L297",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "lemon seeds"
+    ],
+    "topicIds": [
+      "handler-deb5f4a30b640f"
+    ],
+    "type": "/obj/item/seeds/lemon",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L194",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "lime seeds"
+    ],
+    "topicIds": [
+      "handler-c2ae59a199a43a"
+    ],
+    "type": "/obj/item/seeds/lime",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L198",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "rocknut seeds"
+    ],
+    "topicIds": [
+      "handler-f767d6e41e8f71"
+    ],
+    "type": "/obj/item/seeds/nut",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L226",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "eggplant seeds"
+    ],
+    "topicIds": [
+      "handler-676d6121624d9d"
+    ],
+    "type": "/obj/item/seeds/eggplant",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L305",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "tomato seeds"
+    ],
+    "topicIds": [
+      "handler-3bd64682a8a72e"
+    ],
+    "type": "/obj/item/seeds/tomato",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L222",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "oat seeds"
+    ],
+    "topicIds": [
+      "handler-ca18a5075ad83b"
+    ],
+    "type": "/obj/item/seeds/wheat/oat",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L174",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "poppy seeds"
+    ],
+    "topicIds": [
+      "handler-eb1339f531928c"
+    ],
+    "type": "/obj/item/seeds/poppy",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L276",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "heated glass"
+    ],
+    "topicIds": [
+      "handler-2ccf8f5f16bfa8"
+    ],
+    "type": "/obj/item/natural/glass/heated",
+    "path": "assets/sprites/current/a14e0abb1d937c8c92e8.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/roguetown/items/crafting.dmi",
+    "sheet": "icons/roguetown/items/crafting.dmi",
+    "state": "glasspane",
+    "initialState": "glasspane",
+    "sha": "d8f23010069ffede3c52fb1b95a79bb97f1b9747",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/game/objects/items/rogueitems/natural/glass.dm#L20",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "westleach leaf seeds"
+    ],
+    "topicIds": [
+      "handler-e041335fe92c0a"
+    ],
+    "type": "/obj/item/seeds/pipeweed",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L234",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "tea seeds"
+    ],
+    "topicIds": [
+      "handler-c3d9c46d0e509a"
+    ],
+    "type": "/obj/item/seeds/tea",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L288",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "baker's root seeds"
+    ],
+    "topicIds": [
+      "handler-1c0a9e88ef2cc1"
+    ],
+    "type": "/obj/item/seeds/bakersroot",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L178",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "fyritius seeds"
+    ],
+    "topicIds": [
+      "handler-1c5bd8fb0fb652"
+    ],
+    "type": "/obj/item/seeds/fyritius",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L272",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "sunflower seeds"
+    ],
+    "topicIds": [
+      "handler-32ae7fe42c472d"
+    ],
+    "type": "/obj/item/seeds/sunflower",
+    "path": "assets/sprites/current/aa30c82b6da29611db56.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/hydroponics/seeds.dmi",
+    "sheet": "icons/obj/hydroponics/seeds.dmi",
+    "state": "seed",
+    "initialState": "seed",
+    "sha": "75553d91ddbc704fb6734bca242f012e2086b885",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/seeds.dm#L255",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "tin"
+    ],
+    "topicIds": [
+      "handler-f6e56883e7f484"
+    ],
+    "type": "/obj/item/rogueore/tin",
+    "path": "assets/sprites/current/f06df0372c350a61160b.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/roguetown/items/ore.dmi",
+    "sheet": "icons/roguetown/items/ore.dmi",
+    "state": "oretin1",
+    "initialState": "oretin1",
+    "sha": "01ccd5ea53da7b0bdae7d3cd10c14256a142c558",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguejobs/miner/rogueores.dm#L58",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "bottle kit"
+    ],
+    "topicIds": [
+      "handler-95984acdc1f44a"
+    ],
+    "type": "/obj/item/bottle_kit",
+    "path": "assets/sprites/current/683f3d9fcfe0a8a7adbb.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/obj/brewing.dmi",
+    "sheet": "icons/obj/brewing.dmi",
+    "state": "bottler_box",
+    "initialState": "bottler_box",
+    "sha": "68f8c1d7af87f529a8593fb7ef49c674adbb8898",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/bottle_kit.dm#L1",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "amulet of Astrata"
+    ],
+    "topicIds": [
+      "equipment-feccc404eb618a"
+    ],
+    "type": "/obj/item/clothing/neck/roguetown/psicross/astrata",
+    "path": "assets/sprites/current/316b24536ed748c31c09.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/roguetown/clothing/neck.dmi",
+    "sheet": "icons/roguetown/clothing/neck.dmi",
+    "state": "astrata",
+    "initialState": "astrata",
+    "sha": "4e3a612540c3d2c792d297cef650dee154f07575",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/clothing/rogueclothes/neck.dm#L605",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "psycross"
+    ],
+    "topicIds": [
+      "equipment-ac9d5382b1fb41"
+    ],
+    "type": "/obj/item/clothing/neck/roguetown/psicross",
+    "path": "assets/sprites/current/71035dc67b325658c222.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/roguetown/clothing/neck.dmi",
+    "sheet": "icons/roguetown/clothing/neck.dmi",
+    "state": "psycross",
+    "initialState": "psycross",
+    "sha": "4e3a612540c3d2c792d297cef650dee154f07575",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/clothing/rogueclothes/neck.dm#L532",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
+  },
+  {
+    "names": [
+      "harvest bloomstone"
+    ],
+    "topicIds": [
+      "equipment-f875296a890b1d"
+    ],
+    "type": "/obj/item/alch/bloomstone",
+    "path": "assets/sprites/current/4dc92cb98f9c9a770172.png",
+    "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/icons/roguetown/gems/gem_shell.dmi",
+    "sheet": "icons/roguetown/gems/gem_shell.dmi",
+    "state": "cutgem_shell",
+    "initialState": "cutgem_shell",
+    "sha": "d71c1358cbb6b0db08d93a39949d89a28c73e834",
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "definition": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/roguetown/roguecrafting/alchemy/ingredients.dm#L120",
+    "nativeSize": [
+      32,
+      32
+    ],
+    "license": "CC-BY-SA-3.0 unless otherwise indicated in upstream notices",
+    "note": "Exact object type and inherited static icon/state. Pinned sheet checksum verified; first frame/direction, without runtime tint or overlays."
   }
 ]

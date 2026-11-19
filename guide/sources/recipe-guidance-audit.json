@@ -190,7 +190,7 @@
       "title": "Iron Dust",
       "type": "/obj/item/alch/irondust",
       "state": "source-procedure",
-      "procedures": 3,
+      "procedures": 5,
       "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
@@ -638,7 +638,7 @@
       "title": "Riddle of Steel",
       "type": "/obj/item/riddleofsteel",
       "state": "source-procedure",
-      "procedures": 1,
+      "procedures": 2,
       "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
@@ -3893,9 +3893,9 @@
       "id": "item-iron-bar",
       "title": "Iron Bar",
       "type": "/obj/item/ingot/iron",
-      "state": "acquisition-gap",
-      "procedures": 0,
-      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+      "state": "source-procedure",
+      "procedures": 98,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
       "id": "item-dirt-clod",
@@ -3910,7 +3910,7 @@
       "title": "Coal",
       "type": "/obj/item/rogueore/coal",
       "state": "source-procedure",
-      "procedures": 1,
+      "procedures": 8,
       "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
@@ -3934,7 +3934,7 @@
       "title": "Toper",
       "type": "/obj/item/roguegem/yellow",
       "state": "source-procedure",
-      "procedures": 1,
+      "procedures": 3,
       "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
@@ -3942,7 +3942,7 @@
       "title": "Gemerald",
       "type": "/obj/item/roguegem/green",
       "state": "source-procedure",
-      "procedures": 1,
+      "procedures": 3,
       "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
@@ -3958,7 +3958,7 @@
       "title": "Blortz",
       "type": "/obj/item/roguegem/blue",
       "state": "source-procedure",
-      "procedures": 1,
+      "procedures": 3,
       "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
@@ -3974,7 +3974,7 @@
       "title": "Fibers",
       "type": "/obj/item/natural/fibers",
       "state": "source-procedure",
-      "procedures": 1,
+      "procedures": 7,
       "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
@@ -3982,7 +3982,7 @@
       "title": "Wheat Grain",
       "type": "/obj/item/reagent_containers/food/snacks/grown/wheat",
       "state": "source-procedure",
-      "procedures": 1,
+      "procedures": 3,
       "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
@@ -4013,9 +4013,9 @@
       "id": "item-ash",
       "title": "Ash",
       "type": "/obj/item/ash",
-      "state": "acquisition-gap",
-      "procedures": 0,
-      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+      "state": "source-procedure",
+      "procedures": 568,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
       "id": "item-stampoison",
@@ -4165,9 +4165,9 @@
       "id": "item-rice",
       "title": "Rice",
       "type": "/obj/item/reagent_containers/food/snacks/grown/rice",
-      "state": "acquisition-gap",
-      "procedures": 0,
-      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+      "state": "source-procedure",
+      "procedures": 2,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
       "id": "item-sugarcane",
@@ -4989,17 +4989,17 @@
       "id": "item-steel-bar",
       "title": "Steel Bar",
       "type": "/obj/item/ingot/steel",
-      "state": "acquisition-gap",
-      "procedures": 0,
-      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+      "state": "source-procedure",
+      "procedures": 189,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
       "id": "item-copper-bar",
       "title": "Copper Bar",
       "type": "/obj/item/ingot/copper",
-      "state": "acquisition-gap",
-      "procedures": 0,
-      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+      "state": "source-procedure",
+      "procedures": 13,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
       "id": "item-dobo-robe",
@@ -5078,7 +5078,7 @@
       "title": "Bone",
       "type": "/obj/item/natural/bone",
       "state": "source-procedure",
-      "procedures": 70,
+      "procedures": 71,
       "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
@@ -5981,9 +5981,9 @@
       "id": "r2-food-5f893176ea23",
       "title": "oat grain",
       "type": "/obj/item/reagent_containers/food/snacks/grown/oat",
-      "state": "acquisition-gap",
-      "procedures": 0,
-      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+      "state": "source-procedure",
+      "procedures": 2,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
       "id": "r2-food-6c3b329c8477",
@@ -16446,7 +16446,7 @@
       "title": "cured leather",
       "type": "/obj/item/natural/hide/cured",
       "state": "source-procedure",
-      "procedures": 1,
+      "procedures": 2,
       "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
@@ -17950,7 +17950,7 @@
       "title": "glut",
       "type": "/obj/item/roguegem/blood_diamond",
       "state": "source-procedure",
-      "procedures": 1,
+      "procedures": 2,
       "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
@@ -17958,7 +17958,7 @@
       "title": "dorpel",
       "type": "/obj/item/roguegem/diamond",
       "state": "source-procedure",
-      "procedures": 1,
+      "procedures": 3,
       "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
@@ -17966,7 +17966,7 @@
       "title": "saffira",
       "type": "/obj/item/roguegem/violet",
       "state": "source-procedure",
-      "procedures": 1,
+      "procedures": 3,
       "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
@@ -17974,7 +17974,7 @@
       "title": "raw iron",
       "type": "/obj/item/rogueore/iron",
       "state": "source-procedure",
-      "procedures": 2,
+      "procedures": 3,
       "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
@@ -20126,7 +20126,7 @@
       "title": "berserkers sword",
       "type": "/obj/item/rogueweapon/sword/long/exe/berserk",
       "state": "source-procedure",
-      "procedures": 2,
+      "procedures": 3,
       "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
@@ -20846,7 +20846,7 @@
       "title": "chain",
       "type": "/obj/item/rope/chain",
       "state": "source-procedure",
-      "procedures": 1,
+      "procedures": 2,
       "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
@@ -23813,9 +23813,9 @@
       "id": "prep-9ef6966901ed",
       "title": "gold bar",
       "type": "/obj/item/ingot/gold",
-      "state": "acquisition-gap",
-      "procedures": 0,
-      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+      "state": "source-procedure",
+      "procedures": 30,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
       "id": "prep-52073b5796f3",
@@ -23837,9 +23837,9 @@
       "id": "prep-01aac13d382a",
       "title": "silver bar",
       "type": "/obj/item/ingot/silver",
-      "state": "acquisition-gap",
-      "procedures": 0,
-      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+      "state": "source-procedure",
+      "procedures": 28,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
       "id": "prep-e9514a88145a",
@@ -23853,9 +23853,9 @@
       "id": "prep-1d73eaa4e810",
       "title": "blessed silver bar",
       "type": "/obj/item/ingot/silverblessed",
-      "state": "acquisition-gap",
-      "procedures": 0,
-      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+      "state": "source-procedure",
+      "procedures": 21,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
       "id": "prep-4a4ba4fed9f2",
@@ -23877,17 +23877,17 @@
       "id": "prep-abf62a2fa5a8",
       "title": "blacksteel bar",
       "type": "/obj/item/ingot/blacksteel",
-      "state": "acquisition-gap",
-      "procedures": 0,
-      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+      "state": "source-procedure",
+      "procedures": 50,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
       "id": "prep-befaee1f58e8",
       "title": "bronze bar",
       "type": "/obj/item/ingot/bronze",
-      "state": "acquisition-gap",
-      "procedures": 0,
-      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+      "state": "source-procedure",
+      "procedures": 53,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
       "id": "prep-0bebbc14e7ee",
@@ -23925,9 +23925,9 @@
       "id": "prep-1eb0771ec6fc",
       "title": "holy steel bar",
       "type": "/obj/item/ingot/steelholy",
-      "state": "acquisition-gap",
-      "procedures": 0,
-      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
       "id": "prep-3860cc903595",
@@ -24205,9 +24205,9 @@
       "id": "prep-fc4eb3cadeb0",
       "title": "rontz",
       "type": "/obj/item/roguegem/ruby",
-      "state": "acquisition-gap",
-      "procedures": 0,
-      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+      "state": "source-procedure",
+      "procedures": 2,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
       "id": "prep-246e5de28205",
@@ -24781,9 +24781,9 @@
       "id": "prep-bf7566b509eb",
       "title": "draconic ingot",
       "type": "/obj/item/ingot/draconic",
-      "state": "acquisition-gap",
-      "procedures": 0,
-      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
       "id": "prep-68b6438aacd3",
@@ -24797,9 +24797,9 @@
       "id": "prep-8d5f03ba3e16",
       "title": "crystalline glut",
       "type": "/obj/item/ingot/component/glutcrystal",
-      "state": "acquisition-gap",
-      "procedures": 0,
-      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
       "id": "prep-0233204bc7d4",
@@ -24886,16 +24886,16 @@
       "title": "brick",
       "type": "/obj/item/natural/brick",
       "state": "source-procedure",
-      "procedures": 1,
+      "procedures": 2,
       "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
       "id": "prep-73df1beff713",
       "title": "wheat stalks",
       "type": "/obj/item/natural/chaff/wheat",
-      "state": "acquisition-gap",
-      "procedures": 0,
-      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
     },
     {
       "id": "current-c65b08aec03819",
@@ -25168,6 +25168,358 @@
       "state": "mechanics-only",
       "procedures": 0,
       "note": "Source examine hints are available, but a complete acquisition or preparation procedure has not been matched."
+    },
+    {
+      "id": "handler-32e0d3889b9a62",
+      "title": "wooden club (base variant)",
+      "type": "/obj/item/rogueweapon/mace/woodclub",
+      "state": "acquisition-gap",
+      "procedures": 0,
+      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+    },
+    {
+      "id": "handler-318ade8ae2b0a5",
+      "title": "oat stalks",
+      "type": "/obj/item/natural/chaff/oat",
+      "state": "acquisition-gap",
+      "procedures": 0,
+      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+    },
+    {
+      "id": "handler-c4391e14b1f939",
+      "title": "rice stalks",
+      "type": "/obj/item/natural/chaff/rice",
+      "state": "acquisition-gap",
+      "procedures": 0,
+      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+    },
+    {
+      "id": "handler-5370482e051be4",
+      "title": "wheat seeds",
+      "type": "/obj/item/seeds/wheat",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-427f59abeebebe",
+      "title": "glimmering slag",
+      "type": "/obj/item/ingot/aaslag",
+      "state": "source-procedure",
+      "procedures": 74,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-5b544140039ea1",
+      "title": "charcoal",
+      "type": "/obj/item/rogueore/coal/charcoal",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-14aa7d10f16a62",
+      "title": "berry seeds",
+      "type": "/obj/item/seeds/berryrogue",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-7feb638b969184",
+      "title": "swampweed seeds",
+      "type": "/obj/item/seeds/swampweed",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-0d6c662f62e1e4",
+      "title": "manabloom seeds",
+      "type": "/obj/item/herbseed/manabloom",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-fa6be8ca52c49b",
+      "title": "rice seeds",
+      "type": "/obj/item/seeds/rice",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-2dfa5b6ec02960",
+      "title": "sugarcane seeds",
+      "type": "/obj/item/seeds/sugarcane",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-0d8257f3c9072c",
+      "title": "coffee seeds",
+      "type": "/obj/item/seeds/coffee",
+      "state": "source-procedure",
+      "procedures": 2,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-ad1df7612055d3",
+      "title": "cabbage seeds",
+      "type": "/obj/item/seeds/cabbage",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-639690ba8f3129",
+      "title": "onion seeds",
+      "type": "/obj/item/seeds/onion",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-e6f4670aed520d",
+      "title": "potato seeds",
+      "type": "/obj/item/seeds/potato",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-50dc43012c6bd4",
+      "title": "garlick seeds",
+      "type": "/obj/item/seeds/garlick",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-896dbb060d7ced",
+      "title": "turnip seeds",
+      "type": "/obj/item/seeds/turnip",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-bf694e2659f098",
+      "title": "apple seeds",
+      "type": "/obj/item/seeds/apple",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-923f43b0f6db62",
+      "title": "berry seeds (poison)",
+      "type": "/obj/item/seeds/berryrogue/poison",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-ecafd5677a2074",
+      "title": "tangerine seeds",
+      "type": "/obj/item/seeds/tangerine",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-9bd3f88672594a",
+      "title": "plum seeds",
+      "type": "/obj/item/seeds/plum",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-6fcea9fc2e0792",
+      "title": "blackberry seeds",
+      "type": "/obj/item/seeds/blackberry",
+      "state": "source-procedure",
+      "procedures": 2,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-07ec2b19bddf04",
+      "title": "raspberry seeds",
+      "type": "/obj/item/seeds/raspberry",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-0010fa787f085c",
+      "title": "strawberry seeds",
+      "type": "/obj/item/seeds/strawberry",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-94c836b9233778",
+      "title": "pear seeds",
+      "type": "/obj/item/seeds/pear",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-1ca91f1eeb59de",
+      "title": "carrot seeds",
+      "type": "/obj/item/seeds/carrot",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-deb5f4a30b640f",
+      "title": "lemon seeds",
+      "type": "/obj/item/seeds/lemon",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-c2ae59a199a43a",
+      "title": "lime seeds",
+      "type": "/obj/item/seeds/lime",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-f767d6e41e8f71",
+      "title": "rocknut seeds",
+      "type": "/obj/item/seeds/nut",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-676d6121624d9d",
+      "title": "eggplant seeds",
+      "type": "/obj/item/seeds/eggplant",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-3bd64682a8a72e",
+      "title": "tomato seeds",
+      "type": "/obj/item/seeds/tomato",
+      "state": "source-procedure",
+      "procedures": 2,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-ca18a5075ad83b",
+      "title": "oat seeds",
+      "type": "/obj/item/seeds/wheat/oat",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-eb1339f531928c",
+      "title": "poppy seeds",
+      "type": "/obj/item/seeds/poppy",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-2ccf8f5f16bfa8",
+      "title": "heated glass",
+      "type": "/obj/item/natural/glass/heated",
+      "state": "source-procedure",
+      "procedures": 2,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-e041335fe92c0a",
+      "title": "westleach leaf seeds",
+      "type": "/obj/item/seeds/pipeweed",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-c3d9c46d0e509a",
+      "title": "tea seeds",
+      "type": "/obj/item/seeds/tea",
+      "state": "source-procedure",
+      "procedures": 2,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-1c0a9e88ef2cc1",
+      "title": "baker's root seeds",
+      "type": "/obj/item/seeds/bakersroot",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-1c5bd8fb0fb652",
+      "title": "fyritius seeds",
+      "type": "/obj/item/seeds/fyritius",
+      "state": "source-procedure",
+      "procedures": 2,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-32ae7fe42c472d",
+      "title": "sunflower seeds",
+      "type": "/obj/item/seeds/sunflower",
+      "state": "source-procedure",
+      "procedures": 1,
+      "note": "A source procedure is attached. Review alternative routes, tool requirements and yields below; deployment is unverified."
+    },
+    {
+      "id": "handler-f6e56883e7f484",
+      "title": "tin",
+      "type": "/obj/item/rogueore/tin",
+      "state": "acquisition-gap",
+      "procedures": 0,
+      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+    },
+    {
+      "id": "handler-95984acdc1f44a",
+      "title": "bottle kit",
+      "type": "/obj/item/bottle_kit",
+      "state": "acquisition-gap",
+      "procedures": 0,
+      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+    },
+    {
+      "id": "equipment-feccc404eb618a",
+      "title": "amulet of Astrata",
+      "type": "/obj/item/clothing/neck/roguetown/psicross/astrata",
+      "state": "acquisition-gap",
+      "procedures": 0,
+      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+    },
+    {
+      "id": "equipment-ac9d5382b1fb41",
+      "title": "psycross",
+      "type": "/obj/item/clothing/neck/roguetown/psicross",
+      "state": "acquisition-gap",
+      "procedures": 0,
+      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
+    },
+    {
+      "id": "equipment-f875296a890b1d",
+      "title": "harvest bloomstone",
+      "type": "/obj/item/alch/bloomstone",
+      "state": "acquisition-gap",
+      "procedures": 0,
+      "note": "No complete preparation or acquisition procedure was matched. This does not mean the item is unavailable."
     }
   ],
   "processingCoverage": [

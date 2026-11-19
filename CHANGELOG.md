@@ -1,5 +1,15 @@
 # Changes
 
+## 2026-11-19 · Processing, navigation and scenario tools
+
+- Added the action-based spell family alongside proc-holder spells, with aspect/role grant links, casting requirements, precise potion effects and Residual Focus.
+- Corrected the declared smelting-count label and added real normal/great-furnace routes, stalk shucking/threshing, seed extraction and station operation.
+- Added short item summaries, armor-zone states, bag grids, pixel-scaled image inspection, tool/storage cross-listing, linked equipment and directed connections.
+- Shortened nested preparation panels and added output targets, ingredient choices, shared-batch rounding, leftovers and partial material totals.
+- Added six bounded scenario tools for cauldrons, furnaces, farming, brewing, base attacks and a single armor channel.
+- Recorded 75 isolated native BYOND assertions against pinned source handlers. Published the sanitized evidence and reproducible fixture source; full-game state and live-server behavior remain outside that evidence.
+
+
 ## 2026-11-18 · Item use and equipment specifications
 
 - Added inherited weapon force, wielded force, skill, strength requirements, parry, durability and grip information.

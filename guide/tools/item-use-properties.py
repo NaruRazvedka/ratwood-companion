@@ -3,19 +3,20 @@ import re
 
 GROUPS = {
  'handling': ('Handling & durability', {
-  'w_class':'Item size', 'slot_flags':'Equip slots', 'max_integrity':'Maximum integrity',
+  'w_class':'Item size', 'has_item_quality':'Uses craftsmanship quality','item_quality':'Initial craftsmanship tier', 'slot_flags':'Equip slots', 'max_integrity':'Maximum integrity',
   'integrity_failure':'Break threshold (fraction of integrity)', 'equip_delay_self':'Time to equip yourself',
   'unequip_delay_self':'Time to remove yourself', 'slowdown':'Base movement slowdown',
-  'anvilrepair':'Repair skill at an anvil', 'sewrepair':'Sewing repair', 'smeltresult':'Smelts into', 'smelt_bar_num':'Smelting bar count'}),
+  'anvilrepair':'Repair skill at an anvil', 'sewrepair':'Sewing repair', 'smeltresult':'Smelts into', 'smelt_bar_num':'Declared recycle count (unused by normal furnace)'}),
  'weapon': ('Weapon & shield', {
   'force':'Base melee force', 'force_wielded':'Wielded melee force override', 'throwforce':'Base thrown force',
   'associated_skill':'Weapon skill', 'minstr':'Strength requirement value', 'minstr_req':'Hard strength requirement',
   'wlength':'Weapon length class', 'wbalance':'Weapon balance', 'wdefense':'Base parry defense',
   'wdefense_wbonus':'Wielded defense bonus', 'can_parry':'Can parry', 'max_blade_int':'Maximum blade integrity',
+  'implement_tier':'Magic implement tier','implement_refund':'Eligible resource refund (fraction)',
   'armor_penetration':'Base armor penetration', 'coverage':'Shield projectile coverage chance',
   'block_chance':'Base block chance', 'special':'Special action', 'alt_grips':'Alternative grips'}),
  'armor': ('Armor & protection', {
-  'body_parts_covered':'Covered body zones', 'armor_class':'Armor class', 'armor':'Armor ratings',
+  'body_parts_covered':'Covered body zones', 'open_body_parts_covered':'Covered zones when opened', 'armor_class':'Armor class', 'armor':'Armor ratings',
   'prevent_crits':'Critical-hit protection flags', 'resistance_flags':'Item resistance flags',
   'cold_protection':'Cold-protected zones', 'heat_protection':'Heat-protected zones',
   'min_cold_protection_temperature':'Minimum cold-protection temperature (K)',
@@ -78,10 +79,10 @@ SLOTS={'ITEM_SLOT_BACK_L':'Left back','ITEM_SLOT_BACK_R':'Right back','ITEM_SLOT
  'ITEM_SLOT_ARMOR':'Armor','ITEM_SLOT_SHIRT':'Shirt','ITEM_SLOT_CLOAK':'Cloak','ITEM_SLOT_PANTS':'Pants',
  'ITEM_SLOT_WRISTS':'Wrists','ITEM_SLOT_EYES':'Eyes','ITEM_SLOT_POCKET':'Pocket exception',
  'ITEM_SLOT_DENYPOCKET':'Cannot go in pockets','ITEM_SLOT_BACKPACK':'Backpack'}
-BOOLS={'sewrepair','can_parry','minstr_req','no_early_release','not_while_equipped','grid','perennial','weed_immune','can_grow_underground','gesture_required','human_req','antimagic_allowed','clothes_req','movement_interrupt'}
+BOOLS={'has_item_quality','sewrepair','can_parry','minstr_req','no_early_release','not_while_equipped','grid','perennial','weed_immune','can_grow_underground','gesture_required','human_req','antimagic_allowed','clothes_req','movement_interrupt'}
 TIMES={'equip_delay_self','unequip_delay_self','work_time','fire_delay','reloadtime','maturation_time','produce_time'}
 NOTES={
- 'handling':'Initial source values. Damage, quality, enchantments and item interactions can change them. Item size is an inventory class, not weight in kilograms.',
+ 'handling':'Initial source values. The normal furnace produces one result per item and ignores the declared recycle count. Damage, quality, enchantments and item interactions can change other values. Item size is an inventory class, not weight in kilograms.',
  'weapon':'Force is the starting melee damage value, not guaranteed health damage. Attack mode, grip, stats, skill, quality, armor and item condition affect the result. A zero wielded override does not mean the weapon deals zero damage.',
  'armor':'Coverage lists the initial protected zones, not a chance to block. Armor ratings are source tiers or ratings, not percentages. Fit, layering, open visors, damaged or removed parts, and special effects can change protection.',
  'ranged':'The ammunition and projectile have their own properties. Shot damage, draw or reload speed and accuracy can also depend on the shooter and weapon state.',
@@ -125,7 +126,7 @@ def use_cases(path,fields,objects,constants,macros,number,literal):
         return ', '.join(found) or 'None'
     def display(value,key=''):
         original=value;value=expand(value,macros)
-        if key in {'body_parts_covered','cold_protection','heat_protection'}:
+        if key in {'body_parts_covered','open_body_parts_covered','cold_protection','heat_protection'}:
             return flags(value,ZONES) or 'Unresolved coverage: '+original
         if key in {'resistance_flags','prevent_crits','foodtype'} and re.fullmatch(r'[A-Z][A-Z_0-9]*(?:\s*\|\s*[A-Z][A-Z_0-9]*)*',original):
             return original.replace('|',', ').replace('_',' ').title()
@@ -142,7 +143,7 @@ def use_cases(path,fields,objects,constants,macros,number,literal):
         if numeric is not None:
             if key in TIMES:return f'{numeric/10:g} seconds'
             if key in {'coverage','block_chance'}:return f'{numeric:g}%'
-            if original.startswith(('WEIGHT_CLASS_','WLENGTH_','WBALANCE_','ARMOR_CLASS_')):
+            if original.startswith(('WEIGHT_CLASS_','WLENGTH_','WBALANCE_','ARMOR_CLASS_','ITEM_QUALITY_')):
                 return original.split('_',2)[-1].replace('_',' ').title()+f' ({numeric:g})'
             return f'{numeric:g}'
         if key in {'max_integrity','force','force_wielded','damage','minstr','wdefense','max_blade_int','volume','metabolization_rate'}:
@@ -192,6 +193,11 @@ def use_cases(path,fields,objects,constants,macros,number,literal):
                 if field in intent:attack['facts'].append({'label':title,'value':display(intent[field]['expression'],field),'source':intent[field]['source']})
             attacks.append(attack)
         if attacks:groups.append({'id':mode,'title':label,'facts':[], 'attacks':attacks,'note':'Base intent settings; runtime overrides and character effects can change timings and damage. Deciseconds are tenths of a second.'})
+    armor_group=next((g for g in groups if g['id']=='armor'),None)
+    if armor_group:
+        armor_group['coverageStates']=[{'id':'closed','label':'Default / closed','zones':display(fields['body_parts_covered']['expression'],'body_parts_covered')}] if fields.get('body_parts_covered') else []
+        if fields.get('open_body_parts_covered') and fields['open_body_parts_covered']['expression']!='UNRESOLVED_COMPONENT_OVERRIDE':
+            armor_group['coverageStates'].append({'id':'open','label':'Opened / raised','zones':display(fields['open_body_parts_covered']['expression'],'open_body_parts_covered')})
     if ranged:
         mag=expand(fields.get('mag_type',{}).get('expression',''),macros)
         ammo=expand(fields.get('ammo_type',objects.get(mag,{}).get('ammo_type',{})).get('expression',''),macros)

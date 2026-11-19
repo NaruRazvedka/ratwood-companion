@@ -5,7 +5,7 @@
   const topics=core.indexTopics(data.topics),byId=new Map(topics.map(t=>[t.id,t]));
   const resolve=id=>data.redirects?.[id]||id;
   const modes={items:'Items',guides:'Guides',reference:'Reference',...(!data.publicEdition?{sources:'Sources'}:{})};
-  const categoryOrder=['Dishes','Soups & stews','Drinks','Liquids','Potions','Prepared ingredients','Ingredients','Plants & crops','Alchemy ingredients','Alchemy products','Tools & stations','Materials','Weapons','Clothing & armor','Armor','Construction'];
+  const categoryOrder=['Dishes','Soups & stews','Drinks','Liquids','Potions','Prepared ingredients','Ingredients','Plants & crops','Alchemy ingredients','Alchemy products','Tools & stations','Carrying storage','Materials','Weapons','Clothing & armor','Armor','Construction'];
   let storage;try{storage=window.localStorage;}catch{storage={getItem(){throw Error();},setItem(){throw Error();}};}
   const saved=core.readBookmarks(storage,new Set(byId.keys()),data.redirects);
   const bookmarks=saved.bookmarks,panels=new Set();let storageAvailable=saved.available;
@@ -29,13 +29,28 @@
     const messages=entries=>`<ul class="mechanics-hints">${entries.map(m=>`<li>${esc(m.text)}</li>`).join('')}</ul>`;
     return `<section class="item-description"><h2>Description</h2><p>${info?.description?esc(info.description.text)||'No written description.':info?.descriptionDynamic?'The description changes in-game.':'No description recorded.'}</p>${hints.length?`<h3>Mechanics</h3>${messages(hints)}`:''}${common.length?`<details><summary>Shared food/item mechanics</summary>${messages(common)}</details>`:''}</section>`;
   }
+  function coverageHTML(t,groups){
+    const armor=groups.find(g=>g.id==='armor'),states=armor?.coverageStates||[];
+    const initial=armor?.facts.find(f=>f.property==='body_parts_covered')?.value;
+    if(!initial)return '';
+    const selected=states.find(s=>s.id===selectedCoverage.get(t.id))||states[0],coverage=selected?.zones||initial;
+    const zones=[['Head','76,5 114,5 120,39 70,39'],['Neck','83,39 107,39 107,49 83,49'],['Chest','66,49 124,49 124,100 66,100'],['Vitals','82,72 108,72 108,93 82,93'],['Groin','68,102 122,102 114,129 76,129'],['Left arm','43,51 63,51 59,113 36,113'],['Right arm','127,51 147,51 154,113 131,113'],['Left hand','34,115 59,115 55,138 30,138'],['Right hand','131,115 156,115 160,138 135,138'],['Left leg','69,131 92,131 90,210 64,210'],['Right leg','98,131 121,131 126,210 100,210'],['Left foot','63,212 90,212 90,226 57,226'],['Right foot','100,212 127,212 133,226 100,226']];
+    const active=coverage.split(', ').map(v=>v.toLowerCase());
+    return `<figure class="coverage-figure"><svg viewBox="0 0 190 236" role="img" aria-label="Protected body zones: ${esc(coverage)}">${zones.map(([name,points])=>`<polygon points="${points}" class="${active.includes(name.toLowerCase())?'covered':''}"><title>${esc(name)}: ${active.includes(name.toLowerCase())?'covered':'not covered by this item'}</title></polygon>`).join('')}</svg><figcaption><strong>Body-zone coverage</strong>${states.length>1?`<label>Clothing state<select data-coverage-state="${esc(t.id)}">${states.map(s=>`<option value="${esc(s.id)}" ${selected?.id===s.id?'selected':''}>${esc(s.label)}</option>`).join('')}</select></label>`:''}<p>${esc(coverage)}</p><small>Uninjured item. Face, eyes and other precise zones are listed in the text. Coverage does not show a damage percentage.</small></figcaption></figure>`;
+  }
+  function storageGridHTML(groups){
+    const facts=groups.find(g=>g.id==='container')?.facts||[],read=key=>Number(facts.find(f=>f.property===key)?.value),rows=read('screen_max_rows'),columns=read('screen_max_columns');
+    if(!Number.isInteger(rows)||!Number.isInteger(columns)||rows<1||columns<1||rows>20||columns>20)return '';
+    return `<figure class="storage-figure"><div class="storage-grid" style="grid-template-columns:repeat(${columns},1fr)" aria-hidden="true">${'<span></span>'.repeat(rows*columns)}</div><figcaption><strong>${columns} × ${rows} storage grid</strong><p>Items take different amounts of space. Size and insertion restrictions still apply.</p></figcaption></figure>`;
+  }
   function specificationsHTML(t){
     if(t.section!=='items'&&t.kind!=='spell')return '';
     const groups=t.itemProperties?.useCases||[];
+    if(!groups.length&&t.kind==='spell')return `<section class="item-specifications"><h2>Casting at a glance</h2>${factsHTML((t.facts||[]).filter(f=>['Primary resource','Base primary cost','Base secondary cost','Base charge time','Base cooldown','Cast range'].includes(f.label)).slice(0,6))}</section>`;
     if(!groups.length)return ['Weapons','Clothing & armor','Tools & stations'].includes(t.category)?'<p class="preparation-gap">Use-specific statistics have not been matched to this exact item definition.</p>':'';
-    const primary=t.kind==='spell'?'spell':t.category==='Weapons'?'weapon':t.category==='Clothing & armor'?'armor':t.category==='Tools & stations'?'tool':'';
+    const overview=core.itemSummary(t),primary=overview.primary;
     const facts=rows=>rows.length?`<dl class="compact-facts">${rows.map(f=>`<div><dt>${esc(f.label)}</dt><dd>${f.topicId?link(f.topicId,f.value):esc(f.value)}</dd></div>`).join('')}</dl>`:'';
-    return `<section class="item-specifications"><h2>Use & specifications</h2>${groups.map(g=>`<details class="specification-group" ${g.id===primary?'open':''}><summary>${esc(g.title)}</summary>${g.note?`<p class="specification-note">${esc(g.note)}</p>`:''}${g.topicId?`<p>${link(g.topicId,'Open '+g.title)}</p>`:''}${facts(g.facts||[])}${(g.attacks||[]).map(a=>`<details class="attack-specification"><summary>${esc(a.name)}${a.facts?.length?` <span>${esc(a.facts.filter(f=>['Armor damage channel','Damage multiplier','Penetration tier'].includes(f.label)).map(f=>(f.label==='Damage multiplier'?'×':f.label==='Penetration tier'?'Penetration ':'')+f.value).join(' · '))}</span>`:''}</summary>${a.description?`<p>${esc(a.description)}</p>`:''}${facts(a.facts||[])}${a.gap?'<p>Details for this source attack are not resolved.</p>':''}</details>`).join('')}</details>`).join('')}</section>`;
+    return `<section class="item-specifications"><h2>At a glance</h2>${facts(overview.facts)}${coverageHTML(t,groups)}${storageGridHTML(groups)}<details class="all-specifications"><summary>All specifications & attack modes</summary>${groups.map(g=>`<details class="specification-group" ><summary>${esc(g.title)}</summary>${g.note?`<p class="specification-note">${esc(g.note)}</p>`:''}${g.topicId?`<p>${link(g.topicId,'Open '+g.title)}</p>`:''}${facts(g.facts||[])}${(g.attacks||[]).map(a=>`<details class="attack-specification"><summary>${esc(a.name)}${a.facts?.length?` <span>${esc(a.facts.filter(f=>['Armor damage channel','Damage multiplier','Penetration tier'].includes(f.label)).map(f=>(f.label==='Damage multiplier'?'×':f.label==='Penetration tier'?'Penetration ':'')+f.value).join(' · '))}</span>`:''}</summary>${a.description?`<p>${esc(a.description)}</p>`:''}${facts(a.facts||[])}${a.gap?'<p>Details for this source attack are not resolved.</p>':''}</details>`).join('')}</details>`).join('')}</details></section>`;
   }
   function propertiesHTML(t){
     if(t.section!=='items')return '';
@@ -51,53 +66,61 @@
     return `<section class="item-properties"><h2>${food?'Shelf life, quality & value':'Value'}</h2>${factsHTML(facts)}${brewing}${conditions.length?`<details><summary>Storage, serving & pricing conditions</summary>${[...new Set(conditions)].map(c=>`<p>${esc(c)}</p>`).join('')}</details>`:''}</section>`;
   }
   function sourceHTML(t){return `<details class="source-details"><summary>Sources, original text & version notes</summary><p>${esc(statusNames[t.status]||t.status)} · Reviewed ${esc(data.updated)}</p>${(t.gaps||[]).map(g=>`<p class="source-gap">${esc(g)}</p>`).join('')}<ul>${(t.sources||[]).map(s=>`<li><a href="${esc(core.safeURL(s.url))}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a><small>${esc(s.note||'')}</small></li>`).join('')}</ul>${(t.sourceRows||[]).map(r=>`<details><summary>${esc(r.sheet)} · row ${r.row}</summary>${factsHTML(r.cells.map(c=>({label:c.cell,value:c.text})))}</details>`).join('')}${t.rows?`<details><summary>Original rows (${t.rows.length})</summary>${t.rows.map(r=>`<details><summary>Row ${r.row} · ${esc(r.cells[0]?.text.slice(0,60))}</summary>${factsHTML(r.cells.map(c=>({label:c.cell,value:c.text})))}</details>`).join('')}</details>`:''}</details>`;}
-  const selectedRoutes=new Map(),detailLoads=new Map();
+  const selectedRoutes=new Map(),selectedChoices=new Map(),selectedCoverage=new Map(),desiredTargets=new Map(),detailLoads=new Map();
   async function loadTopic(id) {
     id=resolve(id);const bundle=data.detailBundles?.[id];
     if(!bundle||byId.get(id)?.detailLoaded)return byId.get(id);
     if(!detailLoads.has(bundle))detailLoads.set(bundle,new Promise((yes,no)=>{
-      const script=document.createElement('script');script.src=new URL(bundle,location.href).href;
+      const script=document.createElement('script');script.src=new URL(bundle+(data.contentVersion?'?v='+data.contentVersion:''),location.href).href;
       script.onload=()=>{for(const [key,value] of Object.entries(globalThis.GUIDE_TOPIC_DETAILS||{})){if(byId.get(key)?.detailLoaded)continue;const merged=core.indexTopics([{...byId.get(key),...value,detailLoaded:true}])[0];byId.set(key,merged);}yes();};
       script.onerror=()=>{detailLoads.delete(bundle);script.remove();no(Error('This entry could not be opened. Keep the details folder beside the guide and try again.'));};document.head.append(script);
     }));
     await detailLoads.get(bundle);return byId.get(id);
   }
-  function ingredientCard(group) {
-    return `<li class="diagram-group">${group.options.length>1?`<p class="diagram-label">${esc(group.label)} <span>choose one</span></p>`:''}<div class="diagram-options">${group.options.map(o=>{
+  function ingredientCard(group,key='') {
+    const choice=selectedChoices.get(key),shown=choice?group.options.filter(o=>o.id===choice):group.options;
+    return `<li class="diagram-group">${group.options.length>1?`<p class="diagram-label">${esc(group.label)} <span>choose one</span></p><label class="ingredient-choice">Use<select data-ingredient-choice="${esc(key)}"><option value="">Choose for totals…</option>${group.options.map(o=>`<option value="${esc(o.id||'')}" ${o.id===choice?'selected':''}>${esc(o.name||byId.get(o.id)?.title||'Unresolved input')}</option>`).join('')}</select></label>`:''}<div class="diagram-options">${shown.map(o=>{
       const t=byId.get(resolve(o.id));
       return t?`<details class="ingredient-card" data-prerequisite="${esc(t.id)}"><summary>${image(t)}<span>${esc(group.options.length===1?group.label:o.name||t.title)}</span><span class="disclosure-label">Preparation</span></summary><div class="prerequisite-content"><p>Opening preparation…</p></div></details>`:`<div class="ingredient-card unresolved">${esc(group.options.length===1?group.label:o.name||'Unresolved ingredient')}<small>Preparation not recorded.</small></div>`;
     }).join('')}</div></li>`;
   }
-  function recipePanelHTML(t) {
+  function equipmentHTML(tools){return tools?.length?`<div class="equipment-strip"><strong>Equipment · not consumed</strong><div>${tools.map(tool=>{const target=byId.get(tool.id);return target?`<a href="${route(target.id)}" data-topic="${esc(target.id)}">${image(target)}<span>${esc(target.title)}</span></a>`:`<span>${esc(tool.name||'Unresolved equipment')}</span>`;}).join('')}</div></div>`:'';}
+  function recipePanelHTML(t,compact=false) {
     const routes=core.recipeRoutes(t),r=routes.find(r=>r.id===selectedRoutes.get(t.id))||routes[0];
     if(!r)return '';
     const s=core.routeSummary(t,r),facts=[{label:'Tools & requirements',value:s.tools.join(' · ')||'Not specified'},{label:'Yield',value:s.yield},{label:'Preparation time',value:s.time}];
-    return `<section class="recipe-panel" data-recipe-panel="${esc(t.id)}"><div class="recipe-panel-heading"><h2>Preparation</h2>${routes.length>1?`<label>Recipe route<select data-recipe-route="${esc(t.id)}">${routes.map((v,i)=>`<option value="${esc(v.id)}" ${v.id===r.id?'selected':''}>${esc(v.name)}${routes.filter(x=>x.name===v.name).length>1?' '+(i+1):''}</option>`).join('')}</select></label>`:`<span>${esc(r.name)}</span>`}</div>${factsHTML(facts)}${r.groups.filter(g=>!g.tool).length?`<div class="recipe-diagram" aria-label="Ingredients and result"><ul class="diagram-inputs">${r.groups.filter(g=>!g.tool).map(ingredientCard).join('')}</ul><div class="diagram-result"><span class="diagram-arrow" aria-hidden="true">↓</span>${image(t)}<strong>${esc(t.title)}</strong></div></div>`:''}<div class="recipe-instructions"><h3>Steps</h3>${r.steps.length?writtenSteps(r.steps):'<p>Preparation steps are missing for this route.</p>'}</div><details class="reference-notes"><summary>Raw materials for one batch</summary><p>Includes whole intermediate batches. Alternatives and unconfirmed yields prevent an exact total.</p><button data-material-totals="${esc(t.id)}">Calculate known item totals</button><div data-material-result="${esc(t.id)}" role="status"></div></details>${r.gaps.map(g=>`<p class="preparation-gap">${esc(g)}</p>`).join('')}</section>`;
+    return `<section class="recipe-panel" data-recipe-panel="${esc(t.id)}" ${compact?'data-compact-prerequisite="true"':''}><div class="recipe-panel-heading"><h2>${compact?esc(t.title):'Preparation'}</h2>${routes.length>1?`<label>Recipe route<select data-recipe-route="${esc(t.id)}">${routes.map((v,i)=>`<option value="${esc(v.id)}" ${v.id===r.id?'selected':''}>${esc(v.name)}${routes.filter(x=>x.name===v.name).length>1?' '+(i+1):''}</option>`).join('')}</select></label>`:`<span>${esc(r.name)}</span>`}</div>${compact?factsHTML(facts.slice(1,2)):factsHTML(facts)}${equipmentHTML(r.tools||[])}${r.groups.filter(g=>!g.tool).length?`<div class="recipe-diagram" aria-label="Ingredients and result"><ul class="diagram-inputs">${r.groups.map((g,index)=>g.tool?'':ingredientCard(g,t.id+':'+r.id+':'+index)).join('')}</ul><div class="diagram-result"><span class="diagram-arrow" aria-hidden="true">↓</span>${image(t)}<strong>${esc(t.title)}</strong></div></div>`:''}<div class="recipe-instructions"><h3>Steps</h3>${r.steps.length?writtenSteps(r.steps):'<p>Preparation steps are missing for this route.</p>'}</div>${!compact?`<details class="reference-notes"><summary>Plan a batch & raw materials</summary><label>Desired output <input type="number" min="1" max="10000" step="1" data-output-target="${esc(t.id)}" value="${desiredTargets.get(t.id)??r.outputQuantity??1}"></label><p>Shared intermediate requirements are combined before rounding to whole batches. Liquid units, variable harvests and unselected alternatives remain explicit gaps.</p><button data-material-totals="${esc(t.id)}">Calculate known item totals</button><div data-material-result="${esc(t.id)}" role="status"></div></details>`:''}${r.gaps.map(g=>`<p class="preparation-gap">${esc(g)}</p>`).join('')}</section>`;
   }
-  async function prepareMaterialTotals(id){
+  async function prepareMaterialTotals(id,target){
     const visited=new Set();
     async function visit(key){
       if(visited.has(key)||visited.size>=300)return;
       visited.add(key);const t=await loadTopic(key);if(!t)return;
       const routes=core.recipeRoutes(t),r=routes.find(r=>r.id===selectedRoutes.get(t.id))||routes[0];
-      for(const g of r?.groups||[])if(!g.tool&&g.options.length===1&&g.options[0].id)await visit(g.options[0].id);
+      for(const [index,g] of (r?.groups||[]).entries()){const choice=selectedChoices.get(t.id+':'+r.id+':'+index),input=g.options.find(o=>o.id===choice)||(g.options.length===1?g.options[0]:null);if(!g.tool&&input?.id)await visit(input.id);}
     }
-    await visit(id);return core.materialTotals(byId.get(id),byId,selectedRoutes);
+    await visit(id);return core.materialTotals(byId.get(id),byId,selectedRoutes,{target,choices:selectedChoices});
   }
+  function relationshipsHTML(t){
+    const names={obtainedFrom:'Obtained from / prepared with',equipment:'Required equipment',usedIn:'Used in',system:'System guide'},groups=t.relationships;
+    if(!groups)return '';
+    return `<section class="typed-relationships"><h2>Connections</h2>${Object.entries(names).map(([key,label])=>{const ids=(groups[key]||[]).filter(id=>byId.has(id));if(!ids.length)return '';return `<div><h3>${label}</h3><div class="relationship-links">${ids.slice(0,6).map(id=>link(id)).join('')}</div>${ids.length>6?`<details><summary>Show ${ids.length-6} more</summary><div class="relationship-links">${ids.slice(6).map(id=>link(id)).join('')}</div></details>`:''}</div>`;}).join('')}</section>`;
+  }
+  function sectionsHTML(sections){return (sections||[]).map(s=>`<section class="guide-section"><h2>${esc(s.title)}</h2>${s.text?`<p>${esc(s.text)}</p>`:''}${(s.paragraphs||[]).map(p=>`<p>${esc(p)}</p>`).join('')}${writtenSteps(s.steps)}${factsHTML(s.facts)}</section>`).join('');}
   function articleHTML(t,compact){
     const related=(t.related||[]).filter(id=>byId.has(id)&&byId.get(id).section!=='sources');
     const reference=(t.facts||[]).filter(f=>!/^Process$|^Ingredient(?: \d+)?$/.test(f.label));
     const item=t.section==='items';
-    return `<article class="entry ${compact&&item?'floating-recipe':''}" id="guide-content" tabindex="-1"><div class="entry-path"><button data-back>← Back to results</button><span>${esc(t.category)}</span>${t.status==='historical'?'<span class="historical-label">Historical</span>':''}</div><div class="entry-title">${item?image(t):''}<h1>${esc(t.title)}</h1><button class="bookmark" data-bookmark="${esc(t.id)}" aria-label="${bookmarks.has(t.id)?'Remove bookmark':'Bookmark topic'}" aria-pressed="${bookmarks.has(t.id)}">${bookmarks.has(t.id)?'★':'☆'}</button></div>${t.summary?`<p class="entry-summary">${esc(t.summary)}</p>`:''}
+    return `<article class="entry ${compact&&item?'floating-recipe':''}" id="guide-content" tabindex="-1"><div class="entry-path"><button data-back>← Back to results</button><span>${esc(t.category)}</span>${t.status==='historical'?'<span class="historical-label">Historical</span>':''}</div><div class="entry-title">${item?`<button class="inspect-sprite" data-inspect-sprite="${esc(t.id)}" aria-label="Enlarge ${esc(t.title)} image">${image(t)}</button>`:''}<h1>${esc(t.title)}</h1><button class="bookmark" data-bookmark="${esc(t.id)}" aria-label="${bookmarks.has(t.id)?'Remove bookmark':'Bookmark topic'}" aria-pressed="${bookmarks.has(t.id)}">${bookmarks.has(t.id)?'★':'☆'}</button></div>${t.summary?`<p class="entry-summary">${esc(t.summary)}</p>`:''}
     ${t.availability?`<aside class="availability-note"><strong>${esc(t.availability.label)}</strong><p>${esc(t.availability.reason)}</p></aside>`:''}
     ${t.recipeAudit&&t.recipeAudit.state!=='source-procedure'?`<p class="preparation-gap">${esc(t.recipeAudit.note)}</p>`:''}
-    ${item?itemInfoHTML(t)+specificationsHTML(t)+recipePanelHTML(t):specificationsHTML(t)+writtenSteps(t.steps)}
+    ${item?itemInfoHTML(t)+specificationsHTML(t)+sectionsHTML(t.sections?.filter(s=>s.title==='Use'))+equipmentHTML(t.stationTools)+recipePanelHTML(t):specificationsHTML(t)+writtenSteps(t.steps)}
     ${item?`<details class="reference-notes"><summary>Storage, quality & value</summary>${propertiesHTML(t)}</details>`:''}
-    ${(t.sections||[]).map(s=>`<section class="guide-section"><h2>${esc(s.title)}</h2>${s.text?`<p>${esc(s.text)}</p>`:''}${writtenSteps(s.steps)}${factsHTML(s.facts)}</section>`).join('')}
-    ${reference.length?`<details class="reference-notes" ${t.section==='reference'?'open':''}><summary>${t.section==='reference'?'Reference':'Details'}</summary>${factsHTML(reference)}</details>`:''}
+    ${sectionsHTML(item?t.sections?.filter(s=>s.title!=='Use'):t.sections)}
+    ${reference.length?`<details class="reference-notes" ${t.section==='reference'&&t.kind!=='spell'?'open':''}><summary>${t.section==='reference'?'Reference':'Details'}</summary>${factsHTML(reference)}</details>`:''}
     ${t.pitfalls?.length?`<details class="reference-notes"><summary>Important notes</summary><ul>${t.pitfalls.map(p=>`<li>${esc(p)}</li>`).join('')}</ul></details>`:''}
     ${(t.gaps||[]).length?`<details class="reference-notes"><summary>What is still uncertain</summary>${t.gaps.map(g=>`<p>${esc(g)}</p>`).join('')}</details>`:''}
-    ${related.length?`<details class="related-topics"><summary>Related (${related.length})</summary><div>${related.map(id=>link(id)).join('')}</div></details>`:''}
+    ${relationshipsHTML(t)}${!t.relationships&&related.length?`<details class="related-topics"><summary>Related (${related.length})</summary><div>${related.map(id=>link(id)).join('')}</div></details>`:''}
     ${t.section==='sources'?sourceHTML(t):''}${!compact?`<button class="float-article" data-float="${esc(t.id)}">↗ Float this entry</button>`:''}</article>`;
   }
   function mount(doc,host,{compact=false,initial=''}={}){
@@ -123,22 +146,21 @@
       const context={...state,section,bookmarks};
       const unfiltered={...context,quality:'',method:'',skill:'',evidence:''};
       const available=core.filterOptions(pool,unfiltered);
-      for(const field of Object.keys(filterLabels))if(state[field]&&!available[field].includes(state[field]))state[field]='';
+      const removedFilters=[];for(const field of Object.keys(filterLabels))if(state[field]&&!available[field].includes(state[field])){removedFilters.push(filterLabels[field]);state[field]='';}
+      if(removedFilters.length)q('.app-notice').textContent='Cleared filters unavailable in this view: '+removedFilters.join(', ')+'.';
       const currentFilters=()=>Object.fromEntries(Object.keys(filterLabels).map(k=>[k,state[k]]));
-      if(!core.search(pool,{...context,...currentFilters()}).length)
-        for(const field of Object.keys(filterLabels))state[field]='';
       const choices=core.filterOptions(pool,{...context,...currentFilters()});
       filterBar.hidden=Boolean(state.id)||(!state.query&&state.section!=='items')||(Boolean(state.query)&&Boolean(state.scope)&&state.scope!=='items')||(!Object.values(choices).some(values=>values.length>1)&&!Object.keys(filterLabels).some(k=>state[k]));
       filterBar.querySelectorAll('[data-filter]').forEach(select=>{
-        const field=select.dataset.filter,values=choices[field];
+        const field=select.dataset.filter,values=[...new Set([...choices[field],...(state[field]?[state[field]]:[])])];
         select.innerHTML='<option value="">Any</option>'+values.map(value=>`<option value="${esc(value)}">${esc(field==='evidence'?evidenceLabels[value]||value:value)}</option>`).join('');
         select.value=state[field];
         if(select.parentElement)select.parentElement.hidden=values.length<2&&!state[field];
       });
       filterBar.querySelector('[data-clear-filters]').disabled=!Object.keys(filterLabels).some(k=>state[k]);
-      const cats=[...new Set(topics.filter(t=>t.section===state.section).map(t=>t.category))].sort((a,b)=>{const i=categoryOrder.indexOf(a),j=categoryOrder.indexOf(b);return(i<0?99:i)-(j<0?99:j)||a.localeCompare(b);});
+      const cats=[...new Set(topics.filter(t=>t.section===state.section).flatMap(t=>[t.category,...(t.browseTags||[])]))].sort((a,b)=>{const i=categoryOrder.indexOf(a),j=categoryOrder.indexOf(b);return(i<0?99:i)-(j<0?99:j)||a.localeCompare(b);});
       host.querySelectorAll('[data-mode]').forEach(b=>{b.classList.toggle('active',b.dataset.mode===state.section);b.setAttribute('aria-pressed',String(b.dataset.mode===state.section));});
-      q('.category-list').innerHTML=`<button data-category="" class="${!state.category?'active':''}">All ${esc(modes[state.section].toLowerCase())}<span>${topics.filter(t=>t.section===state.section).length}</span></button>${cats.map(c=>`<button data-category="${esc(c)}" class="${state.category===c?'active':''}">${esc(c)}<span>${topics.filter(t=>t.section===state.section&&t.category===c).length}</span></button>`).join('')}`;
+      q('.category-list').innerHTML=`<button data-category="" class="${!state.category?'active':''}">All ${esc(modes[state.section].toLowerCase())}<span>${topics.filter(t=>t.section===state.section).length}</span></button>${cats.map(c=>`<button data-category="${esc(c)}" class="${state.category===c?'active':''}">${esc(c)}<span>${topics.filter(t=>t.section===state.section&&core.inCategory(t,c)).length}</span></button>`).join('')}`;
       q('.mobile-categories').innerHTML=`<label>Category <select aria-label="Category" data-category-select><option value="">All ${esc(modes[state.section].toLowerCase())}</option>${cats.map(c=>`<option ${c===state.category?'selected':''}>${esc(c)}</option>`).join('')}</select></label>`;
       q('.saved-nav span').textContent=bookmarks.size;q('.saved-nav').classList.toggle('active',state.bookmarksOnly);host.querySelectorAll('[data-saved]').forEach(b=>b.setAttribute('aria-pressed',String(state.bookmarksOnly)));
       q('input').placeholder='Search items, recipes, skills, spells…';q('input').value=state.query;
@@ -167,17 +189,26 @@
     const panel={refresh:render,navigate,home,restore};panels.add(panel);
     host.addEventListener('error',event=>{const img=event.target,icon=img.dataset?.spriteFallback;if(!icon)return;delete img.dataset.spriteFallback;img.src=new URL('assets/icons/'+icon+'.svg',location.href).href;img.alt=(iconNames[icon]||'Item')+' guide icon';img.title='Game sprite unavailable · guide icon';img.classList.add('liquid-icon');},true);
     q('input').addEventListener('input',event=>{request++;state.query=event.target.value;state.id='';state.category='';state.limit=96;clearRoute();render();});
-    host.addEventListener('toggle',event=>{const node=event.target;if(!node.open||!node.dataset?.prerequisite||node.dataset.loaded)return;node.dataset.loaded='true';let ancestor=node.parentElement?.closest('[data-recipe-panel]');while(ancestor){if(ancestor.dataset.recipePanel===node.dataset.prerequisite){node.querySelector('.prerequisite-content').innerHTML='<p>This ingredient refers back to an earlier recipe. Open its full entry to choose a different route.</p>';return;}ancestor=ancestor.parentElement?.closest('[data-recipe-panel]');}loadTopic(node.dataset.prerequisite).then(t=>{const body=node.querySelector('.prerequisite-content');if(!body)return;body.innerHTML=t?recipePanelHTML(t)||writtenSteps(t.steps)||'<p>No preparation is recorded for this input.</p>':'<p>Entry unavailable.</p>';if(t)body.insertAdjacentHTML('beforeend',`<p>${link(t.id,'Open full entry')}</p>`);}).catch(e=>{delete node.dataset.loaded;node.querySelector('.prerequisite-content').textContent=e.message;});},true);
+    host.addEventListener('toggle',event=>{const node=event.target;if(!node.open||!node.dataset?.prerequisite||node.dataset.loaded)return;node.dataset.loaded='true';let ancestor=node.parentElement?.closest('[data-recipe-panel]');while(ancestor){if(ancestor.dataset.recipePanel===node.dataset.prerequisite){node.querySelector('.prerequisite-content').innerHTML='<p>This ingredient refers back to an earlier recipe. Open its full entry to choose a different route.</p>';return;}ancestor=ancestor.parentElement?.closest('[data-recipe-panel]');}loadTopic(node.dataset.prerequisite).then(t=>{const body=node.querySelector('.prerequisite-content');if(!body)return;body.innerHTML=t?recipePanelHTML(t,true)||writtenSteps(t.steps)||'<p>No preparation is recorded for this input.</p>':'<p>Entry unavailable.</p>';if(t)body.insertAdjacentHTML('beforeend',`<p>${link(t.id,'Open full entry')}</p>`);}).catch(e=>{delete node.dataset.loaded;node.querySelector('.prerequisite-content').textContent=e.message;});},true);
     host.addEventListener('change',event=>{
-      if(event.target.matches('[data-recipe-route]')){const id=event.target.dataset.recipeRoute;selectedRoutes.set(id,event.target.value);const old=event.target.closest('.recipe-panel'),parent=old.parentElement;old.outerHTML=recipePanelHTML(byId.get(id));parent.querySelector(`[data-recipe-route="${id}"]`)?.focus();panels.forEach(p=>{if(p!==panel)p.refresh();});}
+      if(event.target.matches('[data-recipe-route]')){const id=event.target.dataset.recipeRoute;selectedRoutes.set(id,event.target.value);const old=event.target.closest('.recipe-panel'),parent=old.parentElement;old.outerHTML=recipePanelHTML(byId.get(id),Boolean(old.dataset.compactPrerequisite));parent.querySelector(`[data-recipe-route="${id}"]`)?.focus();panels.forEach(p=>{if(p!==panel)p.refresh();});}
       else if(event.target.matches('[data-search-scope]')){state.scope=event.target.value;state.id='';state.category='';state.limit=96;for(const key of ['quality','method','skill','evidence'])state[key]='';clearRoute();render();}
+      else if(event.target.matches('[data-output-target]')){desiredTargets.set(event.target.dataset.outputTarget,event.target.value);}
+      else if(event.target.matches('[data-ingredient-choice]')){selectedChoices.set(event.target.dataset.ingredientChoice,event.target.value);const old=event.target.closest('.recipe-panel'),id=old.dataset.recipePanel,compact=Boolean(old.dataset.compactPrerequisite);const key=event.target.dataset.ingredientChoice;old.outerHTML=recipePanelHTML(byId.get(id),compact);host.querySelector(`[data-ingredient-choice="${key}"]`)?.focus();panels.forEach(p=>{if(p!==panel)p.refresh();});}
+      else if(event.target.matches('[data-coverage-state]')){selectedCoverage.set(event.target.dataset.coverageState,event.target.value);render();host.querySelector('[data-coverage-state]')?.focus();}
       else if(event.target.matches('[data-filter]')){state[event.target.dataset.filter]=event.target.value;state.id='';state.limit=96;clearRoute();render();}
       else if(event.target.matches('[data-category-select]')){state.category=event.target.value;state.scope=state.section;state.id='';state.limit=96;clearRoute();render();q('[data-category-select]')?.focus();}
     });
     host.addEventListener('click',event=>{
       const target=event.target.closest('button,a');if(!target)return;
       if(target.dataset.topic){if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;event.preventDefault();navigate(target.dataset.topic);}
-      else if(target.dataset.materialTotals){const id=target.dataset.materialTotals,result=host.querySelector(`[data-material-result="${id}"]`);target.disabled=true;result.textContent='Checking ingredient preparations…';prepareMaterialTotals(id).then(total=>{result.innerHTML=total.complete?`<ul>${total.materials.map(m=>`<li>${esc(m.amount)} × ${link(m.id,m.name)}</li>`).join('')}</ul>`:`<p>An exact total is unavailable.</p>${total.gaps.map(g=>`<p>${esc(g)}</p>`).join('')}`;}).catch(e=>{result.textContent=e.message;}).finally(()=>{target.disabled=false;});}
+      else if(target.dataset.inspectSprite){
+        const t=byId.get(target.dataset.inspectSprite);if(!t)return;
+        const dialog=doc.createElement('dialog');dialog.className='sprite-inspection';dialog.innerHTML=`<h2>${esc(t.title)}</h2>${image(t)}<p>Pixel-scaled item image. Category artwork is labeled as a guide icon.</p><button data-close-preview>Close</button>`;doc.body.append(dialog);
+        dialog.querySelector('[data-close-preview]').addEventListener('click',()=>dialog.close());dialog.addEventListener('close',()=>{dialog.remove();target.focus();},{once:true});
+        if(dialog.showModal)dialog.showModal();else{dialog.setAttribute('open','');}
+      }
+      else if(target.dataset.materialTotals){const id=target.dataset.materialTotals,result=host.querySelector(`[data-material-result="${id}"]`);const input=host.querySelector(`[data-output-target="${id}"]`),requested=input?(input.value.trim()===''?NaN:Number(input.value)):undefined;target.disabled=true;result.textContent='Checking ingredient preparations…';prepareMaterialTotals(id,requested).then(total=>{result.innerHTML=`<p>${total.complete?'Known item totals':'Partial totals — the unresolved branches below are excluded.'}</p><ul>${total.materials.map(m=>`<li>${esc(m.amount)} × ${link(m.id,m.name)}${m.unresolved?' (acquisition yield unresolved)':''}</li>`).join('')}</ul>${total.surplus.length?`<p>Unused intermediate output: ${total.surplus.map(m=>esc(m.amount)+' × '+esc(m.name)).join(', ')}.</p>`:''}${total.coProducts.length?`<p>Co-products: ${total.coProducts.map(m=>esc(m.amount)+' × '+esc(m.name)).join(', ')}.</p>`:''}${total.gaps.map(g=>`<p>${esc(g)}</p>`).join('')}`;}).catch(e=>{result.textContent=e.message;}).finally(()=>{target.disabled=false;});}
       else if(target.dataset.mode){state.section=target.dataset.mode;state.scope='';home();}
       else if(target.hasAttribute('data-category')){state.category=target.dataset.category;state.scope=state.section;state.id='';state.limit=96;clearRoute();render();[...host.querySelectorAll('[data-category]')].find(b=>b.dataset.category===state.category)?.focus();}
       else if(target.hasAttribute('data-back'))back();

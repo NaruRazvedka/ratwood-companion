@@ -76,3 +76,9 @@ The daily/manual `source-update.yml` workflow prepares a reviewable update pull 
 ## License
 
 Application and adapted parser code use [AGPL-3.0-or-later](LICENSE). Upstream artwork keeps its original license and exceptions. Community authors retain their rights. See [credits](credits.html), [workshop notices](NOTICE.md) and [guide notices](guide/NOTICE.md).
+
+### Field guide tools
+
+The guide’s **Scenario tools** link opens local cauldron, smelting, crop, brewing, base-attack and armor-channel checks. Item pages also include armor coverage pictures, bag grids, linked equipment, short processing branches and a batch planner. All work offline with the bundled `search.js` and `details/` files. Unknown or conditional quantities remain visible; these tools do not connect to a running game.
+
+Native fixture source and instructions are in `tools/native-mechanics/`. Recorded isolated-DM checks are distinct from full-server or client testing. See the guide README for content maintenance and the limits of each tool.

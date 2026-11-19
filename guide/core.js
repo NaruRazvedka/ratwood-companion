@@ -16,30 +16,65 @@
     }
     if(!routes.length&&(topic.recipe||legacy.length||topic.steps?.length))routes=[{name:'Preparation',groups:legacy,steps:topic.steps||[],requirements:topic.requirements||[],station:topic.station}];
     const seen=new Set();
-    const normalized=routes.filter(r=>{const key=JSON.stringify([r.groups,r.steps]);if(seen.has(key))return false;seen.add(key);return true;}).map((r,i)=>({...r,id:String(r.id||'route-'+i),name:r.name||r.method||'Preparation '+(i+1),groups:r.groups||legacy,steps:r.steps||[],requirements:r.requirements||[],gaps:r.gaps||[]}));
+    const normalized=routes.filter(r=>{const key=JSON.stringify([r.groups,r.steps,r.outputQuantity,r.coProducts,r.tools,r.requirements]);if(seen.has(key))return false;seen.add(key);return true;}).map((r,i)=>({...r,id:String(r.id||'route-'+i),name:r.name||r.method||'Preparation '+(i+1),groups:r.groups||legacy,steps:r.steps||[],requirements:r.requirements||[],gaps:r.gaps||[]}));
     const names=new Map();for(const r of normalized)names.set(r.name,(names.get(r.name)||0)+1);
     return normalized.map(r=>names.get(r.name)>1?{...r,name:r.name+' · '+r.groups.filter(g=>!g.tool).slice(0,2).map(g=>g.label).join(' + ')}:r);
   }
-  function materialTotals(topic,byId,selections=new Map()) {
-    const totals=new Map(),gaps=new Set();
-    function visit(t,amount,trail){
-      if(trail.includes(t.id)){gaps.add('A preparation cycle needs a different route.');return;}
-      const routes=recipeRoutes(t),r=routes.find(r=>r.id===selections.get(t.id))||routes[0];
-      if(!r){const old=totals.get(t.id);totals.set(t.id,{id:t.id,name:t.title,amount:(old?.amount||0)+amount});return;}
-      if(r.outputType?.startsWith('/datum/reagent/')){gaps.add('Liquid yields need compatible measured units; they are not converted into item counts.');return;}
-      if(!Number.isFinite(r.outputQuantity)||r.outputQuantity<=0){gaps.add('A preparation yield is not known.');return;}
-      const batches=Math.ceil(amount/r.outputQuantity);
-      for(const group of r.groups.filter(g=>!g.tool)){
-        if(group.options.length!==1){gaps.add('An ingredient has alternatives; choose it in the written recipe.');continue;}
-        const input=group.options[0],child=byId.get(input.id);
-        if(!child||child.detailLoaded===false){gaps.add('Expand the ingredient preparations before calculating their raw materials.');continue;}
-        if(input.unit||!Number.isFinite(input.amount)||input.amount<=0){gaps.add('An ingredient amount or unit is not suitable for an item-count total.');continue;}
-        visit(child,input.amount*batches,[...trail,t.id]);
+  function materialTotals(topic,byId,selections=new Map(),{target,choices=new Map()}={}) {
+    const gaps=new Set(),nodes=new Map(),order=[],visiting=new Set(),visited=new Set(),totals=new Map(),surplus=[],coProducts=[];
+    const chosen=t=>{const routes=recipeRoutes(t);return routes.find(r=>r.id===selections.get(t.id))||routes[0];};
+    function visit(t){
+      if(visiting.has(t.id)){gaps.add('A preparation cycle needs a different route.');return;}
+      if(visited.has(t.id))return;visiting.add(t.id);
+      const r=chosen(t),inputs=[];nodes.set(t.id,{topic:t,route:r,inputs});
+      for(const [index,g] of (r?.groups||[]).entries()){
+        if(g.tool)continue;
+        const pick=choices.get(t.id+':'+r.id+':'+index),input=g.options.find(o=>o.id===pick)||(g.options.length===1?g.options[0]:null);
+        if(!input){gaps.add('Choose one ingredient alternative before calculating the whole chain.');continue;}
+        const child=byId.get(input.id);
+        if(!child||child.detailLoaded===false){gaps.add('An ingredient preparation or identity is not available.');continue;}
+        if(input.unit||!Number.isFinite(input.amount)||input.amount<=0){gaps.add('A measured liquid or unknown input quantity is kept outside item-count totals.');continue;}
+        inputs.push(input);visit(child);
+      }
+      visiting.delete(t.id);visited.add(t.id);order.push(t.id);
+    }
+    visit(topic);
+    const root=chosen(topic),wanted=target??root?.outputQuantity??1;
+    if(!Number.isInteger(wanted)||wanted<1||wanted>10000)return {complete:false,materials:[],gaps:['Choose an output amount from 1 to 10,000.'],surplus:[],coProducts:[]};
+    const demand=new Map([[topic.id,wanted]]),credits=new Map();
+    for(const id of order.reverse()){
+      const node=nodes.get(id),t=node.topic,r=node.route,need=Math.max(0,(demand.get(id)||0)-(credits.get(id)||0));
+      if(!need)continue;
+      if(!r){totals.set(id,{id,name:t.title,amount:need});continue;}
+      if(r.outputType?.startsWith('/datum/reagent/')){gaps.add('Liquid yields need compatible measured units; they are not converted into item counts.');continue;}
+      if(!Number.isFinite(r.outputQuantity)||r.outputQuantity<=0||r.conditionalYield){gaps.add('A preparation yield is unknown or conditional.');totals.set(id,{id,name:t.title,amount:need,unresolved:true});continue;}
+      const batches=Math.ceil(need/r.outputQuantity),extra=batches*r.outputQuantity-need;
+      if(extra)surplus.push({id,name:t.title,amount:extra});
+      for(const input of node.inputs)demand.set(input.id,(demand.get(input.id)||0)+input.amount*batches);
+      for(const product of r.coProducts||[]){
+        if(!Number.isFinite(product.amount)||product.conditional){gaps.add('A co-product has a conditional yield.');continue;}
+        const amount=product.amount*batches;coProducts.push({...product,amount});
+        if(product.id&&!visited.has(product.id))credits.set(product.id,(credits.get(product.id)||0)+amount);
+        else if(product.id&&visited.has(product.id)){gaps.add('A co-product may satisfy another branch; its reuse is not included automatically.');}
       }
     }
-    const routes=recipeRoutes(topic),rootRoute=routes.find(r=>r.id===selections.get(topic.id))||routes[0];
-    if(rootRoute)visit(topic,rootRoute.outputQuantity||1,[]);
-    return {complete:gaps.size===0,materials:[...totals.values()].sort((a,b)=>a.name.localeCompare(b.name)),gaps:[...gaps]};
+    return {complete:gaps.size===0,materials:[...totals.values()].sort((a,b)=>a.name.localeCompare(b.name)),gaps:[...gaps],surplus,coProducts};
+  }
+  function itemTags(topic){
+    if(topic.section!=='items')return [];
+    const groups=topic.itemProperties?.useCases||[],tags=[];
+    if(groups.some(g=>g.id==='tool'))tags.push('Tools & stations');
+    if(groups.some(g=>g.id==='container'&&g.facts.some(f=>f.property==='screen_max_rows')))tags.push('Carrying storage');
+    return tags.filter(tag=>tag!==topic.category);
+  }
+  function inCategory(topic,category){return !category||topic.category===category||(topic.browseTags||itemTags(topic)).includes(category);}
+  function itemSummary(topic){
+    const groups=topic.itemProperties?.useCases||[],p=topic.itemProperties||{},has=id=>groups.some(g=>g.id===id);
+    const primary=topic.kind==='spell'?'spell':has('plant')?'plant':has('armor')?'armor':has('tool')?'tool':topic.category==='Weapons'?'weapon':has('container')&&groups.find(g=>g.id==='container').facts.some(f=>f.property==='screen_max_rows')?'container':has('reagent')?'reagent':'food';
+    const wanted={weapon:['force','force_wielded','associated_skill','minstr','wdefense','max_integrity'],armor:['body_parts_covered','armor_class','max_integrity','anvilrepair','slowdown'],plant:['produce_type','produce_amount_min','produce_amount_max','maturation_time','produce_time','perennial'],container:['screen_max_rows','screen_max_columns','max_w_class','not_while_equipped','slot_flags'],tool:['tool_behaviour','toolspeed','associated_skill','max_integrity'],reagent:['description','metabolization_rate','overdose_threshold'],spell:['primary_resource_cost','secondary_resource_cost','cast_range','cooldown_time','charge_time']}[primary]||[];
+    const facts=wanted.map(key=>groups.flatMap(g=>g.facts).find(f=>f.property===key)).filter(Boolean);
+    if(!facts.length){if(p.quality)facts.push({label:p.brewing?'Drink quality':'Quality',value:p.quality.label});if(p.shelfLife)facts.push({label:'Storage',value:p.shelfLife.label});if(p.brewing)facts.push({label:'Batch yield',value:p.brewing.bottles+' bottles'});}
+    return {primary,facts:facts.slice(0,6)};
   }
   function routeSummary(topic, selected) {
     const r=selected||recipeRoutes(topic)[0],s=recipeSummary(topic);
@@ -81,7 +116,7 @@
     return Object.fromEntries(Object.entries(values).map(([field,read])=>[field,[...new Set(search(items,{...options,[field]:''}).flatMap(t=>read(t.recipeProfile||recipeProfile(t))))].sort()]));
   }
   function indexTopics(topics) {
-    return topics.map(topic => ({ ...topic, recipeProfile:topic.recipeProfile||recipeProfile(topic),titleKey: normalize(topic.title),aliasKeys:(topic.aliases||[]).map(normalize), searchKey: topic.searchKey||normalize([topic.title, ...(topic.aliases || []), topic.summary, topic.itemInfo?.description?.text, ...(topic.itemInfo?.mechanics||[]).map(m=>m.text), topic.itemProperties?.shelfLife?.label,topic.itemProperties?.quality?.label,topic.itemProperties?.value?.label,...(topic.itemProperties?.useCases||[]).flatMap(g=>[g.title,...(g.facts||[]).map(f=>f.label+' '+f.value),...(g.attacks||[]).flatMap(a=>[a.name,a.description,...(a.facts||[]).map(f=>f.label+' '+f.value)])]),...recipeRoutes(topic).flatMap(r=>[r.name,...r.steps,...r.requirements,...r.groups.map(g=>g.label)]),...(topic.requirements || []), ...(topic.steps || []), ...(topic.sections||[]).map(s=>[s.title,s.text,...(s.steps||[]),...(s.facts||[]).map(f=>f.label+' '+f.value)].join(' ')), ...(topic.facts || []).map(f => f.label + ' ' + f.value)].join(' ')) }));
+    return topics.map(topic => ({ ...topic, recipeProfile:topic.recipeProfile||recipeProfile(topic),browseTags:topic.browseTags||itemTags(topic),titleKey: normalize(topic.title),aliasKeys:(topic.aliases||[]).map(normalize), searchKey: topic.searchKey||normalize([topic.title, ...(topic.aliases || []), topic.summary, topic.itemInfo?.description?.text, ...(topic.itemInfo?.mechanics||[]).map(m=>m.text), topic.itemProperties?.shelfLife?.label,topic.itemProperties?.quality?.label,topic.itemProperties?.value?.label,...(topic.itemProperties?.useCases||[]).flatMap(g=>[g.title,...(g.facts||[]).map(f=>f.label+' '+f.value),...(g.attacks||[]).flatMap(a=>[a.name,a.description,...(a.facts||[]).map(f=>f.label+' '+f.value)])]),...recipeRoutes(topic).flatMap(r=>[r.name,...r.steps,...r.requirements,...r.groups.map(g=>g.label)]),...(topic.requirements || []), ...(topic.steps || []), ...(topic.sections||[]).map(s=>[s.title,s.text,...(s.steps||[]),...(s.facts||[]).map(f=>f.label+' '+f.value)].join(' ')), ...(topic.facts || []).map(f => f.label + ' ' + f.value)].join(' ')) }));
   }
   function search(topics, {query='', category='', kind='', section='',quality='',method='',skill='',evidence='', bookmarksOnly=false, bookmarks=new Set()} = {}) {
     const words=normalize(query).split(' ').filter(Boolean);
@@ -89,7 +124,7 @@
     const useful=words.length>1&&/^(how|where|what|which|can|could)\b/.test(normalize(query))?words.filter(word=>!filler.has(word)):words;
     const terms=useful.length?useful:words;
     const needle=terms.join(' ');
-    return topics.filter(topic => {const p=topic.recipeProfile||recipeProfile(topic);return (!section||topic.section===section) && (!category || topic.category === category) && (!kind || topic.kind === kind) && (!quality||p.quality===quality)&&(!method||p.methods.includes(method))&&(!skill||p.skills.includes(skill))&&(!method||!skill||p.methodSkills[method]?.includes(skill))&&(!evidence||p.evidence===evidence)&&(!bookmarksOnly || bookmarks.has(topic.id)) && terms.every(term => topic.searchKey.includes(term));})
+    return topics.filter(topic => {const p=topic.recipeProfile||recipeProfile(topic);return (!section||topic.section===section) && inCategory(topic,category) && (!kind || topic.kind === kind) && (!quality||p.quality===quality)&&(!method||p.methods.includes(method))&&(!skill||p.skills.includes(skill))&&(!method||!skill||p.methodSkills[method]?.includes(skill))&&(!evidence||p.evidence===evidence)&&(!bookmarksOnly || bookmarks.has(topic.id)) && terms.every(term => topic.searchKey.includes(term));})
       .sort((a,b) => {
         const score = t => (t.titleKey===normalize(query)||t.titleKey===needle?100:t.aliasKeys?.includes(normalize(query))||t.aliasKeys?.includes(needle)?90:0)+terms.reduce((n,term)=>n+(t.titleKey.includes(term)?10:t.aliasKeys?.some(a=>a.includes(term))?8:0),0)+(t.kind==='guide'?2:0);
         return score(b)-score(a) || a.title.localeCompare(b.title);
@@ -157,6 +192,6 @@
     if(/\bbarrel\b/.test(normalize(topic.title)))return 'barrel';
     return liquidIcon(topic)||({'Dishes':'food','Prepared ingredients':'ingredient','Ingredients':'ingredient','Plants & crops':'plant','Alchemy ingredients':'flask','Alchemy products':'flask','Tools & stations':'tool','Materials':'material','Armor':'armor','Clothing & armor':'armor','Weapons':'weapon','Construction':'construction'}[topic.category]||'item');
   }
-  const api={normalize,escapeHTML,safeURL,indexTopics,search,suggestions,recipeRoutes,materialTotals,routeSummary,parseBookmarkBackup,readBookmarks,writeBookmarks,floatingController,preparationTree,liquidIcon,placeholderIcon,recipeProfile,recipeSummary,filterOptions};
+  const api={normalize,escapeHTML,safeURL,indexTopics,search,suggestions,recipeRoutes,materialTotals,routeSummary,parseBookmarkBackup,readBookmarks,writeBookmarks,floatingController,preparationTree,liquidIcon,placeholderIcon,recipeProfile,recipeSummary,filterOptions,itemTags,inCategory,itemSummary};
   if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.GuideCore=api;
 })(globalThis);

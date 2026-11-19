@@ -22020,5 +22020,313 @@
     "type": "/obj/item/reagent_containers/food/snacks/rogue/meat/mince",
     "status": "description",
     "mechanics": 6
+  },
+  {
+    "id": "handler-32e0d3889b9a62",
+    "title": "wooden club (base variant)",
+    "type": "/obj/item/rogueweapon/mace/woodclub",
+    "status": "description",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-318ade8ae2b0a5",
+    "title": "oat stalks",
+    "type": "/obj/item/natural/chaff/oat",
+    "status": "description",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-c4391e14b1f939",
+    "title": "rice stalks",
+    "type": "/obj/item/natural/chaff/rice",
+    "status": "description",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-5370482e051be4",
+    "title": "wheat seeds",
+    "type": "/obj/item/seeds/wheat",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-427f59abeebebe",
+    "title": "glimmering slag",
+    "type": "/obj/item/ingot/aaslag",
+    "status": "description",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-5b544140039ea1",
+    "title": "charcoal",
+    "type": "/obj/item/rogueore/coal/charcoal",
+    "status": "description",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-14aa7d10f16a62",
+    "title": "berry seeds",
+    "type": "/obj/item/seeds/berryrogue",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-7feb638b969184",
+    "title": "swampweed seeds",
+    "type": "/obj/item/seeds/swampweed",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-0d6c662f62e1e4",
+    "title": "manabloom seeds",
+    "type": "/obj/item/herbseed/manabloom",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-fa6be8ca52c49b",
+    "title": "rice seeds",
+    "type": "/obj/item/seeds/rice",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-2dfa5b6ec02960",
+    "title": "sugarcane seeds",
+    "type": "/obj/item/seeds/sugarcane",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-0d8257f3c9072c",
+    "title": "coffee seeds",
+    "type": "/obj/item/seeds/coffee",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-ad1df7612055d3",
+    "title": "cabbage seeds",
+    "type": "/obj/item/seeds/cabbage",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-639690ba8f3129",
+    "title": "onion seeds",
+    "type": "/obj/item/seeds/onion",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-e6f4670aed520d",
+    "title": "potato seeds",
+    "type": "/obj/item/seeds/potato",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-50dc43012c6bd4",
+    "title": "garlick seeds",
+    "type": "/obj/item/seeds/garlick",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-896dbb060d7ced",
+    "title": "turnip seeds",
+    "type": "/obj/item/seeds/turnip",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-bf694e2659f098",
+    "title": "apple seeds",
+    "type": "/obj/item/seeds/apple",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-923f43b0f6db62",
+    "title": "berry seeds (poison)",
+    "type": "/obj/item/seeds/berryrogue/poison",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-ecafd5677a2074",
+    "title": "tangerine seeds",
+    "type": "/obj/item/seeds/tangerine",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-9bd3f88672594a",
+    "title": "plum seeds",
+    "type": "/obj/item/seeds/plum",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-6fcea9fc2e0792",
+    "title": "blackberry seeds",
+    "type": "/obj/item/seeds/blackberry",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-07ec2b19bddf04",
+    "title": "raspberry seeds",
+    "type": "/obj/item/seeds/raspberry",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-0010fa787f085c",
+    "title": "strawberry seeds",
+    "type": "/obj/item/seeds/strawberry",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-94c836b9233778",
+    "title": "pear seeds",
+    "type": "/obj/item/seeds/pear",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-1ca91f1eeb59de",
+    "title": "carrot seeds",
+    "type": "/obj/item/seeds/carrot",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-deb5f4a30b640f",
+    "title": "lemon seeds",
+    "type": "/obj/item/seeds/lemon",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-c2ae59a199a43a",
+    "title": "lime seeds",
+    "type": "/obj/item/seeds/lime",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-f767d6e41e8f71",
+    "title": "rocknut seeds",
+    "type": "/obj/item/seeds/nut",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-676d6121624d9d",
+    "title": "eggplant seeds",
+    "type": "/obj/item/seeds/eggplant",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-3bd64682a8a72e",
+    "title": "tomato seeds",
+    "type": "/obj/item/seeds/tomato",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-ca18a5075ad83b",
+    "title": "oat seeds",
+    "type": "/obj/item/seeds/wheat/oat",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-eb1339f531928c",
+    "title": "poppy seeds",
+    "type": "/obj/item/seeds/poppy",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-2ccf8f5f16bfa8",
+    "title": "heated glass",
+    "type": "/obj/item/natural/glass/heated",
+    "status": "description",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-e041335fe92c0a",
+    "title": "westleach leaf seeds",
+    "type": "/obj/item/seeds/pipeweed",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-c3d9c46d0e509a",
+    "title": "tea seeds",
+    "type": "/obj/item/seeds/tea",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-1c0a9e88ef2cc1",
+    "title": "baker's root seeds",
+    "type": "/obj/item/seeds/bakersroot",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-1c5bd8fb0fb652",
+    "title": "fyritius seeds",
+    "type": "/obj/item/seeds/fyritius",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-32ae7fe42c472d",
+    "title": "sunflower seeds",
+    "type": "/obj/item/seeds/sunflower",
+    "status": "unmatched",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-f6e56883e7f484",
+    "title": "tin",
+    "type": "/obj/item/rogueore/tin",
+    "status": "description",
+    "mechanics": 0
+  },
+  {
+    "id": "handler-95984acdc1f44a",
+    "title": "bottle kit",
+    "type": "/obj/item/bottle_kit",
+    "status": "description",
+    "mechanics": 0
+  },
+  {
+    "id": "equipment-feccc404eb618a",
+    "title": "amulet of Astrata",
+    "type": "/obj/item/clothing/neck/roguetown/psicross/astrata",
+    "status": "description",
+    "mechanics": 0
+  },
+  {
+    "id": "equipment-ac9d5382b1fb41",
+    "title": "psycross",
+    "type": "/obj/item/clothing/neck/roguetown/psicross",
+    "status": "description",
+    "mechanics": 0
+  },
+  {
+    "id": "equipment-f875296a890b1d",
+    "title": "harvest bloomstone",
+    "type": "/obj/item/alch/bloomstone",
+    "status": "description",
+    "mechanics": 0
   }
 ]

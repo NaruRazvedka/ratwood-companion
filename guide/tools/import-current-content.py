@@ -11,6 +11,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 HELP = runpy.run_path(str(ROOT / 'tools/import-preparation-routes.py'))
+ACTION_HELP = runpy.run_path(str(ROOT / 'tools/action-spells.py'))
 
 
 def plain(value):
@@ -310,6 +311,7 @@ def main():
     training['section'] = 'reference'
     training['gaps'] = ['Training experience is source-backed; live-server deployment has not been checked.']
     topics.append(training)
+    ACTION_HELP['enrich'](topics, ledger, definitions, resolved, texts, topic, uid, plain, source, url)
     ids = {t['id'] for t in topics}
     for t in topics:
         t['related'] = list(dict.fromkeys(i for i in t['related'] if i in ids and i != t['id']))

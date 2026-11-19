@@ -1,23 +1,43 @@
 {
   "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
   "reviewed": "2026-11-18",
+  "nativeEvidence": {
+    "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+    "engine": "516.1688",
+    "passed": 75,
+    "total": 75,
+    "kind": "native-isolated-handler",
+    "recorded": "2026-11-18T22:10:43.6991745Z",
+    "limitations": [
+      "Native isolated handlers with explicit scaffolding; not full-game or client tests.",
+      "Reagents use dictionary storage, deletion is immediate, sorting is simplified; ties are not validated.",
+      "do_after result is configured; actual timing, skill mind, inventory and interruption system are not tested.",
+      "getarmor returns a supplied tier; coverage, layers, integrity, bodyparts and final HP damage are not tested.",
+      "Synthetic alchemy ingredient potencies test scoring branches, not real item combination insertion.",
+      "Dough rolling and sharp scoring handlers are covered; shared snack slicing is not.",
+      "Native random bubble-sound branch calls a no-op; scenario state expectations are deterministic.",
+      "No full-game build: sparse assets/maps and runtime dependencies are missing.",
+      "Installed Windows daemon automatically authenticated its saved BYOND session; no client launched or account settings changed. Not completely network-isolated."
+    ]
+  },
+  "handlerContentHeld": null,
   "counts": {
-    "topics": 5126,
-    "items": 3146,
-    "topicsWithSprites": 2747,
+    "topics": 5346,
+    "items": 3190,
+    "topicsWithSprites": 2791,
     "byKind": {
-      "guide": 12,
+      "guide": 42,
       "ingredient": 42,
       "potion": 25,
       "recipe": 452,
       "procedure": 17,
       "armor": 156,
       "heartbeast": 78,
-      "item": 2471,
+      "item": 2517,
       "skill": 49,
       "trait": 472,
       "role": 471,
-      "spell": 323,
+      "spell": 467,
       "effect": 432,
       "training": 1,
       "creature": 125
@@ -25,14 +45,14 @@
     "byStatus": {
       "community": 137,
       "historical": 1,
-      "source": 4624,
-      "unverified": 364
+      "source": 4852,
+      "unverified": 356
     }
   },
   "definitions": {
     "states": {
-      "excluded": 371,
-      "mapped": 1770
+      "excluded": 382,
+      "mapped": 1914
     },
     "entries": [
       {
@@ -862,7 +882,8 @@
         "type": "/obj/effect/proc_holder/spell/targeted/pioneer/plant_bogtrap_delayed",
         "topicId": "current-3fdb8414c8829c",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/datum/advclass/sawbones",
@@ -1228,43 +1249,50 @@
         "type": "/obj/effect/proc_holder/spell/self/convertrole/heartfelt",
         "topicId": "current-2f2a65362747c9",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/order/heartfelt",
         "topicId": "current-693ca520c952c5",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/order/heartfelt/retreat",
         "topicId": "current-8bd0ffb9b54fa2",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/order/heartfelt/bolster",
         "topicId": "current-742f054bd37810",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/order/heartfelt/forheartfelt",
         "topicId": "current-a153775ddedcd7",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/order/heartfelt/charge",
         "topicId": "current-5fc505694419cc",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/order/heartfelt/focustarget",
         "topicId": "current-ee175cc0bfd7a5",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/datum/advclass/heartfelt/retinue/armorer",
@@ -1652,7 +1680,8 @@
         "type": "/obj/effect/proc_holder/spell/targeted/shapeshift/witch/cat",
         "topicId": "current-8bd23df54f051f",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/shapeshift/witch/cat/black",
@@ -1663,43 +1692,50 @@
         "type": "/obj/effect/proc_holder/spell/targeted/shapeshift/witch/lesser_wolf",
         "topicId": "current-18451eb3b2b6f7",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/shapeshift/witch/lesser_vernard",
         "topicId": "current-d45d993500a5ad",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/shapeshift/witch/rous",
         "topicId": "current-f85d6f08e733e3",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/shapeshift/witch/cabbit",
         "topicId": "current-1810f1f8c26bf3",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/shapeshift/witch/bat",
         "topicId": "current-f926269ca81cd3",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/shapeshift/witch/crow",
         "topicId": "current-3241d509117864",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/shapeshift/witch/frog",
         "topicId": "current-14421d45c94744",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/datum/advclass/woodworker",
@@ -1747,7 +1783,8 @@
         "type": "/obj/effect/proc_holder/spell/invoked/bonemend",
         "topicId": "current-c9a302809c21b4",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/datum/advclass/wretch/antipope",
@@ -1788,31 +1825,36 @@
         "type": "/obj/effect/proc_holder/spell/invoked/order/retreat",
         "topicId": "current-fe28d7d635f365",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/order/bolster",
         "topicId": "current-801f2fb0669187",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/order/brotherhood",
         "topicId": "current-05483ceab9f165",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/order/charge",
         "topicId": "current-afeb4fcdb01bbe",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/convertrole/brotherhood",
         "topicId": "current-c1a6416126232c",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/datum/advclass/wretch/herald_of_progress",
@@ -1829,7 +1871,8 @@
         "type": "/obj/effect/proc_holder/spell/invoked/raise_undead_formation/sotto_voce",
         "topicId": "current-d7c3e7d0289b02",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/tame_undead/miracle",
@@ -1840,13 +1883,15 @@
         "type": "/obj/effect/proc_holder/spell/self/the_division_bell",
         "topicId": "current-c59da0ba312a5b",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/song/of_her_embrace",
         "topicId": "current-302715f7883497",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/datum/advclass/wretch/heretic",
@@ -1870,7 +1915,8 @@
         "type": "/obj/effect/proc_holder/spell/invoked/convert_heretic",
         "topicId": "current-68b496112d35e7",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/datum/advclass/wretch/licker",
@@ -2074,19 +2120,22 @@
         "type": "/obj/effect/proc_holder/spell/self/convertrole/templar",
         "topicId": "current-512bd5915e132e",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "source-configured route"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/convertrole/monk",
         "topicId": "current-c7b182596ed365",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "source-configured route"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/convert_heretic_priest",
         "topicId": "current-8df686115615c6",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/datum/job/roguetown/templar",
@@ -2175,7 +2224,8 @@
         "type": "/obj/effect/proc_holder/spell/self/petition_ministry",
         "topicId": "current-f3129c8cf776bd",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/datum/job/roguetown/jester",
@@ -2331,7 +2381,8 @@
         "type": "/obj/effect/proc_holder/spell/targeted/skirmisher_trap",
         "topicId": "current-431a6c140bb660",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/datum/advclass/manorguard/standard_bearer",
@@ -2397,31 +2448,36 @@
         "type": "/obj/effect/proc_holder/spell/invoked/order/movemovemove",
         "topicId": "current-0b0ae6bdad89a0",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/order/takeaim",
         "topicId": "current-6e995b9e08170c",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/order/onfeet",
         "topicId": "current-dce62d68f8bcf9",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/order/hold",
         "topicId": "current-f107ea330793a0",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/order/focustarget",
         "topicId": "current-f00563bff92eee",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/datum/job/roguetown/squire",
@@ -2553,7 +2609,8 @@
         "type": "/obj/effect/proc_holder/spell/self/convertrole/vanguard",
         "topicId": "current-74346c68aaa6b8",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/datum/job/roguetown/watchcaptain",
@@ -2571,7 +2628,8 @@
         "type": "/obj/effect/proc_holder/spell/self/convertrole/cityguard",
         "topicId": "current-c25df9c59e756c",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/datum/advclass/mercenary/atgervi",
@@ -2871,13 +2929,15 @@
         "type": "/obj/effect/proc_holder/spell/self/convertrole",
         "topicId": "current-de1b39806ab8c9",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/convertrole/guard",
         "topicId": "current-ccda59b7b34740",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "source-configured route"
       },
       {
         "type": "/datum/job/roguetown/clerk",
@@ -2925,7 +2985,8 @@
         "type": "/obj/effect/proc_holder/spell/self/convertrole/servant",
         "topicId": "current-f5ec2f6110c368",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "source-configured route"
       },
       {
         "type": "/datum/job/roguetown/hand",
@@ -2955,7 +3016,8 @@
         "type": "/obj/effect/proc_holder/spell/self/convertrole/agent",
         "topicId": "current-cc935ff3cab9d7",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "source-configured route"
       },
       {
         "type": "/datum/job/roguetown/lord",
@@ -2991,19 +3053,22 @@
         "type": "/obj/effect/proc_holder/spell/self/grant_title",
         "topicId": "current-00870299e8d328",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "source-configured route"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/grant_nobility",
         "topicId": "current-9837dbd7564fcf",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "source-configured route"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/convertrole/bog",
         "topicId": "current-6b7f8bc9257891",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "source-configured route"
       },
       {
         "type": "/datum/job/roguetown/prince",
@@ -3650,19 +3715,22 @@
         "type": "/obj/effect/proc_holder/spell/invoked/diagnose/secular/zizo",
         "topicId": "current-d9cfb261ddc6e8",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/engineeranalyze/zizo",
         "topicId": "current-0eb924835708e2",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked",
         "topicId": "current-ce225fd3a546bf",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/projectile",
@@ -3673,301 +3741,351 @@
         "type": "/obj/effect/proc_holder/spell/invoked/abyssor_bends",
         "topicId": "current-cc47c2d006caee",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/abyssor_undertow",
         "topicId": "current-f307788c06713e",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/abyssor_wind",
         "topicId": "current-41baaaf1bb3ee5",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/aquatic_compulsion",
         "topicId": "current-611616e7e6067a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/abyssheal",
         "topicId": "current-cd91129a8da76b",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/call_mossback",
         "topicId": "current-38ad0b95e160be",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/call_dreamfiend",
         "topicId": "current-84c84d3a5554df",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/abyssal_infusion",
         "topicId": "current-42a2bd9b1b29e7",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/abyssal_strength",
         "topicId": "current-f237d9d79a89c7",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/ignition",
         "topicId": "current-de1238cc2291d1",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/revive",
         "topicId": "current-1f248b658c399a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/astrata_gaze",
         "topicId": "current-0f0aea085b55a0",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/immolation",
         "topicId": "current-9d1590634a8e1a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/astratan_spear",
         "topicId": "current-add578631d59b1",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/blesscrop",
         "topicId": "current-3f8f4273b9111e",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/beasttame",
         "topicId": "current-34ccabee5df1a3",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/conjure_glowshroom",
         "topicId": "current-764a81f385a1d8",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/conjure_vines",
         "topicId": "current-a879d2505addf7",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/howl/call_of_the_moon",
         "topicId": "current-ca525849f0ab4f",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/spiderspeak",
         "topicId": "current-ae249a4194f2eb",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/sanctify_tree",
         "topicId": "current-36a340ac1938c9",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/summon_lesser_dryad",
         "topicId": "current-1b002d8b43e7dd",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/lesser_dryad_special",
         "topicId": "current-6696a2001401b0",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/minion_order/lesser_dryad",
         "topicId": "current-662e12bb70a992",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/conjure_floral_seed",
         "topicId": "current-66ca4e5bfb6c84",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/bud",
         "topicId": "current-c0bad74e686eae",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/eoracurse",
         "topicId": "current-0a5c2612e4d86e",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/heartweave",
         "topicId": "current-df8215ec06d70a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/bless_food",
         "topicId": "current-a0a85c0701a72a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/pomegranate",
         "topicId": "current-5963f6afeae757",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/eora_blessing",
         "topicId": "current-dba19ea1a54aad",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/summon_bed",
         "topicId": "current-f6e54f28ab3e9f",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/lesser_heal",
         "topicId": "current-bfce554c2f4559",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/heal",
         "topicId": "current-cc785f2a148c07",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/wound_heal",
         "topicId": "current-a15e949338d208",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "source-configured route"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/blood_heal",
         "topicId": "current-f41a1da5b9dac7",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/vigorousexchange",
         "topicId": "current-3cd50689bd837d",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/heatmetal",
         "topicId": "current-11692434dedb38",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/hammerfall",
         "topicId": "current-c2bff66b32dfda",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/craftercovenant",
         "topicId": "current-beced01eddac90",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/malum_flame_rogue",
         "topicId": "current-74d555bf368166",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/burialrite",
         "topicId": "current-b8d87d606a2afe",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/churn",
         "topicId": "current-7d7f57c80e7c93",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/deaths_door",
         "topicId": "current-c9da7d6d68bebc",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/speakwithdead",
         "topicId": "current-906a4f377b6534",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/fieldburials",
         "topicId": "current-5c9a2290b437ef",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/locate_dead",
         "topicId": "current-188c45c9321d7c",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/blindness",
         "topicId": "current-0199d80955c05d",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/blindness/warscholar",
         "topicId": "current-330e242f3e6432",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/invisibility",
         "topicId": "current-c19370c2549060",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/invisibility/miracle",
@@ -3978,55 +4096,64 @@
         "type": "/obj/effect/proc_holder/spell/self/noc_spell_bundle",
         "topicId": "current-06c596393e209b",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/noc_sight",
         "topicId": "current-110838e696a40a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/silence/miracle",
         "topicId": "current-cc2e5d95567f26",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/magicshield",
         "topicId": "current-f69769d9806f2d",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/diagnose",
         "topicId": "current-284b7840cd89a6",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/diagnose/secular",
         "topicId": "current-d1f310569239a5",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/attach_bodypart",
         "topicId": "current-8a96707961acfa",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/infestation",
         "topicId": "current-2aef08c48692d8",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/cure_rot",
         "topicId": "current-6ff213e2c963b6",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "source-configured route"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/cure_rot/priest",
@@ -4037,187 +4164,218 @@
         "type": "/obj/effect/proc_holder/spell/invoked/pestra_leech",
         "topicId": "current-bdaf41261c5e82",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/pestra_heal",
         "topicId": "current-c1710b80cbd7b1",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/divine_rebirth",
         "topicId": "current-fc0edebf05ff88",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/pestilent_blade",
         "topicId": "current-7810942ad58906",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/fleshcraft",
         "topicId": "current-5bc4b0e7dc490a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/divine_strike",
         "topicId": "current-4a363d112c6268",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/call_to_arms",
         "topicId": "current-9dab5bb89eca69",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/persistence",
         "topicId": "current-ba56af82cb964d",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/tug_of_war",
         "topicId": "current-1668bafc38f7ba",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/challenge",
         "topicId": "current-1fb6321f3891e0",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/resurrect",
         "topicId": "current-5e0acf4b138634",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/resurrect/abyssor",
         "topicId": "current-e6f724b80fa374",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/summon_dreamfiend_curse",
         "topicId": "current-46d49eb672fd24",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/resurrect/pestra",
         "topicId": "current-fd1c70bb22487f",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/resurrect/eora",
         "topicId": "current-b399a77dcb0bbb",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/resurrect/xylix",
         "topicId": "current-f3aedfe8e9da3e",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/resurrect/malum",
         "topicId": "current-b9664f3b47832b",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/resurrect/ravox",
         "topicId": "current-2767b5d8c92d66",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/resurrect/dendor",
         "topicId": "current-e99327db259451",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/resurrect/noc",
         "topicId": "current-fc613220505a3b",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/wheel",
         "topicId": "current-e0a10e3d2c9bbb",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/ventriloquism",
         "topicId": "current-797be943e15117",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/mastersillusion",
         "topicId": "current-86a403ab0bb4ab",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/mockery",
         "topicId": "current-513d947b9c159e",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/xylixslip",
         "topicId": "current-19b8827bedc279",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/abscond",
         "topicId": "current-e745762f50ac08",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/mimicry",
         "topicId": "current-46eae8315a5e98",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/xylixlian_luck",
         "topicId": "current-2e3c81e6f34a1a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/shepherd",
         "topicId": "current-57ef4b24e9a4d0",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/create_abyssoid",
         "topicId": "current-3abd9282ab5943",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/transform_tree",
         "topicId": "current-bf96e38ec45d1c",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/touch/summonrogueweapon/evil",
@@ -4228,43 +4386,50 @@
         "type": "/obj/effect/proc_holder/spell/targeted/touch/summonrogueweapon/evil/inhumenblade",
         "topicId": "current-9596369769e368",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/telljoke",
         "topicId": "current-2759201c4247d8",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/telltragedy",
         "topicId": "current-05e127cb955a7b",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/bonechill",
         "topicId": "current-c9089ae650b370",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/eyebite",
         "topicId": "current-27bf951b43ff3a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/raise_undead_guard",
         "topicId": "current-65435900931a6f",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/raise_undead_formation",
         "topicId": "current-b286ac162f7e7f",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/raise_undead_formation/necromancer",
@@ -4275,97 +4440,113 @@
         "type": "/obj/effect/proc_holder/spell/invoked/tame_undead",
         "topicId": "current-23c78d5b644902",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/projectile/sickness",
         "topicId": "current-ad9d2adef617bf",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/gravemark",
         "topicId": "current-eba3b90cda305c",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/command_undead",
         "topicId": "current-d72f082ee14db6",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/psydonlux_tamper",
         "topicId": "current-c23a74e78f32b2",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/psydonrespite",
         "topicId": "current-c51610dbb14ea3",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/psydonpersist",
         "topicId": "current-0269f64b7c9ab1",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/psydonabsolve",
         "topicId": "current-c2278b5bb968e5",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/psydonamend",
         "topicId": "current-8b9ab57b981f72",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/psydonic_retribution",
         "topicId": "current-e47bda5c79a19b",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/psydonic_inspire",
         "topicId": "current-6009d539be067d",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/psydonic_sacrosanctity",
         "topicId": "current-68c24280f8b057",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/psydonic_inviolability",
         "topicId": "current-ab3bed8a07e599",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/psydonic_lux_bolt",
         "topicId": "current-609e43ee605065",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/extract_heart",
         "topicId": "current-2adb883f1d83ab",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/spiderconjur",
         "topicId": "current-f54d8a4ce6b94c",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/spin_web",
@@ -4376,61 +4557,71 @@
         "type": "/obj/effect/proc_holder/spell/self/spin_web/thin",
         "topicId": "current-be18325c413691",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/spin_web/dense",
         "topicId": "current-f06fa6174da11d",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/call_spider_mount",
         "topicId": "current-0005e5d4338c45",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/saddleborn/sendaway/spiderborn",
         "topicId": "current-ecc3d5b167c4b9",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/saddleborn/whistle/spiderborn",
         "topicId": "current-0bc748f806315d",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/shapeshift/vampire/bat",
         "topicId": "current-fb419374ecce5a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/shapeshift/gaseousform",
         "topicId": "current-44a6ac05bfdfa7",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/shapeshift/crow",
         "topicId": "current-dee8ad50d0b9de",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/shapeshift/rat",
         "topicId": "current-f07a8fa900850d",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/shapeshift/cabbit",
         "topicId": "current-7746e8e308c05a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted",
@@ -4451,61 +4642,71 @@
         "type": "/obj/effect/proc_holder/spell/self/basic_heal",
         "topicId": "current-a6e8ee9883e9ca",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/aimed",
         "topicId": "current-83f545d7877a52",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/aimed/fireball",
         "topicId": "current-dcfdeb839bc775",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/area_teleport",
         "topicId": "current-337acea87b47f6",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/song/accelakathist",
         "topicId": "current-8275347ab7d4ea",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/song/dirge_fortune",
         "topicId": "current-b7a4ef42b170b4",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/song/discordant_dirge",
         "topicId": "current-5edcea189b0da2",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/song/fervor_song",
         "topicId": "current-7de45785b896a4",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/song/furtive_fortissimo",
         "topicId": "current-f567a8497a506a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/song/intellectual_interval",
         "topicId": "current-c02295f9faff7b",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/song",
@@ -4516,397 +4717,463 @@
         "type": "/obj/effect/proc_holder/spell/invoked/song/pestilent_piedpiper",
         "topicId": "current-6dc67f566c1b67",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/song/recovery_song",
         "topicId": "current-d733fabacb98fd",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/song/rejuvenation_song",
         "topicId": "current-8b363c30ef5057",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/song/resolute_refrain",
         "topicId": "current-975dd3d7667056",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/rhythm",
         "topicId": "current-15a691bd5f07df",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/rhythm/resonating",
         "topicId": "current-a9ad8e499e1648",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/rhythm/concussive",
         "topicId": "current-4df8b8d7b21709",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/rhythm/regenerating",
         "topicId": "current-80b117f511a529",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/rhythm/malaise",
         "topicId": "current-b066df994d998e",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/crescendo",
         "topicId": "current-07a855c250d384",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/bloodcrawl",
         "topicId": "current-56847061250a13",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/rage",
         "topicId": "current-eec825701dc00f",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/aoe_turf/conjure",
         "topicId": "current-252296de581f86",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/conjure_item",
         "topicId": "current-bf1cc8d60eb96e",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/projectile/divineblast",
         "topicId": "current-49079c5861cbdb",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "source-configured route"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/projectile/divineblast/unholyblast",
         "topicId": "current-ecf7c17ce2e9e5",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/emplosion",
         "topicId": "current-517d6007e455c4",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/ethereal_jaunt",
         "topicId": "current-95c7c77a917c03",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/message_summoner",
         "topicId": "current-c64722fd5087a3",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/stillness_of_stone",
         "topicId": "current-3c9ad7bb38bf89",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/scent_of_the_grave",
         "topicId": "current-2fee4d1dfab993",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/inscription_cache",
         "topicId": "current-25df56f68b406d",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/recall_cache",
         "topicId": "current-a262f50525fd0e",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/smolder_shroud",
         "topicId": "current-3d057052fa0d73",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/soothing_bloom",
         "topicId": "current-5d4611848be028",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/starseers_cry",
         "topicId": "current-42b4cf45608c2b",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/pyroclastic_puff",
         "topicId": "current-9badfaf1067e6d",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/verdant_sprout",
         "topicId": "current-b9aedc6b3e8c76",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/phantasm_fade",
         "topicId": "current-8fbf938e000f85",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/phantom_flicker",
         "topicId": "current-7ed00578c093ab",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/lurking_step",
         "topicId": "current-2173e37e838518",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/veilbound_shift",
         "topicId": "current-3d6f5db4cb769d",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/verdant_veil",
         "topicId": "current-020b7f448a26db",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/forcewall",
         "topicId": "current-b1e7597d305c6b",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/inflict_handler",
         "topicId": "current-94beca4346ee59",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/aoe_turf/knock",
         "topicId": "current-169215aafda469",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/tesla",
         "topicId": "current-84c3ad867ea677",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/aoe_turf/conjure/mime_wall",
         "topicId": "current-ef3f3974a5fcc0",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/aoe_turf/conjure/mime_chair",
         "topicId": "current-fbd1a12a605607",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/mime/speak",
         "topicId": "current-f161c03205a0a5",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/forcewall/mime",
         "topicId": "current-e7ec0863ac963a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/regression",
         "topicId": "current-8e03da72ebbdb1",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/convergence",
         "topicId": "current-526141dc372607",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/stasis",
         "topicId": "current-d7de1f07bcab96",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/acceleration",
         "topicId": "current-6f28fbd232dc38",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/divergence",
         "topicId": "current-a5ddeb6b720ed7",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/personality_commune",
         "topicId": "current-0b0020b2fcb3d2",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/projectile",
         "topicId": "current-6c6de0b9052c78",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/projectile/dumbfire",
         "topicId": "current-b374461b7941c4",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/aoe_turf/conjure/presents",
         "topicId": "current-dc2b01b4b532d0",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/shapeshift",
         "topicId": "current-0dabf5927033de",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/fire_cascade",
         "topicId": "current-99194d21fb107a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/firewalker",
         "topicId": "current-3638da9bdadecf",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/huntersyell",
         "topicId": "current-7201c2a2006b89",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/mineroresight",
         "topicId": "current-73e7d1b2c28ba5",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/digclay",
         "topicId": "current-c6f03ab140603a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/engineeranalyze",
         "topicId": "current-9848ce83b26605",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/fittedclothing",
         "topicId": "current-5b8f74e269556d",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/learn",
         "topicId": "current-1cd62174663ad7",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/martial_prowess",
         "topicId": "current-8d7386ac69abd1",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "source-configured route"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/massage",
         "topicId": "current-c5ac45df3235be",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/refocusstudies",
         "topicId": "current-de1713588ed348",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/takeapprentice",
         "topicId": "current-9fdd592508b000",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "source-configured route"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/teach",
         "topicId": "current-6c30d7f43b33a5",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/summonitem",
         "topicId": "current-77c060affa0b6c",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/aoe_turf/conjure/the_traps",
         "topicId": "current-3c29453345b436",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/touch",
@@ -4917,175 +5184,204 @@
         "type": "/obj/effect/proc_holder/spell/targeted/trigger",
         "topicId": "current-114bbbf094b2c7",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/turf_teleport",
         "topicId": "current-d9c2d961deb22e",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/suicidebomb",
         "topicId": "current-2141c394f0a633",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/suicidebomb/lesser",
         "topicId": "current-9b190191d56512",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/raise_undead",
         "topicId": "current-39f4105b445c09",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/wildshape",
         "topicId": "current-3e1241a951c6bd",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/knock",
         "topicId": "current-fcc96b0206495a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/repulse",
         "topicId": "current-949bc3976c24de",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/sundering_lightning",
         "topicId": "current-b5a6b73060750d",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/frostbite",
         "topicId": "current-50b27d200effef",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/silence",
         "topicId": "current-a86d62ed059166",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/silence/archivist_silence",
         "topicId": "current-f438c7c5b39f1f",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/shapeshift/dendormole",
         "topicId": "current-f3fdc3a8684eca",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/shapeshift/mireboi",
         "topicId": "current-138cb1a8b8e87c",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/heir_spell_bundle",
         "topicId": "current-733a0f86ca414a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/shadowstep",
         "topicId": "current-2c609a65f0211d",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/projectile/airblade",
         "topicId": "current-d388203f7fe1fb",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/projectile/bloodsteal",
         "topicId": "current-6187cb7ff9700c",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/summonweapon",
         "topicId": "current-de31e5174bccec",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/wound_closure",
         "topicId": "current-e592eb25981568",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/chokeslam",
         "topicId": "current-510d425aa4b75b",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/dropkick",
         "topicId": "current-8c315f9b19fec9",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/headbutt",
         "topicId": "current-25a96d95412a30",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/stunner",
         "topicId": "current-53fa1866dcea8a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/harpy_flight",
         "topicId": "current-d7efaa884cf1d3",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/harpy_sing",
         "topicId": "current-b6651878b365a0",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/learnmiracle",
         "topicId": "current-e1800e919a69ae",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/diagnose/greater",
         "topicId": "current-9222a77ed7bd7f",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/minion_order",
         "topicId": "current-75a1a8c27bae8a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/minion_order/lich",
@@ -5096,151 +5392,176 @@
         "type": "/obj/effect/proc_holder/spell/targeted/touch/orison",
         "topicId": "current-16025ebda0dfe9",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/avert",
         "topicId": "current-f433da98a3fe82",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/abrogation",
         "topicId": "current-092142d6cb2d17",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/necra_vow",
         "topicId": "current-4b8445defc172a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/necras_sight",
         "topicId": "current-bcb797da50c3fd",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/necra_crows",
         "topicId": "current-5acf20d573fc31",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/baothablessings",
         "topicId": "current-3dc3749e864c00",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/projectile/blowingdust",
         "topicId": "current-d4fd0ca068facd",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/painkiller",
         "topicId": "current-499020139762ba",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/baothavice",
         "topicId": "current-197639cba07af0",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/touch/loversruin",
         "topicId": "current-08b4a55f8c3a1f",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/griefflower",
         "topicId": "current-75c1c6c00dd037",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/joyride",
         "topicId": "current-9a487d6a0d9d36",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/lasthigh",
         "topicId": "current-163ff6f89579aa",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/resurrect/baotha",
         "topicId": "current-ad1c760ede9a13",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/call_to_slaughter",
         "topicId": "current-8291fccc92624a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/graggar_roar",
         "topicId": "current-3440be98836809",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/graggar_regenerate",
         "topicId": "current-3d97d67a6e03d4",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/blood_net",
         "topicId": "current-36c8c79058bd54",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/revel_in_slaughter",
         "topicId": "current-fc23eda42e02d9",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/graggar_bloodrage",
         "topicId": "current-ebd22b7988fcd7",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/resurrect/graggar",
         "topicId": "current-b06590f665c6ff",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/summon_rift",
         "topicId": "current-2b96dfd794c53e",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/graggar_avatar",
         "topicId": "current-5ec6e67455294e",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/appraise",
         "topicId": "current-919be9b5d34787",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/appraise/free",
@@ -5251,37 +5572,43 @@
         "type": "/obj/effect/proc_holder/spell/invoked/appraise/secular",
         "topicId": "current-9a217c6e3d6749",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/transact",
         "topicId": "current-5ba36518016c4a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/equalize",
         "topicId": "current-5692da0f62e69b",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/churnwealthy",
         "topicId": "current-3da6caf7d48864",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/resurrect/matthios",
         "topicId": "current-c686326ea560a1",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/projectile/profane",
         "topicId": "current-b56b48595ef70a",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/projectile/profane/miracle",
@@ -5292,7 +5619,8 @@
         "type": "/obj/effect/proc_holder/spell/targeted/touch/lacrima",
         "topicId": "current-46ed17950f40e5",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/touch/lacrima/free",
@@ -5303,7 +5631,8 @@
         "type": "/obj/effect/proc_holder/spell/self/zizo_snuff",
         "topicId": "current-d96c2765e82a11",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/zizo_snuff/champion",
@@ -5314,37 +5643,43 @@
         "type": "/obj/effect/proc_holder/spell/invoked/churnliving",
         "topicId": "current-6f11338f72e8a2",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/evil_resurrect",
         "topicId": "current-f215544b8f99f6",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/raise_spirits_vengeance",
         "topicId": "current-20204df236af62",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/raise_spirit_respite",
         "topicId": "current-82f79024d3c6ad",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/silence/miracle/zizo",
         "topicId": "current-7cd983230affc0",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/invoked/cascade",
         "topicId": "current-576e790fc95c31",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/touch/summonrogueweapon",
@@ -5355,25 +5690,29 @@
         "type": "/obj/effect/proc_holder/spell/targeted/touch/summonrogueweapon/bladeofpsydon",
         "topicId": "current-4e586cd48cbd2c",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/choose_riding_virtue_mount",
         "topicId": "current-3ec67cb50aca1f",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/saddleborn/sendaway",
         "topicId": "current-e36f064426ca8d",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/saddleborn/whistle",
         "topicId": "current-b513d11f9363ca",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/datum/job/roguetown/adventurer/courtslave",
@@ -5385,13 +5724,15 @@
         "type": "/obj/effect/proc_holder/spell/self/convertrole/slave",
         "topicId": "current-ac8718b40164dc",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/self/convertrole/azeb",
         "topicId": "current-04513c6b49b8ad",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/datum/job/roguetown/dtchaplain",
@@ -5547,13 +5888,15 @@
         "type": "/obj/effect/proc_holder/spell/self/architect_plan",
         "topicId": "current-5ebfcf184832b7",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/obj/effect/proc_holder/spell/targeted/architect_conjure",
         "topicId": "current-f73fc4526d011d",
         "state": "mapped",
-        "family": "spell"
+        "family": "spell",
+        "availability": "declared-only in this index"
       },
       {
         "type": "/datum/charflaw/randflaw",
@@ -12873,6 +13216,1091 @@
         "state": "mapped",
         "family": "cauldron",
         "combinations": 1
+      },
+      {
+        "type": "/datum/action/cooldown/spell/zizo",
+        "family": "spell",
+        "state": "excluded",
+        "reason": "Abstract definition or no own literal display name.",
+        "availability": "unnamed"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/zizo/rituos",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-946a6fdc87d622",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/noc",
+        "family": "spell",
+        "state": "excluded",
+        "reason": "Abstract definition or no own literal display name.",
+        "availability": "unnamed"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/noc/spellpack",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-475f2eaa83a094",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/bonechill",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-8227c6c31d0ff3",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/bonemend",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-b129eb459b1943",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell",
+        "family": "spell",
+        "state": "excluded",
+        "reason": "Abstract definition or no own literal display name.",
+        "availability": "abstract"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile",
+        "family": "spell",
+        "state": "excluded",
+        "reason": "Abstract definition or no own literal display name.",
+        "availability": "abstract"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/touch",
+        "family": "spell",
+        "state": "excluded",
+        "reason": "Abstract definition or no own literal display name.",
+        "availability": "unnamed"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/telegraphed_strike",
+        "family": "spell",
+        "state": "excluded",
+        "reason": "Abstract definition or no own literal display name.",
+        "availability": "unnamed"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/vicious_mockery",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-8a957503cb3e9a",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/ley_lines",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-f1b162d161c244",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/between_the_lines",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-c9262bc4668107",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/telegraphed_strike/spellblade",
+        "family": "spell",
+        "state": "excluded",
+        "reason": "Abstract definition or no own literal display name.",
+        "availability": "unnamed"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/advance",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-97fe9192f3a0bc",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/air_strike",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-28ea98b07f18bf",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/azurean_phalanx",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-710aef0318c1ea",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/azurean_pilum",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-91cac20130c593",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/bind_weapon",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-ec3ba74d406f47",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/blade_storm",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-cb66fcbd6ae618",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/caedo",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-21d575c5c094bd",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/cataclysm",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-012e44e5fc0623",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/charge",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-2eacf06402a3e4",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/empower_weapon",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-f6756b69afcc54",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/gate_of_reckoning",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-f28e4bf1da3376",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/leyline_anchor",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-1769294134b4fb",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/leyline_nock",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-5ff5b8fbbf0db0",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/recall_weapon",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-6a3421b52ad874",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/telegraphed_strike/spellblade/shatter",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-63885dd1cfc1af",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/skyrend",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-d5c80e1d67e2dd",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/thornfall",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-ebe92f8b5af541",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/telegraphed_strike/spellblade/tremor",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-8d01f65ae39d7b",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/withdraw",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-67b4534195ffca",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/blade_of_psydon",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-ab4f498a00fbbd",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/fist_of_psydon",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-2f07d1f19a3832",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/grasp_of_psydon",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-e15c67fdb9c08e",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/storm_of_psydon",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-a2b16b00ce03c9",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/augment_buff",
+        "family": "spell",
+        "state": "excluded",
+        "reason": "Abstract definition or no own literal display name.",
+        "availability": "unnamed"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/augment_buff/attune_giant",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-da79facdbeb13c",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/augment_buff/attune_haste",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-ae41b898cf6bfb",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/augment_buff/augment_defense",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-57852198e387c9",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/augment_buff/blood_rush",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-c91ae698a8c681",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/darkvision",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-2487b170a1c550",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/augment_buff/enlarge",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-9e8389def28c53",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/featherfall",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-3329f01eef9f9c",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/augment_buff/fortitude",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-2f5fbc7a5d7e2e",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/augment_buff/grasp",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-617f7f3519d5e3",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/augment_buff/guidance",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-6a7f99f99420b8",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/leap",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-658163f569a9e3",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/nondetection",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-392bb5b0bb6967",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/augment_buff/precognition",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-d9fda90e82d15a",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/readomen",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-da26ee9c11b29b",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/second_chance",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-2e8b71c6b1b587",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/augment_buff/surge",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-b70848a9c94793",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/arcyne_fortress",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-5748496a3b8ba0",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/arrow_ward",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-237a8bacc6418f",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/battle_ward",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-ed17135998797f",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/bestow_ward",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-15a83369620b58",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/conjure_summon",
+        "family": "spell",
+        "state": "excluded",
+        "reason": "Abstract definition or no own literal display name.",
+        "availability": "unnamed"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/arcyne_forge",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-40af21ce9206ce",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/arcyne_forge/miracle",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-9e51ec0e002564",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/conjure_aegis",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-0de77aa9602386",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/conjure_arcyne_ward",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-b29e54fc0f6dfc",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/conjure_arcyne_ward/dragonhide",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-b0bb62f278d9e0",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/conjure_arcyne_ward/crystalhide",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-39218e59702926",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/regenerate_arcyne_ward",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-0610fc092f5129",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/regenerate_arcyne_ward/dragonhide",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-8ebc43782b33ab",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/regenerate_arcyne_ward/crystalhide",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-780c6d7dca7191",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/conjure_arcyne_ward/barrier",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-2e398893af3c42",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/conjure_dismiss",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-6f0ea685776fe9",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/conjure_instrument",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-3015cde435f33e",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/conjure_summon/primordial",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-184abe18368e90",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/conjure_spectacles",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-274b4b7b4f191c",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/forcewall",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-0d4ae828cf1ace",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/minion_order/conjurer",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-cfa37db786dae3",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/minion_mark",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-46075ec98faa08",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/conjure_recall",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-216c624dd81c94",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/conjure_projection",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-790a70e2d6ba80",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/spirit_return",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-26d88afb68f718",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/transcribe",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-1f187711b093ed",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/chill_food",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-f75607cc2a9296",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/fridigitation",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-ee35c31ac16454",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/frost_bolt",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-cadbbaec151416",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/frozen_mist",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-34f4c960031a3a",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/forcewall/ice",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-be411fe54862f2",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/rimecast",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-a5f73f028268ab",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/verglas",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-c8442c425442b2",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/arcyne_lance",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-292e47aa82abad",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/bind_armament",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-1a95f34bce3464",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/blade_dance",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-043a1d509f4777",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/form_blade",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-55a590f7085491",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/ferramancy_strike",
+        "family": "spell",
+        "state": "excluded",
+        "reason": "Abstract definition or no own literal display name.",
+        "availability": "unnamed"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/ferramancy_strike/falling_crescent",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-9df8d87cafc7ef",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/ferramancy_strike/sorcerers_lance",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-d804b237c741b2",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/ferramancy_strike/heavens_hammer",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-09834f61d23021",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/form_blade/form_hammer",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-c192650fa83a52",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/stygian_efflorescence",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-73dcbd098c32a5",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/arc_bolt",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-4172da92a2f12a",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/lightning_bolt",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-4cf68a5ce59f83",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/fulmination",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-a457133f1b2b87",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/greater_thunderstrike",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-bee545352e3e57",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/levinstroke",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-97d0f8795e7193",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/geas",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-5b45eef6dbc233",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/gravel_blast",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-29a434a31a0a89",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/magicians_rock",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-7905c873054521",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/magicians_stone",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-c59b394ce942d4",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/menhir",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-869f49bb3b64be",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/meteor_strike",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-516ffdc61dd2e4",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/grenzel_meteor",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-bbb07bc825ae48",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/tumult",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-c4548d310bb666",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/wither",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-1b5dbda08b87fb",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/invisibility",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-cef710da83891b",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/crush",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-367acf23290364",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/gravity",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-080f4b366bda81",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/telegraphed_strike/kinetic_burst",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-087f3ea090f049",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/mass_crush",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-20a01e420b090e",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/soulshot",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-e6cad693b24d8d",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/learnspell",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-172dc18b93fa38",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/aetherknife",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-a1617d0297f394",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/blink",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-108de5e7a02491",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/fly",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-f0e87ca148311b",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/fly_up",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-e0e7f3a54b33c6",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/fly_down",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-23172a128949a6",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/lesser_knock",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-68ac7071647868",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/levitation",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-dc442f93717cd7",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/phase",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-60ecfab4fcb720",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/basic_offensive",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-037ab617b5c11b",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/fetch",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-243b1812a07750",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/greater_arcyne_bolt",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-bf4dc254671302",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/repel",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-c3100efcb9cfba",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/waterbolt",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-1ac44193e2df84",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/telegraphed_strike/dragons_breath",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-c487a5f7dce254",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/fire_curtain",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-45df7cd219aed4",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/fire_strike",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-b7d80ef3cb9901",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/smoke_burst",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-22d1c874574bc6",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/spitfire",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-99c4106c950c2a",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/ultio",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-f6da7f02c9fdbc",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/fireball",
+        "family": "spell",
+        "state": "excluded",
+        "reason": "Abstract definition or no own literal display name.",
+        "availability": "abstract"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/fireball/barrage",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-0ae4e82c828a1e",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/pyroclasm",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-cc4ad218dbcce3",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/arcyne_barrage",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-c723a7450d650d",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/arcyne_burst",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-2b4222d6139309",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/projectile/arcyne_volley",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-dea7d6c8cd5f83",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/circumdatum",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-82958602c72453",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/void_beam",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-1f692423de1b10",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/create_campfire",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-ee2eabe609511e",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/great_shelter",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-ffae51f0cb4d60",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/light",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-b9078adb5f2fc0",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/mending",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-e86cdfdfb694ea",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/mending/lesser",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-c6946931f1b285",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/message",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-582d82358028f2",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/mindlink",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-430dfb56aca152",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/mirror_transform",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-9bf53e7f4ea75b",
+        "availability": "declared-only in this index"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/touch/prestidigitation",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-b21dca70927b39",
+        "availability": "source-configured route"
+      },
+      {
+        "type": "/datum/action/cooldown/spell/touch/rune_ward",
+        "family": "spell",
+        "state": "mapped",
+        "topicId": "current-42904ca0959d2e",
+        "availability": "source-configured route"
       }
     ]
   },
@@ -14938,7 +16366,7 @@
   "retiredReferences": [],
   "itemSpecifications": {
     "spellsWithProperties": 323,
-    "withProperties": 2897,
+    "withProperties": 2941,
     "byCategory": {
       "Alchemy ingredients": {
         "total": 42,
@@ -14949,8 +16377,8 @@
         "withProperties": 17
       },
       "Tools & stations": {
-        "total": 22,
-        "withProperties": 8
+        "total": 31,
+        "withProperties": 15
       },
       "Alchemy products": {
         "total": 24,
@@ -14981,8 +16409,8 @@
         "withProperties": 5
       },
       "Materials": {
-        "total": 788,
-        "withProperties": 741
+        "total": 826,
+        "withProperties": 779
       },
       "Plants & crops": {
         "total": 88,
@@ -14997,8 +16425,8 @@
         "withProperties": 343
       },
       "Construction": {
-        "total": 289,
-        "withProperties": 202
+        "total": 286,
+        "withProperties": 201
       }
     },
     "gaps": [
@@ -16049,7 +17477,7 @@
       {
         "id": "prep-1f13bc2c1a46",
         "title": "stone furnace",
-        "category": "Construction",
+        "category": "Tools & stations",
         "reason": "No exact supported static property record; dynamic behavior may need separate research."
       },
       {
@@ -16061,7 +17489,7 @@
       {
         "id": "prep-16bb8bf15037",
         "title": "great furnace",
-        "category": "Construction",
+        "category": "Tools & stations",
         "reason": "No exact supported static property record; dynamic behavior may need separate research."
       },
       {
@@ -27901,19 +29329,19 @@
       {
         "type": "prep-2c8732f3f8d393",
         "output": "/obj/item/reagent_containers/powder/flour",
-        "state": "linked",
+        "state": "review-output-link",
         "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/produce.dm#L97"
       },
       {
         "type": "prep-8cbc295ff2b6ac",
         "output": "/obj/item/reagent_containers/powder/flour",
-        "state": "linked",
+        "state": "review-output-link",
         "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/produce.dm#L82"
       },
       {
         "type": "prep-a075405a431122",
         "output": "/obj/item/reagent_containers/powder/flour",
-        "state": "linked",
+        "state": "review-output-link",
         "source": "https://github.com/Rotwood-Vale/Ratwood-2.0/blob/2d61e02c69520dacb0f4edc1d269395713cbeafb/code/modules/farming/produce.dm#L112"
       },
       {
@@ -33557,13 +34985,6 @@
       ]
     },
     {
-      "id": "item-iron-bar",
-      "title": "Iron Bar",
-      "gaps": [
-        "A complete source-backed procedure is not yet attached."
-      ]
-    },
-    {
       "id": "item-dirt-clod",
       "title": "Dirt Clod",
       "gaps": [
@@ -33615,13 +35036,6 @@
     {
       "id": "item-dirty-water",
       "title": "Dirty Water",
-      "gaps": [
-        "A complete source-backed procedure is not yet attached."
-      ]
-    },
-    {
-      "id": "item-ash",
-      "title": "Ash",
       "gaps": [
         "A complete source-backed procedure is not yet attached."
       ]
@@ -33706,13 +35120,6 @@
     {
       "id": "item-oat",
       "title": "Oat",
-      "gaps": [
-        "A complete source-backed procedure is not yet attached."
-      ]
-    },
-    {
-      "id": "item-rice",
-      "title": "Rice",
       "gaps": [
         "A complete source-backed procedure is not yet attached."
       ]
@@ -34117,20 +35524,6 @@
       ]
     },
     {
-      "id": "item-steel-bar",
-      "title": "Steel Bar",
-      "gaps": [
-        "A complete source-backed procedure is not yet attached."
-      ]
-    },
-    {
-      "id": "item-copper-bar",
-      "title": "Copper Bar",
-      "gaps": [
-        "A complete source-backed procedure is not yet attached."
-      ]
-    },
-    {
       "id": "item-dobo-robe",
       "title": "Dobo Robe",
       "gaps": [
@@ -34196,13 +35589,6 @@
     {
       "id": "r2-food-1cab69d75d49",
       "title": "Red Wine",
-      "gaps": [
-        "A complete source-backed procedure is not yet attached."
-      ]
-    },
-    {
-      "id": "r2-food-5f893176ea23",
-      "title": "oat grain",
       "gaps": [
         "A complete source-backed procedure is not yet attached."
       ]
@@ -34383,13 +35769,6 @@
       ]
     },
     {
-      "id": "prep-9ef6966901ed",
-      "title": "gold bar",
-      "gaps": [
-        "A complete source-backed procedure is not yet attached."
-      ]
-    },
-    {
       "id": "prep-52073b5796f3",
       "title": "herb seeds (item / herbseed)",
       "gaps": [
@@ -34404,22 +35783,8 @@
       ]
     },
     {
-      "id": "prep-01aac13d382a",
-      "title": "silver bar",
-      "gaps": [
-        "A complete source-backed procedure is not yet attached."
-      ]
-    },
-    {
       "id": "prep-e9514a88145a",
       "title": "raw silver",
-      "gaps": [
-        "A complete source-backed procedure is not yet attached."
-      ]
-    },
-    {
-      "id": "prep-1d73eaa4e810",
-      "title": "blessed silver bar",
       "gaps": [
         "A complete source-backed procedure is not yet attached."
       ]
@@ -34434,20 +35799,6 @@
     {
       "id": "prep-d04359766dca",
       "title": "fish (snacks / fish)",
-      "gaps": [
-        "A complete source-backed procedure is not yet attached."
-      ]
-    },
-    {
-      "id": "prep-abf62a2fa5a8",
-      "title": "blacksteel bar",
-      "gaps": [
-        "A complete source-backed procedure is not yet attached."
-      ]
-    },
-    {
-      "id": "prep-befaee1f58e8",
-      "title": "bronze bar",
       "gaps": [
         "A complete source-backed procedure is not yet attached."
       ]
@@ -34476,13 +35827,6 @@
     {
       "id": "prep-bf4eceafef9e",
       "title": "wooden plank",
-      "gaps": [
-        "A complete source-backed procedure is not yet attached."
-      ]
-    },
-    {
-      "id": "prep-1eb0771ec6fc",
-      "title": "holy steel bar",
       "gaps": [
         "A complete source-backed procedure is not yet attached."
       ]
@@ -34693,13 +36037,6 @@
     {
       "id": "prep-bb9c5e5efd05",
       "title": "silver psycross",
-      "gaps": [
-        "A complete source-backed procedure is not yet attached."
-      ]
-    },
-    {
-      "id": "prep-fc4eb3cadeb0",
-      "title": "rontz",
       "gaps": [
         "A complete source-backed procedure is not yet attached."
       ]
@@ -35111,22 +36448,8 @@
       ]
     },
     {
-      "id": "prep-bf7566b509eb",
-      "title": "draconic ingot",
-      "gaps": [
-        "A complete source-backed procedure is not yet attached."
-      ]
-    },
-    {
       "id": "prep-68b6438aacd3",
       "title": "enduring ingot",
-      "gaps": [
-        "A complete source-backed procedure is not yet attached."
-      ]
-    },
-    {
-      "id": "prep-8d5f03ba3e16",
-      "title": "crystalline glut",
       "gaps": [
         "A complete source-backed procedure is not yet attached."
       ]
@@ -35174,13 +36497,6 @@
       ]
     },
     {
-      "id": "prep-73df1beff713",
-      "title": "wheat stalks",
-      "gaps": [
-        "A complete source-backed procedure is not yet attached."
-      ]
-    },
-    {
       "id": "cookbook-8b8466046483",
       "title": "raelesini",
       "gaps": [
@@ -35214,10 +36530,66 @@
       "gaps": [
         "A complete source-backed procedure is not yet attached."
       ]
+    },
+    {
+      "id": "handler-32e0d3889b9a62",
+      "title": "wooden club (base variant)",
+      "gaps": [
+        "A complete source-backed procedure is not yet attached."
+      ]
+    },
+    {
+      "id": "handler-318ade8ae2b0a5",
+      "title": "oat stalks",
+      "gaps": [
+        "Acquisition is not yet confirmed for this exact source type."
+      ]
+    },
+    {
+      "id": "handler-c4391e14b1f939",
+      "title": "rice stalks",
+      "gaps": [
+        "Acquisition is not yet confirmed for this exact source type."
+      ]
+    },
+    {
+      "id": "handler-f6e56883e7f484",
+      "title": "tin",
+      "gaps": [
+        "A complete source-backed procedure is not yet attached."
+      ]
+    },
+    {
+      "id": "handler-95984acdc1f44a",
+      "title": "bottle kit",
+      "gaps": [
+        "A complete source-backed procedure is not yet attached."
+      ]
+    },
+    {
+      "id": "equipment-feccc404eb618a",
+      "title": "amulet of Astrata",
+      "gaps": [
+        "A complete source-backed procedure is not yet attached."
+      ]
+    },
+    {
+      "id": "equipment-ac9d5382b1fb41",
+      "title": "psycross",
+      "gaps": [
+        "A complete source-backed procedure is not yet attached."
+      ]
+    },
+    {
+      "id": "equipment-f875296a890b1d",
+      "title": "harvest bloomstone",
+      "gaps": [
+        "A complete source-backed procedure is not yet attached."
+      ]
     }
   ],
   "sprites": {
-    "matched": 2725,
+    "matched": 2769,
     "gaps": [
       {
         "id": "sheet-4-r3",

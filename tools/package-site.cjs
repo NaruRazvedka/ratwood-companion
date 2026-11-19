@@ -3,7 +3,7 @@ const fs=require('node:fs');
 const path=require('node:path');
 const root=path.resolve(__dirname,'..');
 const runtimeRoot=new Set(['index.html','app.js','parser.js','gradient.js','styles.css','credits.html','LICENSE','NOTICE.md','README.md','CHANGELOG.md']);
-const runtimeGuide=new Set(['index.html','app.js','core.js','recipe-ui.js','styles.css','data.js','search.js','README.md','NOTICE.md','coverage-report.json']);
+const runtimeGuide=new Set(['index.html','app.js','core.js','recipe-ui.js','styles.css','data.js','search.js','README.md','NOTICE.md','coverage-report.json','tools.html','tools.css','scenario-tools.js','tools-ui.js']);
 function permitted(name,repository=false){
   if(name.split('/').some(p=>p.startsWith('.')||p==='node_modules'||p==='__pycache__'))return repository&&(['.gitignore','.gitattributes'].includes(name)||/^\.github\/workflows\/[\w.-]+\.ya?ml$/.test(name));
   if(/(?:^|\/)(?:client-pack|licensed-infraredbaron)(?:\/|$)/i.test(name)||/pterra\.ttf$/i.test(name))return false;
@@ -12,7 +12,9 @@ function permitted(name,repository=false){
   if(/^guide\/assets\/social\/(?:guide|workshop)\.png$/.test(name))return true;
   if(/^guide\/details\/[\w.-]+\.js$/.test(name))return true;
   if(/^guide\/assets\/(?:icons|sprites)\//.test(name))return /\.(?:png|svg|dmi|md|txt|json|dm)$/i.test(name);
+  if(name==='guide/sources/current-native-mechanics.json')return true;
   if(!repository)return false;
+  if(name.startsWith('tools/native-mechanics/'))return /^tools\/native-mechanics\/(?:prepare\.py|run\.ps1|README\.md|checks\.dm|scaffold\.dm|mechanics\.dme|manifest\.json|generated\/[\w.-]+\.dm)$/.test(name);
   if(/^(?:tools|tests|guide\/tools|guide\/tests)\//.test(name))return /\.(?:cjs|js|py|json)$/i.test(name);
   if(/^guide\/sources\/ratwood-(?:current|2(?:-[\w-]+)?)\//.test(name))return /\.(?:dm|dme|json|md|txt|ya?ml)$/i.test(name)||/\/(?:LICENSE|README)$/.test(name);
   return /^guide\/sources\/(?:ratwood2-|public-|current-|cookbook-ledger|catalogue-decisions|item-text-(?:aliases|coverage)|recipe-guidance-audit|source-manifest|coverage)[\w.-]*\.json$/.test(name);

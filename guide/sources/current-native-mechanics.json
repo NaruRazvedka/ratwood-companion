@@ -1,0 +1,640 @@
+{
+  "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+  "evidenceKind": "native-isolated-handler",
+  "byondVersion": "516.1688",
+  "recordedAtUtc": "2026-11-18T22:10:43.6991745Z",
+  "manifestSha256": "4a03865f9158e295159bb64e8fb24cd6b75421e25819f63d09af20d3be981d69",
+  "passed": 75,
+  "total": 75,
+  "sourceBlocks": [
+    {
+      "path": "code/modules/roguetown/roguejobs/blacksmith/smelter.dm",
+      "sourceSha256": "822185e1abeaf05453c435cd2cc7f92ee1433f3a5d3f0029e11d3655b80cacd3",
+      "firstLine": 188,
+      "lastLine": 205,
+      "normalizedBlockSha256": "1584c0c615b03e548f1b2fc9931e48a3401948f91076a545a5656462a73968ea"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/cauldron.dm",
+      "sourceSha256": "841ab3beed8dc0dad94b89891628dac6362a27e49bc1a6b8c02973d5260ba020",
+      "firstLine": 56,
+      "lastLine": 134,
+      "normalizedBlockSha256": "8a923cc3de79a847a2a905482dba655648beca90a99e75b2d86314c364adb620"
+    },
+    {
+      "path": "code/datums/armor.dm",
+      "sourceSha256": "e3225061df0b842e78cd0bdaab836fda65f950a36adf38bce40eb142e55fec6b",
+      "firstLine": 1,
+      "lastLine": 70,
+      "normalizedBlockSha256": "6dcc7e63137ebf3917d8e4eae0c8140ea84fa333ade504619c5f49a1955cf68e"
+    },
+    {
+      "path": "code/__DEFINES/roguetown/armor_defines.dm",
+      "sourceSha256": "86ac7eee60df955c98d4e48eb374045e0a14f1fa2c623a9a4bdc9990ba565563",
+      "firstLine": 13,
+      "lastLine": 80,
+      "normalizedBlockSha256": "7130874f7f2823985220dbb826756646a18c4b9283b0226b8b58b9128c2b9d4c"
+    },
+    {
+      "path": "code/__DEFINES/combat.dm",
+      "sourceSha256": "41b40e9149c3de77a501246be99d7f53047d74f8dafa32029b13db5cf5966d57",
+      "firstLine": 411,
+      "lastLine": 412,
+      "normalizedBlockSha256": "56b7983fc7eaa35d05edde8cf297f18fcdf3afaed0a4d1117006b782e6c088b5"
+    },
+    {
+      "path": "code/modules/mob/living/living_defense.dm",
+      "sourceSha256": "5204d2503593c5cfb3d4d7d1f7b1c8c925c3a5abb7efc15ba631f7cc5e970807",
+      "firstLine": 12,
+      "lastLine": 84,
+      "normalizedBlockSha256": "7ebd65613879686dcbe5bda19bf88aeca14afc472b898cb1c0ce2bd1b96ab622"
+    },
+    {
+      "path": "modular/Neu_Food/code/raw/raw_dough.dm",
+      "sourceSha256": "6eac68931432bd5d077b5f5b24c1cdb917c25647cd0bcfbb599db6bd3569f68f",
+      "firstLine": 41,
+      "lastLine": 101,
+      "normalizedBlockSha256": "545acc0aa0fde1d0c0f3caf69ec4c7208e2284a0bb591841188803dcf25bdbe4"
+    },
+    {
+      "path": "modular/Neu_Food/code/raw/raw_dough.dm",
+      "sourceSha256": "6eac68931432bd5d077b5f5b24c1cdb917c25647cd0bcfbb599db6bd3569f68f",
+      "firstLine": 115,
+      "lastLine": 156,
+      "normalizedBlockSha256": "b5582ffdd4bb4a80a5348404c7ccd5b1c54ab433772f4a1f99da9c1b550d989d"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/alch_cauldron_recipe_base.dm",
+      "sourceSha256": "08f92a61c6e81cd4cab9042ecae378597bd81a0d3b70773e5ef07b28f3aad7b2",
+      "firstLine": 1,
+      "lastLine": 9,
+      "normalizedBlockSha256": "9459ad3ee44cd40ba978b3c9d9807cefd90da5dce03bbc0a02bd70986e27697b"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/alch_cauldron_recipes.dm",
+      "sourceSha256": "952a41f17057127f83b09ce3d0287cf60be0a5e91917c9699fd9a9dbcd1289d5",
+      "firstLine": 2,
+      "lastLine": 6,
+      "normalizedBlockSha256": "ca5ede20175f98b03c5c49b18ce20dd5a0373229e28490af496cad935fab6a06"
+    }
+  ],
+  "procedures": [
+    "/obj/machinery/light/rogue/smelter/proc/handle_smelting",
+    "/obj/machinery/light/rogue/cauldron/process",
+    "/datum/armor/proc/multiplymodifyAllRatings",
+    "/datum/armor/proc/attachArmor",
+    "/datum/armor/proc/detachArmor",
+    "/datum/armor/proc/setRating",
+    "/mob/living/proc/run_armor_check",
+    "/obj/item/reagent_containers/food/snacks/rogue/dough/attackby",
+    "/obj/item/reagent_containers/food/snacks/rogue/flatdough/attackby"
+  ],
+  "checks": [
+    {
+      "id": "furnace-bars-1-output-count",
+      "passed": 1,
+      "actual": 1,
+      "expected": 1,
+      "tolerance": 0
+    },
+    {
+      "id": "furnace-bars-1-quality",
+      "passed": 1,
+      "actual": 6,
+      "expected": 6,
+      "tolerance": 0
+    },
+    {
+      "id": "furnace-bars-1-input-deleted",
+      "passed": 1,
+      "actual": 1,
+      "expected": 1,
+      "tolerance": 0
+    },
+    {
+      "id": "furnace-bars-1-progress",
+      "passed": 1,
+      "actual": 21,
+      "expected": 21,
+      "tolerance": 0
+    },
+    {
+      "id": "furnace-bars-4-output-count",
+      "passed": 1,
+      "actual": 1,
+      "expected": 1,
+      "tolerance": 0
+    },
+    {
+      "id": "furnace-bars-4-quality",
+      "passed": 1,
+      "actual": 6,
+      "expected": 6,
+      "tolerance": 0
+    },
+    {
+      "id": "furnace-bars-4-input-deleted",
+      "passed": 1,
+      "actual": 1,
+      "expected": 1,
+      "tolerance": 0
+    },
+    {
+      "id": "furnace-bars-4-progress",
+      "passed": 1,
+      "actual": 21,
+      "expected": 21,
+      "tolerance": 0
+    },
+    {
+      "id": "furnace-bars-10-output-count",
+      "passed": 1,
+      "actual": 1,
+      "expected": 1,
+      "tolerance": 0
+    },
+    {
+      "id": "furnace-bars-10-quality",
+      "passed": 1,
+      "actual": 6,
+      "expected": 6,
+      "tolerance": 0
+    },
+    {
+      "id": "furnace-bars-10-input-deleted",
+      "passed": 1,
+      "actual": 1,
+      "expected": 1,
+      "tolerance": 0
+    },
+    {
+      "id": "furnace-bars-10-progress",
+      "passed": 1,
+      "actual": 21,
+      "expected": 21,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-half-blunt",
+      "passed": 1,
+      "actual": 5,
+      "expected": 5,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-attach-detach-blunt",
+      "passed": 1,
+      "actual": 10,
+      "expected": 10,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-half-slash",
+      "passed": 1,
+      "actual": 10,
+      "expected": 10,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-attach-detach-slash",
+      "passed": 1,
+      "actual": 20,
+      "expected": 20,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-half-stab",
+      "passed": 1,
+      "actual": 15,
+      "expected": 15,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-attach-detach-stab",
+      "passed": 1,
+      "actual": 30,
+      "expected": 30,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-half-piercing",
+      "passed": 1,
+      "actual": 20,
+      "expected": 20,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-attach-detach-piercing",
+      "passed": 1,
+      "actual": 40,
+      "expected": 40,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-half-fire",
+      "passed": 1,
+      "actual": 25,
+      "expected": 25,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-attach-detach-fire",
+      "passed": 1,
+      "actual": 50,
+      "expected": 50,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-half-acid",
+      "passed": 1,
+      "actual": 30,
+      "expected": 30,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-attach-detach-acid",
+      "passed": 1,
+      "actual": 60,
+      "expected": 60,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-half-magic",
+      "passed": 1,
+      "actual": 35,
+      "expected": 35,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-attach-detach-magic",
+      "passed": 1,
+      "actual": 70,
+      "expected": 70,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-half-bullet",
+      "passed": 1,
+      "actual": 40,
+      "expected": 40,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-attach-detach-bullet",
+      "passed": 1,
+      "actual": 80,
+      "expected": 80,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-set-zero",
+      "passed": 1,
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-set-preserves-omitted",
+      "passed": 1,
+      "actual": 20,
+      "expected": 20,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-set-magic",
+      "passed": 1,
+      "actual": 99,
+      "expected": 99,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-block-blunt-tier3-damage100",
+      "passed": 1,
+      "actual": 100,
+      "expected": 100,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-block-fire-tier3-damage100",
+      "passed": 1,
+      "actual": 37.5,
+      "expected": 37.5,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-block-acid-tier3-damage100",
+      "passed": 1,
+      "actual": 37.5,
+      "expected": 37.5,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-block-bullet-tier3-damage100",
+      "passed": 1,
+      "actual": 37.5,
+      "expected": 37.5,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-block-slash-pen2-tier3",
+      "passed": 1,
+      "actual": 1000,
+      "expected": 1000,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-block-slash-pen3-tier3",
+      "passed": 1,
+      "actual": 30,
+      "expected": 30,
+      "tolerance": 0.0001
+    },
+    {
+      "id": "armor-block-slash-pen4-tier3",
+      "passed": 1,
+      "actual": 20,
+      "expected": 20,
+      "tolerance": 0.0001
+    },
+    {
+      "id": "armor-block-piercing-pen3-tier3",
+      "passed": 1,
+      "actual": 80,
+      "expected": 80,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-block-piercing-pen4-tier3",
+      "passed": 1,
+      "actual": 80,
+      "expected": 80,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-block-piercing-pen2-tier3",
+      "passed": 1,
+      "actual": 1000,
+      "expected": 1000,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-block-stab-pen3-tier3",
+      "passed": 1,
+      "actual": 30,
+      "expected": 30,
+      "tolerance": 0.0001
+    },
+    {
+      "id": "armor-chunked-blade-no-penetration",
+      "passed": 1,
+      "actual": 1000,
+      "expected": 1000,
+      "tolerance": 0
+    },
+    {
+      "id": "armor-unarmored-blunt",
+      "passed": 1,
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 0
+    },
+    {
+      "id": "cauldron-90-twenty-progress",
+      "passed": 1,
+      "actual": 20,
+      "expected": 20,
+      "tolerance": 0
+    },
+    {
+      "id": "cauldron-90-not-yet-output",
+      "passed": 1,
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 0
+    },
+    {
+      "id": "cauldron-90-fixed-output",
+      "passed": 1,
+      "actual": 100,
+      "expected": 100,
+      "tolerance": 0
+    },
+    {
+      "id": "cauldron-90-water-consumed",
+      "passed": 1,
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 0
+    },
+    {
+      "id": "cauldron-90-ingredients-cleared",
+      "passed": 1,
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 0
+    },
+    {
+      "id": "cauldron-90-finished",
+      "passed": 1,
+      "actual": 21,
+      "expected": 21,
+      "tolerance": 0
+    },
+    {
+      "id": "cauldron-180-twenty-progress",
+      "passed": 1,
+      "actual": 20,
+      "expected": 20,
+      "tolerance": 0
+    },
+    {
+      "id": "cauldron-180-not-yet-output",
+      "passed": 1,
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 0
+    },
+    {
+      "id": "cauldron-180-fixed-output",
+      "passed": 1,
+      "actual": 100,
+      "expected": 100,
+      "tolerance": 0
+    },
+    {
+      "id": "cauldron-180-water-consumed",
+      "passed": 1,
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 0
+    },
+    {
+      "id": "cauldron-180-ingredients-cleared",
+      "passed": 1,
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 0
+    },
+    {
+      "id": "cauldron-180-finished",
+      "passed": 1,
+      "actual": 21,
+      "expected": 21,
+      "tolerance": 0
+    },
+    {
+      "id": "cauldron-below-water-no-progress",
+      "passed": 1,
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 0
+    },
+    {
+      "id": "cauldron-score-four-rejected",
+      "passed": 1,
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 0
+    },
+    {
+      "id": "cauldron-score-four-retains-water",
+      "passed": 1,
+      "actual": 90,
+      "expected": 90,
+      "tolerance": 0
+    },
+    {
+      "id": "cauldron-missing-lastuser-reset",
+      "passed": 1,
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 0
+    },
+    {
+      "id": "cauldron-missing-lastuser-retains-ingredients",
+      "passed": 1,
+      "actual": 2,
+      "expected": 2,
+      "tolerance": 0
+    },
+    {
+      "id": "cauldron-missing-lastuser-no-output",
+      "passed": 1,
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 0
+    },
+    {
+      "id": "cauldron-skill-below-yuck",
+      "passed": 1,
+      "actual": 90,
+      "expected": 90,
+      "tolerance": 0
+    },
+    {
+      "id": "cauldron-skill-below-no-antidote",
+      "passed": 1,
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 0
+    },
+    {
+      "id": "cauldron-unlit-no-progress",
+      "passed": 1,
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 0
+    },
+    {
+      "id": "dough-roll-without-table-no-output",
+      "passed": 1,
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 0
+    },
+    {
+      "id": "dough-roll-without-table-preserves-input",
+      "passed": 1,
+      "actual": 1,
+      "expected": 1,
+      "tolerance": 0
+    },
+    {
+      "id": "dough-roll-cancel-preserves-input",
+      "passed": 1,
+      "actual": 1,
+      "expected": 1,
+      "tolerance": 0
+    },
+    {
+      "id": "dough-roll-cancel-no-output",
+      "passed": 1,
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 0
+    },
+    {
+      "id": "dough-roll-success-input-deleted",
+      "passed": 1,
+      "actual": 1,
+      "expected": 1,
+      "tolerance": 0
+    },
+    {
+      "id": "dough-roll-success-one-flatdough",
+      "passed": 1,
+      "actual": 1,
+      "expected": 1,
+      "tolerance": 0
+    },
+    {
+      "id": "flatdough-cut-cancel-no-output",
+      "passed": 1,
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 0
+    },
+    {
+      "id": "flatdough-cut-two-crackerdough",
+      "passed": 1,
+      "actual": 2,
+      "expected": 2,
+      "tolerance": 0
+    },
+    {
+      "id": "flatdough-cut-input-deleted",
+      "passed": 1,
+      "actual": 1,
+      "expected": 1,
+      "tolerance": 0
+    },
+    {
+      "id": "dough-tools-retained",
+      "passed": 1,
+      "actual": 1,
+      "expected": 1,
+      "tolerance": 0
+    }
+  ],
+  "limitations": [
+    "Native isolated handlers with explicit scaffolding; not full-game or client tests.",
+    "Reagents use dictionary storage, deletion is immediate, sorting is simplified; ties are not validated.",
+    "do_after result is configured; actual timing, skill mind, inventory and interruption system are not tested.",
+    "getarmor returns a supplied tier; coverage, layers, integrity, bodyparts and final HP damage are not tested.",
+    "Synthetic alchemy ingredient potencies test scoring branches, not real item combination insertion.",
+    "Dough rolling and sharp scoring handlers are covered; shared snack slicing is not.",
+    "Native random bubble-sound branch calls a no-op; scenario state expectations are deterministic.",
+    "No full-game build: sparse assets/maps and runtime dependencies are missing.",
+    "Installed Windows daemon automatically authenticated its saved BYOND session; no client launched or account settings changed. Not completely network-isolated."
+  ],
+  "execution": {
+    "bind": "127.0.0.1",
+    "allowedPorts": [
+      54397
+    ],
+    "safeMode": true,
+    "visibility": 0,
+    "deadlineSeconds": 30,
+    "cleanup": "World deleted itself; launcher finally stops its own remaining process; no daemon remained."
+  }
+}

@@ -3784,6 +3784,10 @@
     "file": "sources/ratwood-current/code/modules/jobs/job_types/roguetown/youngfolk/vagabond.dm"
   },
   {
+    "path": "code/modules/mob/living/carbon/human/human_defense.dm",
+    "file": "sources/ratwood-current/code/modules/mob/living/carbon/human/human_defense.dm"
+  },
+  {
     "path": "code/modules/mob/living/carbon/human/species_types/roguetown/construct/_construct.dm",
     "file": "sources/ratwood-current/code/modules/mob/living/carbon/human/species_types/roguetown/construct/_construct.dm"
   },
@@ -3802,6 +3806,14 @@
   {
     "path": "code/modules/mob/living/combat/parry.dm",
     "file": "sources/ratwood-current/code/modules/mob/living/combat/parry.dm"
+  },
+  {
+    "path": "code/modules/mob/living/living.dm",
+    "file": "sources/ratwood-current/code/modules/mob/living/living.dm"
+  },
+  {
+    "path": "code/modules/mob/living/living_defense.dm",
+    "file": "sources/ratwood-current/code/modules/mob/living/living_defense.dm"
   },
   {
     "path": "code/modules/mob/living/simple_animal/rogue/creacher/badger.dm",

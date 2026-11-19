@@ -1,10 +1,10 @@
 {
   "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
-  "items": 3146,
-  "typedCandidates": 2747,
-  "matched": 2725,
-  "newlyMatched": 1272,
-  "downloadedSheets": 77,
+  "items": 3190,
+  "typedCandidates": 2791,
+  "matched": 2769,
+  "newlyMatched": 44,
+  "downloadedSheets": 0,
   "downloadErrors": [],
   "gaps": [
     {

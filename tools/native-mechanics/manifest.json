@@ -1,0 +1,130 @@
+{
+  "revision": "2d61e02c69520dacb0f4edc1d269395713cbeafb",
+  "evidenceKind": "native-isolated-handler",
+  "sourceBlocks": [
+    {
+      "path": "code/modules/roguetown/roguejobs/blacksmith/smelter.dm",
+      "sourceSha256": "822185e1abeaf05453c435cd2cc7f92ee1433f3a5d3f0029e11d3655b80cacd3",
+      "firstLine": 188,
+      "lastLine": 205,
+      "normalizedBlockSha256": "1584c0c615b03e548f1b2fc9931e48a3401948f91076a545a5656462a73968ea"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/cauldron.dm",
+      "sourceSha256": "841ab3beed8dc0dad94b89891628dac6362a27e49bc1a6b8c02973d5260ba020",
+      "firstLine": 56,
+      "lastLine": 134,
+      "normalizedBlockSha256": "8a923cc3de79a847a2a905482dba655648beca90a99e75b2d86314c364adb620"
+    },
+    {
+      "path": "code/datums/armor.dm",
+      "sourceSha256": "e3225061df0b842e78cd0bdaab836fda65f950a36adf38bce40eb142e55fec6b",
+      "firstLine": 1,
+      "lastLine": 70,
+      "normalizedBlockSha256": "6dcc7e63137ebf3917d8e4eae0c8140ea84fa333ade504619c5f49a1955cf68e"
+    },
+    {
+      "path": "code/__DEFINES/roguetown/armor_defines.dm",
+      "sourceSha256": "86ac7eee60df955c98d4e48eb374045e0a14f1fa2c623a9a4bdc9990ba565563",
+      "firstLine": 13,
+      "lastLine": 80,
+      "normalizedBlockSha256": "7130874f7f2823985220dbb826756646a18c4b9283b0226b8b58b9128c2b9d4c"
+    },
+    {
+      "path": "code/__DEFINES/combat.dm",
+      "sourceSha256": "41b40e9149c3de77a501246be99d7f53047d74f8dafa32029b13db5cf5966d57",
+      "firstLine": 411,
+      "lastLine": 412,
+      "normalizedBlockSha256": "56b7983fc7eaa35d05edde8cf297f18fcdf3afaed0a4d1117006b782e6c088b5"
+    },
+    {
+      "path": "code/modules/mob/living/living_defense.dm",
+      "sourceSha256": "5204d2503593c5cfb3d4d7d1f7b1c8c925c3a5abb7efc15ba631f7cc5e970807",
+      "firstLine": 12,
+      "lastLine": 84,
+      "normalizedBlockSha256": "7ebd65613879686dcbe5bda19bf88aeca14afc472b898cb1c0ce2bd1b96ab622"
+    },
+    {
+      "path": "modular/Neu_Food/code/raw/raw_dough.dm",
+      "sourceSha256": "6eac68931432bd5d077b5f5b24c1cdb917c25647cd0bcfbb599db6bd3569f68f",
+      "firstLine": 41,
+      "lastLine": 101,
+      "normalizedBlockSha256": "545acc0aa0fde1d0c0f3caf69ec4c7208e2284a0bb591841188803dcf25bdbe4"
+    },
+    {
+      "path": "modular/Neu_Food/code/raw/raw_dough.dm",
+      "sourceSha256": "6eac68931432bd5d077b5f5b24c1cdb917c25647cd0bcfbb599db6bd3569f68f",
+      "firstLine": 115,
+      "lastLine": 156,
+      "normalizedBlockSha256": "b5582ffdd4bb4a80a5348404c7ccd5b1c54ab433772f4a1f99da9c1b550d989d"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/alch_cauldron_recipe_base.dm",
+      "sourceSha256": "08f92a61c6e81cd4cab9042ecae378597bd81a0d3b70773e5ef07b28f3aad7b2",
+      "firstLine": 1,
+      "lastLine": 9,
+      "normalizedBlockSha256": "9459ad3ee44cd40ba978b3c9d9807cefd90da5dce03bbc0a02bd70986e27697b"
+    },
+    {
+      "path": "code/modules/roguetown/roguecrafting/alchemy/alch_cauldron_recipes.dm",
+      "sourceSha256": "952a41f17057127f83b09ce3d0287cf60be0a5e91917c9699fd9a9dbcd1289d5",
+      "firstLine": 2,
+      "lastLine": 6,
+      "normalizedBlockSha256": "ca5ede20175f98b03c5c49b18ce20dd5a0373229e28490af496cad935fab6a06"
+    }
+  ],
+  "target": "mechanics.dme",
+  "defines": [
+    "TRUE=1",
+    "FALSE=0",
+    "DF_USE_TAG=0",
+    "SKILL_LEVEL_APPRENTICE=2"
+  ],
+  "scope": "Unmodified selected handler bodies and armor datum; explicit scaffolding, not full-game tests.",
+  "scaffolding": [
+    "minimal types and state",
+    "fixed getarmor tier (no coverage/layer/integrity calculation)",
+    "dictionary reagent storage",
+    "immediate deletion",
+    "descending associative sort (ties not tested)",
+    "configured do_after result",
+    "cooktime update and XP no-ops",
+    "audio/messages/logging/statistics no-ops",
+    "empty resource placeholders",
+    "no subsystem scheduler"
+  ],
+  "fullGameBlocker": "Sparse lab clone omits assets/maps and full-game runtime dependencies. No installation or full-game compile attempted.",
+  "harnessFiles": [
+    {
+      "path": "prepare.py",
+      "sha256": "5601b09d8eef90ab175278e9c7f1d55ea084b10ca05d52734d46d9ad10de9f32"
+    },
+    {
+      "path": "scaffold.dm",
+      "sha256": "6b82e6e32f4ba2a0e11ef9658b77e4ce0258936dd273e3093ead8464471d82b3"
+    },
+    {
+      "path": "checks.dm",
+      "sha256": "fc6815b63c32607401a8011a56c4c4b9f8b3421a5843bb65106b957f74d04d0d"
+    },
+    {
+      "path": "mechanics.dme",
+      "sha256": "f12c26a0a91e49cf61c1cbfb2ad4dfdc01ece0ef7454c0b72f93ee4250363002"
+    },
+    {
+      "path": "run.ps1",
+      "sha256": "5ad2edaa02c5b8cafdd5d752c1777dd2177c19b319bc125fb104561b215c6536"
+    }
+  ],
+  "runtime": {
+    "bind": "127.0.0.1",
+    "allowedPorts": [
+      54397
+    ],
+    "safeMode": true,
+    "visibility": 0,
+    "deadlineSeconds": 30,
+    "rng": "Native prob(10) only controls a no-op bubble sound; scenarios have deterministic state assertions.",
+    "accountNote": "Installed Windows daemon automatically authenticates its saved BYOND session even with invisible/visibility=0. No game client is launched and no account settings are changed."
+  }
+}

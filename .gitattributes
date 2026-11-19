@@ -1,3 +1,5 @@
 * text=auto eol=lf
 guide/sources/** -text
 guide/assets/** -text
+
+tools/native-mechanics/** -text

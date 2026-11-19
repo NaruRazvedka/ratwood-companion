@@ -5,7 +5,7 @@ function sanitize(data){
   const clone=structuredClone(data);
   clone.publicEdition=true;
   clone.topics=clone.topics.filter(t=>t.section!=='sources'&&t.kind!=='source');
-    const sourceFields=['id','title','kind','section','category','aliases','related','sources','status','sourceRevision','sourceType','sourceObjectType','sprite','spriteEvidence','itemInfo','itemProperties','preparationRoutes','sourceRecipeVariants','potRecipes','heatingRoutes','recipeRoutes','ingredients','availability','station','recipe','publicContent','traitClass','traitClasses','choiceType'];
+    const sourceFields=['id','title','kind','section','category','aliases','related','sources','status','sourceRevision','sourceType','sourceObjectType','sprite','spriteEvidence','itemInfo','itemProperties','preparationRoutes','sourceRecipeVariants','potRecipes','heatingRoutes','recipeRoutes','ingredients','availability','station','recipe','publicContent','traitClass','traitClasses','choiceType','relationships','stationTools','browseTags'];
   clone.topics=clone.topics.map(t=>{
     const out=Object.fromEntries(sourceFields.filter(k=>t[k]!==undefined).map(k=>[k,t[k]]));
     if(out.category==='Armor')out.category='Clothing & armor';
@@ -15,7 +15,7 @@ function sanitize(data){
     out.requirements=current?t.requirements:traced?t.requirements||[]:[];
     out.steps=current?t.steps:traced?t.steps||[]:[];
     out.facts=current?t.facts:[];
-    out.sections=t.kind==='guide'?t.sections:undefined;
+    out.sections=t.kind==='guide'||current?t.sections:undefined;
     out.gaps=current?t.gaps:traced?[]:['A complete source-backed procedure is not yet attached.'];
     if(!traced){delete out.ingredients;delete out.station;}
     else if(t.recipeRoutes?.length)out.ingredients=t.recipeRoutes[0].ingredients.map(i=>({label:(i.amount!=null?i.amount+' '+(i.unit||'×')+' ':'')+i.name,tool:false,options:[{id:i.id,name:i.name}]}));
@@ -30,6 +30,15 @@ function sanitize(data){
   return clone;
 }
 function writeBundles(data){
+  const hash=require('node:crypto').createHash('sha256').update(JSON.stringify(data));
+  for(const asset of ['app.js','core.js','styles.css','scenario-tools.js','tools-ui.js','tools.css'])if(fs.existsSync(path.join(root,asset)))hash.update(fs.readFileSync(path.join(root,asset)));
+  data.contentVersion=hash.digest('hex').slice(0,12);
+  for(const page of ['index.html','tools.html']){
+    const file=path.join(root,page);if(!fs.existsSync(file))continue;
+    let html=fs.readFileSync(file,'utf8');
+    for(const asset of ['search.js','core.js','app.js','scenario-tools.js','tools-ui.js','styles.css','tools.css'])html=html.replace(new RegExp('((?:src|href)="'+asset.replaceAll('.','\\.')+')(?:\\?v=[^" ]*)?"','g'),'$1?v='+data.contentVersion+'"');
+    fs.writeFileSync(file,html);
+  }
   const core=require('../core.js'),buckets=new Map(),summary=structuredClone(data);
   summary.detailBundles={};
   summary.topics=data.topics.map(t=>{
@@ -38,6 +47,7 @@ function writeBundles(data){
     if(!buckets.has(filename))buckets.set(filename,{});
     buckets.get(filename)[t.id]=t;summary.detailBundles[t.id]=filename;
     const out={};for(const field of ['id','title','kind','section','category','summary','aliases','sprite','status','availability'])if(t[field]!==undefined)out[field]=t[field];
+    out.browseTags=core.itemTags(t);
     out.searchKey=[...new Set(core.indexTopics([t])[0].searchKey.split(' '))].join(' ');
     out.recipeProfile=core.recipeProfile(t);out.detailLoaded=false;
     if(t.itemInfo?.description)out.itemInfo={description:t.itemInfo.description};
@@ -83,12 +93,19 @@ function main(){
   }
   const properties=path.join(root,'sources/ratwood2-item-properties.json');
   if(fs.existsSync(properties))require('./recipe-audit.cjs').applyProperties(data.topics,JSON.parse(fs.readFileSync(properties)));
+  require('./handler-content.cjs').apply(data);
+  require('./navigation-content.cjs').apply(data,fs.existsSync(textPath)?load('ratwood2-item-text.json'):[],fs.existsSync(properties)?load('ratwood2-item-properties.json'):[]);
   const sprites=path.join(root,'sources/current-sprites.json');
   if(fs.existsSync(sprites)){
     const byType=new Map(JSON.parse(fs.readFileSync(sprites)).map(r=>[r.type,r]));
     for(const t of data.topics){const sprite=byType.get(t.sourceObjectType||t.sourceType);if(sprite){t.sprite=sprite.path;t.spriteEvidence={source:sprite.source,sheet:sprite.sheet,state:sprite.state,note:sprite.note,definition:sprite.definition,revision:sprite.revision,sha:sprite.sha};}}
   }
   require('./reference-migrations.cjs').apply(data);
+  const nativePath=path.join(root,'sources/current-native-mechanics.json');
+  if(fs.existsSync(nativePath)){
+    const evidence=load('current-native-mechanics.json');
+    data.nativeEvidence=evidence.revision===data.currentSource?.revision&&evidence.passed===evidence.total?{revision:evidence.revision,engine:evidence.byondVersion,passed:evidence.passed,total:evidence.total,kind:evidence.evidenceKind,recorded:evidence.recordedAtUtc,limitations:evidence.limitations}:null;
+  }
   const clean=sanitize(data);
   clean.updated=clean.currentSource?.reviewed||clean.updated;
   const audit=require('./recipe-audit.cjs');
@@ -97,8 +114,9 @@ function main(){
   const processingCoverage=declarations.map(r=>({id:r.id,recipeType:r.recipeType,source:r.source,evidence:r.evidence,topicId:byType.get(r.outputType)?.id||null,reason:r.evidence==='source'?'Source procedure indexed; unmatched outputs retain an identity gap.':(r.gaps||[]).join(' ')}));
   fs.writeFileSync(path.join(root,'sources/recipe-guidance-audit.json'),JSON.stringify({reviewed:clean.updated,items:audit.audit(clean.topics),processingCoverage},null,2)+'\n');
   fs.writeFileSync(path.join(root,'sources/item-text-coverage.json'),JSON.stringify(clean.topics.filter(t=>t.section==='items').map(t=>({id:t.id,title:t.title,type:t.itemInfo?.type||null,status:t.itemInfo?.description?.text?'description':t.itemInfo?.description?'empty':t.itemInfo?.descriptionDynamic?'context-dependent':'unmatched',mechanics:t.itemInfo?.mechanics?.length||0})),null,2)+'\n');
+  const bundles=writeBundles(clean);
   fs.writeFileSync(path.join(root,'data.js'),`/* Generated public field guide. */\n(function(root){const data=${JSON.stringify(clean)};if(typeof module!=='undefined'&&module.exports)module.exports=data;root.GUIDE_DATA=data;})(globalThis);\n`);
-  console.log(JSON.stringify(writeBundles(clean)));
+  console.log(JSON.stringify(bundles));
 }
 if(require.main===module)main();
 module.exports={sanitize,writeBundles};

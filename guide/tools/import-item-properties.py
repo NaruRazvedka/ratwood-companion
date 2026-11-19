@@ -152,6 +152,18 @@ def main():
             own=raw.setdefault(path,{})
             if key:own[key]=value
             else:own.setdefault('_definition',value)
+    # Inspect only literal adjustable-clothing constructor arguments; custom overrides remain unresolved.
+    for source,file in files.items():
+        text=file.read_text(encoding='utf-8-sig')
+        procedures=list(re.finditer(r'^(/obj/item/clothing(?:/\w+)*)/ComponentInitialize\([^\n]*\)\s*$',text,re.M))
+        for match in procedures:
+            end=re.search(r'^/',text[match.end():],re.M)
+            body=text[match.end():match.end()+end.start() if end else len(text)]
+            component=re.search(r'AddComponent\(/datum/component/adjustable_clothing,\s*(\([^\n]*?\)|[^,\n]+),',body)
+            if component:
+                raw.setdefault(match[1],{})['open_body_parts_covered']={'expression':component[1].strip(),'source':URL+source+'#L'+str(text[:match.end()].count(chr(10))+1)}
+            elif '..()' not in body and match[1] in raw:
+                raw[match[1]]['open_body_parts_covered']={'expression':'UNRESOLVED_COMPONENT_OVERRIDE','source':URL+source+'#L'+str(text[:match.start()].count(chr(10))+1)}
     objects=resolve_fields(raw)
     constants={'SECONDS':10,'MINUTES':600,'HOURS':36000,'DAYS':864000}
     macros={}
